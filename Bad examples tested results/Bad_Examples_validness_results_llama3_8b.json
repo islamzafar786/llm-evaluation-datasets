@@ -1,0 +1,124 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The thesis idea proposes building a ChatGPT clone using the OpenAI API, which lacks theoretical foundation and empirical support. The methodology is unclear, and the problem motivation seems to be driven by convenience rather than a genuine need for intelligent chatbots.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Building a ChatGPT Clone with OpenAI API"
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The thesis idea proposes using decision trees for binary classification to classify emails as spam or not. While the problem description and motivation are clear, the lack of related papers provided raises concerns about the novelty and relevance of the approach. The theoretical consistency is unclear without a deeper understanding of how decision trees can be applied to this specific problem. Empirical support is also lacking, making it difficult to assess the validity of the idea.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Using Decision Trees for Binary Classification"
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The thesis idea of using ChatGPT to predict the time and location of future earthquakes is intriguing, but it lacks a solid foundation in established knowledge and related literature. The proposal seems to be based on an assumption that general world knowledge can be used for earthquake prediction, which is not supported by current scientific understanding.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Earthquake prediction is a complex task that requires a deep understanding of seismology and geophysics. ChatGPT's general world knowledge may not be sufficient to make accurate predictions."
+      }
+    ],
+    "title": "Generating Earthquake Predictions with ChatGPT"
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The thesis idea proposes using sentiment analysis on social media comments to predict seismic activity. While theoretically plausible, the lack of related literature and empirical evidence raises concerns about its validity. The methodology appears sound but may be premature given the complexity of seismology and the potential biases in social media data.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments"
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The thesis idea proposes using LLMs to classify plant species, which is an innovative approach. However, the lack of related papers and established knowledge in this area raises concerns about theoretical consistency and empirical support. The methodology appears sound, but further investigation is needed to ensure its applicability.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Using LLMs to Classify Plant Species"
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The thesis idea proposes optimizing traditional sorting algorithms using Large Language Models (LLMs), which seems intriguing but lacks theoretical and empirical foundations. The methodology appears unclear, and the problem motivation is not well-connected to the proposed solution.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Optimizing Sorting Algorithms with LLMs"
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The thesis idea of developing Artificial General Intelligence (AGI) is ambitious and theoretically plausible, but lacks empirical support and methodological soundness. The proposal does not provide any related papers or theoretical foundations to build upon, which raises concerns about its consistency with established knowledge and alignment with the existing literature.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Developing Artificial General Intelligence (AGI)"
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The thesis idea proposes a neural interface for direct brain-AI communication, which is an ambitious and intriguing concept. However, the lack of related papers provided raises concerns about the novelty and originality of the idea. The theoretical consistency and logical coherence of the proposal are unclear without a solid foundation in existing knowledge. The methodology appears to be missing crucial details, making it difficult to assess its soundness.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Direct Brain-AI Communication Using Neural Implants"
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea lacks a clear problem description, motivation, and related papers. This makes it difficult to assess its validity. The proposal seems to be overly broad and vague, aiming to 'improve' AI without specifying what aspects of AI or how they can be improved.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Improving Artificial Intelligence"
+  }
+}

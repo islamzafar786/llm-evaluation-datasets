@@ -1,0 +1,92 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The project is feasible but faces challenges in computational resources and timeline. While the OpenAI API provides a ready solution, deploying it efficiently may require significant engineering effort and time management.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The project is feasible as decision trees are well-established for binary classification, spam email datasets are accessible, and computational requirements are manageable within a standard thesis timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 5,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The project faces significant challenges across all criteria. Earthquake prediction is an unsolved scientific problem, and using ChatGPT for this task lacks theoretical grounding. Reliable earthquake datasets are limited in temporal and spatial precision, requiring extensive curation. Training such a model would demand massive computational resources beyond standard access. The implementation requires both novel geophysical theory and advanced ML engineering, making it overly complex for a master's thesis timeline.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The feasibility is limited by the dataset availability and timeline. While computational resources are manageable, obtaining a reliable labeled earthquake-sentiment dataset would require extensive manual effort. The theoretical complexity is moderate but aligns with established methods. However, completing this within six months is challenging due to data collection and model validation phases.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The project faces significant challenges in dataset availability and computational requirements. While theoretical complexity is manageable, the need for specialized plant image datasets and access to large-scale GPU resources may hinder progress within a standard thesis timeline.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The project aims to use LLMs to optimize traditional sorting algorithms like QuickSort. While the motivation is interesting, there are significant challenges in dataset availability and theoretical complexity. Sorting algorithms operate on numerical data structures, whereas LLMs excel at language tasks. Adapting LLMs for this purpose may require novel methods without existing datasets. Computational resources might be manageable with standard setups, but the timeline could be tight due to uncharted territory.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 3
+    }
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "Developing AGI is an extremely ambitious goal requiring breakthroughs in multiple areas. Current AI systems are narrow and lack generalization across tasks. The dataset, computational resources, theoretical understanding, and timeline all fall far short of what's needed.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 1,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The project faces significant challenges in dataset availability, computational requirements, and implementation complexity. While the timeline is achievable for some aspects, the lowest score determines feasibility.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 1,
+      "Timeline": 4
+    }
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The project lacks specificity and clear objectives, making it impossible to assess dataset requirements, computational needs, or implementation complexity. Without a defined problem scope, even the timeline cannot be reasonably estimated.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 1,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  }
+}

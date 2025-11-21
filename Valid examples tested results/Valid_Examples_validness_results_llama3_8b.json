@@ -1,0 +1,583 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The thesis idea proposes using Generative Adversarial Networks (GANs) for multi-instrument music synthesis. While the concept is theoretically plausible, the lack of related papers and empirical evidence raises concerns about the novelty and validity of the approach. The methodology appears sound, but the absence of supporting literature and human perception tests' results makes it difficult to assess the model's performance.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Generative Adversarial Networks for Multi-Instrument Music Synthesis"
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The thesis idea proposes using machine learning image segmentation to improve object recognition in mixed reality applications. While the concept is theoretically plausible, it lacks empirical support and relevant literature. The methodology appears sound but may be limited by the absence of related work.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality"
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis idea proposes a self-supervised domain adaptation approach for language models in the process industry. While it addresses a relevant problem, its theoretical consistency and empirical support are unclear due to the lack of related literature. The methodology appears sound, but further investigation is needed to validate its effectiveness.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Self-supervised Domain Adaptation of Language Models for the Process Industry"
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The thesis idea proposes applying deep learning techniques to constituency parsing of German, leveraging self-attention mechanisms and multi-layered architectures. While the approach is theoretically plausible, it lacks empirical support from related literature. The methodology appears sound, but the absence of relevant papers makes it difficult to assess its validity.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Deep Learning Techniques Applied to Constituency Parsing of German"
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The thesis idea proposes applying Deep Reinforcement Learning (DRL) to train agents for mobile robot navigation in static and dynamic environments. While the problem description highlights the importance of adapting to dynamic obstacles, the lack of related papers provided raises concerns about the novelty and relevance of this research. The methodology appears sound, but further investigation is needed to ensure that the proposed approach addresses the challenges posed by dynamic environments.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments"
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis idea proposes using Graph Neural Networks (GNNs) for electrical grid state estimation. While the concept of GNNs is theoretically sound, the lack of related papers and empirical evidence supporting this approach in power systems raises concerns. The methodology appears to be based on a novel application of GNNs, which may be innovative but also requires further justification.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Graph Neural Networks for Electrical Grid State Estimation"
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The thesis idea proposes using Graph Neural Networks (GNNs) for mortality prediction on Electronic Health Records (EHRs). While the concept is theoretically sound, there are some concerns regarding empirical support and methodological soundness. The lack of related papers provided makes it difficult to assess the novelty of the approach. However, the problem description highlights a significant gap in existing predictive models, which could be addressed by GNN-based methods.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Representation Learning on Electronic Health Records Using Graph Neural Networks"
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The thesis idea proposes applying deep reinforcement learning (DRL) to federated satellite networks, training agents to optimize observation, data sharing, and energy management tasks. While the problem description highlights the need for decentralized autonomous decision-making in large-scale satellite constellations, the lack of related papers provided raises concerns about the novelty and relevance of this research. The methodology appears sound, but further investigation is needed to ensure that the chosen DRL algorithms are suitable for this specific application.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems"
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The thesis idea proposes developing a machine learning model capable of solving university-level machine learning problems using a dataset generated from MIT's 6.036 Introduction to Machine Learning course. While the motivation is clear, the proposal lacks theoretical and empirical grounding in the field of machine learning education. The methodology appears sound, but the absence of related papers and lack of consideration for existing challenges in STEM education raise concerns.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Current state-of-the-art models fail at solving university-level coursework, particularly in technical disciplines like machine learning."
+      }
+    ],
+    "title": "Solving Machine Learning Problems"
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea proposes novel optimization methods for machine learning under structural constraints, which is a timely and relevant topic. The problem description provides a clear motivation for the research, highlighting the need for efficient optimization techniques in large-scale problems with constraints. However, the lack of related papers provided raises concerns about the originality and novelty of the proposed approaches. The methodology appears sound, but further investigation is needed to assess its practical applicability.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Optimization Methods for Machine Learning underStructural Constraints"
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The thesis idea proposes a novel framework for probabilistic data analysis, Composable Generative Population Models (CGPMs), which integrates with BayesDB. While the concept is theoretically sound and aligns with related literature, it lacks empirical support and methodological rigor.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Probabilistic data analysis with probabilistic programming"
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea proposes using BayesDB's CrossCat model for missing data imputation and predictive error analysis. The concept is theoretically sound, but the lack of related papers provided raises concerns about the novelty and originality of the approach. The methodology appears to be well-structured, with a clear plan for exploring systematic missing data patterns and evaluating the performance of CrossCat against standard imputation methods.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Artificial intelligence-assisted data analysis with BayesDB"
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The thesis idea proposes a data analysis and simulation approach to capacity planning for military mental health services. While the problem description highlights inefficiencies in the existing system, the lack of related literature and theoretical foundation raises concerns about the study's validity.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Data analysis and simulation approach to capacity planning"
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis idea proposes developing new fast linear algebra algorithms for large-scale machine learning and data analysis. While the problem description highlights the importance of linear algebra in these fields, it lacks a clear theoretical foundation and empirical support from related literature. The methodology appears sound, but the absence of relevant papers and the lack of concrete examples make it difficult to assess its validity.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Faster linear algebra for data analysis and machine learning"
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis idea explores the relationship between physiological responses and financial market decisions, which is a novel and intriguing topic. However, the proposal lacks theoretical foundation and empirical support from related literature. The methodology appears sound, but the study's generalizability is limited by its reliance on data from a single exchange.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Emotional response modeling in financial markets : Boston Stock Exchange data analysis"
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The thesis idea proposes investigating the ability of Large Language Models (LLMs) to generate questions that are so challenging or poorly formed that they cannot answer themselves. While this topic is relevant and timely, the lack of related literature provided raises concerns about the novelty and significance of the research. The methodology appears sound, but a more detailed description of the approach and expected outcomes would be beneficial.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?"
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The thesis idea proposes exploring different large language models for retrieval-augmented generation in analyzing wearable running data from biomechanical perspectives. While the problem description and motivation are clear, the lack of related papers provided raises concerns about the novelty and relevance of this research. The methodology appears sound, but a more detailed explanation is needed to ensure its suitability for the task.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy"
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The thesis idea proposes using Large Language Models (LLMs) for automated cybersecurity alarm analysis, aiming to alleviate alert fatigue. While the problem description is well-motivated, the lack of related papers and theoretical foundation in the field raises concerns.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes"
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The thesis idea proposes using Large Language Models (LLMs) to automatically evaluate companies' alignment with the EU Taxonomy sustainability framework by analyzing corporate sustainability reports. While theoretically plausible, the lack of related literature and empirical evidence raises concerns about the feasibility and accuracy of this approach.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models"
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The thesis idea proposes using a Variational Auto-Encoder (VAE) architecture to encode latent uncertainty in Large Language Models (LLMs). While the concept of encoding uncertainty is theoretically sound, the lack of related papers and empirical evidence supporting this approach raises concerns. The methodology appears sound, but further investigation is needed to validate its effectiveness.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models"
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The thesis idea proposes using Large Language Models (LLMs) to aid developers with code comprehension in codebases. While the problem description highlights a common issue in software development, the lack of related papers and theoretical foundation for this approach raises concerns.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Using LLMs to aid developers with code comprehension in codebases"
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis idea of training AI models with brain waves is intriguing, but it lacks theoretical and empirical foundations. The proposal relies heavily on the assumption that human brain waves can be directly translated into machine learning parameters without any intermediate processing or data collection. This raises significant concerns about the feasibility and validity of the approach.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Lack of theoretical and empirical support for the idea"
+      }
+    ],
+    "title": "Telepathic Machine Learning: Training AI Models with Brain Waves"
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea of compressing an entire dataset into a single byte is theoretically inconsistent and lacks empirical support. The proposal seems to be based on a misunderstanding of the fundamental principles of data compression and storage. While it may have some logical coherence, the methodological soundness is questionable due to its unrealistic assumptions.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Infinite Data Compression Using a Single Byte"
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis idea, 'The Square Root of a Cat: Applying Algebraic Structures to Living Organisms', is fundamentally flawed and lacks scientific validity. The proposal to develop a mathematical model that calculates the square root of any living being is theoretically inconsistent with established knowledge in biology and mathematics.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Lack of theoretical foundation and empirical evidence in biology and mathematics"
+      }
+    ],
+    "title": "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms"
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The thesis idea of training a neural network using only white noise as input data is intriguing, but it lacks theoretical and empirical foundations. The proposal disregards fundamental principles in machine learning and neuroscience, which rely heavily on the structure and patterns present in labeled datasets.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Disregards fundamental principles in machine learning and neuroscience"
+      }
+    ],
+    "title": "Training a Neural Network Using Only White Noise"
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea of teaching dinosaurs to use smartphones is theoretically intriguing, but it lacks empirical support and methodological soundness. The proposal's logical coherence is compromised by the assumption that dinosaur brains can be simulated in an artificial intelligence model.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Reverse Evolution: Teaching Dinosaurs to Use Smartphones"
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis idea proposes using pigeons' movement patterns to predict earthquake locations, which is an unconventional approach. While it's theoretically possible that birds can detect seismic activity, there is no empirical evidence supporting this claim. The methodology appears sound, but the lack of related literature and absence of a clear theoretical framework make it difficult to assess the validity of this idea.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "No empirical evidence supporting the claim that birds can detect seismic activity"
+      }
+    ],
+    "title": "Predicting Earthquake Locations Using Sentient AI Pigeons"
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The thesis idea proposes using quantum entanglement for faster-than-light financial transactions, which is theoretically intriguing but lacks empirical support and methodological soundness. The concept of quantum blockchain is not well-established in the literature, and the proposed approach may be premature given current technological limitations.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Quantum Blockchain for Faster-than-Light Financial Transactions"
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis idea proposes analyzing dolphin vocalizations using large language models for sentiment analysis. While the concept is intriguing, it lacks theoretical and empirical foundations. The methodology appears sound but may be premature given the lack of related literature and potential challenges in applying NLP techniques to animal communication.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Lack of theoretical and empirical foundations"
+      }
+    ],
+    "title": "Sentiment Analysis on Dolphin Communication Using Large Language Models"
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The thesis idea proposes using AI to detect ghosts in abandoned buildings, which is an unconventional application of computer vision models. While the motivation for this research is intriguing, it lacks a solid theoretical foundation and empirical support from related literature.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Using AI to Detect Ghosts in Abandoned Buildings"
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis idea proposes harnessing perpetual motion to create a self-charging battery system, eliminating the need for external charging. However, this concept is fundamentally at odds with established knowledge in physics and energy storage. The lack of related papers provided raises concerns about the novelty and relevance of the research. The methodology appears unclear, and the problem motivation relies on an oversimplification of current battery technologies.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "",
+        "Conflict": "Contradicts fundamental theories of energy storage and perpetual motion"
+      }
+    ],
+    "title": "Infinite Battery Life Using Perpetual Motion Machines"
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The thesis idea proposes a Machine Learning approach for Enterprise Data with a focus on SAP Leonardo. While the problem description highlights the challenges of integrating ML into traditional enterprise landscapes, the motivation and research question are unclear. The lack of related papers provided makes it difficult to assess the theoretical consistency and empirical support. The methodology is not specified, making it challenging to evaluate its soundness.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 2,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo"
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The thesis idea proposes using machine learning algorithms for lead scoring, which is a well-established problem in marketing and sales. The motivation behind this thesis is to explore the effectiveness of various ML algorithms in automating the lead scoring process, thereby improving the efficiency and accuracy of sales efforts. While there are some minor theoretical inconsistencies, the methodology appears sound and aligns with related literature.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Lead Scoring with Machine Learning"
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The thesis idea proposes using machine learning methods to evaluate the quality of technical documents. While it is theoretically plausible, there are some concerns regarding its alignment with established knowledge and logical coherence. The methodology appears sound, but more attention should be given to empirical support and related literature.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Using Machine Learning Methods for Evaluating the Quality of Technical Documents"
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The thesis idea proposes applying machine learning algorithms for classification and regression problems to mobile game monetization. While the problem description is clear, there are some concerns regarding theoretical consistency, empirical support, logical coherence, and methodological soundness.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Application of machine learning algorithms for classification and regression problems for mobile game monetization"
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis idea proposes applying machine learning algorithms to construct long/short equity portfolios that outperform a self-constructed benchmark strategy based on fundamental valuation. While the problem is well-formulated, there are some concerns regarding theoretical consistency and empirical support.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Applying Machine Learning in Equity Trading"
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The thesis idea proposes using machine learning algorithms to predict loan defaults, which is a well-established problem in the credit industry. The motivation for this study is driven by the desire to improve risk assessment and decision-making processes. While there are no related papers provided, the literature on credit scoring and machine learning suggests that this topic has been explored before. However, the proposed approach of comparing multiple algorithms on a standardized dataset could provide valuable insights into their performance.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Predicting Default Loans using Machine Learning"
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis idea proposes a novel approach to dynamic model selection for automated machine learning in time series forecasting. While the concept is theoretically sound, it lacks empirical support and methodological rigor. The proposal relies heavily on meta-learning principles without providing sufficient justification or references to related work.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Dynamic Model Selection for Automated Machine Learning in Time Series"
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis idea proposes using machine learning to improve economic optimization in chemical plants. The concept of applying Genetic Programming for self-optimizing variables and Convolutional Neural Networks for steady-state detection is theoretically sound and aligns with the growing trend of adopting data-driven approaches in industrial processes. However, the lack of related papers provided makes it difficult to assess the novelty and relevance of the proposed methods.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Application of Machine Learning in Economic Optimization"
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The thesis idea proposes a novel approach to evaluating the validity of explanation methods for deep neural networks. The concept of sanity checks is well-established, and the proposed methodology appears sound. However, the lack of related papers provided makes it difficult to assess the novelty and relevance of this work.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Sanity Checks for Explanations of Deep Neural Networks Predictions"
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The thesis idea proposes using machine learning algorithms to predict whether a medical research application will be rejected, leveraging structured data from application forms and features extracted from unstructured project descriptions via Latent Dirichlet Allocation (LDA) topic modeling. The problem description highlights the challenges faced by case officers in public institutions like REK, emphasizing the need for efficient decision-making tools. While the idea is theoretically plausible, its alignment with established knowledge and related literature requires further examination.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning in Application-Based Case Management"
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis idea proposes a methodology for choosing a federated learning approach, which is theoretically sound and aligns with the current research landscape. However, the lack of related papers provided raises concerns about the novelty of the idea and its potential to contribute to existing knowledge.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach"
+  }
+}

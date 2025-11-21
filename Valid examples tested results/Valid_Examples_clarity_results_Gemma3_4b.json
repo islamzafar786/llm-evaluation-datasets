@@ -1,0 +1,506 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The thesis idea presents a reasonably clear concept for utilizing GANs in music synthesis. The problem is well-defined \u2013 the limitations of traditional methods and the potential of GANs to address them. The proposed approach (oGAN) with its specific architecture components (PatchGAN, U-Net, instrument classifier) demonstrates some level of specificity. However, the description lacks detailed specifics regarding the sheet music representation format, the training process, and evaluation metrics beyond 'human perception tests.' While terminology like 'GANs,' 'PatchGAN,' and 'U-Net' are generally understood within the field, a more explicit explanation of how these components interact would enhance clarity. The structural organization is logical \u2013 problem, motivation, proposed method, expected outcomes \u2013 but could benefit from further elaboration on the experimental design.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Generative Adversarial Networks for Multi-Instrument Music Synthesis"
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated, outlining the challenges of object recognition in MR and suggesting image segmentation as a potential solution. However, it lacks sufficient detail regarding specific algorithms to be used, the type of image enhancement techniques, and the precise metrics for evaluating 'recognition efficiency.' While user experiments are mentioned, the specifics of the evaluation protocol (e.g., tasks, scenarios) aren't detailed. The terminology is generally clear but could benefit from more explicit definitions of terms like 'image segmentation algorithms' and 'user interactions'. The structural organization is logical \u2013 problem, motivation, proposed approach \u2013 but needs further elaboration on the methodology. There\u2019s a moderate level of ambiguity regarding the scope; it doesn't specify which MR applications are targeted or what types of objects will be recognized.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality"
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis idea presents a reasonable approach to domain adaptation. The problem definition is clear in identifying the challenge of applying pre-trained language models to the process industry. The motivation highlights a relevant need for improved information retrieval. However, the description lacks sufficient detail regarding the graph construction method and the specifics of contrastive learning. While 'process industry graph' is mentioned, its structure and features aren\u2019t elaborated upon. Furthermore, while semantic search performance improvement is stated as an outcome, it would benefit from more concrete metrics or benchmarks.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Self-supervised Domain Adaptation of Language Models for the Process Industry"
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately clear, outlining the need for improved German constituency parsing and highlighting limitations of traditional methods. However, the description lacks sufficient detail regarding the specific deep learning techniques beyond 'self-attention mechanisms' and 'multi-layered architectures.' While mentioning benchmark datasets suggests a concrete evaluation plan, it doesn\u2019t specify which datasets or metrics will be used. The motivation is standard but could benefit from elaborating on *why* these particular techniques are expected to address the limitations of existing methods more effectively. Terminology is generally clear, though 'state-of-the-art accuracy' needs further context \u2013 what constitutes state-of-the-art in this specific area? Structural organization is logical, presenting problem, motivation, and approach sequentially. Specificity could be improved by detailing the model architecture beyond just mentioning layers and attention. Ambiguity exists regarding the precise contribution of the research; it\u2019s primarily focused on demonstrating effectiveness rather than proposing a novel method.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Deep Learning Techniques Applied to Constituency Parsing of German"
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated, highlighting the limitations of traditional navigation approaches and the potential of reinforcement learning. However, several areas require further elaboration to enhance clarity. Specifically, while PPO is mentioned, details about the reward function design, state space representation, and exploration strategies are missing. The comparison of 'different training strategies' needs more concrete examples. Furthermore, the description of 'human crowds and obstacles' lacks specificity \u2013 what constitutes a crowd? What types of obstacles are considered?  The scope could be better defined by specifying the simulation environment (e.g., Gazebo, PyBullet) and potentially mentioning specific robot platforms.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments"
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis idea presents a reasonable starting point but requires significant elaboration. The problem definition is adequate, stating the need for state estimation and limitations of traditional methods. However, it lacks specific details about the type of low-voltage networks being considered (e.g., topology, grid size) and the sparse measurement conditions. While mentioning GNNs is relevant, the description doesn't delve into *why* a GNN is particularly suitable for this problem \u2013 what are the key advantages? The motivation section is generic; it would benefit from highlighting specific challenges related to incomplete data or computational constraints in more detail. Terminology precision could be improved by explicitly defining 'GSETR'. Structural organization is present, but the description feels somewhat superficial. Specificity is low due to the lack of concrete details about the model architecture and experimental setup. Ambiguity exists regarding the level of accuracy being targeted \u2013 \u2018high accuracy\u2019 needs quantification.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Graph Neural Networks for Electrical Grid State Estimation"
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The thesis idea presents a reasonable starting point but lacks sufficient detail to be considered highly clear. The problem definition is adequate, stating the goal of mortality prediction using GNNs. However, the description of 'different graph representations and encoding techniques' is vague and needs elaboration. While the motivation highlights the limitations of existing methods, it doesn\u2019t specify *which* traditional methods are being compared or what specific challenges they face. The terminology is generally understandable but could benefit from more precise definitions (e.g., what constitutes a \u2018graph representation\u2019? What types of encoding techniques are considered?). The structural organization is present \u2013 problem, motivation, and expected outcome \u2013 but the methodology section is absent, leading to ambiguity about how this will be achieved. Specificity is low; it doesn't mention the EHR data source, patient population, or specific GNN architectures being explored. Finally, there\u2019s a moderate level of ambiguity regarding the scope - the thesis could benefit from clarifying the size and complexity of the dataset.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Representation Learning on Electronic Health Records Using Graph Neural Networks"
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated, highlighting the need for autonomous decision-making in satellite systems due to scalability limitations of centralized control. However, several aspects require further elaboration. Specifically, the description lacks detail regarding *which* observation, data sharing, and energy management tasks will be optimized by the DRL agents. 'Significantly improve mission efficiency' is a vague outcome; quantifying this improvement (e.g., through specific metrics like reduced fuel consumption or increased data throughput) would greatly enhance clarity. The terminology is generally clear, but the precise algorithms to be compared aren\u2019t specified. Furthermore, while mentioning federated learning is relevant, it needs more context \u2013 how will the agents share information and learn collaboratively?  The structural organization is present, outlining problem, motivation, and expected results, but could benefit from a more detailed roadmap of the research methodology.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems"
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The thesis idea presents a reasonably clear concept but suffers from some ambiguity and lacks sufficient detail. The problem definition is solid, outlining the goal of creating an AI model for solving machine learning problems. However, the terminology (Transformer models, GNNs, expression trees) isn't explicitly defined, relying on assumed familiarity which could be problematic for readers less versed in these areas. The structural organization is logical \u2013 problem description, motivation, and proposed solution \u2013 but the specific implementation details are somewhat vague. While it mentions using MIT\u2019s 6.036 data, it doesn\u2019t specify how this dataset will be used or what constitutes \u2018expert level\u2019 performance. The ambition of 'real-time problem-solving' is a high bar that needs further elaboration. Finally, the ambiguity level is moderate due to the lack of concrete details about the model architecture and evaluation metrics.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Solving Machine Learning Problems"
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea presents a reasonably clear overview of several optimization techniques for constrained machine learning problems. However, it leans towards being somewhat detailed and could benefit from more concise phrasing. The problem definition is solid, outlining the need for scalable methods under structural constraints. Terminology is generally precise but assumes some prior knowledge (e.g., 'subgradient,' 'log-concave density MLE'). The structural organization is logical \u2013 presenting individual algorithms followed by a broader enhancement to BnB solvers. Specificity is good in detailing each algorithm, but the overall contribution and potential impact could be strengthened with more explicit statements about expected improvements beyond just \u2018superior computational efficiency.\u2019 Ambiguity exists primarily due to the breadth of topics covered; it\u2019s not entirely clear how these individual advancements will integrate into a cohesive thesis narrative or what the overarching research question is. The description feels somewhat like a collection of proposals rather than a tightly focused thesis.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Optimization Methods for Machine Learning underStructural Constraints"
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The thesis idea presents a reasonably clear concept but could benefit from greater specificity. The problem definition is well-articulated, outlining the challenges of combining probabilistic techniques and proposing CGPMs as a solution. Terminology is generally precise, though 'Composable Generative Population Models' requires further elaboration \u2013 what constitutes a 'composable' model? The structural organization is logical, moving from problem to motivation to proposed solution. However, the description lacks concrete details about *how* CGPMs will be integrated into BayesDB and the specific techniques that will be explored within those models.  The ambiguity level is moderate; while the core concept is understandable, the practical implementation details are somewhat vague.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Probabilistic data analysis with probabilistic programming"
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea presents a reasonably clear research direction. The problem definition is well-established, outlining challenges with missing data and predictive model errors. The use of BayesDB and CrossCat is introduced, though the specific details of their application could be expanded. Terminology is generally precise, but 'MCAR,' 'MAR,' and 'MNAR' would benefit from brief definitions within the context of the thesis. The structural organization is logical \u2013 detection of missing data patterns, evaluation against standard methods, and analysis of predictive errors \u2013 however, more detail on the generative monitoring model would strengthen this aspect. Specificity could be improved by mentioning specific metrics used for evaluating imputation accuracy and error calibration beyond just 'superior'. Finally, while generally clear, there's a slight ambiguity regarding the precise scope of the bias analysis with Gapminder; clarifying which biases are being targeted would enhance clarity.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Artificial intelligence-assisted data analysis with BayesDB"
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The thesis idea presents a reasonably clear problem and outlines a suitable methodology. However, it lacks sufficient detail regarding the specific data sources to be used, the simulation model's complexity, and the precise metrics for evaluating system performance. While the motivation is well-articulated, the description of the proposed solution (simulation models) could benefit from more concrete examples. The ambiguity level is moderate due to these gaps.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Data analysis and simulation approach to capacity planning"
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis idea presents a reasonably clear direction for research. The problem definition is well-established, outlining the need for faster linear algebra methods in large-scale machine learning. However, while the techniques mentioned (importance sampling, SVD acceleration, randomized sketching) are relevant, the description lacks sufficient detail regarding *how* these techniques will be integrated and what specific algorithmic improvements are anticipated beyond simply stating they'll 'improve computational efficiency'. The terminology is generally precise but could benefit from more explicit definitions of terms like 'randomized sketching' within the context of this thesis. The structural organization is logical, presenting problem, methods, and expected outcomes sequentially. Specificity is moderate; it would be beneficial to mention specific datasets or machine learning tasks that will be used for validation. Ambiguity exists regarding the level of theoretical guarantees provided \u2013 stating \u2018provable accuracy\u2019 needs further elaboration.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Faster linear algebra for data analysis and machine learning"
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis idea presents a reasonably clear research direction. The problem definition is well-established, outlining the study's focus on physiological responses in traders and their correlation with market events. Key terms like 'trade size,' 'bid/ask spread width,' and 'profit/loss performance' are introduced, though a more detailed explanation of how these markers will be operationalized would strengthen clarity. The structural organization is logical \u2013 problem description, motivation, and expected outcomes are distinct. Specificity could be improved by detailing the specific physiological measures beyond just \u2018heart rate variability,\u2019 \u2018skin conductance,\u2019 and \u2018tension.\u2019 While the ambiguity level isn't exceptionally high, further elaboration on the analytical techniques planned (e.g., statistical methods) would reduce potential interpretation issues.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Emotional response modeling in financial markets : Boston Stock Exchange data analysis"
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The thesis idea presents a novel and interesting concept within the field of LLM research. However, it requires further elaboration to achieve optimal clarity. The problem definition is reasonably clear, outlining the core investigation into RQA's challenges. The motivation section provides context for why this research is valuable. Terminology precision could be improved; 'Reverse Question Answering' isn\u2019t explicitly defined beyond its usage in the description. Structural organization is present with a logical flow from problem to motivation. Specificity needs enhancement \u2013 it lacks details about the types of questions, answers, or LLMs being used. The ambiguity level is moderate due to the lack of specific methodological details and potential scope limitations.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?"
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated, outlining the need to balance accuracy and efficiency in LLM applications for physiotherapy. However, several aspects could be improved for greater clarity. Specifically, 'Retrieval-Augmented Generation' (RAG) needs more explicit explanation \u2013 how will it be implemented? What type of retrieval mechanism will be used? The description lacks detail regarding the specific biomechanical data being analyzed and the types of insights expected from the LLMs. While the motivation is clear, the scope could be narrowed to a particular aspect of running analysis (e.g., impact forces, stride length variability).",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy"
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem description and motivation are clearly articulated, highlighting the issue of alert fatigue in cybersecurity. However, several areas require further refinement to enhance clarity. Specifically, the methodology section is missing, leaving the scope of LLM evaluation undefined (which models will be used, what metrics will be employed?). While 'threat levels' is mentioned, it lacks precision \u2013 how will these be determined and categorized? The term \u2018support\u2019 in relation to security operators needs elaboration. Overall, the idea demonstrates potential but requires significant expansion for a robust master's thesis.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 2,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes"
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated, outlining the current manual process and potential benefits of automation. However, several areas require further elaboration to enhance clarity. Specifically, the description lacks detail regarding *which* aspects of company sustainability reports will be analyzed (e.g., specific taxonomy criteria), the types of prompting techniques being considered, and the retrieval methods beyond simply 'analyzing'. The terminology is generally clear but could benefit from more precise definitions of terms like \u2018alignment\u2019 within the context of the EU Taxonomy. While the structural organization is present, it's somewhat high-level. More detail on expected outcomes (e.g., metrics for evaluating accuracy) would improve clarity. The ambiguity level is moderate due to the lack of concrete details about the implementation.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models"
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The thesis idea presents a reasonable starting point but requires significant elaboration. The problem definition is adequate, outlining the issue of uncertainty in LLM outputs. However, the terminology ('Variational Auto-Encoder', 'latent uncertainty encoding') needs more context for a master's level thesis. The structural organization is present with the problem, motivation, and proposed method, but lacks detail regarding implementation specifics \u2013 particularly how the VAE will be integrated into an existing LLM and what metrics will be used to assess uncertainty. Specificity is low; it doesn\u2019t mention which LLM architecture will be targeted or what specific aspects of generated text reliability are being investigated. The ambiguity level is moderate due to the lack of concrete details about the methodology.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models"
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is adequately stated and the motivation is clear. However, it lacks sufficient specificity regarding the LLM implementation details (e.g., which LLMs will be used, specific prompting strategies, evaluation metrics). Terminology is generally understandable but could benefit from more precise definitions of concepts like 'code comprehension' within the context of LLMs. The structural organization is logical, presenting problem, motivation, and potential solution in a sequential manner. While the scope isn\u2019t explicitly defined (e.g., focusing on specific programming languages or codebase sizes), it doesn't present significant ambiguity. Overall, it needs more concrete details to be considered highly clear.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using LLMs to aid developers with code comprehension in codebases"
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis idea presents a fascinating concept but suffers from significant ambiguity and lacks sufficient detail. The problem definition is present, but the 'telepathic' aspect requires substantial clarification \u2013 how exactly are brain waves translated into machine learning parameters? The motivation highlights a potential benefit (reduced reliance on GPUs), but doesn\u2019t delve into the technical challenges or limitations of this approach.  The terminology isn't precisely defined; \u2018telepathic machine learning\u2019 is a novel term that needs unpacking. Structural organization is rudimentary, simply stating problem and motivation. Specificity is low \u2013 it lacks details about the type of brain waves being used, the specific ML models involved, and how real-time translation will be achieved. The ambiguity level is high due to the highly speculative nature of the core concept.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Telepathic Machine Learning: Training AI Models with Brain Waves"
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea presents a grand ambition but suffers from significant lack of detail and precision. The core concept \u2013 compressing an entire dataset into a single byte \u2013 is extremely ambitious and currently beyond known scientific principles. While the problem motivation (storage costs) is valid, the proposed solution lacks any concrete methodology or explanation of *how* this could be achieved. The description relies heavily on revolutionary claims without providing a pathway to validation.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Infinite Data Compression Using a Single Byte"
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis idea suffers from significant ambiguity and a lack of concrete detail. The central metaphor \u2013 \u2018the square root of a cat\u2019 \u2013 is highly unconventional and requires substantial unpacking to understand the intended mathematical approach. While the motivation section touches on potential areas of research (genetic structures, quantum biology), it lacks specific details about how these would be connected to an algebraic model. The problem definition is vague; what does 'determining the root form' actually mean in this context? There\u2019s no indication of the type of algebraic structure being considered or the methods that will be employed. The concept is overly ambitious and requires significant clarification before it can be assessed as a viable thesis topic.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 5
+    },
+    "title": "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms"
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The thesis idea presents an ambitious and potentially groundbreaking concept. However, it suffers from a lack of detail and precision. The problem definition is clear in its high-level goal \u2013 training a model with noise \u2013 but lacks specifics regarding the type of neural network, the nature of the white noise, and the evaluation metrics. While the motivation highlights the importance of data reduction, it\u2019s somewhat hyperbolic ('completely eliminate the need for labeled training data') and doesn't delve into potential challenges or limitations. The terminology is generally understandable, but 'training a neural network using only white noise' could benefit from more precise phrasing (e.g., autoencoder, generative model). The structural organization is rudimentary; it outlines problem and motivation but lacks any indication of the proposed methodology or expected outcomes beyond eliminating labeled data. Specificity is low \u2013 it doesn\u2019t mention architectural choices, training parameters, or how meaningful patterns would be determined. Ambiguity remains a significant concern due to the broad scope and lack of concrete details.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 2,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Training a Neural Network Using Only White Noise"
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea presents a fascinating concept but suffers from significant ambiguity and lacks sufficient detail. The 'reverse evolution' framing is intriguing, yet the core research question \u2013 training dinosaurs to use smartphones \u2013 requires substantial clarification. While the motivation (investigating dinosaur intelligence) is reasonable, it\u2019s presented somewhat abstractly. The proposed method (deep reinforcement learning) is mentioned but not explained in enough depth for a master's thesis. The scope of what 'interacting with smartphones' entails isn't defined. There's considerable room for interpretation regarding the model's architecture, reward functions, and how dinosaur \u2018cognitive capabilities\u2019 will be assessed.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Reverse Evolution: Teaching Dinosaurs to Use Smartphones"
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis idea presents an intriguing concept but suffers from significant ambiguity and a lack of concrete detail. The core problem is stated reasonably well, however the integration of 'sentient AI pigeons' requires substantial clarification. The motivation is plausible, yet the proposed method \u2013 interpreting pigeon movements with AI \u2013 lacks specific technical details regarding the AI model, sensor data, or how behavioral patterns are linked to seismic activity. While the overall concept is novel, it needs significant fleshing out before being considered a well-defined thesis topic.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Predicting Earthquake Locations Using Sentient AI Pigeons"
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The thesis idea presents a high-level concept with significant challenges in terms of feasibility and clarity. While the motivation is understandable (blockchain transaction speed), the core proposal \u2013 using quantum entanglement for instant financial transactions \u2013 requires substantial elaboration. The problem definition is somewhat clear, but lacks detail regarding *how* entanglement would be utilized within a blockchain context. Terminology precision is low due to the lack of explanation of 'quantum entanglement' and its application in this specific scenario. Structural organization is rudimentary; it\u2019s essentially a statement of intent without outlining research methods or expected outcomes. Specificity is extremely limited \u2013 it doesn't specify what aspects of quantum entanglement will be explored, nor does it address potential limitations or alternative approaches. The ambiguity level is high due to the speculative nature of the idea and the absence of concrete details.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Quantum Blockchain for Faster-than-Light Financial Transactions"
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis idea presents a promising but somewhat underdeveloped concept. The problem description is reasonably clear in its overall goal \u2013 analyzing dolphin vocalizations for emotional states and potential linguistic structures. However, the application of 'Large Language Models' (LLMs) needs more context. It\u2019s unclear how LLMs will be applied specifically to this task; simply stating they will be used isn't sufficient. The motivation is sound but lacks detail regarding *why* decoding dolphin communication is important beyond a general \u2018bridging the gap.\u2019  The scope is broad, and while it mentions analyzing vocalizations, it doesn\u2019t specify which types of vocalizations or what specific linguistic features are being targeted. There's ambiguity around whether this will be purely descriptive (identifying emotional states) or involve building predictive models.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Sentiment Analysis on Dolphin Communication Using Large Language Models"
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The thesis idea presents a fascinating concept but suffers from significant ambiguity and lacks sufficient detail. The problem definition is present, but the scope of 'unexplained anomalies' is extremely broad. While mentioning infrared and electromagnetic fields is relevant, it doesn\u2019t specify *what* constitutes an anomaly or how these data sources will be used in conjunction with computer vision. The motivation \u2013 providing scientific evidence \u2013 is a reasonable goal, but the methodology remains entirely undefined. There's considerable room for interpretation regarding what types of AI models will be employed and how they will interpret the data.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Using AI to Detect Ghosts in Abandoned Buildings"
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis idea suffers from significant clarity issues due to its reliance on a fundamentally flawed concept. While the problem description and motivation are stated, proposing a solution based on perpetual motion is scientifically unsound and introduces substantial ambiguity. The lack of detail regarding how this 'perpetual motion generator' would function makes it impossible to assess the feasibility or methodology.  The idea lacks specificity as it doesn\u2019t define any particular mechanism or approach within the realm of perpetual motion.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 5
+    },
+    "title": "Infinite Battery Life Using Perpetual Motion Machines"
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research into ML adoption in enterprises. However, it suffers from some ambiguity and lacks sufficient detail to be considered exceptionally clear. The problem description is reasonably well-defined, outlining the challenges of integrating ML into existing systems. While the motivation is stated, it could be more focused. The terminology is generally understandable but relies on context rather than explicit definition (e.g., 'SAP Leonardo'). The structural organization is decent, presenting the problem, motivation, and a proposed approach. Specificity is somewhat lacking; the quality management use case is mentioned, but the specific ML techniques or data characteristics aren't detailed. There\u2019s ambiguity regarding whether the thesis will primarily focus on comparing external vs. integrated solutions or evaluating SAP Leonardo specifically.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo"
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The thesis idea presents a reasonable starting point for a master's thesis. The problem definition is well-articulated and clearly outlines the limitations of manual lead scoring. The motivation section effectively highlights the need for data-driven solutions. However, the description lacks specific details regarding the datasets to be used, the evaluation metrics, and the precise implementation of the ML algorithms. While the listed algorithms are relevant, it doesn't specify how they will be compared or optimized. Furthermore, the scope could be more clearly defined \u2013 e.g., focusing on a particular industry or type of lead data.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Lead Scoring with Machine Learning"
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The thesis idea presents a reasonably clear problem and motivation. The core concept of using ML to evaluate translation quality is understandable. However, the description lacks sufficient detail regarding the specific machine learning methods to be employed, the exact features being used (beyond 'sentence-level' and 'translation evaluation metrics'), and how these are recombined at the document level. While the problem is well-defined in terms of its context and need, the proposed solution requires more elaboration for a master\u2019s thesis.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using Machine Learning Methods for Evaluating the Quality of Technical Documents"
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research. The problem definition is relatively clear, outlining the challenges faced by mobile game companies regarding user monetization. However, there's room for improvement in terms of specificity and terminology precision. While the objectives (classification and regression) are stated, the specific algorithms to be explored aren\u2019t mentioned, nor are details about data preprocessing or feature engineering. The motivation is well-articulated but somewhat generic. The ambiguity level isn't excessively high, but a more concrete description of what constitutes 'actionable insights' would strengthen the proposal.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Application of machine learning algorithms for classification and regression problems for mobile game monetization"
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis idea presents a reasonable starting point for research but suffers from some ambiguity and lacks sufficient detail. The problem definition is reasonably clear, outlining the goal of using ML to outperform a benchmark strategy. However, the classification task (outperformers, underperformers, neutral) needs further elaboration \u2013 what constitutes \u2018neutral\u2019? The choice of algorithms (Naive Bayes, Random Forest, SVM) is appropriate but could benefit from more justification regarding why these were selected over others. While the motivation section highlights the potential of ML in finance, it doesn't fully articulate how the specific methodology addresses existing limitations of traditional strategies.  The scope is somewhat limited to S&P 500 companies and fundamental data, which might be too narrow. The inclusion of transaction costs and investment constraints is a good addition but needs more concrete discussion on their impact.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Applying Machine Learning in Equity Trading"
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The thesis idea presents a reasonably clear problem statement and motivation. The objectives are well-defined \u2013 comparing machine learning algorithms for default prediction on a specific dataset. However, the description lacks sufficient detail regarding the specific features used, preprocessing steps, hyperparameter tuning strategies, and potential limitations of the chosen dataset. While the terminology is generally appropriate (AUC, recall, precision), it would benefit from more explicit definitions within the context of credit scoring. The structural organization is logical, but could be strengthened by outlining a more detailed methodology section. There's some ambiguity regarding the practical viability \u2013 while mentioning automation, the thesis doesn\u2019t delve into the specific challenges or considerations for real-world implementation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Predicting Default Loans using Machine Learning"
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis idea presents a reasonably clear problem statement and motivation. The core concept of dynamic model selection for time series forecasting is well-defined within the context of adapting to temporal variations. However, some aspects require further elaboration. While terms like 'dynamic time warping' are mentioned, their specific implementation details within DES-Forecasting aren\u2019t fully detailed. The description leans heavily on concepts like \u2018meta-learning\u2019 and \u2018local performance estimation\u2019 without explicitly outlining how these will be integrated into the proposed method.  The scope is somewhat broad \u2013 it aims to improve prediction accuracy and adaptability across 'real-world scenarios' which lacks specific examples or target applications. The connection between meta-learning, dynamic time warping, and the forecasting process could benefit from more explicit explanation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Dynamic Model Selection for Automated Machine Learning in Time Series"
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis idea presents a well-defined problem within the context of industrial process optimization. The motivation is clearly articulated, highlighting the limitations of existing methods and the potential benefits of machine learning approaches. However, while the overall structure is logical (problem, methods, expected outcomes), some aspects could benefit from greater specificity. Specifically, the description of GP for SOC-CV discovery lacks detail regarding the specific GP implementation or search space. Similarly, the CNN approach for steady-state detection needs more elaboration on the type of data being used (e.g., process images, sensor readings) and how the CNN will be trained/utilized. The terminology is generally precise, but 'SOC-CVs' could benefit from a brief explanation beyond its definition within the context of the thesis.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Application of Machine Learning in Economic Optimization"
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The thesis idea presents a well-defined problem and motivation within the field of Explainable AI. The core concept \u2013 sanity checks for explanation methods \u2013 is clearly articulated. However, while the overall structure is logical (problem, motivation, proposed approach), the specifics regarding *which* sanity checks will be employed and *how* they'll be applied to specific explanation techniques could benefit from greater detail.  The terminology is generally precise, but a more explicit definition of 'parameter randomization tests' would strengthen clarity. The ambiguity level is moderate; it\u2019s clear what *type* of validation is intended, but the exact implementation details require further elaboration.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Sanity Checks for Explanations of Deep Neural Networks Predictions"
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The thesis idea presents a reasonably clear problem and proposed solution. The core issue of REK application triage is well-defined, and the use of ML for prediction is appropriate. However, some aspects require further elaboration. Specifically, the description of LDA topic modeling as an extraction method could benefit from more detail regarding how these topics will be defined and used to create features. While the choice of models (Logistic Regression, Naive Bayes, Random Forest, XGBoost) is sensible, the connection between the extracted topics and their relevance to rejection prediction isn't fully articulated. The motivation section effectively links the research to broader national AI strategy goals but could benefit from a more concrete description of how process improvements will be identified beyond simply flagging potentially rejectable applications.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning in Application-Based Case Management"
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis idea presents a well-defined problem and motivation within the context of Federated Learning. The core issue \u2013 the difficulty organizations face in selecting appropriate FL methods \u2013 is clearly articulated. However, while the overall structure is logical (problem, motivation, proposed solution), some aspects could benefit from greater specificity. For instance, the description of the 'structured methodology' lacks detail regarding its components and how it guides decision-making. The terminology is generally clear, but a more explicit definition of \u2018contextual constraints\u2019 would strengthen clarity. Furthermore, while the financial industry case study is mentioned, details about the specific data characteristics and privacy requirements considered within that setting are not elaborated upon.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach"
+  }
+}

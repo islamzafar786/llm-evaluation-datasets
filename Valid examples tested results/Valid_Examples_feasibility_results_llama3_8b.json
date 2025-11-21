@@ -1,0 +1,422 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The proposed thesis idea is feasible, but requires careful consideration and planning.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Deep Learning Techniques Applied to Constituency Parsing of German.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The proposed thesis idea is feasible, but requires some effort to obtain the required data and implement the model.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 5,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The proposed thesis idea is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The project's feasibility is evaluated based on the availability of required data, computational resources, theoretical and implementation complexity, and expected time to completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The project is feasible, but requires significant theoretical advancements and engineering work.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 4
+    }
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The proposed thesis idea is feasible, but requires significant effort in implementing the Composable Generative Population Models (CGPMs) and integrating them into BayesDB.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Artificial intelligence-assisted data analysis with BayesDB",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on data analysis and simulation approach to capacity planning for military mental health services.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The proposed thesis idea is feasible, but requires careful planning and execution.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "Feasibility assessment for the master's thesis idea on Emotional response modeling in financial markets",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?' is as follows:",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on 'Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy' is as follows:",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on evaluating large language models for automated cyber security alarm analysis processes.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires careful consideration and planning.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Telepathic Machine Learning: Training AI Models with Brain Waves' is as follows:",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The proposed master's thesis idea is highly ambitious and challenging, but it lacks a solid foundation in theoretical and implementation complexity.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 1,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The Square Root of a Cat is an ambitious and intriguing topic, but it faces significant challenges in terms of feasibility.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The feasibility of training a neural network using only white noise as input data is low due to the lack of theoretical foundations and the high complexity of implementing such an approach.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 3
+    }
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "This project is highly ambitious and challenging, requiring significant advancements in AI, paleontology, and engineering.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Predicting Earthquake Locations Using Sentient AI Pigeons' is as follows:",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 2
+    }
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "Quantum Blockchain for Faster-than-Light Financial Transactions is a highly ambitious and complex topic, requiring significant theoretical advancements and engineering work.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Sentiment Analysis on Dolphin Communication Using Large Language Models.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Using AI to Detect Ghosts in Abandoned Buildings' is as follows:",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The proposed thesis idea is ambitious, but the feasibility assessment reveals significant challenges.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The proposed thesis idea is feasible, but requires careful consideration and planning.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The feasibility assessment for the Master's thesis idea on Lead Scoring with Machine Learning",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on 'Using Machine Learning Methods for Evaluating the Quality of Technical Documents' is as follows:",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on 'Application of machine learning algorithms for classification and regression problems for mobile game monetization' is as follows:",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Applying Machine Learning in Equity Trading",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The project is feasible, but requires some effort to obtain the dataset and implement the models.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 5,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The proposed thesis idea is feasible, but requires careful consideration and planning to ensure successful completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The project is feasible, but requires some effort to obtain the required data and computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 4
+    }
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The proposed master's thesis idea is feasible, but requires careful consideration and planning.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The feasibility assessment for the master's thesis idea on Machine Learning in Application-Based Case Management",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The proposed thesis idea is feasible, but requires careful consideration and planning.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  }
+}

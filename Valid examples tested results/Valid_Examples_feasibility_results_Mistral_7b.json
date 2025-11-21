@@ -1,0 +1,422 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The proposed project leverages Generative Adversarial Networks (GANs), a well-established machine learning technique, for multi-instrument music synthesis. However, it requires the development of an auxiliary instrument classifier and the combination of PatchGAN-based architecture with a U-Net generator.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The proposed master's thesis idea focuses on improving object recognition in Mixed Reality by integrating image segmentation algorithms with image enhancement techniques. The project requires data, computational resources, and implementation efforts within a reasonable timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The proposed master's thesis idea aims to adapt language models for the process industry using a graph-aware self-supervised learning approach. The project requires constructing a process industry graph, leveraging contrastive learning, and improving semantic search performance.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The proposed master's thesis idea focuses on developing a deep learning-based constituency parser for German, leveraging self-attention mechanisms and multi-layered architectures. The project aims to improve syntactic structure extraction in German, which is known for its complex word order and inflectional morphology.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The proposed master's thesis idea involves applying Deep Reinforcement Learning (DRL) to navigate mobile robots in static and dynamic environments, specifically using Proximal Policy Optimization (PPO).",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The proposed master's thesis idea focuses on applying Graph Neural Networks for Electrical Grid State Estimation, which is a promising and relevant topic in the field of power systems. However, the feasibility of this project depends on several factors.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 5
+    }
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The proposed master's thesis idea aims to apply Graph Neural Networks (GNNs) for mortality prediction in Electronic Health Records (EHR). The project requires data, computational resources, and implementation efforts within a reasonable timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The proposed master's thesis idea involves applying deep reinforcement learning to federated satellite networks, which requires data collection, computational resources, and implementation of complex algorithms. The timeline for completion is within the standard thesis duration.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 5
+    }
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The proposed project aims to develop a machine learning model capable of solving university-level machine learning problems. The model employs Transformer models, GNNs, and expression trees within an encoder-decoder architecture. However, the feasibility of this project depends on several factors such as data availability, computational resources, theoretical complexity, and expected time to completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The proposed master's thesis idea focuses on developing optimization methods for constrained machine learning problems, addressing various structural constraints. It involves creating novel algorithms, computational frameworks, and enhancing existing solvers.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The proposed master's thesis idea aims to develop Composable Generative Population Models (CGPMs) and integrate them into BayesDB for probabilistic data analysis. The project requires a significant amount of theoretical advancement, computational resources, and time due to its complexity.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The proposed master's thesis idea leverages BayesDB, a well-established probabilistic programming platform for data analysis. The required dataset, ANES and Gapminder, can be obtained with some effort but is not overly complex or time-consuming. The project involves implementing the CrossCat model from BayesDB, which requires engineering work but is based on established methods. While the project may take several months to complete, it is feasible within a standard thesis timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The proposed master's thesis idea focuses on data analysis and simulation approach to capacity planning for military mental health services. The feasibility assessment is based on the availability of data, computational resources, theoretical complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The proposed master's thesis idea focuses on developing faster linear algebra algorithms for large-scale machine learning and data analysis. It leverages importance sampling techniques, iterative methods, and randomized sketching to improve computational efficiency while preserving accuracy.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The proposed master's thesis idea aims to analyze physiological responses in professional traders at the Boston Stock Exchange, correlating these responses with financial transactions. The project requires data collection and analysis, which can be feasible given the right resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The proposed master thesis idea investigates the ability of Large Language Models (LLMs) to generate and answer their own questions, which is an interesting and unexplored area in NLP. However, the feasibility of this project depends on the availability and quality of the data, computational resources required, complexity of the methods involved, and the time needed for completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The proposed master's thesis idea involves exploring different Large Language Models for Retrieval-Augmented Generation in analyzing wearable running data for sports physiotherapy. The project requires a dataset, computational resources, and implementation of advanced AI models.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The proposed master's thesis idea aims to evaluate Large Language Models for automating cybersecurity alarm analysis processes. The project requires data, computational resources, and implementation efforts within a reasonable timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The proposed master's thesis idea aims to automate the assessment of companies' alignment with the EU Taxonomy using Large Language Models (LLMs). The project requires data from corporate sustainability reports, which may be available but could potentially require some manual effort. The computational resources needed are moderate, as LLM training can be resource-intensive but not excessively so. Theoretical advancements and engineering work are necessary to optimize accuracy and relevance in extracting and evaluating information from the sustainability reports. Completion within a standard thesis timeline (~6 months) is possible with focus, but may depend on the complexity of the LLM and the specific techniques used.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The proposed master's thesis idea aims to implement a Variational Auto-Encoder for encoding latent uncertainty in Large Language Models. The project requires data, computational resources, and implementation efforts, but it is feasible within the standard thesis timeline.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The proposed master's thesis idea aims to leverage Large Language Models (LLMs) for aiding developers with code comprehension in codebases. The feasibility assessment is based on the availability and complexity of data, computational resources, theoretical advancements, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The proposed master's thesis idea aims to develop a novel approach for training AI models using brain waves. However, the feasibility of this project is questionable due to the lack of established methods and resources.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The proposed project aims to compress entire datasets into a single byte, which is an ambitious and groundbreaking goal. However, the feasibility of this idea depends on several factors.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The proposed master's thesis idea aims to develop a mathematical model that calculates the square root of any living being, applying advanced algebraic structures. The feasibility assessment is based on the availability and complexity of data, computational resources, theoretical advancements, and the expected time to completion.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The proposed master thesis idea aims to train a neural network using only white noise as input data, eliminating the need for labeled datasets. This approach is innovative and could potentially disrupt the field of supervised learning.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The proposed project involves developing a deep reinforcement learning algorithm to train dinosaurs to interact with modern touchscreen devices, which is an unprecedented and complex task. It requires significant theoretical advancements and engineering work.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The proposed project combines deep learning and natural bird behavior to predict earthquake locations, which is an innovative approach. However, the feasibility of this project depends on the availability and quality of the data, computational resources required, complexity of the model, and the time needed for completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The proposed master's thesis idea aims to leverage quantum entanglement for instant financial transactions, which is a cutting-edge and complex field. The project requires significant theoretical advancements and engineering work.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The proposed master's thesis idea aims to analyze dolphin vocalizations using large language models for sentiment analysis and potential linguistic structure identification. The feasibility of this project will be evaluated based on the availability of data, computational resources, theoretical complexity, and expected time to completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The proposed master's thesis idea aims to use AI to detect ghosts in abandoned buildings by analyzing infrared and electromagnetic field data. While the concept is intriguing, it presents several challenges due to the lack of established methods and the nature of the data involved.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The proposed topic involves the development of a self-charging battery system powered by perpetual motion generators, which is currently considered impossible according to the laws of thermodynamics. As such, the required data, computational resources, and implementation complexity are not feasible within the given thesis timeline.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 1,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The proposed master's thesis idea focuses on integrating Machine Learning approaches into SAP Leonardo for a real-world use case in Quality Management via image recognition. The feasibility assessment is based on the availability and complexity of data, computational resources, implementation complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The proposed master's thesis idea focuses on applying machine learning techniques to automate and enhance lead scoring, which is a relevant and timely topic given the increasing shift towards digital marketing. The project requires data analysis, algorithm selection, model development, and optimization, all of which are within the scope of a master's thesis.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The proposed master's thesis idea aims to develop a machine learning framework for evaluating the quality of technical documents translations. The project requires data, computational resources, and implementation efforts, with a realistic timeline for completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The proposed master's thesis idea focuses on applying machine learning algorithms for mobile game monetization, which is a relevant and timely topic. However, the feasibility of the project depends on several factors such as data availability, computational resources, theoretical complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The proposed master's thesis idea aims to apply machine learning algorithms for equity trading, using fundamental data from the S&P 500 index. The project requires obtaining and processing financial data, implementing well-established machine learning algorithms, and evaluating their performance against a benchmark strategy.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The proposed master's thesis idea aims to compare the performance of various machine learning algorithms in predicting loan defaults using a standardized dataset. The project requires data collection, computational resources for training and testing models, and implementation of well-established machine learning techniques.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The proposed master's thesis idea aims to develop a dynamic ensemble selection method for time series forecasting. The project requires obtaining diverse models, implementing meta-learning principles, and creating time-series-specific distance measures. While the concept is theoretically sound, the feasibility depends on the availability of suitable datasets, computational resources, and the complexity of implementation.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The project requires a significant amount of data, computational resources, and theoretical advancements. However, it is feasible within the standard thesis timeline with careful planning and resource allocation.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 5
+    }
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The proposed master's thesis idea aims to evaluate the validity of explanation techniques for deep neural networks by applying sanity checks. The project requires access to datasets, computational resources, and implementation of existing methods with some modifications for sanity checks.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The proposed thesis idea leverages established machine learning algorithms and topic modeling techniques to address a practical problem in application-based case management. The required data can be obtained from existing sources, and while computational resources may be needed for training models, they are within the reach of typical research labs or cloud services.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The proposed master's thesis idea focuses on designing a methodology for choosing an appropriate Federated Learning approach based on specific contextual constraints. The project requires data analysis, literature review, and case study validation in a real-world setting. However, it does not involve developing new algorithms or requiring extensive computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 5
+    }
+  }
+}

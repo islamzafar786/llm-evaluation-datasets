@@ -1,0 +1,209 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The thesis idea proposes using quantum neural networks for image recognition. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Building a ChatGPT Clone with OpenAI API"
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The thesis idea proposes using decision trees for binary classification, which is a fundamental concept in machine learning. However, the proposed application of decision trees to spam filtering is not supported by existing literature. The lack of related papers suggests that this approach may be novel or untested. Therefore, I would rate the theoretical consistency as 1.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Decision Trees for Classification",
+        "Relevance": "Related work on decision trees"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Conflict": "Contradicts the theoretical foundation of quantum machine learning"
+      }
+    ],
+    "title": "Using Decision Trees for Binary Classification"
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The thesis idea proposes using quantum neural networks for image recognition. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Generating Earthquake Predictions with ChatGPT"
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The thesis idea proposes using sentiment analysis on social media comments to predict seismic activity. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments"
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The thesis idea proposes using LLMs to classify images of plants into species. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Using LLMs to Classify Plant Species"
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The thesis idea proposes using large language models to optimize traditional sorting algorithms like QuickSort. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Optimizing Sorting Algorithms with LLMs"
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The thesis idea proposes using quantum neural networks for image recognition. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Developing Artificial General Intelligence (AGI)"
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The thesis idea proposes using quantum neural networks for image recognition. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Direct Brain-AI Communication Using Neural Implants"
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea proposes using quantum neural networks for image recognition. While theoretically plausible, current empirical evidence suggests this approach faces significant decoherence challenges. The methodology appears sound but may be premature given hardware limitations.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Quantum Machine Learning: Overview",
+        "Relevance": "Theoretical foundation for the approach"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoherence in Quantum NN",
+        "Conflict": "Demonstrates practical challenges"
+      }
+    ],
+    "title": "Improving Artificial Intelligence"
+  }
+}

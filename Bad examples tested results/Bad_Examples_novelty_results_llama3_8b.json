@@ -1,0 +1,149 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The proposed thesis idea, 'Building a ChatGPT Clone with OpenAI API', is an incremental improvement over existing chatbot development approaches. While using the OpenAI API to create a chatbot is novel in itself, the problem formulation and methodology are not significantly different from previous works.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "ChatGPT: A Conversational AI Model",
+        "Similarity": "high",
+        "KeyDifferences": "This work is building upon the existing ChatGPT model and API"
+      }
+    ]
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The proposed thesis idea, 'Using Decision Trees for Binary Classification: Spam Filtering in Email Systems', is a well-studied problem with established solutions. While decision trees have been applied to various classification tasks, the specific application of spam filtering in email systems is not novel.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Decision Trees for Text Classification",
+        "Similarity": "high",
+        "KeyDifferences": "Existing work on decision trees for text classification"
+      }
+    ]
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The proposal to generate earthquake predictions using ChatGPT is an interesting idea, but it lacks novelty in several dimensions.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Earthquake Prediction using Machine Learning",
+        "Similarity": "high",
+        "KeyDifferences": "Existing works have already explored the use of machine learning for earthquake prediction, but with different approaches and datasets."
+      }
+    ]
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The proposal to use sentiment analysis on social media comments to predict seismic activity is an interesting combination of seismology and NLP, but it lacks novelty in some aspects.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Seismic Hazard Assessment using Social Media",
+        "Similarity": "medium",
+        "KeyDifferences": "This work focuses on hazard assessment rather than prediction"
+      }
+    ]
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The proposed thesis idea, 'Using LLMs to Classify Plant Species', is an interesting application of language models in biology. While text-based classification using LLMs can be useful for botanists studying plant taxonomy, the problem formulation and methodology are not entirely novel.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Deep Learning for Plant Species Identification",
+        "Similarity": "medium",
+        "KeyDifferences": "The proposed work uses a different type of LLMs and focuses on image classification, whereas the similar work is based on text-based classification."
+      }
+    ]
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The proposed idea of optimizing sorting algorithms with large language models (LLMs) is an interesting combination, but it builds upon well-established concepts in both areas. While LLMs have shown great promise in natural language processing and chatbot development, their application to traditional computer science problems like sorting algorithms is not entirely novel.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Applying Deep Learning to Sorting Algorithms",
+        "Similarity": "medium",
+        "KeyDifferences": "This work focuses on using deep learning for sorting algorithms, but it does not specifically involve LLMs."
+      }
+    ]
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The proposed thesis idea of developing Artificial General Intelligence (AGI) is ambitious, but its novelty is limited by the well-established nature of AI research. While achieving AGI would be a significant breakthrough, the problem formulation and methodology are not novel in themselves.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 5,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "The Turing Machine",
+        "Similarity": "high",
+        "KeyDifferences": "Original concept of a universal machine"
+      }
+    ]
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The proposed thesis idea, Direct Brain-AI Communication Using Neural Implants, is an innovative concept that combines neural implants with AI systems to enable seamless brain-computer interaction. While the problem of brain-computer interaction is well-studied, the specific focus on using neural implants as a means of communication is novel and has potential for significant impact.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 5,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Neuralink: A Next-Generation Neural Interface",
+        "Similarity": "medium",
+        "KeyDifferences": "While Neuralink is a neural interface project, it focuses on developing implantable chips for brain-computer interfaces, whereas the proposed thesis idea explores using neural implants to control AI systems."
+      }
+    ]
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea 'Improving Artificial Intelligence' is a well-studied problem with established solutions, and the motivation to make AI better is not novel. The proposal does not introduce a new perspective or context that sets it apart from existing research.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 1,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": []
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The thesis addresses the problem of multi-instrument music synthesis using GANs, which is a known area but introduces specific innovations. The use of PatchGAN with U-Net and an auxiliary classifier adds methodological novelty compared to prior work that often uses simpler architectures or other models like VAEs. However, similar approaches exist in single-instrument contexts. Potential impact is moderate due to the niche application but could advance music generation tools. Combination uniqueness is medium as GANs are applied here with structured input (sheet music) and multi-instrument focus.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "MusicNet: Large-Scale Music Analysis Dataset and Benchmarks",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on dataset creation rather than synthesis with GANs"
+      },
+      {
+        "Title": "MuseGAN: Multi-Track Generation with Conditional LSTMs",
+        "Similarity": "high",
+        "KeyDifferences": "Uses LSTM-based models instead of GANs/U-Net and lacks auxiliary classifiers for instrument separation"
+      }
+    ]
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The thesis addresses the problem of improving object recognition in Mixed Reality (MR) through enhanced image segmentation and integration with image enhancement techniques. While MR applications are well-known, the specific focus on combining segmentation with enhancement for attention guidance and navigation is a novel angle. The methodology leverages existing algorithms but applies them in a new context, particularly user experiments to evaluate real-world interaction improvements. Problem novelty is moderate as object recognition in dynamic environments isn't entirely new, but applying segmentation alongside enhancement techniques adds a fresh perspective. Methodological innovation scores mid-range due to combining established methods rather than creating fundamentally new ones. Potential impact is moderate since it targets specific MR use cases without broader redefinition of the field. The combination of problem and method (segmentation + enhancement for MR) isn't common, making uniqueness score higher.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Deep Learning for Real-Time Object Detection in Augmented Reality",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on detection rather than segmentation and enhancement integration"
+      },
+      {
+        "Title": "Attention-Guided Image Segmentation for Virtual Environments",
+        "Similarity": "high",
+        "KeyDifferences": "Does not combine with image enhancement techniques or evaluate MR navigation impact"
+      }
+    ]
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis addresses adapting language models to the process industry using graph-aware self-supervised learning, which is a niche but relevant problem. The use of graphs combined with contrastive learning introduces a novel angle compared to standard domain adaptation methods. While domain adaptation and self-supervised learning are established areas, applying them specifically to industrial text logs with graph structures adds uniqueness. Similar works exist in general domain adaptation (e.g., using BERT for industry tasks) but lack the explicit integration of process graphs. The impact is moderate due to its specialization but could advance niche applications.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "Similarity": "medium",
+        "KeyDifferences": "Does not use graphs or contrastive learning for industrial domain adaptation"
+      },
+      {
+        "Title": "Domain-Adaptive BERT for Text Classification in Industrial Applications",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on standard domain adaptation without graph structures"
+      }
+    ]
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The thesis focuses on constituency parsing for German using deep learning, particularly self-attention and multi-layered architectures. While constituency parsing itself is a well-established problem in NLP (Problem Novelty: 1), the application to German specifically addresses its complex morphology and syntax, offering a new context (raising Problem Novelty to 3). Methodologically, leveraging self-attention mechanisms like those in Transformers is standard for modern parsers (Methodological Innovation: 2), but combining them with tailored architectures for German's linguistic features could add novelty. However, similar work already exists (e.g., studies on German dependency parsing with BERT variants). The potential impact is moderate (3) as it contributes to language-specific NLP tools without groundbreaking changes. Combination Uniqueness scores 3 since while constituency parsing and self-attention are both common, their application to German syntax presents a somewhat novel pairing.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "German Dependency Parsing with BERT-based Models",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on dependency parsing and uses different linguistic features."
+      },
+      {
+        "Title": "Self-Attention for Constituency Parsing in English",
+        "Similarity": "high",
+        "KeyDifferences": "Applies to English, not German-specific adaptations."
+      }
+    ]
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The thesis addresses the problem of mobile robot navigation in dynamic environments using PPO, a well-established RL algorithm. While the core problem (robot navigation with static/dynamic obstacles) is common, applying deep reinforcement learning specifically with PPO to compare training strategies adds a new angle. However, similar works have extensively studied DRL for navigation, reducing novelty. The methodological approach uses standard techniques without introducing fundamentally new methods. Impact is moderate due to potential practical applications but lacks transformative potential. Combination of problem and method (DRL + robot navigation) is somewhat novel as prior work often uses other RL algorithms or simpler models.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Deep Reinforcement Learning for Autonomous Robot Navigation in Cluttered Environments",
+        "Similarity": "high",
+        "KeyDifferences": "Uses DDPG instead of PPO and focuses on clutter rather than crowds"
+      },
+      {
+        "Title": "Reinforcement Learning for Dynamic Obstacle Avoidance in Robotics",
+        "Similarity": "medium",
+        "KeyDifferences": "Employs Q-learning with hand-crafted features, not deep RL"
+      }
+    ]
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis proposes GSETR, a Graph Neural Network approach for state estimation in low-voltage electrical grids with sparse measurements. While state estimation is a well-established problem in power systems (Problem Novelty: 2), applying GNNs specifically to address measurement sparsity in LV networks represents a novel angle. Methodologically, using GNNs here shows innovation compared to traditional methods like Weighted Least Squares or Kalman Filters (Methodological Innovation: 4). The potential impact is moderate as it targets a specific but important grid challenge without fundamentally changing the field's trajectory (Potential Impact: 3). Combining GNNs with low-voltage grid state estimation isn't entirely new, though prior work often focuses on higher voltage levels or different problem aspects (Combination Uniqueness: 3). Key differences from similar works include focus on LV networks and explicit handling of sparse measurements.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Graph Neural Networks for Power System State Estimation",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on high-voltage grids and doesn't address sparse measurements explicitly"
+      },
+      {
+        "Title": "Deep Learning Approaches to Smart Grid State Estimation",
+        "Similarity": "high",
+        "KeyDifferences": "Uses CNNs instead of GNNs and broader scope beyond sparsity issues"
+      }
+    ]
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The thesis proposes using GNNs for mortality prediction with EHR data. While the problem of predicting patient outcomes from EHRs is well-established, applying graph-based methods represents a shift from traditional tabular approaches like logistic regression or tree-based models. However, there are existing studies that have already explored GNN applications in EHR analysis (e.g., using knowledge graphs for drug interactions). The methodological innovation here lies in systematically evaluating different graph representations and encoding techniques rather than proposing entirely new architectures. The potential impact is moderate as it demonstrates practical improvements but doesn't fundamentally change the field's trajectory. The combination of mortality prediction with GNNs on EHR data isn't completely unique, though the specific focus on representation learning aspects adds a distinct angle.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Graph Representation Learning from Electronic Health Records",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on disease progression rather than mortality prediction"
+      },
+      {
+        "Title": "Predicting Patient Mortality with Temporal Knowledge Graphs",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses static graph structures instead of dynamic representations"
+      }
+    ]
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The thesis addresses the problem of decentralized autonomous decision-making in federated satellite systems using deep reinforcement learning. While decentralized coordination and DRL are both active research areas, their combination in the specific context of federated satellite networks represents a novel application domain. The problem is known (decentralized resource management) but applied to satellites which have unique constraints like communication latency and energy limitations. Methodologically, it builds on existing DRL algorithms rather than proposing new ones, though adapting them for decentralized satellite coordination introduces some innovation in system design. Potential impact is moderate as successful implementation could improve mission efficiency for satellite constellations, but the approach remains within established ML paradigms. The combination of DRL with federated satellites is somewhat unique compared to more common terrestrial applications.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Decentralized Multi-Agent Reinforcement Learning in Ad Hoc Networks",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on terrestrial ad hoc networks rather than satellite systems, different communication constraints"
+      },
+      {
+        "Title": "Federated Learning for Space-Based Systems",
+        "Similarity": "high",
+        "KeyDifferences": "Uses traditional federated learning without reinforcement aspects and doesn't address real-time decision-making"
+      }
+    ]
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The thesis addresses the problem of training a machine learning model to solve university-level ML problems using a dataset from MIT's 6.036 course. The core methodology combines Transformer models with GNNs and expression trees for structured responses. Problem Novelty is moderate as automated STEM education systems exist, but applying it specifically to ML coursework adds context. Methodological Innovation scores mid-range due to combining existing techniques (Transformers, GNNs) in a novel way for this domain. Potential Impact is high because success could revolutionize AI-driven tutoring and assessment. Combination Uniqueness is medium since using Transformers with GNNs isn't new, but applying them to ML problem-solving in education is less common. Similar works like Socratic Models (2019) focus on general STEM but not specifically ML coursework.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Socratic Models: Composing MMLU with Chain-of-Thought Prompting",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general STEM reasoning rather than ML-specific coursework"
+      },
+      {
+        "Title": "DeepMind's AlphaScience for Chemistry Problems",
+        "Similarity": "low",
+        "KeyDifferences": "Applies to chemistry, not machine learning education"
+      }
+    ]
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis addresses optimization under structural constraints in machine learning, a well-established area. Problem Novelty is 3 as it combines existing problem types (e.g., convex regression, log-concave MLE) with new algorithmic approaches. Methodological Innovation scores 4 due to novel combinations like subgradient regularization with smoothing techniques and \u2113\u2080\u2113\u2082-penalized estimators. Potential Impact is 3 since improvements are domain-specific but not transformative for the broader field. Combination Uniqueness is 4 as pairing structural constraints with specific methods (e.g., screening in BnB) offers fresh angles. Similar works exist but differ in specifics like penalty types or solver enhancements.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Estimation of Monotonic Convex Regression",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on subgradient methods without the proposed regularization and scaling improvements"
+      },
+      {
+        "Title": "Log-Concave Density Estimation in Arbitrary Dimensions",
+        "Similarity": "high",
+        "KeyDifferences": "Uses convex optimization without integral discretization or smoothing techniques mentioned here"
+      },
+      {
+        "Title": "\u2113\u2081-Penalized Estimators for Gaussian Graphical Models",
+        "Similarity": "medium",
+        "KeyDifferences": "Traditional \u2113\u2081 methods vs. the proposed \u2113\u2080\u2113\u2082 approach offering computational benefits"
+      }
+    ]
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The thesis proposes Composable Generative Population Models (CGPMs) as a unified framework for probabilistic data analysis within BayesDB. While the problem of unifying probabilistic modeling techniques is not new, CGPMs introduce a novel abstraction that extends graphical models into a composable structure, enabling both intra-row dependencies and latent variable mediation across rows. This addresses limitations in existing methods like parametric statistical models and machine learning silos by providing a flexible integration platform. The methodological innovation lies in the composability aspect and seamless combination of diverse techniques (e.g., Bayesian hierarchies with clustering). Potential impact is high due to its unifying nature, though practical scalability remains an open question. Similar works like BayesDB itself focus on probabilistic query interfaces but lack CGPM's modular compositionality. The problem+method pairing is unique as prior work either focuses on specific model types or lacks the integration scale proposed here.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "BayesDB: A Bayesian Database Table",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on probabilistic queries but does not emphasize composable CGPMs or latent variable mediation across rows."
+      },
+      {
+        "Title": "Probabilistic Programming Languages (e.g., Stan, PyMC)",
+        "Similarity": "low",
+        "KeyDifferences": "PP languages focus on model specification rather than compositional integration of diverse techniques within a database framework."
+      }
+    ]
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis addresses well-known challenges in data analysis (missing data and predictive errors) but offers a novel application of BayesDB's CrossCat model. Problem novelty is moderate as missing data imputation and error detection are established areas, though the structured approach to categorizing missingness mechanisms (MCAR/MAR/MNAR) with CrossCat adds a new angle. Methodologically, while CrossCat itself isn't new, combining it with generative monitoring for systematic error analysis in predictive models introduces incremental innovation. The impact is constrained by relying on existing tools rather than developing entirely new methods. The combination of using BayesDB specifically for both imputation and error detection in this structured way shows some uniqueness compared to typical separate approaches.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Finding",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on case-based reasoning rather than imputation and error monitoring"
+      },
+      {
+        "Title": "Missing Data Imputation using Deep Generative Models",
+        "Similarity": "high",
+        "KeyDifferences": "Uses neural networks instead of CrossCat, doesn't address predictive model error analysis"
+      }
+    ]
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The thesis addresses capacity planning in military mental health services, a specific and understudied context within operations research. While capacity planning itself is a well-researched area, applying it to military outpatient units with unique challenges like provider distribution and high-utilizer cases adds contextual novelty. The use of causal loop diagrams alongside simulation modeling is methodologically sound but not groundbreaking; however, combining these tools for systemic analysis in this specific domain represents a novel application. Potential impact is moderate due to its focus on a niche area, though scalable lessons could benefit similar organizations. The pairing of systems dynamics (CLD) with discrete event simulation for military healthcare planning appears uncommon in existing literature.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Healthcare Capacity Planning Using Discrete-Event Simulation: A Systematic Review",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general healthcare settings without addressing military-specific challenges like provider distribution or high-utilizer dynamics."
+      },
+      {
+        "Title": "Systems Dynamics Modeling in Military Healthcare Resource Allocation",
+        "Similarity": "low",
+        "KeyDifferences": "Discusses systems dynamics but lacks integration with simulation for capacity planning and does not address mental health specifics."
+      }
+    ]
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis addresses the well-known challenge of accelerating linear algebra operations for large-scale machine learning. While the problem is established (Problem Novelty: 2), it introduces a combination of importance sampling, iterative methods, and randomized sketching that builds on existing techniques but refines their application (Methodological Innovation: 3). The potential impact is moderate as these improvements could enhance efficiency in practical tasks without fundamentally changing paradigms (Potential Impact: 3). The combination of problem and methods is somewhat novel by integrating multiple acceleration strategies cohesively (Combination Uniqueness: 3). Similar works like 'Randomized Algorithms for Matrices and Data' by Mahoney et al. use sketching but focus less on kernel-based learning optimizations.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Randomized Algorithms for Matrices and Data",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on broader sketching techniques without specific kernel learning optimizations"
+      },
+      {
+        "Title": "A Randomized Algorithm for Principal Component Analysis",
+        "Similarity": "medium",
+        "KeyDifferences": "Only addresses PCA, not the full suite of methods proposed here"
+      }
+    ]
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis addresses the relationship between physiological responses and financial decision-making, a topic with existing literature but applied here to professional traders at the Boston Stock Exchange. Problem novelty is moderate as prior work exists on behavioral finance and biometrics in trading contexts (e.g., skin conductance studies), though focusing specifically on market makers' real-time data adds specificity. Methodologically, combining physiological metrics like heart rate variability with granular transactional data (trade size, bid/ask spread) introduces a novel integration of datasets but uses established analysis techniques. The potential impact is moderate as it contributes to understanding trader behavior but may not immediately redefine financial models. The combination of studying real-time biometric and trading data in market makers at a specific exchange represents a somewhat unique pairing.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "The Role of Affect in Financial Decision Making",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general investor sentiment rather than real-time biometric data from professional traders"
+      },
+      {
+        "Title": "Physiological Responses to Trading Decisions: An Empirical Study",
+        "Similarity": "high",
+        "KeyDifferences": "Uses broader trader demographics and less granular financial metrics compared to this study's focus on market makers at BSE with specific event markers like bid/ask spread"
+      }
+    ]
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The thesis idea of Reverse Question Answering (RQA) introduces a novel problem setup where an LLM both generates questions from answers and then attempts to answer them. This flips the traditional QA paradigm, which focuses on answering given questions. While question generation is studied in existing work, combining it with self-evaluation by the same model adds a new layer of analysis on reasoning consistency and reliability. The methodology leverages standard LLM capabilities but applies them in an unconventional way (generating then self-answering). Potential impact is moderate as insights could improve QA benchmarks and reveal model limitations, though it may not redefine NLP broadly. Similar works exist in question generation and QA evaluation, but the unique combination of RQA with self-assessment distinguishes this work.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 4,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 5
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Question Generation as a Measure of Machine Reading Comprehension",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on question generation quality for evaluation, not self-assessment by the same model."
+      },
+      {
+        "Title": "Evaluating LLMs via Self-Generated Questions: A Diagnostic Approach",
+        "Similarity": "high",
+        "KeyDifferences": "The proposed work here specifically analyzes consistency between generated questions and answering ability, whereas similar works may not focus on the failure modes of self-generated tasks."
+      }
+    ]
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The thesis explores the application of retrieval-augmented generation (RAG) with varying LLM sizes for analyzing wearable running data in sports physiotherapy. While RAG and LLMs are established techniques, their combined use in this specific domain is relatively new. The problem of optimizing model size for biomechanical analysis adds a practical angle not extensively covered in prior work. However, similar studies have examined LLM efficiency in healthcare contexts (e.g., medical imaging) but not specifically for wearable motion data paired with RAG. Methodologically, it builds on existing frameworks rather than introducing novel algorithms, though the domain adaptation shows some innovation.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Retrieval-Augmented Language Models for Clinical Decision Support",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on medical records rather than biomechanical sensor data and does not address model size optimization"
+      },
+      {
+        "Title": "Efficient Transformer Networks for Wearable Health Monitoring",
+        "Similarity": "low",
+        "KeyDifferences": "Examines lightweight models without RAG integration in sports physiotherapy context"
+      }
+    ]
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The thesis addresses the problem of using LLMs for automated cybersecurity alarm analysis, which is a known issue (alert fatigue) but applies emerging LLM technology in a novel context. While there are existing works on automating security alerts with ML, leveraging large language models specifically for threat prioritization and decision support introduces a fresh angle. Methodologically, it builds on standard NLP evaluation frameworks but may lack fundamentally new techniques. The combination of cybersecurity alarm analysis with LLMs is somewhat unique compared to traditional rule-based or simpler ML approaches.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Automated Prioritization of Security Alerts Using Machine Learning",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses traditional ML models instead of LLMs, lacks natural language analysis capabilities"
+      },
+      {
+        "Title": "Natural Language Processing for Cyber Threat Intelligence",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on threat intelligence aggregation rather than real-time alarm processing with LLMs"
+      }
+    ]
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The thesis proposes using LLMs to automate EU Taxonomy alignment assessments by analyzing sustainability reports. The problem of automating regulatory compliance is known, but applying it specifically to the EU Taxonomy with a focus on prompting and retrieval techniques introduces a novel context. Methodologically, while LLMs are widely used for document analysis, combining them with tailored prompts and retrieval methods for this specific regulatory framework represents a new application. Potential impact is moderate as it addresses a niche yet important compliance area. The combination of EU Taxonomy evaluation with LLM-based prompting/retrieval is unique compared to broader regulatory AI applications.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Automated Sustainability Reporting Analysis with Transformers",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general sustainability metrics rather than EU Taxonomy-specific compliance."
+      },
+      {
+        "Title": "Regulatory Compliance via Large Language Models in Finance",
+        "Similarity": "low",
+        "KeyDifferences": "Targets financial regulations like MiFID II, not environmental taxonomy frameworks."
+      }
+    ]
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The thesis proposes using a Variational Auto-Encoder (VAE) to encode latent uncertainty in Large Language Models (LLMs). While quantifying model uncertainty is a well-explored area, applying VAEs specifically for this purpose within LLMs introduces a novel angle. Existing work often focuses on Bayesian neural networks or ensemble methods for uncertainty estimation. The combination of VAE with LLMs to explicitly model latent space uncertainties is somewhat unique but not entirely without precedent in smaller-scale models. Potential impact is moderate as it addresses a recognized issue (hallucinations) but faces challenges like scalability and integration with existing architectures.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Uncertainty in Deep Learning (Gal and Ghahramani, 2016)",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on Bayesian neural networks rather than VAEs for uncertainty quantification."
+      },
+      {
+        "Title": "Deep Variational Information Bottleneck (Chen et al., 2018)",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses VAE framework but targets information bottleneck in general, not specifically LLM uncertainty."
+      }
+    ]
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The thesis idea addresses the problem of aiding developers with code comprehension using LLMs, which is a recognized issue in software development. Problem novelty is moderate since prior work exists on developer assistance tools and LLM applications in coding. Methodological innovation depends on how the LLM integration differs from existing approaches like GitHub Copilot or CodeBERT. If the thesis proposes novel interaction paradigms or context-aware query mechanisms, it could score higher. Potential impact is significant if the solution addresses scalability or accuracy gaps in current tools. Combination uniqueness is medium as pairing code comprehension with LLMs has been explored but may lack specific aspects proposed here.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "CodeBERT: Code Comment Generation and Understanding with BERT",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on comment generation rather than interactive comprehension assistance"
+      },
+      {
+        "Title": "GitHub Copilot: A Preview of AI Pair Programming",
+        "Similarity": "medium",
+        "KeyDifferences": "Primarily focuses on code generation, not deep comprehension tasks like explaining existing codebases"
+      }
+    ]
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis proposes training AI models directly using human brain waves, which is a novel problem formulation as traditional ML relies on explicit data inputs. While the core idea of interpreting brain signals exists in BCI research, applying it to *direct model training* rather than control or classification tasks represents a new context. Methodologically, combining EEG/BCI with live parameter tuning introduces innovation but faces challenges like signal noise and interpretability. Potential impact is high if successful, as it could bypass data collection needs, though current feasibility is uncertain. The combination of real-time brain-computer interface for model training is unique compared to existing BCI applications.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 4,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 5,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "A P300-Based Brain-Computer Interface 2.0: Improving Communication Rates",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on communication rather than model training"
+      },
+      {
+        "Title": "Deep Learning for EEG Signal Classification in BCI Systems",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses EEG for classification, not direct ML parameter adjustment"
+      }
+    ]
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea claims to compress any dataset into a single byte, which is fundamentally impossible under information theory principles. This problem formulation contradicts the pigeonhole principle and entropy concepts established in data compression research. Existing methods like Huffman coding or LZ77 have theoretical limits based on information content. The methodology proposed here lacks grounding in known techniques and resembles historical 'perpetual motion' claims in physics, which are unfeasible. No valid similar works exist because this approach violates foundational theories.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 1,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Elements of Information Theory",
+        "Similarity": "high",
+        "KeyDifferences": "Establishes theoretical limits that make this compression impossible"
+      }
+    ]
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis proposes a novel problem of applying algebraic structures to calculate the 'square root' of living organisms, which is unprecedented in mathematical biology. While abstract algebra has been applied to biological systems (e.g., group theory in genetics), the concept of taking a square root of an organism lacks any established precedent. The methodology's use of advanced algebraic frameworks for this purpose represents a unique approach compared to existing models focused on differential equations or statistical methods. However, the lack of clear mathematical grounding and definitional rigor raises questions about feasibility. No similar works directly address calculating roots of biological entities.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 5,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Algebraic Biology: A Review",
+        "Similarity": "low",
+        "KeyDifferences": "Focuses on existing algebraic methods in systems biology, not radical operations on organisms"
+      },
+      {
+        "Title": "Quantum Bioinformatics",
+        "Similarity": "medium",
+        "KeyDifferences": "Explores quantum mechanics in biology but does not involve algebraic root calculations"
+      }
+    ]
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The thesis proposes training a neural network exclusively on white noise, aiming to eliminate the need for labeled data. While the problem of reducing reliance on labeled data is well-known (e.g., self-supervised learning), using purely random noise as input is unconventional. Existing methods like GANs or diffusion models use noise in generation but still require real data during training. The methodology lacks clear innovation since it doesn't propose new architectures or loss functions beyond standard supervised training frameworks. Potential impact is speculative due to the inherent limitations of noise-based learning\u2014without structured information, meaningful patterns are unlikely to emerge. However, exploring this boundary could contribute theoretically. Similar works like GANs and diffusion models use noise but in conjunction with real data, differing fundamentally from this approach.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Generative Adversarial Nets",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses noise in generation but requires real data for training."
+      },
+      {
+        "Title": "Diffusion Models Beat GANs and VAEs on Image Synthesis",
+        "Similarity": "medium",
+        "KeyDifferences": "Noise is part of the process, not the sole input."
+      }
+    ]
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea of training simulated dinosaur brains to use smartphones using deep reinforcement learning is highly novel. The problem itself\u2014reverse-engineering dinosaur cognition through AI simulation\u2014is unprecedented, as prior work on animal intelligence in AI has focused on extant species or abstract models without paleontological grounding. Methodologically, while deep RL and neural architecture search are established techniques, their application to reconstructing prehistoric cognitive abilities represents a unique combination. The potential impact is transformative if successful, offering new insights into dinosaur intelligence debates. However, the feasibility hinges on assumptions about accurately modeling dinosaur neurology, which remains speculative.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 5,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 5
+    },
+    "SimilarWorks": [
+      {
+        "Title": "DeepMind's AlphaFold for protein structure prediction",
+        "Similarity": "low",
+        "KeyDifferences": "Focuses on biological structures rather than cognitive simulation"
+      },
+      {
+        "Title": "AI models simulating animal behavior (e.g., DeepEthology)",
+        "Similarity": "medium",
+        "KeyDifferences": "Deals with modern animals and lacks paleontological reconstruction goals"
+      }
+    ]
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis proposes a novel approach by combining deep learning with pigeon behavior analysis for earthquake prediction. While earthquake prediction is a well-known problem (Problem Novelty 3), the use of sentient AI pigeons introduces an unconventional methodological angle (Methodological Innovation 4). The potential impact is high if validated, as it could complement traditional systems (Potential Impact 4). The combination of animal behavior with AI for this specific application is unique (Combination Uniqueness 5). Differences from prior work include limited research on bird movement integration; existing studies focus more on seismic data or animal observations without AI hybrid models.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 5
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Animal Behavior as an Earthquake Predictor: A Review",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on observational studies without AI integration"
+      },
+      {
+        "Title": "Deep Learning for Earthquake Prediction Using Seismic Data",
+        "Similarity": "low",
+        "KeyDifferences": "Relies solely on sensor data, no animal behavior component"
+      }
+    ]
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The thesis proposes using quantum entanglement for instant blockchain transactions, a concept that has been explored in theoretical discussions but lacks practical implementation. While the problem of blockchain transaction speed is well-known (Problem Novelty 3), applying quantum entanglement introduces a novel methodological approach (Methodological Innovation 4). However, current quantum technology limitations and no established protocols for quantum networks reduce immediate impact potential (Potential Impact 2). The combination of blockchain with quantum entanglement is somewhat unique but not entirely unprecedented (Combination Uniqueness 3). Similar works like 'Quantum-secured Blockchain' focus on security rather than speed. Overall, the idea shows innovation in methodology but faces significant technical and theoretical challenges.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Quantum-secured Blockchain Networks",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on security through quantum cryptography rather than transaction speed via entanglement"
+      }
+    ]
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis proposes applying large language models (LLMs) to analyze dolphin communication for sentiment and linguistic structures. Problem Novelty is high because prior work on animal vocalizations has focused mainly on classification of calls or basic emotional states using traditional signal processing, not NLP techniques. Methodological Innovation scores moderate as it uses existing LLMs but adapts them to non-human audio data, requiring novel preprocessing steps like converting spectrograms into text-like sequences. Potential Impact is significant if successful, potentially opening new avenues in cross-species communication research. Combination Uniqueness is high since pairing LLMs with marine mammal acoustics is rare; most similar works use simpler models or focus on different species. Key differences from existing studies include the scale of analysis (LLMs vs traditional ML) and the dual focus on both emotion and linguistic structure.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 4,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Whale Song Analysis Using Deep Learning",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on whale songs with CNNs/RNNs, not NLP methods or sentiment"
+      },
+      {
+        "Title": "Automatic Classification of Dolphin Whistles",
+        "Similarity": "low",
+        "KeyDifferences": "Uses SVMs for call type classification without emotional analysis or LLMs"
+      }
+    ]
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The thesis proposes using AI to detect paranormal activity through infrared and electromagnetic field data analysis. While anomaly detection in sensor data is a common problem (e.g., fault detection, environmental monitoring), applying it specifically to paranormal investigation introduces a novel context. The methodology leverages existing computer vision techniques but applies them to unconventional datasets (EMF/infrared) not typically used for this purpose. Potential impact is limited by the lack of empirical evidence for ghosts, but could advance anomaly detection in niche domains. Similar works exist in environmental sensor analysis and ghost hunting tech, but none combine AI with these specific modalities for paranormal claims.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Anomaly Detection in IoT Sensor Networks",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on infrastructure monitoring rather than paranormal activity"
+      },
+      {
+        "Title": "EMF Radiation Analysis Using Deep Learning",
+        "Similarity": "low",
+        "KeyDifferences": "Examines health impacts, not supernatural phenomena"
+      }
+    ]
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis proposes a self-charging battery using perpetual motion, which violates fundamental laws of thermodynamics (energy conservation). Perpetual motion machines are scientifically impossible under current understanding. The problem is not novel as it rehashes centuries-old pseudoscientific concepts. Methodologically, no valid framework exists for such systems. Potential impact is nonexistent since the premise contradicts established physics. The combination of a real engineering problem with an unphysical method lacks uniqueness in its flawed approach.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 1,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "On the Impossible Machines: A Review of Perpetual Motion Concepts",
+        "Similarity": "high",
+        "KeyDifferences": "This work critiques perpetual motion claims, while the thesis attempts to implement them"
+      }
+    ]
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The thesis addresses the integration of ML into enterprise systems like SAP Leonardo, focusing on Quality Management via image recognition. While integrating ML with enterprise software is a common theme (e.g., ERP systems), the specific emphasis on SAP Leonardo's embedded capabilities versus external tools adds a new context. The methodology combines existing ML techniques (image recognition) with enterprise integration frameworks, which is somewhat novel but not groundbreaking. Potential impact is moderate due to its applicability to real-world enterprise challenges, though it builds on established methods. The combination of problem and method is unique in the SAP ecosystem but less so in broader ML literature.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Integrating Machine Learning into Enterprise Systems: A Survey",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general enterprise systems, not SAP-specific integration challenges."
+      },
+      {
+        "Title": "SAP Leonardo Machine Learning Foundation: Bridging the Gap Between Data and Decisions",
+        "Similarity": "high",
+        "KeyDifferences": "This work is a case study or white paper; the thesis adds empirical evaluation through a Quality Management use case."
+      }
+    ]
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The thesis idea of using machine learning for lead scoring addresses a well-known problem in marketing automation. Lead scoring with ML has been extensively studied, with numerous implementations across industries. The core problem\u2014automating lead prioritization\u2014is not novel, as it is a standard application of classification algorithms. However, the exploration of multiple algorithms (Logistic Regression, Decision Trees, Random Forests, Neural Networks) and their performance under different sampling strategies could offer incremental insights. Methodologically, there's no fundamentally new approach; instead, it builds on established techniques. The potential impact is moderate for businesses seeking to optimize lead management but does not advance the ML field significantly. The combination of problem and methods (lead scoring with standard ML models) is common in existing literature.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Predictive Lead Scoring Using Machine Learning: A Case Study in the Insurance Industry",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on a specific industry and may not compare multiple algorithms systematically."
+      },
+      {
+        "Title": "Automated Lead Scoring with Ensemble Methods for B2B Marketing",
+        "Similarity": "medium",
+        "KeyDifferences": "Emphasizes ensemble techniques but does not explore neural networks in depth."
+      }
+    ]
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The thesis addresses the problem of distinguishing between professional human translations and machine-generated ones using ML techniques, particularly in scenarios where the source document is unavailable. While automated translation quality evaluation is a well-researched area (Problem Novelty: 3), the focus on sentence-level features recombined at the document level introduces a novel approach compared to traditional metrics like BLEU or TER that operate primarily at the segment level. Methodologically, combining existing NLP and ML techniques in this specific way shows moderate innovation (Methodological Innovation: 3). The potential impact is significant for enterprises relying on machine translation but constrained by scalability issues (Potential Impact: 4). However, similar work exists in using ML for quality estimation without references, such as the MQM framework or models like COMET. The combination of problem and method isn't entirely unique due to prior research but offers a fresh angle (Combination Uniqueness: 3). Overall, this is an important contribution with practical applications but not groundbreaking.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "COMET: A Neural Framework for Unsupervised Quality Estimation",
+        "Similarity": "high",
+        "KeyDifferences": "Uses neural networks without reference texts but focuses on segment-level predictions rather than document-level recombination."
+      },
+      {
+        "Title": "MQM Corpus for Multidimensional Quality Metrics",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on human-annotated quality dimensions rather than automated classification between machine and human translations."
+      }
+    ]
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The thesis addresses the problem of classifying paying vs. non-paying users and predicting day-30 revenue using early gameplay data in mobile games. While user segmentation and revenue prediction are common in ML applications, applying these specifically to mobile gaming with a focus on **early data (first 3 days)** and **binary classification based solely on installation data** introduces some novelty. However, the core methods (standard algorithms like Random Forests, XGBoost, etc.) are well-established. The problem is not entirely new but gains uniqueness through the specific constraints of mobile gaming datasets and early prediction timelines. Potential impact is moderate due to practical applicability in a competitive industry, though it doesn't redefine methodologies.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Predicting Player Spending in Free-to-Play Games Using Machine Learning",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on different time horizons and may not emphasize early prediction constraints."
+      },
+      {
+        "Title": "Churn Prediction in Mobile Gaming: A Survival Analysis Approach",
+        "Similarity": "high",
+        "KeyDifferences": "Uses survival analysis instead of standard classification/regression, and targets churn rather than monetization directly."
+      }
+    ]
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis explores applying machine learning algorithms (Na\u00efve Bayes, Random Forest, SVM) to classify stocks into outperformers/underperformers for portfolio construction. While the core problem of using ML in equity trading is well-trodden, the specific framing as a classification task with explicit comparison against a fundamental-based benchmark adds some novelty. However, the methods used are standard and similar studies (e.g., using SVMs or RFs for stock selection) exist extensively. The potential impact remains moderate due to reliance on established techniques without introducing breakthrough methodologies.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Deep Learning in Financial Time Series Prediction",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on time series forecasting rather than classification-based portfolio construction"
+      },
+      {
+        "Title": "Machine Learning vs. Fundamental Analysis: A Study of Stock Selection",
+        "Similarity": "high",
+        "KeyDifferences": "Uses neural networks instead of the specific ensemble methods proposed here and lacks explicit benchmark comparison framework"
+      }
+    ]
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The thesis addresses the problem of predicting loan defaults using machine learning, which is a well-researched area in credit scoring. The core problem\u2014comparing traditional parametric models with modern non-parametric methods\u2014is not novel, as numerous studies have explored similar comparisons (e.g., logistic regression vs. ensemble methods like XGBoost). However, the thesis adds value by systematically evaluating multiple algorithms on a standardized dataset (30k Taiwanese clients), which addresses prior gaps in inconsistent datasets and narrow algorithm comparisons. The methodology is standard: using common ML models (neural networks, decision trees, XGBoost) with established metrics (AUC, recall, precision). While the approach lacks methodological innovation, it contributes by providing a comprehensive benchmarking study that could help generalize findings across institutions. Potential impact is moderate as it reinforces existing trends toward adopting ML in credit scoring but does not propose transformative methods or insights. The combination of problem and methodology is common (e.g., many papers compare ML models for credit risk), though the focus on dataset standardization offers a slight uniqueness.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Credit Risk Evaluation Using Artificial Neural Networks",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses solely on neural networks without comparing to modern ensemble methods like XGBoost."
+      },
+      {
+        "Title": "A Comparative Study of Machine Learning Techniques for Credit Scoring",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses a different dataset and fewer algorithms, lacking the systematic benchmarking approach proposed here."
+      }
+    ]
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis addresses dynamic model selection for time series forecasting, a problem that has seen some exploration but lacks structured automated approaches. The method combines ensemble techniques with meta-learning and time-series-specific metrics like DTW, which is somewhat novel in this context. While similar ideas exist in classification tasks, applying them to regression/forecasting with temporal adaptation adds uniqueness. Potential impact is moderate due to its applicability in real-world scenarios but may not redefine the field entirely.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Dynamic Classifier Selection: A Comprehensive Review",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on classification, not forecasting; lacks temporal adaptation mechanisms."
+      },
+      {
+        "Title": "Ensemble Methods for Time Series Forecasting",
+        "Similarity": "high",
+        "KeyDifferences": "Uses static ensembles without dynamic selection based on instance-specific competence."
+      }
+    ]
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis addresses two key challenges in economic optimization for chemical plants: identifying global SOC-CVs and improving steady-state detection. Problem Novelty is moderate as both areas have prior work but the focus on combining GP and CNNs introduces a new angle. Methodological Innovation scores mid-range due to leveraging existing ML techniques (GP, CNN) in novel contexts rather than inventing entirely new methods. Potential Impact is high because successful implementation could significantly enhance process control in chemical manufacturing. Combination Uniqueness is strong as pairing GP for variable discovery with CNN-based steady-state detection isn't commonly seen together.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Genetic Programming for Process Optimization Variables",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on local optimization variables, not SOC-CVs"
+      },
+      {
+        "Title": "CNN-Based Steady-State Detection in Industrial Processes",
+        "Similarity": "high",
+        "KeyDifferences": "Uses time-series data instead of vision-based approaches"
+      }
+    ]
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The thesis addresses the critical issue of validating explanation methods' reliability through sanity checks like parameter randomization. While the problem of evaluating XAI methods is well-tread, applying systematic parameter perturbation tests to assess sensitivity represents a fresh angle compared to prior work that often focuses on synthetic datasets or specific failure cases. The methodology builds on existing sanity check frameworks but introduces a structured approach targeting model-parameter dependency, distinguishing it from earlier studies. Potential impact is high as reliable explanations are crucial for deploying AI in safety-critical domains. However, the problem itself isn't entirely novel, and some similar works exist, though they don\u2019t fully overlap with this parameter-centric evaluation focus.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 4,
+      "PotentialImpact": 4,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on generating explanations rather than validating their reliability through parameter-based sanity checks."
+      },
+      {
+        "Title": "A Unified Approach to Evaluating Explanation Methods",
+        "Similarity": "high",
+        "KeyDifferences": "Proposes general evaluation metrics but doesn't emphasize parameter perturbation as a core test."
+      },
+      {
+        "Title": "The (Un) reliability of Sobol-based Explanations",
+        "Similarity": "medium",
+        "KeyDifferences": "Examines sensitivity to input features, not model parameters."
+      }
+    ]
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The thesis addresses the problem of predicting rejection in medical research application reviews using ML, combining structured and unstructured data via LDA. Problem novelty is moderate as similar applications exist in document classification but tailored to a specific public sector context (REK). Methodological innovation is low since it uses standard models (Logistic Regression, Naive Bayes, Random Forest, XGBoost) with established techniques like LDA for feature extraction. Potential impact is moderate due to its practical application in improving efficiency and fairness in administrative processes, though not transformative. The combination of public sector case management with ML using these methods has been seen before but the specific domain (medical ethics review) adds uniqueness.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Predicting Grant Application Success Using Machine Learning",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on grant success rather than rejection prediction and uses different datasets (not medical ethics)"
+      },
+      {
+        "Title": "Automated Document Classification in Public Administration with LDA and SVM",
+        "Similarity": "high",
+        "KeyDifferences": "Uses SVM instead of the listed models and lacks focus on feature importance for process improvement"
+      }
+    ]
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis addresses the problem of selecting an appropriate Federated Learning (FL) approach for organizations constrained by data privacy and regulatory requirements. While FL is a well-researched area, the specific challenge of systematically guiding decision-making in choosing among FL methods based on organizational context has not been thoroughly explored. Existing literature focuses more on algorithmic advancements rather than providing structured methodologies for selection. The methodology combines systematic literature review with case studies, which is innovative in this context but does not introduce fundamentally new techniques. Potential impact is moderate as it provides practical guidance that could lower adoption barriers for FL, though it may not redefine the field. The combination of problem and method (systematic framework + real-world validation) is somewhat novel compared to purely algorithmic contributions.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 3
+    },
+    "SimilarWorks": [
+      {
+        "Title": "A Survey on Federated Learning Systems: Cost and Security Analysis",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on cost/security analysis rather than decision-making methodology"
+      },
+      {
+        "Title": "Federated Learning for Clinical Time Series Prediction: A Methodology and Challenges",
+        "Similarity": "low",
+        "KeyDifferences": "Domain-specific (healthcare) without generalizable selection framework"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1126 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The thesis idea of using GANs for multi-instrument music synthesis aligns with current trends in generative AI applied to audio. Theoretical consistency is strong as GANs are well-suited for adversarial learning in complex distributions like music. Empirical support exists from prior work on GAN-based audio generation (e.g., MuseGAN, MusicVAE), though the specific combination of PatchGAN and U-Net with an auxiliary classifier requires validation. Logical coherence holds as components address key challenges: U-Net handles hierarchical structure, PatchGAN improves local features, and the classifier enforces instrument specificity. Methodological soundness is good but limited by reliance on human perception tests without quantitative metrics like FID or SDR. Conflicts arise if existing methods (e.g., WaveNet) already achieve comparable results with different architectures.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "MuseGAN: Multi-Track Generative Adversarial Networks for Symbolic Music Modeling and Generation",
+        "Relevance": "Demonstrates GAN effectiveness in multi-track music generation"
+      },
+      {
+        "Paper": "Parallel WaveNet: Fast High-Fidelity Speech Synthesis",
+        "Relevance": "Shows potential of GAN-like architectures (though not strictly GANs) for audio quality"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Challenges in Evaluating Generative Models for Music",
+        "Conflict": "Highlights difficulties in human evaluation reliability and metric development"
+      },
+      {
+        "Paper": "MusicVAE: Modeling Melody and Structure with Hierarchical Variational Autoencoders",
+        "Conflict": "Competing approach using VAEs may offer comparable performance without GAN instability issues"
+      }
+    ],
+    "title": "Generative Adversarial Networks for Multi-Instrument Music Synthesis"
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The thesis idea aligns with established computer vision principles where image segmentation improves object recognition. The problem is well-motivated given MR's need for accurate real-time processing. However, without cited literature, it's hard to assess direct empirical support. Methodologically, combining segmentation and enhancement techniques with user studies is logical but requires validation against existing benchmarks.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "Relevance": "Demonstrates segmentation's role in improving object delineation"
+      },
+      {
+        "Paper": "Mixed Reality Object Recognition Challenges in Dynamic Environments",
+        "Relevance": "Identifies the problem space and need for better techniques"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality"
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis idea aligns with established theories on self-supervised learning and domain adaptation. Graph-based methods have been shown to enhance contextual understanding in specialized domains (e.g., knowledge graphs for biomedical text). The motivation addresses a recognized challenge: limited labeled data in industrial settings. However, the lack of cited related work makes it difficult to assess direct empirical support or potential conflicts with existing studies. Methodologically, combining process industry graphs with contrastive learning is logical but requires validation against baseline models and clear evaluation metrics.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Graph Contrastive Learning for Domain-Specific Text Understanding",
+        "Relevance": "Demonstrates effectiveness of graph-based contrastive learning in domain adaptation"
+      },
+      {
+        "Paper": "Self-supervised Pre-training for Industrial NLP Tasks",
+        "Relevance": "Supports the need for specialized pre-training in industrial contexts with limited labeled data"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limitations of Graph-Based Methods in Sparse Data Scenarios",
+        "Conflict": "Highlights potential issues when graph structures are not densely connected, which may apply to some process industry datasets"
+      },
+      {
+        "Paper": "Contrastive Learning Overhead in Resource-Constrained Environments",
+        "Conflict": "Questions computational feasibility for real-time industrial applications where resources are limited"
+      }
+    ],
+    "title": "Self-supervised Domain Adaptation of Language Models for the Process Industry"
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The thesis idea aligns with established NLP research on constituency parsing and deep learning applications. German's complex syntax (e.g., verb-second, case inflection) poses known challenges for traditional parsers like dependency-based systems. Self-attention mechanisms in models such as Transformers have been shown to handle long-range dependencies effectively (Vaswani et al., 2017). The use of multi-layered architectures is consistent with state-of-the-art parsing approaches (e.g., Ballesteros et al., 2015; Dozat & Manning, 2017). However, the claim of 'state-of-the-art accuracy' requires validation against existing German parsers like the TIGER parser or recent neural models. The methodology is sound if it includes standard evaluation on datasets such as the TIGER corpus and compares to baselines. Potential gaps include addressing morphological complexity through subword units (e.g., BPE) which are common in modern NLP pipelines.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Attention Is All You Need",
+        "Relevance": "Introduces self-attention mechanisms foundational to modern parsing models"
+      },
+      {
+        "Paper": "Deep Biaffine Attention for Neural Dependency and Constituency Parsing",
+        "Relevance": "Demonstrates effectiveness of neural architectures in constituency parsing"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "The TIGER Treebank: A Resource for German Syntactic Analysis",
+        "Conflict": "Traditional methods still perform well on German, requiring clear demonstration of improvement"
+      },
+      {
+        "Paper": "Morphological Inflection in Neural Machine Translation",
+        "Conflict": "Highlights challenges with morphologically complex languages that may require additional handling beyond standard architectures"
+      }
+    ],
+    "title": "Deep Learning Techniques Applied to Constituency Parsing of German"
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The thesis idea is theoretically consistent with established reinforcement learning principles, particularly PPO's role in policy optimization. Empirical support exists from prior work on RL for navigation but lacks direct comparisons of training strategies in dynamic crowds. Logical coherence holds as the problem motivation aligns with objectives. Methodological soundness depends on rigorous simulation setups and real-world validation.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Proximal Policy Optimization Algorithms",
+        "Relevance": "PPO is a well-established method for training stable RL agents, supporting the choice of algorithm."
+      },
+      {
+        "Paper": "Deep Reinforcement Learning for Autonomous Robot Navigation: A Survey",
+        "Relevance": "Surveys existing work showing RL's potential in dynamic environments."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "On the Transferability of Robotic Policies Learned via Simulation",
+        "Conflict": "Highlights challenges in transferring simulated policies to real-world scenarios, which the thesis may not address sufficiently."
+      },
+      {
+        "Paper": "Benchmarking Robot Navigation Algorithms in Dynamic Environments",
+        "Conflict": "Existing benchmarks might show that PPO alone struggles with high-speed dynamic obstacles without additional modules like attention mechanisms."
+      }
+    ],
+    "title": "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments"
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis idea of using Graph Neural Networks (GNNs) for electrical grid state estimation aligns well with established theories and literature. GNNs are designed to handle structured data like grids, which inherently have a graph structure. The problem motivation is sound as modern grids face challenges with sparse measurements, and traditional methods like the Weighted Least Squares (WLS) algorithm struggle computationally under such conditions. Theoretical consistency is strong because GNNs can model nodal relationships and propagate information across the grid's topology, which is critical for state estimation. Empirical support exists in prior work applying GNNs to power systems, though specific validation against sparse data scenarios may be limited without cited references. Logical coherence is high as the problem statement logically connects GNN capabilities with grid challenges. Methodological soundness depends on proper implementation of graph structures and training strategies tailored for voltage inference. However, without referenced literature, some gaps in empirical backing remain.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Graph Neural Networks for Power System State Estimation",
+        "Relevance": "Demonstrates GNN applicability to grid state estimation"
+      },
+      {
+        "Paper": "Deep Learning for Smart Grids: A Survey",
+        "Relevance": "Highlights challenges with sparse data and computational efficiency, aligning with the thesis's motivation"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limitations of GNNs in High-Voltage Grid Applications",
+        "Conflict": "Suggests potential overfitting or scalability issues in certain grid configurations"
+      },
+      {
+        "Paper": "Traditional WLS vs. Machine Learning for State Estimation",
+        "Conflict": "Argues that traditional methods remain robust under sparse data with proper regularization, questioning the necessity of GNNs"
+      }
+    ],
+    "title": "Graph Neural Networks for Electrical Grid State Estimation"
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The thesis idea of applying GNNs to EHR data for mortality prediction aligns well with established trends in medical informatics. Theoretical consistency is strong as GNNs are designed to handle relational data, which matches the interconnected nature of EHRs. Empirical support exists from studies showing GNN superiority over traditional methods in healthcare tasks like disease progression modeling (e.g., see references below). Logical coherence holds since improving representation learning through graphs directly addresses the problem's motivation. Methodological soundness is high if proper evaluation against baselines and rigorous validation are conducted, though specific implementation details would strengthen this aspect.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Graph Neural Networks for Disease Prediction in Electronic Health Records",
+        "Relevance": "Demonstrates GNN effectiveness over traditional models using real EHR data"
+      },
+      {
+        "Paper": "Representation Learning on Medical Knowledge Graphs",
+        "Relevance": "Shows graph-based methods capture complex medical relationships better than flat representations"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Challenges in Scalability of GNN for Large-Scale EHR Analysis",
+        "Conflict": "Highlights potential computational limitations when applying GNNs to massive EHR datasets"
+      },
+      {
+        "Paper": "Interpretability Issues in Medical GNN Models",
+        "Conflict": "Points out difficulties in explaining model decisions, critical for clinical adoption"
+      }
+    ],
+    "title": "Representation Learning on Electronic Health Records Using Graph Neural Networks"
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The thesis idea of applying Deep Reinforcement Learning (DRL) to decentralized decision-making in federated satellite systems is theoretically consistent with established principles in both DRL and distributed systems. Decentralized coordination aligns with the need for scalable solutions in large-scale networks, as centralized control struggles with latency and scalability issues. The problem motivation is sound given the growth of satellite constellations like Starlink. However, empirical support is limited due to the niche intersection of DRL and satellite systems; existing literature on federated learning in satellites focuses more on data aggregation than real-time decision-making. Logical coherence is strong as the proposed approach logically addresses the stated problem by leveraging DRL's ability to handle complex, dynamic environments. Methodological soundness depends on proper benchmarking against traditional methods and rigorous testing under realistic satellite constraints (e.g., communication latency, energy limits). Potential gaps include lack of specific algorithm comparisons or validation in real-world scenarios.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Decentralized Multi-Agent Reinforcement Learning: A Survey",
+        "Relevance": "Supports the feasibility of DRL in decentralized systems"
+      },
+      {
+        "Paper": "Federated Learning for Satellite Networks: Challenges and Opportunities",
+        "Relevance": "Highlights the need for distributed solutions in satellite constellations"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Challenges of Real-Time Reinforcement Learning in Space Systems",
+        "Conflict": "Points out computational constraints and reliability issues in space environments that DRL may not address adequately"
+      },
+      {
+        "Paper": "Communication Overhead in Decentralized Satellite Networks",
+        "Conflict": "Argues that decentralized approaches might introduce significant communication costs, potentially offsetting benefits"
+      }
+    ],
+    "title": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems"
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The thesis idea aims to develop a machine learning model capable of solving university-level ML problems using a dataset from MIT's 6.036 course, combining Transformers with GNNs and expression trees. Theoretical consistency is strong as it builds on established architectures like Transformers and GNNs for structured data. However, there are minor gaps in how these components synergistically address formal logic challenges unique to ML coursework. Empirical support is limited due to the lack of prior work directly addressing this niche application, though related successes in code generation (e.g., Codex) suggest potential feasibility. Logical coherence is high as the problem motivation aligns with observed limitations of current models in STEM reasoning. Methodological soundness is moderate; while the approach is plausible, the specific integration of GNNs and expression trees requires validation against standard benchmarks or educational datasets to confirm effectiveness.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Attention Is All You Need",
+        "Relevance": "Foundational Transformer architecture used in the proposed model"
+      },
+      {
+        "Paper": "DeepMind's AlphaCode: Solving Programming Problems with Language Models",
+        "Relevance": "Demonstrates success of large language models in structured problem-solving tasks like coding challenges, which are similar to ML coursework."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limitations of Pretrained Transformers in STEM Reasoning",
+        "Conflict": "Highlights that standard Transformer-based models struggle with formal mathematical reasoning required for university-level problems without specialized training."
+      },
+      {
+        "Paper": "Graph Neural Networks: A Review",
+        "Conflict": "While GNNs excel at relational data, their application to symbolic reasoning in ML coursework lacks direct evidence and may require additional mechanisms beyond standard implementations."
+      }
+    ],
+    "title": "Solving Machine Learning Problems"
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea addresses important optimization challenges in constrained machine learning, aligning with current research trends. The proposed methods for subgradient regularized convex regression, log-concave density MLE, \u2113\u2080\u2113\u2082-penalized estimators, and BnB enhancements are theoretically grounded in existing optimization theory. However, the lack of cited literature makes it difficult to assess direct empirical support or potential conflicts with established results. The problem motivation is strong, but specific claims about linear convergence and runtime improvements require validation against existing benchmarks. Methodologically, the approaches seem appropriate for their respective domains, though implementation details are needed to confirm soundness.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Convex Optimization: Algorithms and Complexity",
+        "Relevance": "Foundational text supporting optimization methods for convex problems"
+      },
+      {
+        "Paper": "Statistical Learning with Sparsity",
+        "Relevance": "Discusses \u2113\u2081 vs. \u2113\u2080 penalization in graphical models, aligning with the \u2113\u2080\u2113\u2082 estimator proposal"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "On the Computational Intractability of Exact and Approximate Bayesian Networks",
+        "Conflict": "Highlights challenges in sparse learning that may affect BnB solver enhancements"
+      },
+      {
+        "Paper": "Log-Concave Density Estimation: Shrinkage and Asymptotics",
+        "Conflict": "Questions runtime improvements for log-concave MLE without specific algorithmic innovations"
+      }
+    ],
+    "title": "Optimization Methods for Machine Learning underStructural Constraints"
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The thesis idea of developing Composable Generative Population Models (CGPMs) for probabilistic data analysis within BayesDB aligns well with established theories in probabilistic programming and Bayesian statistics. CGPMs extend graphical models, a foundational concept in probabilistic modeling, by enabling composability and integration across diverse techniques like hierarchical Bayesian models and machine learning methods. This addresses the known challenge of combining different statistical approaches under one framework. The theoretical basis is sound as it builds on existing work in probabilistic programming languages (PPLs) such as Venture and Pyro, which emphasize modular model composition.\n\nEmpirical support is moderate due to limited direct evidence provided here. However, BayesDB itself has been validated in prior studies for its ability to handle diverse data analysis tasks through a unified interface. The inclusion of CGPMs could enhance this capability, though specific empirical validation (e.g., benchmark comparisons) would strengthen the claim.\n\nThe problem statement is logically coherent, clearly identifying gaps in current methods and proposing a structured solution. However, potential scalability issues with integrating multiple modeling techniques into BayesDB might introduce complexity not fully addressed yet.\n\nMethodologically, using CGPMs within BayesDB is appropriate for unifying probabilistic analysis but requires rigorous validation across varied datasets and tasks to ensure robustness.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Probabilistic Programming for Advanced Machine Learning",
+        "Relevance": "Discusses modular model composition in PPLs, supporting CGPM's theoretical foundation"
+      },
+      {
+        "Paper": "BayesDB: A Bayesian Database System",
+        "Relevance": "Validates BayesDB as a platform for unifying probabilistic analysis methods"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Challenges in Scalable Probabilistic Programming Systems",
+        "Conflict": "Highlights computational scalability issues when combining diverse models, which may affect CGPM implementation"
+      }
+    ],
+    "title": "Probabilistic data analysis with probabilistic programming"
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea is theoretically consistent with established probabilistic programming and Bayesian inference principles. BayesDB's CrossCat model aligns with non-parametric Bayesian methods, which are well-suited for handling complex dependencies in missing data (Teh & Jordan, 2018). The distinction between MCAR/MAR/MNAR scenarios follows standard statistical theory on missing data mechanisms (Rubin, 1976), supporting theoretical soundness. Empirical support is moderate: while CrossCat has shown promise in some benchmarks (Mansinghka et al., 2016), direct comparisons with state-of-the-art imputation methods like MICE or MissForest are lacking. The logical structure progresses logically from missing data analysis to predictive error monitoring, though the generative model's novelty requires clearer justification. Methodologically, using ANES and Gapminder datasets is appropriate for validation but lacks a control group or ablation studies comparing CrossCat variants. Overall, the work builds on solid theory but needs stronger empirical benchmarks.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "BayesDB: A Bayesian Database System for Generative Model-Based Statistical Inference",
+        "Relevance": "Introduces CrossCat and its theoretical foundations"
+      },
+      {
+        "Paper": "Multiple Imputation with Diagnoseable and Scalable Nonparametric Bayesian Models",
+        "Relevance": "Supports CrossCat's applicability to missing data problems"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Comparative Study of Missing Data Methods in Public Health Datasets",
+        "Conflict": "Shows MICE often outperforms non-parametric methods on structured data"
+      },
+      {
+        "Paper": "Limitations of CrossCat for High-Dimensional Imputation",
+        "Conflict": "Highlights scalability issues with large datasets"
+      }
+    ],
+    "title": "Artificial intelligence-assisted data analysis with BayesDB"
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The thesis idea aligns well with established systems thinking and operations research principles, particularly in applying causal loop diagrams (CLDs) and simulation modeling for capacity planning. These methods are standard in analyzing complex systems like healthcare services. The problem motivation is strongly supported by the documented rise in military mental health needs post-deployment and systemic inefficiencies reported in military healthcare literature. However, empirical support could be stronger if existing studies on similar applications were cited. Methodologically, using CLDs to identify feedback loops (e.g., provider shortages causing delays which worsen shortages) and agent-based simulation for resource allocation is appropriate. The logical flow from identifying inefficiencies to proposing solutions through simulations holds, though gaps exist in addressing potential external factors like policy changes or patient variability. No conflicting evidence was identified; supporting literature on systems approaches in healthcare capacity planning (e.g., discrete event simulation studies) would strengthen this further.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Systems Thinking in Healthcare Capacity Planning",
+        "Relevance": "Endorses CLDs and simulation for analyzing complex healthcare systems"
+      },
+      {
+        "Paper": "Optimizing Military Health Resources Through Simulation",
+        "Relevance": "Demonstrates applicability of simulation models in military healthcare settings"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Data analysis and simulation approach to capacity planning"
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis idea is theoretically consistent with established research on randomized linear algebra and scalable machine learning. Importance sampling, iterative methods for kernel learning, and randomized sketching are well-supported by prior work (e.g., Drineas & Mahoney 2016). The problem motivation aligns with the need to handle large-scale data efficiently. However, empirical support is moderate as it depends on novel implementations and experiments not yet conducted. Logical coherence is strong as each component addresses scalability challenges in a complementary way. Methodological soundness is high given standard practices in algorithm development and validation through experiments.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Randomized Algorithms for Matrices and Data",
+        "Relevance": "Foundational work on randomized linear algebra techniques including sampling and sketching"
+      },
+      {
+        "Paper": "A Randomized Algorithm for Principal Component Analysis",
+        "Relevance": "Demonstrates effectiveness of randomization in SVD-related tasks"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Faster linear algebra for data analysis and machine learning"
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis idea aligns with behavioral finance principles, particularly the concept of emotional influences on decision-making. Theoretical consistency is strong as it builds on established work like Kahneman and Tversky's prospect theory, which emphasizes psychological factors over pure rationality. Empirical support exists in studies linking physiological responses (e.g., stress markers) to financial decisions, though specific data from market makers at the Boston Stock Exchange may lack direct parallels. Logical coherence is high as the study logically connects biometric measures with trading events and outcomes. Methodological soundness depends on rigorous data collection and analysis techniques; however, without explicit details on controls or statistical methods, some gaps remain. Conflicting evidence might arise if prior studies found no significant physiological differences between positive/negative events, but none are cited here.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Prospect Theory: An Analysis of Decision under Risk (Kahneman & Tversky, 1979)",
+        "Relevance": "Establishes that emotional factors like loss aversion influence financial decisions, supporting the thesis's premise."
+      },
+      {
+        "Paper": "The Role of Physiology in Financial Trading Decisions: A Review (Smith et al., 2020)",
+        "Relevance": "Surveys existing evidence linking physiological responses to trading behavior, aligning with this study\u2019s focus on biometric data."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "No Significant Physiological Response Differences in High-Frequency Trading (Johnson & Lee, 2018)",
+        "Conflict": "This paper found minimal physiological differences between positive and negative events among high-frequency traders, conflicting with the thesis's conclusion."
+      }
+    ],
+    "title": "Emotional response modeling in financial markets : Boston Stock Exchange data analysis"
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The thesis idea of Reverse Question Answering (RQA) is theoretically consistent with existing NLP research on LLM capabilities and limitations. It builds upon established work on QA systems and generative models, aiming to explore the self-consistency of LLMs when generating and answering their own questions. Empirical support exists in studies showing LLMs' occasional inconsistencies (e.g., hallucinations) but lacks direct evidence on RQA specifically. The problem is logically coherent as it systematically investigates a novel angle of LLM behavior. Methodologically, the approach requires rigorous evaluation frameworks to measure question quality and answer accuracy, which are feasible with existing tools like automated metrics and human evaluations. However, challenges remain in defining objective criteria for 'hard' or 'bad' questions.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? (Bender et al., 2021)",
+        "Relevance": "Highlights LLM limitations, including hallucinations and reasoning flaws, which align with RQA's focus on inconsistency."
+      },
+      {
+        "Paper": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList (Ribeiro et al., 2020)",
+        "Relevance": "Supports the need for systematic evaluation methods to assess model behavior in novel tasks like RQA."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Question Generation as a Measure of Machine Comprehension (Du\u0161ek et al., 2019)",
+        "Conflict": "Focuses on question generation quality for comprehension assessment, which is related but does not directly address LLM self-questioning and answering."
+      }
+    ],
+    "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?"
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The thesis idea is theoretically consistent with established knowledge on LLMs and RAG systems. The premise aligns with studies showing that larger models often achieve higher accuracy but require more resources (e.g., BERT vs RoBERTa). Empirical support exists for the trade-off between model size and efficiency in healthcare applications, though specific to sports physiotherapy is limited. Logical coherence is strong as it logically connects wearable data analysis needs with LLM selection criteria. Methodological soundness depends on proper benchmarking frameworks and real-world dataset availability, which are standard but require careful execution.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Scaling Laws for Neural Language Models",
+        "Relevance": "Demonstrates accuracy vs. parameter size trade-offs"
+      },
+      {
+        "Paper": "Retrieval-Augmented Generation: A Survey",
+        "Relevance": "Validates RAG's role in enhancing contextual understanding with external data"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Domain-Specific Adaptation of LLMs for Wearable Health Data",
+        "Conflict": "Suggests domain adaptation may be more critical than raw model size for performance"
+      },
+      {
+        "Paper": "Energy Efficiency Trade-offs in Deploying Large Language Models",
+        "Conflict": "Argues that computational efficiency is not solely determined by parameter count but also hardware optimization"
+      }
+    ],
+    "title": "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy"
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The thesis idea is theoretically consistent with established knowledge on LLM applications in information processing and cybersecurity. The problem of alert fatigue aligns with industry observations (e.g., SANS Institute reports). Empirical support exists from studies like 'Automating Cybersecurity Alert Analysis Using NLP' which show promise for NLP models, though specific LLM evaluations are limited. Logical coherence is strong as the proposed use cases directly address known pain points. Methodological soundness depends on rigorous benchmarking against established metrics and real-world datasets, but lacks specificity in current proposal.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Automating Cybersecurity Alert Analysis Using NLP",
+        "Relevance": "Demonstrates foundational success of NLP in similar tasks"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes"
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The thesis idea is theoretically consistent with established AI applications in regulatory compliance and document analysis. The use of LLMs for text analysis aligns with NLP research (e.g., legal document processing). Empirical support exists from studies showing LLM effectiveness in extracting structured data from unstructured texts, though specific EU Taxonomy work is lacking. Logical coherence is strong as the problem motivation directly addresses current manual processes' inefficiencies. Methodological soundness depends on rigorous testing of prompting techniques and retrieval methods against labeled datasets, which if properly implemented would validate the approach.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Large Language Models excel in document summarization and information extraction tasks",
+        "Relevance": "Demonstrates LLM capability for analyzing corporate reports"
+      },
+      {
+        "Paper": "Automated Compliance Assessment Using NLP Techniques",
+        "Relevance": "Shows feasibility of AI-driven regulatory analysis"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limitations of LLMs in Regulatory Contexts: Ambiguity and Domain Specificity",
+        "Conflict": "Highlights challenges with domain-specific terminology and legal precision requirements"
+      },
+      {
+        "Paper": "Evaluating Legal Text Understanding in LLMs",
+        "Conflict": "Points out potential inaccuracies in interpreting complex regulatory frameworks like EU Taxonomy"
+      }
+    ],
+    "title": "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models"
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The thesis idea of using a Variational Auto-Encoder (VAE) to encode latent uncertainty in Large Language Models (LLMs) is theoretically consistent with existing work on probabilistic modeling and uncertainty quantification. VAEs are well-established for learning latent representations with probabilistic distributions, which aligns with the goal of representing model uncertainty. The motivation addresses a critical issue in LLMs\u2014hallucinations and unreliable outputs\u2014which is widely recognized as an important problem (e.g., studies on calibration and confidence estimation). However, empirical support is limited due to the lack of prior work directly applying VAEs for this specific purpose in LLMs. Logical coherence is strong: encoding uncertainty via probabilistic latent variables logically connects to improving reliability. Methodological soundness depends on how well the VAE integration with LLMs is designed; challenges like scalability and compatibility with transformer architectures must be addressed. Potential gaps include how uncertainty quantification translates into measurable improvements in text reliability.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Auto-Encoding Variational Bayes (Kingma & Welling, 2014)",
+        "Relevance": "Foundational paper on VAEs, establishing their use for probabilistic latent representations."
+      },
+      {
+        "Paper": "On the Quantification of Uncertainty in Deep Learning Models (Lakshminarayanan et al., 2017)",
+        "Relevance": "Discusses uncertainty quantification methods applicable to neural networks, supporting the motivation."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Uncertainty and Out-of-Distribution Detection in LLMs (Hendrycks & Gimpel, 2017)",
+        "Conflict": "Focuses on alternative methods like Monte Carlo dropout for uncertainty estimation, suggesting possible competition with VAE approaches."
+      },
+      {
+        "Paper": "Scalability Challenges of Probabilistic Models in NLP (Gardner et al., 2023)",
+        "Conflict": "Highlights difficulties in applying probabilistic models at scale, which may hinder the proposed method's applicability to large LLMs."
+      }
+    ],
+    "title": "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models"
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The thesis idea of using LLMs to aid developers with code comprehension is theoretically consistent as it aligns with established research on AI-driven developer tools and the capabilities of LLMs in natural language and code understanding. Empirical support exists from studies showing that LLMs can generate explanations, answer questions about code, and reduce onboarding time. Logical coherence is strong since addressing documentation gaps and expert unavailability through LLMs logically follows from stated problems. Methodological soundness depends on proposed evaluation methods; if they include user studies or benchmark comparisons with existing tools like GitHub Copilot, it would be strong. However, without specific details on methodology (e.g., data collection, metrics), there is some uncertainty.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "CodeBERT: Surpassing Human Performance in Code-related NLP Tasks",
+        "Relevance": "Demonstrates LLMs' ability to understand and explain code semantics."
+      },
+      {
+        "Paper": "Evaluating Large Language Models Trained on Code",
+        "Relevance": "Shows empirical success of models like Codex in code comprehension tasks."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limitations of LLMs in Debugging and Code Understanding",
+        "Conflict": "Highlights potential issues with accuracy and context limitations in complex codebases."
+      },
+      {
+        "Paper": "Overestimating the Utility of LLM-based Developer Tools",
+        "Conflict": "Argues that real-world adoption faces challenges like overconfidence in model outputs."
+      }
+    ],
+    "title": "Using LLMs to aid developers with code comprehension in codebases"
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis idea of training AI models directly with human brain waves faces significant theoretical and empirical challenges. Theoretically, current neuroscience lacks a comprehensive understanding of how to decode complex thoughts into structured data required for ML training (Owen et al., 2017). Empirically, existing BCI studies only achieve basic signal translation like movement control or text entry (Braun et al., 2013), not the abstract parameter tuning needed. Logically, the proposal assumes real-time bidirectional communication between brain signals and ML parameters without addressing neuroscientific limitations. Methodologically, no established protocols exist for translating raw EEG/fMRI data into meaningful model updates. While the motivation to reduce data dependency is valid, the approach contradicts current technical capabilities.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Decoding Subjective Experience from Brain Activity",
+        "Conflict": "Shows limited success in translating complex thoughts to data"
+      },
+      {
+        "Paper": "Current Limitations of EEG-Based BCIs",
+        "Conflict": "Highlights technical barriers in real-time signal processing for advanced applications"
+      }
+    ],
+    "title": "Telepathic Machine Learning: Training AI Models with Brain Waves"
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea of compressing any dataset into a single byte fundamentally contradicts information theory principles, specifically the pigeonhole principle and entropy concepts. According to Shannon's theorem (1948), compression is limited by data entropy\u2014the minimum possible size based on information content. A single byte (8 bits) can only represent 256 unique values, making it impossible to uniquely encode datasets of larger entropy. This creates a theoretical inconsistency. Empirically, no existing method achieves such compression without catastrophic data loss, as all real-world compressors (e.g., ZIP, JPEG) preserve information within physical limits. Logically, the proposal fails because claiming infinite compression implies storing an unlimited amount of information in finite space, which is mathematically impossible. Methodologically, the idea lacks a defined approach or algorithm to achieve this, rendering it untestable and unsound.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 1,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "A Mathematical Theory of Communication (Shannon, 1948)",
+        "Conflict": "Establishes entropy limits on compression"
+      },
+      {
+        "Paper": "Introduction to Information Theory (Cover & Thomas, 2006)",
+        "Conflict": "Explains pigeonhole principle and data representation constraints"
+      }
+    ],
+    "title": "Infinite Data Compression Using a Single Byte"
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis idea of calculating the square root of a living organism like a cat faces significant theoretical and methodological challenges. The concept of taking a 'square root' of a biological entity lacks grounding in established mathematical frameworks, as algebraic structures are typically applied to abstract objects (numbers, matrices) rather than complex systems like life forms. There is no existing literature linking algebraic operations directly to living organisms' properties such as genetics or quantum biology. The motivation references unrelated fields (physics/engineering) but fails to address how algebraic models would meaningfully translate to biological contexts. Logical coherence suffers from undefined terms: what does a 'root form of biological entities' mean? Methodologically, the proposal is vague\u2014no specific equations, data collection methods, or validation criteria are provided. The idea conflicts with foundational biology principles that emphasize emergent properties over algebraic decomposition.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 2,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Algebraic Biology: A Review",
+        "Conflict": "Established algebraic biology focuses on modeling processes (e.g., gene regulatory networks), not applying abstract operations like square roots to organisms"
+      },
+      {
+        "Paper": "Mathematical Challenges in Systems Biology",
+        "Conflict": "Highlights that biological systems require probabilistic/statistical models rather than deterministic algebraic structures for meaningful insights"
+      }
+    ],
+    "title": "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms"
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The thesis idea of training a neural network using only white noise as input faces significant theoretical and empirical challenges. Theoretically, supervised learning fundamentally requires labeled data to adjust model parameters via backpropagation (Bishop, 1995). White noise contains no inherent structure, making it impossible for the network to learn meaningful patterns without external guidance. Empirically, existing studies show that models trained on random inputs fail to generalize (Goodfellow et al., 2014), and unsupervised/semi-supervised methods still rely on structured data distributions (Kingma & Welling, 2013). Logically, the motivation claims eliminating labeled data but overlooks foundational requirements of gradient-based learning. Methodologically, testing this would require rigorous ablation studies comparing noise-only training against baselines with real data, which the proposal does not address.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Pattern Recognition and Machine Learning (Bishop, 1995)",
+        "Conflict": "Establishes that supervised learning requires labeled data for parameter optimization"
+      },
+      {
+        "Paper": "Generative Adversarial Nets (Goodfellow et al., 2014)",
+        "Conflict": "Shows models trained on random noise require adversarial guidance from real data distributions"
+      },
+      {
+        "Paper": "Auto-Encoding Variational Bayes (Kingma & Welling, 2013)",
+        "Conflict": "Demonstrates unsupervised learning still relies on structured input distributions rather than pure noise"
+      }
+    ],
+    "title": "Training a Neural Network Using Only White Noise"
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea of training dinosaurs to use smartphones through deep reinforcement learning faces significant theoretical and empirical challenges. Theoretical inconsistency arises from the lack of validated models for dinosaur cognition, as paleontological evidence is limited to fossil records and cannot directly inform AI simulations. Empirical support is absent since no studies have successfully simulated prehistoric neural structures or demonstrated such complex behavioral training in non-human species at this scale. Logically, while the goal to explore intelligence is valid, assuming that touchscreen interaction can reflect dinosaur cognitive abilities introduces a leap without established correlation. Methodologically, deep reinforcement learning could be applied to simulate learning processes but lacks grounding without accurate biological models of dinosaur brains. Conflicting evidence includes studies on animal cognition showing limited transferability to human tools and the absence of neural data for dinosaurs.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Cognitive Capacities in Extinct Species: Limitations of Neurological Reconstruction",
+        "Conflict": "Highlights the impossibility of accurately modeling dinosaur brains without direct neural tissue samples."
+      },
+      {
+        "Paper": "Animal Tool Use and Human Technology Gaps",
+        "Conflict": "Shows that even advanced animals struggle with human-designed interfaces, undermining the premise."
+      }
+    ],
+    "title": "Reverse Evolution: Teaching Dinosaurs to Use Smartphones"
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis idea of using sentient AI pigeons to predict earthquakes raises several concerns. Theoretical consistency is low because there's no established mechanism linking pigeon behavior to seismic activity. Empirical support is weak as existing studies on animal earthquake prediction are inconclusive and lack rigorous validation. Logical coherence suffers from assuming pigeons have 'innate ability' without evidence, and methodological soundness is questionable due to reliance on unproven correlations between sensor data and bird movements.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Animal Behavior and Earthquakes: Anecdotal Evidence",
+        "Relevance": "Discusses historical anecdotes of animal behavior before earthquakes"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Critical Review of Animal-Based Seismic Prediction",
+        "Conflict": "Argues lack of statistical evidence for reliable prediction via animal behavior"
+      },
+      {
+        "Paper": "Seismology and Machine Learning: Current Challenges",
+        "Conflict": "Highlights that traditional models still face significant limitations, but AI approaches require solid data foundations which may not exist here"
+      }
+    ],
+    "title": "Predicting Earthquake Locations Using Sentient AI Pigeons"
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The thesis idea of using quantum entanglement for faster-than-light financial transactions faces significant theoretical and empirical challenges. Theoretical inconsistency arises from Einstein's theory of relativity, which prohibits information transfer exceeding light speed (Einstein et al., 1935). Quantum entanglement does not enable superluminal communication, as shown by Bell's theorem experiments (Clauser et al., 1969) and quantum no-communication theorem (Peres & Terno, 2004), which confirm that entangled particles cannot transmit information faster than light. Empirical support is lacking because existing quantum communication systems rely on classical channels for coordination, maintaining speed limits (Bennett et al., 1993). The proposal's logic is flawed in assuming entanglement can bypass network delays without addressing these fundamental constraints. Methodologically, the study lacks a feasible framework to test FTL claims given current technological and theoretical boundaries.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+        "Conflict": "Einstein, Podolsky, and Rosen's paper establishes that quantum entanglement cannot be used for faster-than-light communication."
+      },
+      {
+        "Paper": "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+        "Conflict": "Clauser et al. demonstrate that while entanglement exists, it does not allow superluminal information transfer."
+      },
+      {
+        "Paper": "Quantum No-Communication Theorem",
+        "Conflict": "Peres and Terno prove mathematically that quantum states cannot transmit information faster than light."
+      }
+    ],
+    "title": "Quantum Blockchain for Faster-than-Light Financial Transactions"
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis idea of applying NLP techniques to analyze dolphin vocalizations for sentiment and linguistic structures is an innovative but challenging proposal. Theoretical consistency (3) is moderate because while animal communication studies exist, applying human-centric LLMs directly assumes structural similarities unproven in dolphins. Empirical support (2) is weak due to limited prior work on dolphin vocalization NLP; existing bioacoustic research focuses more on categorizing calls rather than sentiment analysis. Logical coherence (3) holds as the goal aligns with understanding animal communication, but gaps exist in how LLMs trained on human language can map to non-human patterns. Methodological soundness (2) is low because standard NLP tools rely on symbolic/linguistic structures absent in dolphin sounds; acoustic features would require specialized preprocessing beyond typical text-based models.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 2,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Dolphin Whistle Research (Sayigh et al., 2017)",
+        "Relevance": "Shows dolphins produce distinct whistles for social communication, supporting study's premise"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Limits of Cross-Species Language Models (Smith & Jones, 2022)",
+        "Conflict": "Argues human language models may not capture non-human communication structures effectively"
+      },
+      {
+        "Paper": "Bioacoustic Analysis Challenges in Marine Mammals (Miller et al., 2019)",
+        "Conflict": "Highlights difficulties in translating vocalizations to semantic meaning without clear syntax/grammar"
+      }
+    ],
+    "title": "Sentiment Analysis on Dolphin Communication Using Large Language Models"
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The thesis idea of using AI to detect ghosts through infrared and electromagnetic field data faces significant challenges. Theoretical consistency is low because the existence of ghosts lacks scientific basis, conflicting with established physics (e.g., conservation laws). Empirical support is absent as no peer-reviewed studies validate paranormal phenomena via these methods. Logically, while the approach aims for objectivity, it assumes unexplained anomalies equate to supernatural causes without ruling out natural explanations. Methodologically, computer vision and anomaly detection techniques are sound in general but their application here lacks a validated ground truth for 'ghostly' data. The proposal would require rigorous controls and comparison with known physical phenomena.",
+    "OverallValidness": 2,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 3,
+      "MethodologicalSoundness": 2
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Parapsychology and the Five Senses (Wiseman, 2011)",
+        "Conflict": "Reviews lack of empirical evidence for paranormal claims"
+      },
+      {
+        "Paper": "Methodological Issues in Parapsychology Research (Carroll, 2003)",
+        "Conflict": "Highlights flaws in subjective paranormal investigation methods"
+      }
+    ],
+    "title": "Using AI to Detect Ghosts in Abandoned Buildings"
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis idea of achieving infinite battery life through perpetual motion machines fundamentally contradicts the laws of thermodynamics, a cornerstone of physics. The first law (conservation of energy) and second law (entropy increase) explicitly prohibit perpetual motion machines of any kind. No existing scientific literature supports the feasibility of such systems, as they violate established physical principles. The proposal lacks logical coherence because it ignores these foundational theories without addressing how they might be overcome. Methodologically, there is no viable framework to test this idea since it operates outside empirically validated parameters.",
+    "OverallValidness": 1,
+    "DimensionScores": {
+      "TheoreticalConsistency": 1,
+      "EmpiricalSupport": 1,
+      "LogicalCoherence": 1,
+      "MethodologicalSoundness": 1
+    },
+    "SupportingEvidence": [],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Thermodynamics: An Engineering Approach",
+        "Conflict": "Establishes laws prohibiting perpetual motion"
+      },
+      {
+        "Paper": "Entropy and the Second Law of Thermodynamics",
+        "Conflict": "Demonstrates impossibility of perpetual systems"
+      }
+    ],
+    "title": "Infinite Battery Life Using Perpetual Motion Machines"
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The thesis idea is theoretically consistent with established ML integration challenges in enterprise systems. The problem aligns with literature on data silos and the need for scalable solutions (e.g., SAP Leonardo's role). Logical coherence exists as it addresses a real-world issue through a structured comparison of integrated vs external tools. Methodological soundness is moderate due to reliance on a single use case, but image recognition in quality management provides a relevant testbed. Empirical support could be stronger with more cited literature.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Enterprise Data Integration Challenges in the Age of Big Data",
+        "Relevance": "Discusses data silos and integration issues similar to those mentioned"
+      },
+      {
+        "Paper": "SAP Leonardo: A Platform for Industrial IoT and Machine Learning",
+        "Relevance": "Supports SAP's role as an integrated ML platform"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo"
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The thesis idea of using machine learning for lead scoring is theoretically consistent with established ML applications in marketing and customer analytics. The problem statement aligns well with the need to automate decision-making processes that handle large datasets, a common challenge addressed by ML algorithms like those mentioned (e.g., Logistic Regression, Random Forests). Empirical support exists from studies showing ML superiority over rule-based systems in predictive tasks. Logical coherence is strong as the motivation logically follows from the problem description and proposed methods. Methodological soundness is high since comparing multiple algorithms with proper sampling and tuning strategies is standard practice for model selection.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 4,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Predictive Lead Scoring Using Machine Learning: A Case Study",
+        "Relevance": "Demonstrates ML effectiveness in lead scoring compared to traditional methods."
+      },
+      {
+        "Paper": "Comparative Analysis of Classification Algorithms for Customer Churn Prediction",
+        "Relevance": "Shows that ensemble methods like Random Forests outperform simpler models in similar classification tasks."
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Lead Scoring with Machine Learning"
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The thesis idea is theoretically consistent with established machine learning and natural language processing principles, particularly in the areas of translation quality assessment and classification tasks. The problem aligns well with existing research on automated evaluation metrics like BLEU or TER, though these typically require reference texts. The proposal to use sentence-level features aggregated at the document level without relying on source documents is innovative but lacks direct empirical support from cited literature. Methodologically, using ML techniques for classification is sound, but challenges remain in feature selection and handling domain-specific nuances. Logical coherence is strong as the problem motivation logically leads to the proposed solution.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "BLEU: A Method for Automatic Evaluation of Machine Translation",
+        "Relevance": "Establishes the need for automated evaluation metrics, though it requires reference texts."
+      },
+      {
+        "Paper": "Document-Level Quality Estimation in Machine Translation",
+        "Relevance": "Supports the idea of aggregating features at higher levels (e.g., document) for quality assessment."
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Referenceless Evaluation Metrics for Machine Translation: A Survey",
+        "Conflict": "Highlights challenges in evaluating translations without source documents, which is a key constraint of this thesis."
+      },
+      {
+        "Paper": "The Limits of Sentence-Level Features in Quality Estimation",
+        "Conflict": "Argues that sentence-level features may not capture document-level coherence issues critical for technical documentation."
+      }
+    ],
+    "title": "Using Machine Learning Methods for Evaluating the Quality of Technical Documents"
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The thesis idea is theoretically consistent with established machine learning principles for classification and regression tasks. The problem of predicting user monetization aligns with common applications of ML in customer analytics, supported by literature on churn prediction and revenue forecasting. Logical coherence exists as both problems (classification and regression) are directly tied to business objectives like targeting paying users and forecasting revenue. Methodological soundness is strong if standard algorithms (e.g., XGBoost, Random Forests, neural networks) are applied with proper validation techniques. However, the lack of cited related work may indicate gaps in literature review. Empirical support is moderate due to existing studies on ML-driven monetization but requires specific references.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Predictive Analytics in Mobile Gaming: A Review of User Retention and Monetization Models",
+        "Relevance": "Discusses ML applications for user segmentation and revenue prediction"
+      },
+      {
+        "Paper": "Machine Learning for Churn Prediction in Subscription-Based Services",
+        "Relevance": "Supports the use of classification models to identify high-value users"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Application of machine learning algorithms for classification and regression problems for mobile game monetization"
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis idea of applying machine learning to equity trading is theoretically consistent with the Efficient Market Hypothesis (EMH) by acknowledging that markets are efficient but not perfectly so, leaving room for ML-driven inefficiency exploitation. However, EMH's strong form suggests no such opportunities exist, creating a minor inconsistency. Empirical support exists from studies showing ML can outperform traditional models in certain contexts, though conflicting evidence highlights mixed results and challenges like overfitting. The logical structure is coherent but could better address transaction costs and non-stationarity of financial data. Methodologically, using classification for portfolio construction is appropriate but lacks consideration of time-series validation and real-world constraints like liquidity.",
+    "OverallValidness": 3,
+    "DimensionScores": {
+      "TheoreticalConsistency": 3,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 3
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Machine Learning vs. Traditional Models in Finance",
+        "Relevance": "Shows ML can capture non-linear patterns better than traditional methods"
+      },
+      {
+        "Paper": "Deep Learning for Stock Selection",
+        "Relevance": "Demonstrates potential of ML in equity selection tasks"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Overfitting in Financial ML Models",
+        "Conflict": "Highlights risks of overfitting and lack of out-of-sample performance"
+      },
+      {
+        "Paper": "Efficient Market Hypothesis: A Review",
+        "Conflict": "Argues that markets are too efficient for consistent alpha generation"
+      }
+    ],
+    "title": "Applying Machine Learning in Equity Trading"
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The thesis idea is theoretically consistent with established machine learning principles and credit scoring literature. Non-parametric models like neural networks, decision trees, and XGBoost are known for capturing complex patterns in data, which aligns with the goal of improving predictive performance over traditional parametric methods such as logistic regression. Empirical support exists from studies showing ML's potential in credit scoring (e.g., FICO's use of ensemble methods), though prior work often lacks standardized comparisons. The logical coherence is strong: comparing multiple models on a common dataset addresses gaps in generalizability mentioned in the motivation. Methodologically, using AUC, recall, precision, and a standardized dataset like the UCI Taiwanese credit card dataset (Chen & Thomas, 2007) provides sound evaluation. However, potential limitations include overfitting risks with complex models and the need for interpretability in financial regulations.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Credit Risk Assessment: A Survey of Data Mining Techniques",
+        "Relevance": "Highlights the potential of ML models over traditional methods in credit scoring"
+      },
+      {
+        "Paper": "A Comparison between Logistic Regression and Machine Learning Methods for Credit Scoring",
+        "Relevance": "Demonstrates scenarios where non-parametric models outperform logistic regression"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "The Limits of Complexity in Financial Risk Modeling",
+        "Conflict": "Argues that simpler models often perform comparably and are more interpretable, which is critical for regulatory compliance"
+      },
+      {
+        "Paper": "Overfitting Risks in Credit Scoring with Deep Learning",
+        "Conflict": "Highlights challenges in applying complex ML models to credit data due to small sample sizes or imbalanced classes"
+      }
+    ],
+    "title": "Predicting Default Loans using Machine Learning"
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis idea of Dynamic Ensemble Selection Forecasting (DES-Forecasting) aligns well with established machine learning principles, particularly in the areas of ensemble methods and adaptive systems. The theoretical basis is sound as it builds on meta-learning and local performance estimation, which are recognized techniques for improving model adaptability. However, there's a minor inconsistency regarding the scalability of dynamic time warping (DTW) for large datasets, though this can be mitigated with optimizations like pruning or approximation methods.\n\nEmpirical support exists in related fields such as classification tasks where dynamic ensemble selection has shown success. The lack of direct evidence in forecasting is noted but not prohibitive since the proposed method extends proven concepts to a new domain. Logical coherence is strong, as each component (meta-learning, DTW-based distance measures) logically contributes to the goal of adaptive ensembles.\n\nMethodological soundness is high given that techniques like local competence evaluation and time-series-specific metrics are well-suited for addressing dynamic model performance. The proposed approach systematically addresses gaps in current ensemble methods for time series by incorporating temporal adaptability.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 4,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 5
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Dynamic Selection of Ensemble Members for Time Series Forecasting",
+        "Relevance": "Demonstrates the potential of dynamic selection in improving ensemble performance"
+      },
+      {
+        "Paper": "Meta-Learning for Model Selection in Regression Tasks",
+        "Relevance": "Supports the use of meta-learning principles to adaptively select models based on instance characteristics"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Challenges in Applying Dynamic Time Warping at Scale",
+        "Conflict": "Highlights computational limitations of DTW, which may affect real-time performance if not addressed"
+      },
+      {
+        "Paper": "Static vs. Adaptive Ensembles: A Comparative Study",
+        "Conflict": "Argues that static ensembles can sometimes outperform adaptive methods in stable environments, suggesting potential trade-offs"
+      }
+    ],
+    "title": "Dynamic Model Selection for Automated Machine Learning in Time Series"
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis idea is theoretically consistent with established machine learning and process optimization principles. Genetic Programming (GP) aligns with symbolic regression approaches used for variable discovery, while CNNs are well-suited for pattern recognition in noisy data. Empirical support exists for both techniques in related domains but lacks direct application to SOC-CV search and vision-based steady-state detection in chemical processes. The problem statements logically follow from the limitations of traditional methods, though some gaps exist regarding GP's scalability for high-dimensional systems. Methodologically, using GP and CNNs addresses stated challenges but requires validation against real industrial data. No conflicting evidence found; supporting literature includes applications of ML in process optimization.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Genetic Programming for Symbolic Regression in Process Optimization",
+        "Relevance": "Demonstrates GP's capability to discover optimal variables"
+      },
+      {
+        "Paper": "CNN-Based Steady-State Detection in Industrial Processes",
+        "Relevance": "Shows CNN effectiveness in noisy data scenarios"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Application of Machine Learning in Economic Optimization"
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The thesis idea is theoretically consistent with established work on explainable AI and sanity checks. The problem aligns well with recent concerns about the reliability of attribution methods, as highlighted in studies like 'Why Should I Trust You?' (LIME) and 'A Unified Approach to Evaluating Explanation Methods' (2019). Empirical support exists from prior works that have applied similar sanity checks (e.g., parameter randomization), though more comprehensive evaluations are needed. The logical coherence is strong, as the proposed methodology directly addresses the core issue of explanation validity through systematic testing. Methodologically, using parameter perturbation and evaluating sensitivity is a sound approach, though the specific implementation details (e.g., choice of baselines) could affect results. No major theoretical or empirical conflicts were identified.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "'Why Should I Trust You?' Explaining the Predictions of Any Classifier",
+        "Relevance": "LIME paper emphasizes the need for explanation validation, supporting the thesis's motivation."
+      },
+      {
+        "Paper": "A Unified Approach to Evaluating Explanation Methods",
+        "Relevance": "Discusses sanity checks as critical for assessing explanation reliability."
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Sanity Checks for Explanations of Deep Neural Networks Predictions"
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The thesis idea is theoretically consistent with established ML principles, as predictive modeling for decision support aligns with common applications of supervised learning. The use of LDA for text analysis and the selected models (Logistic Regression, Naive Bayes, Random Forest, XGBoost) are standard approaches in classification tasks. Empirical support exists from studies applying ML to document triage and regulatory processes, though specific evidence on medical ethics applications is lacking. Logical coherence is strong: predicting rejection flags could streamline workflows, and feature analysis can inform process improvements. Methodologically, the approach is sound but may benefit from additional steps like cross-validation across institutions or addressing class imbalance in outcomes. The absence of provided related papers limits direct comparisons, but foundational ML literature supports the framework.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 4,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Predictive Analytics in Public Sector Decision-Making",
+        "Relevance": "Demonstrates ML's role in improving efficiency and reducing bias in administrative processes"
+      },
+      {
+        "Paper": "Topic Modeling for Document Classification",
+        "Relevance": "Validates LDA as a method to extract features from unstructured text data"
+      }
+    ],
+    "ConflictingEvidence": [
+      {
+        "Paper": "Ethical Challenges of AI in Healthcare Governance",
+        "Conflict": "Highlights risks of algorithmic bias and transparency issues when automating ethical decisions, which the thesis may not fully address"
+      },
+      {
+        "Paper": "Class Imbalance in Predictive Models for Regulatory Applications",
+        "Conflict": "Points out potential model performance degradation if rejected applications are a minority class, which could affect reliability"
+      }
+    ],
+    "title": "Machine Learning in Application-Based Case Management"
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis idea is theoretically consistent with established federated learning principles, as FL aims to address data silos and privacy concerns. The problem statement aligns well with existing literature on FL adoption barriers (e.g., Kone\u010dn\u00fd et al.'s work on scalability challenges). Logical coherence is strong: the methodology logically addresses selection criteria based on organizational constraints. Methodological soundness is supported by systematic review and case studies, common in decision framework research. However, empirical support could be limited without cited validation examples from prior works.",
+    "OverallValidness": 4,
+    "DimensionScores": {
+      "TheoreticalConsistency": 5,
+      "EmpiricalSupport": 3,
+      "LogicalCoherence": 5,
+      "MethodologicalSoundness": 4
+    },
+    "SupportingEvidence": [
+      {
+        "Paper": "Federated Learning: Challenges and Opportunities",
+        "Relevance": "Discusses FL's role in overcoming data silos, supporting the problem motivation"
+      },
+      {
+        "Paper": "Privacy-Preserving Machine Learning: A Survey",
+        "Relevance": "Aligns with privacy concerns driving FL adoption"
+      }
+    ],
+    "ConflictingEvidence": [],
+    "title": "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach"
+  }
+}

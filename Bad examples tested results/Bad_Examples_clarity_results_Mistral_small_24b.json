@@ -1,0 +1,110 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The thesis idea is straightforward but lacks depth and specificity. The problem definition is clear, but the terminology could be more precise. The structural organization is simple and logical, but it does not provide enough detail on methods or expected outcomes. There are some ambiguities regarding what exactly will be done versus what won't.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Building a ChatGPT Clone with OpenAI API"
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The thesis idea is straightforward but lacks depth and specificity. The problem definition is clear, but the methodology and expected outcomes are not well-defined. Key terms like 'decision trees' are implied to be understood without explanation. There is room for interpretation in what specific aspects of decision trees will be explored or how they will be applied.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using Decision Trees for Binary Classification"
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The thesis idea is somewhat understandable but lacks precision in key areas. The problem definition is clear, but the methodology and expected outcomes are not well-defined. Technical terms like 'ChatGPT' and 'general world knowledge' are used without explanation, leading to ambiguity. The structural organization is basic, with no clear distinction between components. Specificity is low as it does not provide concrete details on how ChatGPT will be utilized for earthquake prediction.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Generating Earthquake Predictions with ChatGPT"
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The thesis idea presents an intriguing concept but lacks specificity and clarity in several areas. The problem definition is somewhat clear, but the objectives and scope are not well-defined. Key terms like 'sentiment analysis' and 'seismic activity' are used without precise definitions or explanations of how they will be measured. The structural organization is basic, with a simple flow from problem to motivation but missing details on methodology and expected outcomes. There is significant room for interpretation regarding the feasibility and practicality of using social media comments to predict earthquakes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments"
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The thesis idea is straightforward but lacks depth and specificity. The problem definition is clear, but the terminology could be more precise, especially regarding 'LLMs' which are not defined. The structural organization is logical but could benefit from more detail on methods and expected outcomes. There is some ambiguity in what exactly will be done with LLMs for plant classification.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using LLMs to Classify Plant Species"
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The thesis idea is somewhat clear but lacks depth and specificity. The problem definition is understandable, but the motivation for using LLMs in sorting algorithms is not well-connected to the actual problem of optimizing sorting algorithms. Key terms like 'optimizing' are not precisely defined, and there's a lack of detail on how LLMs will be applied. The structural organization is basic, and there is significant room for interpretation regarding the methodology and expected outcomes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Optimizing Sorting Algorithms with LLMs"
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The thesis idea is highly ambitious but lacks specificity and clear definitions. The term 'Artificial General Intelligence' (AGI) is not defined, and the scope of what constitutes an 'intellectual task a human can perform' is unclear. There is no mention of methods or expected outcomes, making it difficult to understand how this goal will be achieved.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Developing Artificial General Intelligence (AGI)"
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The thesis idea presents a clear and intriguing problem but lacks specificity in terms of methodology, expected outcomes, and technical details. Key terms like 'neural interface' and 'AI systems' are not precisely defined, leaving room for interpretation. The structural organization is straightforward but could benefit from more detailed components.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Direct Brain-AI Communication Using Neural Implants"
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea is extremely vague and lacks any specific details. The problem definition is unclear, key terms are not defined, the structure is disorganized, there is no specificity in what will be done, and it leaves much room for interpretation.",
+    "OverallClarity": 1,
+    "DimensionScores": {
+      "ProblemDefinition": 1,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Improving Artificial Intelligence"
+  }
+}

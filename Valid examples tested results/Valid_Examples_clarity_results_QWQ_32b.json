@@ -1,0 +1,506 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The problem is clearly stated with a focus on improving multi-instrument music synthesis using GANs. Objectives and scope are defined, though some technical terms like 'PatchGAN' and 'U-Net generator' could benefit from brief explanations. The structure logically separates the problem, methods (orGAN components), and evaluation. Specificity is good with mention of human perception tests but lacks details on dataset specifics or training methodology. Ambiguity exists in how exactly the auxiliary classifier integrates with the GAN framework.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Generative Adversarial Networks for Multi-Instrument Music Synthesis"
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The problem is clearly stated with a focus on improving object recognition in MR through image segmentation. Objectives are somewhat defined but lack specificity regarding the exact algorithms or enhancement techniques used. Terminology like 'image segmentation' and 'mixed reality' are standard terms, but the integration method isn't precisely explained. The structure logically flows from problem to motivation and outcomes, though components like methodology details are missing. Specificity is low as there's no mention of datasets, evaluation metrics beyond user experiments, or limitations. Ambiguity exists in how segmentation techniques are combined with enhancement methods and the novelty compared to existing work.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality"
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The problem is clearly stated with a focus on adapting language models to the process industry using graph-aware self-supervised learning. Objectives include enhancing document representation and improving semantic search, though some technical terms like 'graph-aware' or 'contrastive learning' are not explained. The structure logically presents problem, motivation, methods (graph construction, contrastive learning), and outcomes but lacks specifics on data sources, evaluation metrics, and limitations. Ambiguity exists in the scope of 'process industry graph' and how exactly graph-based techniques improve adaptation.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Self-supervised Domain Adaptation of Language Models for the Process Industry"
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The problem is clearly stated with a focus on developing a neural network-based constituency parser for German, addressing its complex syntax. Objectives are defined (using self-attention and multi-layered architectures) but lack specifics like datasets or model architecture details. Terminology such as 'self-attention' and 'multi-layered architectures' are standard in NLP but could benefit from brief explanations. The structure is logical with problem, motivation, methods, and outcomes outlined. Specificity is moderate; while the goal is clear, exact methodologies (e.g., which models are used/compared) remain vague. Ambiguity exists around model specifics and evaluation metrics beyond 'state-of-the-art'.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Deep Learning Techniques Applied to Constituency Parsing of German"
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The problem is clearly stated with a focus on navigation in both static and dynamic environments using PPO. Objectives include comparing training strategies, but specifics like simulation tools or evaluation metrics are missing. Terminology such as 'training strategies' lacks precision without examples. The structure logically separates problem, methods, and motivation but could be more detailed. Specificity is moderate; scope boundaries (e.g., types of environments) aren't fully defined. Some ambiguity remains in methodology details.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments"
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The problem is clearly stated with a focus on state estimation in low-voltage grids using GNNs. Objectives are defined (high accuracy with sparse data), but some terms like 'sparse measurements' and specifics of the model architecture remain undefined. The structure logically presents problem, motivation, and approach, though details on methodology and evaluation criteria are limited. Ambiguity exists around how exactly GSETR differs from existing methods and the extent of computational constraints addressed.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Graph Neural Networks for Electrical Grid State Estimation"
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The problem is clearly stated with a focus on applying GNNs to EHR data for mortality prediction. Objectives are defined (evaluating graph representations and encoding techniques), but the scope could be more specific regarding datasets or evaluation metrics. Technical terms like 'graph representations' and 'encoding techniques' are mentioned but not precisely explained. The structure logically flows from problem to motivation, though methods and expected outcomes are brief. Specificity is moderate; it's unclear which exact GNN variants will be tested or how traditional methods are defined. Ambiguity exists in the choice of datasets, evaluation criteria, and comparison baselines.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Representation Learning on Electronic Health Records Using Graph Neural Networks"
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The problem is clearly stated with a focus on decentralized satellite coordination using DRL. Objectives are defined (comparing algorithms, evaluating effectiveness), but the scope lacks specifics like particular algorithms or metrics. Key terms such as 'federated satellite systems' and 'decentralized learning approaches' could be better explained. The structure logically presents problem, motivation, methods, and outcomes, though some components are brief. Specificity is moderate; it mentions tasks (observation, data sharing) but lacks details on implementation or evaluation setup. Ambiguities exist in algorithm selection criteria and performance metrics.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems"
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The problem is broadly defined but lacks specificity in objectives and scope. While the motivation highlights gaps, the exact research questions or measurable outcomes are unclear. Technical terms like 'expression trees' and 'GNNs integration' are mentioned without precise definitions. The structure separates components logically but lacks depth in methodology details. Specificity suffers from vague descriptions of what is being done versus not done. Ambiguities remain around evaluation metrics, dataset specifics, and how GNNs/Transformers collaborate.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Solving Machine Learning Problems"
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea is well-structured and logically organized, with clear problem statements for each component. However, some technical terms like 'subgradient regularized convex regression' or '\u2113\u2080\u2113\u2082-penalized pseudolikelihood estimator' are not explicitly defined. The scope covers multiple methods but lacks specifics on evaluation metrics or datasets. While the objectives are outlined, certain aspects such as how screening procedures reduce computational overhead in BnB solvers remain vague.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Optimization Methods for Machine Learning underStructural Constraints"
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The problem definition is clear, outlining the challenge of unifying probabilistic techniques and introducing CGPMs as a solution. However, some technical terms like 'BayesDB' or specifics on how exactly CGPMs integrate into it are not fully explained. The structure logically flows from motivation to proposed framework but lacks concrete details on implementation steps or evaluation metrics. Ambiguity exists in the scope of supported methods and how composability is achieved technically.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Probabilistic data analysis with probabilistic programming"
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea is well-structured and clearly outlines the problem, objectives, and methodology. The problem definition specifies challenges with missing data types (MCAR/MAR/MNAR) and predictive errors, with clear scope on using BayesDB's CrossCat model. Terminology like MCAR/MAR/MNAR are mentioned but not defined, which may require prior knowledge. Structural organization is logical: detecting patterns, evaluating performance, then introducing a generative monitoring model. Specificity is strong with named datasets (ANES, Gapminder) and explicit comparisons to standard methods. Ambiguity remains in how exactly the 'generative monitoring model' works without more details.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Artificial intelligence-assisted data analysis with BayesDB"
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The problem definition is clear, specifying the focus on military mental health capacity planning at a specific site. Objectives are well-defined with causal loop diagrams and simulation modeling. Terminology like 'high-utilizer cases' could be better explained. The structure logically flows from problem to methods to outcomes but lacks details on data sources or model specifics. Specificity is moderate; some boundaries (e.g., time frame, exact metrics) remain undefined. Ambiguity exists in how inefficiencies will be quantified and the simulation's parameters.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Data analysis and simulation approach to capacity planning"
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis idea is well-structured and clearly outlines the problem, methods, and motivations. The objectives are defined with specific techniques like importance sampling and randomized sketching. Technical terms such as SVD and kernel PCA are used appropriately without needing further explanation for a target audience. However, some aspects lack specificity (e.g., 'fast iterative methods' could be more detailed). Ambiguity is minimal but not entirely absent due to vague phrases like 'drastically reduce memory costs.'",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Faster linear algebra for data analysis and machine learning"
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis idea is generally clear but has areas needing improvement. The problem definition is strong, specifying physiological responses to market events with defined objectives and scope. Terminology like 'heart rate variability' and 'bid/ask spread width' are standard terms in their fields but lack explicit definitions for non-experts. Structural organization is logical, separating problem, methods, and outcomes. Specificity is good with concrete data sources (Boston Stock Exchange) and variables measured, though some methodological details (e.g., sample size, analysis techniques) remain implicit. Ambiguity exists around how physiological markers are linked to trading decisions and the exact analytical framework used.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Emotional response modeling in financial markets : Boston Stock Exchange data analysis"
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The problem is clearly stated with a focus on Reverse Question Answering (RQA) and LLM self-question generation. Objectives are defined but lack specificity in methods and evaluation metrics. Key terms like 'LLM' and 'reasoning consistency' are standard but not explicitly defined. The structure logically separates problem, motivation, and goals but lacks details on methodology or expected outcomes. Ambiguity exists around how 'hard' or 'bad' questions will be measured.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?"
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The problem is clearly stated with a focus on evaluating LLM sizes for RAG in sports physiotherapy using wearable data. Objectives and scope are defined, though some technical terms like 'biomechanical running data' could be better explained. The structure logically separates the problem, motivation, and goals but lacks specifics on methodologies or evaluation metrics. Ambiguity exists around which models will be tested and how computational efficiency is measured.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy"
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The problem is clearly stated with a focus on using LLMs to address alert fatigue in cybersecurity. Objectives are defined (assess different LLMs' ability to analyze alarms, determine threat levels, and support decision-making). However, specific methods or evaluation metrics are not detailed. Terminology like 'alert fatigue' and 'security notifications' is contextually clear but lacks precision on how exactly LLMs will be applied. The structure logically presents problem, motivation, and goals but lacks a clear methodology section. Specificity is moderate; it states the aim but does not specify which LLMs or datasets will be used. Ambiguity exists in the operationalization of 'threat levels' and decision support mechanisms.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes"
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The problem is clearly stated with a defined objective to automate EU Taxonomy alignment using LLMs. The scope focuses on prompting techniques and retrieval methods, though some technical terms like 'retrieval methods' lack specificity. Structural organization is logical but could benefit from more methodological details. Specificity improves by mentioning sustainability reports as data sources but lacks concrete metrics or evaluation criteria. Ambiguity exists in how exactly LLMs will be applied and the depth of analysis required.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models"
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The problem is clearly stated with a focus on encoding uncertainty in LLMs using VAE. Objectives are defined (probabilistic representation and impact assessment), but the scope could be more specific regarding which aspects of uncertainty or evaluation metrics will be used. Terminology like 'latent uncertainty' and 'VAE architecture' are standard but lack precise definitions. The structure is logical with problem, motivation, and goals outlined, though methods and expected outcomes need more detail. Specificity is moderate; it's unclear what exactly will be implemented versus existing work. Ambiguity exists in how VAE integration with LLMs will differ from prior approaches.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models"
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The problem is clearly stated with a focus on developers' challenges in understanding codebases and the potential of LLMs to assist. Objectives are implied but not explicitly detailed, such as specific tasks or evaluation metrics. Terminology like 'LLMs' is common in the field but lacks explicit definition. The structure logically presents problem and motivation but omits methods and outcomes. Specificity is low; there's no mention of particular models, codebase types, or implementation details. Ambiguity exists around how LLMs will be applied, evaluation criteria, and scope boundaries.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using LLMs to aid developers with code comprehension in codebases"
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis idea has a novel concept but lacks specificity and precise terminology. The problem is stated vaguely, with unclear objectives and scope. Terms like 'telepathic inputs' and 'real-time thoughts translation' are undefined. Structural organization is weak as methods and expected outcomes are not elaborated. Ambiguity remains high regarding technical feasibility and implementation details.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 2,
+      "AmbiguityLevel": 1
+    },
+    "title": "Telepathic Machine Learning: Training AI Models with Brain Waves"
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea is fundamentally flawed and lacks technical feasibility, but its problem statement is clear in intent. However, key terms like 'infinite data compression' are undefined and the methodology is entirely absent. The scope claims impossibility under information theory without explanation. Ambiguity arises from undefined concepts and lack of specifics.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Infinite Data Compression Using a Single Byte"
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis idea is highly ambiguous and lacks precise definitions. The concept of calculating the 'square root' of a living organism is undefined in mathematical terms, leading to confusion about its meaning and applicability. While the motivation references fields like quantum biology, there's no clear methodology or framework provided. Key terms such as 'root form,' 'algebraic structures applied to life,' and 'parallel dimensions' are not explained, leaving significant room for interpretation. The problem statement is vague, with unclear objectives and scope.",
+    "OverallClarity": 1,
+    "DimensionScores": {
+      "ProblemDefinition": 1,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms"
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The problem is stated clearly but lacks specificity in methodology and scope. Terms like 'meaningful patterns' are undefined, and the approach of using only white noise without any structure raises questions about feasibility and evaluation metrics. The motivation connects to broader implications well, but technical details (e.g., network architecture, training process) are missing.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Training a Neural Network Using Only White Noise"
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea has a creative premise but suffers from significant ambiguity and lack of specificity. The problem definition is imaginative yet lacks clarity on how dinosaur brains will be simulated or measured. Terminology like 'reverse-engineer cognitive capabilities' is vague without defined metrics. Structural organization is present but components are underdeveloped. Specificity is low as methods (e.g., AI model architecture, training parameters) and expected outcomes remain undefined. High ambiguity exists in feasibility assumptions and key operational definitions.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Reverse Evolution: Teaching Dinosaurs to Use Smartphones"
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis idea has a clear problem statement and motivation, but lacks specificity in methodology details. Terms like 'sentient AI pigeons' are ambiguous without technical definitions. The structure is logical but components like data integration methods remain vague. Ambiguity exists around how pigeon behavior will be measured and linked to predictions.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Predicting Earthquake Locations Using Sentient AI Pigeons"
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The problem is stated but lacks depth and specificity. Terms like 'quantum entanglement' are mentioned without explanation, and the feasibility of faster-than-light communication conflicts with known physics. The structure is basic but the scope is unclear regarding technical implementation details. Ambiguity arises from undefined assumptions about quantum technology integration with blockchain.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Quantum Blockchain for Faster-than-Light Financial Transactions"
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis idea has a clear problem statement and motivation, but lacks specificity in methodology and terminology. While the objectives (emotional states and linguistic structures) are stated, details on data collection, model selection, or evaluation metrics are missing. Terms like 'large language models' and 'linguistic components' could be better defined. The structure is logical but underdeveloped.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Sentiment Analysis on Dolphin Communication Using Large Language Models"
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The problem is stated but lacks specificity in defining what constitutes 'unexplained anomalies' or how AI models will differentiate them from natural phenomena. The objectives are broad, and the scope could be better defined (e.g., which computer vision models, data sources). Terminology like 'paranormal activity' remains undefined. While the structure separates problem and motivation, it lacks a clear methodology outline. Specificity is low due to vague terms; ambiguity exists in defining success metrics and data collection methods.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 2
+    },
+    "title": "Using AI to Detect Ghosts in Abandoned Buildings"
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis idea is fundamentally flawed due to reliance on perpetual motion, which violates known physical laws. While the problem statement and motivation are clear in intent, critical terms like 'perpetual motion generator' remain undefined and lack scientific basis. The proposal lacks specificity regarding methods or mechanisms, leading to high ambiguity.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Infinite Battery Life Using Perpetual Motion Machines"
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The problem is clearly stated with a focus on integrating ML into enterprise systems like SAP Leonardo, but some technical terms (e.g., 'SAPLeonardo') are misspelled or undefined. The scope includes comparing methodologies through a specific use case (Quality Management via image recognition), which adds specificity. However, the exact methods for comparison and evaluation criteria remain vague. Structural organization is logical with distinguishable components, though some ambiguity exists in how scalability/maintainability will be measured.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo"
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The problem is clearly defined with a focus on automating lead scoring using ML to address manual inefficiencies. Objectives and scope are well-articulated, though some technical terms like 'sampling strategies' could be more precise. The structure logically flows from problem to motivation and methods. Specificity is good but lacks details on data sources or evaluation metrics. Ambiguity exists in how exactly algorithms will be compared and tuned.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Lead Scoring with Machine Learning"
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The problem is clearly stated with a focus on evaluating technical document quality using machine learning, especially distinguishing human vs. machine translations without source documents. Objectives and scope are well-defined around classification tasks and recombining sentence-level features at the document level. Technical terms like 'translation evaluation metrics' are mentioned but not precisely defined; some jargon (e.g., domain-specific texts) is contextually clear. The structure logically flows from problem to motivation, though methods section lacks specifics on algorithms or datasets. Specificity is moderate: it specifies classification goals and features but omits details about model selection or validation. Ambiguities exist in how exactly sentence-level metrics are recombined at document level and whether source documents are entirely absent or just not required for evaluation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using Machine Learning Methods for Evaluating the Quality of Technical Documents"
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The problem is clearly stated with two distinct objectives: binary classification of paying vs non-paying users and day-30 revenue prediction using first three days' data. The scope is well-defined around these tasks, though some specifics like exact algorithms or evaluation metrics are missing. Terminology such as 'categorical and numerical data' is standard but not all terms (e.g., 'scalable') are precisely defined. The structure logically separates problem description, motivation, and objectives, though methods and expected outcomes are only briefly mentioned. Specificity could improve by detailing datasets or model selection criteria. Ambiguities exist in the exact data sources and how interpretability will be achieved.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Application of machine learning algorithms for classification and regression problems for mobile game monetization"
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The problem is clearly stated with a focus on using ML to outperform traditional strategies in equity trading. Objectives and scope are well-defined, including specific algorithms (Na\u00efve Bayes, Random Forest, SVM) and the benchmark strategy based on fundamental valuation. Terminology like 'market-neutral portfolios' and 'excess returns' could be better defined, though context provides some clarity. The structure logically flows from problem to methods to expected outcomes. Specificity is strong with concrete details (S&P 500 data, transaction costs considered), but lacks specifics on exact evaluation metrics or dataset timeframe. Ambiguities remain in how 'inefficiencies' are quantified and the precise formulation of the benchmark strategy.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Applying Machine Learning in Equity Trading"
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The problem is clearly defined with a focus on comparing traditional and modern ML models for loan default prediction. Objectives are well-specified, including the use of specific algorithms (neural networks, decision trees, XGBoost) and evaluation metrics (AUC, recall, precision). The structure logically flows from problem to motivation to methods. Terminology like 'non-parametric' is used without explicit definition but may be assumed based on context. Specificity is strong with a defined dataset size and scope limitations mentioned. Ambiguity exists in the exact nature of the Taiwanese dataset (source, features) and how practical viability will be assessed beyond metrics.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Predicting Default Loans using Machine Learning"
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The problem is clearly stated with a focus on dynamic model selection for time series forecasting. Objectives and scope are well-defined, addressing the limitations of static models and ensemble methods in this context. Technical terms like 'dynamic time warping' and 'meta-learning principles' are mentioned but not fully explained. The structure logically flows from problem to motivation to proposed method (DES-Forecasting). Specificity is good with mention of local competence identification and weighting based on recent performance, though implementation details remain vague. Ambiguity exists in how exactly meta-learning and distance measures will be applied, leaving some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Dynamic Model Selection for Automated Machine Learning in Time Series"
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis idea is well-structured and clearly outlines two distinct problems with specific methods (Genetic Programming and CNNs). The problem definition is strong, specifying challenges in SOC-CV discovery and steady-state detection. Terminology like 'self-optimizing controlled variables' and 'steady-state detection' are explained sufficiently within context. Structural organization flows logically from motivation to objectives. Specificity is good with concrete methods and applications, though some details (e.g., dataset specifics for CNNs) remain implicit. Ambiguity is low but not entirely absent due to limited methodological depth.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Application of Machine Learning in Economic Optimization"
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The problem is clearly stated with a focus on validating explanation methods through sanity checks like parameter randomization. Objectives are well-defined (e.g., evaluating sensitivity to model parameters). Technical terms such as 'sanity checks' and 'attribution methods' are explained contextually. The structure logically flows from motivation to problem statement, though the methodology details (specific tests or datasets) remain vague. Specificity is moderate; it specifies using parameter randomization but lacks concrete examples of which methods/datasets will be tested. Ambiguity exists in how exactly sanity checks will be implemented and measured.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Sanity Checks for Explanations of Deep Neural Networks Predictions"
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The problem is clearly stated with a specific context (REK in Norway) and objectives. The scope focuses on predicting rejection using structured data and LDA for unstructured text, with four models evaluated. Terminology like LDA and ML algorithms are standard but could benefit from brief explanations. Structural organization is logical: problem, motivation, methods. Specificity is strong with concrete details (e.g., models used). Ambiguity exists in how features will be extracted/combined and ethical considerations.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning in Application-Based Case Management"
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The problem is clearly stated with a focus on organizational challenges in adopting Federated Learning due to fragmented research and lack of selection guidance. Objectives are well-defined around creating a methodology validated through case studies. Terminology like 'Federated Learning' and 'data silos' are standard but could benefit from brief definitions for non-experts. The structure logically flows from problem to motivation, with clear components. Specificity is strong in outlining the framework's purpose and real-world validation but lacks details on methodology steps or evaluation metrics. Ambiguity exists around how exactly the methodology will be structured and measured.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach"
+  }
+}

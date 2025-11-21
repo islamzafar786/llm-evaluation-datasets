@@ -1,0 +1,200 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The thesis idea of building a ChatGPT clone using the OpenAI API is not novel. The problem of creating chatbots has been extensively studied, and leveraging APIs to build such systems is a common practice in both academic research and industry applications. There are no significant methodological innovations proposed beyond utilizing an existing API, which does not constitute a new approach or algorithm. The potential impact is limited as it merely replicates functionality already available through the OpenAI API.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Building Chatbots with OpenAI API",
+        "Similarity": "high",
+        "KeyDifferences": "This idea is essentially the same, using the same API for a similar purpose."
+      },
+      {
+        "Title": "Chatbot Development Using Pre-trained Language Models",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on leveraging pre-trained models like BERT or T5, which are conceptually similar to ChatGPT."
+      }
+    ]
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The proposal to use decision trees for binary classification of emails as spam or not is a well-trodden path in the field of machine learning and spam detection. Decision trees are a classic method that has been extensively used for various classification tasks, including spam filtering. The problem of spam detection itself is very common and has been addressed using numerous methods, from simple rule-based systems to advanced deep learning models.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Spam Detection Using Decision Trees",
+        "Similarity": "high",
+        "KeyDifferences": "Directly uses decision trees for spam detection, similar to the proposed idea"
+      },
+      {
+        "Title": "A Comparative Study of Naive Bayes, SVM and Decision Tree Techniques for Spam Filtering",
+        "Similarity": "high",
+        "KeyDifferences": "Compares multiple methods including decision trees for spam filtering"
+      }
+    ]
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The proposal aims to use ChatGPT, a large language model (LLM) designed for natural language processing tasks, to predict the time and location of future earthquakes. This is an unusual pairing because earthquake prediction traditionally relies on geophysical data and models rather than linguistic information. While LLMs have shown versatility in various domains, their application to seismic activity prediction lacks scientific grounding and appears more like a gimmick than a serious research endeavor. The method does not propose any novel mechanism linking language models with seismology, making it difficult to assess its potential impact or methodological innovation.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 1,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Seismic Forecasting with Geophysical Sensors",
+        "Similarity": "low",
+        "KeyDifferences": "Real methods use sensor data; this idea misapplies a language model"
+      }
+    ]
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The thesis proposes using sentiment analysis on social media comments to predict seismic activity, leveraging the idea that people often share feelings of unease before natural disasters. While the concept of using social media for disaster prediction is not entirely new, applying it specifically to earthquake prediction through neural networks trained on sentiment analysis is a novel approach. However, the scientific validity and reliability of such predictions are questionable due to the lack of established correlation between social media sentiments and seismic activity.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Twitter as a Sensor Network for Real-Time Crisis Mapping",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general crisis mapping rather than specific earthquake prediction and uses different methodologies"
+      },
+      {
+        "Title": "Social Media Analytics for Disaster Response: A Systematic Review",
+        "Similarity": "high",
+        "KeyDifferences": "Reviews various applications of social media in disaster response but does not specifically address earthquake prediction using sentiment analysis"
+      }
+    ]
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The proposal to use Large Language Models (LLMs) for classifying plant species based on images is an interesting approach, but it falls into a category where both the problem and method have been explored in various forms. Image classification of plants has been extensively studied using convolutional neural networks (CNNs), and LLMs are typically used for text-based tasks rather than image analysis. However, there have been recent advancements in multimodal models that combine visual and textual data, which could make this approach moderately novel.",
+    "OverallNovelty": 3,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 3,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "PlantVillage: A Mobile App for Plant Disease Diagnosis",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses CNNs and image data, not LLMs"
+      },
+      {
+        "Title": "Deep Learning for Plant Species Classification",
+        "Similarity": "high",
+        "KeyDifferences": "Focuses on CNNs and image features, no text-based models involved"
+      },
+      {
+        "Title": "Multimodal Learning with Vision-Language Models",
+        "Similarity": "medium",
+        "KeyDifferences": "Combines visual and textual data but not specifically for plant species classification"
+      }
+    ]
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The thesis idea of optimizing traditional sorting algorithms like QuickSort using large language models (LLMs) is intriguing but lacks substantial novelty. Sorting algorithms are well-studied, and while LLMs have shown promise in various domains, their application to algorithm optimization is not entirely new. The core problem of improving sorting algorithms has been extensively researched, and the use of machine learning for algorithm optimization is a known approach. However, applying LLMs specifically to this task could offer some unique insights but does not represent a groundbreaking combination.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 2,
+      "PotentialImpact": 2,
+      "CombinationUniqueness": 2
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Neural Sorting: Learning to Sort with Recurrent Neural Networks",
+        "Similarity": "medium",
+        "KeyDifferences": "Uses recurrent neural networks instead of LLMs for sorting tasks"
+      },
+      {
+        "Title": "Machine Learning for Algorithm Optimization",
+        "Similarity": "high",
+        "KeyDifferences": "General approach using machine learning to optimize algorithms, not specific to LLMs or sorting"
+      }
+    ]
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The proposal to develop Artificial General Intelligence (AGI) is highly ambitious and has been a long-standing goal in the AI community. While AGI remains an ultimate objective, significant progress has been made in specific domains of AI without achieving true general intelligence. The thesis does not specify unique methodologies or innovative approaches that differentiate it from existing research efforts towards AGI.",
+    "OverallNovelty": 2,
+    "DimensionScores": {
+      "ProblemNovelty": 2,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 5,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Artificial General Intelligence: Concepts, Architectures and Algorithms",
+        "Similarity": "high",
+        "KeyDifferences": "Provides a comprehensive overview of AGI concepts but lacks specific implementation details"
+      },
+      {
+        "Title": "Pathways to Artificial General Intelligence: A Survey",
+        "Similarity": "high",
+        "KeyDifferences": "Surveys various approaches and challenges in achieving AGI, without proposing new methods"
+      }
+    ]
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The thesis idea of 'Direct Brain-AI Communication Using Neural Implants' addresses the problem of designing a neural interface to allow humans to control AI systems with their thoughts. This is an ambitious and forward-thinking concept that aligns with current trends in neurotechnology and brain-computer interfaces (BCIs). However, while the idea is innovative, it builds on existing research in BCIs and neural implants. The novelty lies in the specific application of controlling AI systems directly through thought, which has not been extensively explored. The methodology involves combining known techniques from neuroscience and AI, but the combination itself is novel and could lead to significant advancements if executed well.",
+    "OverallNovelty": 4,
+    "DimensionScores": {
+      "ProblemNovelty": 3,
+      "MethodologicalInnovation": 3,
+      "PotentialImpact": 5,
+      "CombinationUniqueness": 4
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Brain-Computer Interfaces: Principles and Practice",
+        "Similarity": "medium",
+        "KeyDifferences": "Focuses on general BCI principles; this idea targets AI control specifically"
+      },
+      {
+        "Title": "Neural Implants for Motor Control",
+        "Similarity": "low",
+        "KeyDifferences": "Concentrates on motor functions rather than AI interaction"
+      }
+    ]
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis title 'Improving Artificial Intelligence' is extremely broad and lacks specificity. The problem description, 'This project aims to make AI better,' does not define any particular aspect of AI that needs improvement or the specific challenges being addressed. Similarly, the motivation, 'AI can be improved to make life easier,' is generic and does not provide a clear direction for research. Without a well-defined problem statement, methodology, or innovative approach, it's challenging to assess novelty.",
+    "OverallNovelty": 1,
+    "DimensionScores": {
+      "ProblemNovelty": 1,
+      "MethodologicalInnovation": 1,
+      "PotentialImpact": 1,
+      "CombinationUniqueness": 1
+    },
+    "SimilarWorks": [
+      {
+        "Title": "Advances in Artificial Intelligence",
+        "Similarity": "high",
+        "KeyDifferences": "This is a general survey paper that covers various improvements in AI, whereas the current idea lacks any specific improvement or method."
+      },
+      {
+        "Title": "AI for Everyday Life: Applications and Improvements",
+        "Similarity": "medium",
+        "KeyDifferences": "Provides examples of how AI can be improved to make life easier but does not propose a new methodology or approach."
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "This thesis project, while achievable, presents a moderate level of difficulty due to the reliance on an existing API and the need for careful prompt engineering and fine-tuning. The core functionality is readily available through OpenAI's ChatGPT API, mitigating some challenges. However, creating a truly *clone* \u2013 one that mimics ChatGPT\u2019s behavior closely and handles diverse prompts effectively \u2013 requires significant effort in prompt design, evaluation, and potentially fine-tuning the underlying model with custom data (though this isn't strictly necessary).  The project is well-defined but success hinges on effective experimentation and iterative refinement.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 5,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "This thesis idea is feasible, but with some caveats. Decision trees are a well-established method for binary classification and spam filtering is a classic application. However, achieving good performance requires careful feature engineering and potentially dealing with imbalanced datasets \u2013 common challenges in this domain. The scope of the project can be adjusted to ensure it's achievable within the timeframe.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 5,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "This thesis idea, while intriguing, faces significant challenges due to the nature of earthquake prediction and the limitations of current AI techniques. ChatGPT's ability to leverage 'general world knowledge' is unlikely to translate directly into accurate earthquake forecasting. Earthquake prediction relies on complex geophysical processes and requires specialized data analysis beyond what a large language model can readily provide. While ChatGPT *could* be used for tasks like identifying patterns in historical seismic data or generating hypotheses, it\u2019s not designed for predictive modeling of this type.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "This thesis idea is ambitious but presents significant challenges related to data quality, computational demands, and the inherent difficulty in predicting earthquakes based on social media sentiment. While the motivation is interesting, translating this into a reliable predictive model requires overcoming substantial hurdles.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "This thesis idea, while promising, presents several challenges that require careful consideration. Utilizing LLMs for plant species classification is a relatively new approach and relies heavily on the quality and quantity of available data. While there are existing image datasets, adapting them to be suitable for LLM fine-tuning will likely require significant effort. Furthermore, effectively leveraging LLMs for visual tasks like plant identification necessitates specialized techniques beyond simple text-based classification. The computational requirements, though potentially manageable with a good GPU setup, could still present a hurdle depending on the size of the dataset and the complexity of the chosen LLM.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 4
+    }
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "This thesis idea, while intriguing, presents a moderate level of feasibility due to the novelty of applying LLMs directly to algorithm optimization. While LLMs excel at language tasks, translating that expertise into optimizing sorting algorithms requires careful consideration and likely involves significant experimentation and potentially some theoretical gaps. The core concept is sound, but execution will demand a pragmatic approach.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "This thesis idea, aiming for AGI development, is inherently ambitious and presents significant challenges across all assessed criteria. While the *goal* is grand, translating it into a manageable master's thesis project requires substantial simplification and focusing on specific sub-problems within the broader concept of AGI. The scope is simply too vast to realistically achieve within a 6-month timeframe with typical resources.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 1
+    }
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "This thesis idea, while ambitious and potentially groundbreaking, presents significant challenges across multiple fronts. Direct brain-AI communication using neural implants is a nascent field with substantial technical hurdles. The reliance on invasive technology immediately raises concerns about data acquisition, signal processing complexity, and ethical considerations. While the core concept aligns with current trends in BCI and AI integration, translating it into a functional prototype within a 6-month thesis timeframe is highly optimistic.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea, \"Improving Artificial Intelligence,\" is incredibly broad. While the *intention* to improve AI is laudable, it lacks a specific focus and therefore presents significant feasibility challenges.  Without a defined problem within AI that's being targeted for improvement, the project risks becoming unfocused and ultimately unachievable within a master\u2019s thesis timeframe. The 'Problem Description' and 'Problem Motivation' are too vague to provide a solid foundation.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the problem. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but overall, the idea is straightforward with minimal room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Generative Adversarial Networks for Multi-Instrument Music Synthesis"
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality"
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis idea presents a clear problem definition and objectives. Technical terms are mostly defined, but some could be more precise. The structure is logical, with a clear distinction between components. Specific details are provided, but the scope could be better defined. There is some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Self-supervised Domain Adaptation of Language Models for the Process Industry"
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the research problem. Technical terms are mostly defined, but some could be more precise. The methodology section is concise, but lacks specific details on implementation. The scope is generally well-defined, with some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Deep Learning Techniques Applied to Constituency Parsing of German"
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "The thesis idea is well-defined and provides a clear problem statement. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear, but the overall structure is logical.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments"
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation for using Graph Neural Networks in electrical grid state estimation. However, some technical terms are not precisely defined, and the methodology section could be more specific about what will be done versus what won't be done.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Graph Neural Networks for Electrical Grid State Estimation"
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation. The terminology is mostly precise, with some minor exceptions. The structural organization is logical, but the specificity could be improved by providing more concrete details about the expected outcomes. There are no unclear or undefined aspects.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 1
+    },
+    "title": "Representation Learning on Electronic Health Records Using Graph Neural Networks"
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "The thesis idea is well-defined and precise, with a clear problem statement and objectives. The terminology is mostly precise, but some technical terms could be further explained. The structural organization is logical, and the components are clearly distinguishable. The description provides concrete details, but some aspects of the methodology could be more specific. There is minimal room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems"
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "The thesis idea presents a clear problem definition and objectives. However, some technical terms are not precisely defined, and the methodology section could be more specific. The structural organization is logical, but the scope could be better defined. The description provides concrete details, but there is some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Solving Machine Learning Problems"
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea is well-structured and provides a clear overview of the research problem. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is generally well-defined, but some aspects could be better clarified.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Optimization Methods for Machine Learning underStructural Constraints"
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation. However, some technical terms are not precisely defined, and the structural organization could be improved. The description is specific but lacks concrete details on implementation. There is some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Probabilistic data analysis with probabilistic programming"
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but the overall organization is logical. Some room for interpretation exists due to the complexity of the topic.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Artificial intelligence-assisted data analysis with BayesDB"
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the problem. However, some technical terms are not precisely defined, and the scope could be better defined. The methodology section is somewhat vague, but the expected outcomes are clear.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Data analysis and simulation approach to capacity planning"
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Faster linear algebra for data analysis and machine learning"
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the research problem. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear, but the objectives are well-defined.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Emotional response modeling in financial markets : Boston Stock Exchange data analysis"
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "The thesis idea is well-defined and easy to understand. The problem statement is clear, and the objectives are well-identified. Technical terms like 'LLM' and 'Reverse Question Answering' are defined or obvious from context. The structure of the idea is logical, with a clear distinction between problem, methods, and expected outcomes. The description provides concrete details about what will be done and what won't be done. There is minimal room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?"
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "The thesis idea provides a clear problem definition and objectives. However, some technical terms like 'Retrieval-Augmented Generation' are not precisely defined. The structural organization is logical, but the description could be more specific about what will be done versus what won't be done. There is some room for interpretation regarding the optimal model size.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy"
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation. However, some technical terms like 'Large Language Models' are not precisely defined. The structural organization is logical, but the description could be more specific about what will be done. There is some room for interpretation regarding the expected outcomes.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes"
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "The thesis idea is well-defined and provides a clear problem statement. The objectives are specific, and the scope is well-identified. Technical terms like 'Large Language Models' and 'EU Taxonomy' are defined or easily understandable from context. The structure of the idea is logical, with distinct components (problem, methods, expected outcomes). The description provides concrete details on the approach to be taken. There is minimal room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models"
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation. The terminology is mostly precise, with some minor ambiguity around 'latent uncertainty encoding'. The structural organization is logical, but the specificity could be improved by providing more concrete details on the VAE architecture and its application to LLMs. There are no unclear or undefined aspects.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models"
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "The thesis idea is well-defined and provides a clear problem statement. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear, but the overall structure is logical.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Using LLMs to aid developers with code comprehension in codebases"
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "The thesis idea has some clarity issues. The problem definition is clear, but the terminology precision is lacking. The structural organization is somewhat logical, but the specificity could be improved. There are unclear aspects regarding the methodology and expected outcomes.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Telepathic Machine Learning: Training AI Models with Brain Waves"
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The thesis idea lacks clear definition and precision. The problem statement is overly ambitious and the scope is unclear. Technical terms are not defined, and the methodology section is vague.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 1,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Infinite Data Compression Using a Single Byte"
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The thesis idea is somewhat defined but lacks clear definition. The problem statement is understandable, but technical terms are not precisely defined and the methodology section could be more specific. The scope is unclear, and there is room for interpretation.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms"
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "The thesis idea is somewhat defined but lacks precision in terminology and specificity. The problem statement is clear, but the scope could be better defined. The methodology section is missing, which makes it difficult to understand how the research will be conducted.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Training a Neural Network Using Only White Noise"
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "The thesis idea has some clarity issues. The problem definition is somewhat clear, but the terminology is not precisely defined. The structural organization is logical, but the specificity could be improved. There are unclear aspects regarding the methodology and expected outcomes.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Reverse Evolution: Teaching Dinosaurs to Use Smartphones"
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "The thesis idea has some clarity issues. While the main concept is understandable, it lacks precision in terminology and specific details. The problem definition is clear but could be more structured. The scope is somewhat defined but unclear boundaries exist.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Predicting Earthquake Locations Using Sentient AI Pigeons"
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "The thesis idea is somewhat defined but lacks specific details. The problem statement is clear, but the scope could be better defined. Technical terms are not precisely defined, and the methodology section is vague.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Quantum Blockchain for Faster-than-Light Financial Transactions"
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "The thesis idea provides a clear problem statement and defines the objectives. However, some technical terms are not precisely defined, and the methodology section could be more specific. The scope is somewhat unclear, and there is room for interpretation.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Sentiment Analysis on Dolphin Communication Using Large Language Models"
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "The thesis idea is somewhat defined but lacks precision in terminology and specificity. The problem statement is clear, but the scope could be better defined. The structural organization is logical, but some components are not clearly distinguishable.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using AI to Detect Ghosts in Abandoned Buildings"
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "The thesis idea has some clarity issues. The problem definition is straightforward, but the terminology precision is lacking. The structural organization is somewhat unclear, and the specificity could be improved. There are undefined aspects that leave room for interpretation.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 3,
+      "AmbiguityLevel": 3
+    },
+    "title": "Infinite Battery Life Using Perpetual Motion Machines"
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "The thesis idea provides a clear problem definition and motivation. However, some technical terms are not precisely defined, and the methodology section could be more specific. The structural organization is logical, but the scope could be better defined. The description provides concrete details, but there is some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo"
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "The thesis idea provides a clear problem definition and objectives. The terminology is mostly precise, with some minor exceptions. The structural organization is logical, but could benefit from more explicit distinction between components. Specificity is good, but there are some areas where more concrete details would be helpful. Ambiguity level is moderate.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 3
+    },
+    "title": "Lead Scoring with Machine Learning"
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the research problem. Technical terms are mostly defined, but some could be more precise. The methodology section is somewhat vague, but the objectives and scope are well-defined.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Using Machine Learning Methods for Evaluating the Quality of Technical Documents"
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "The thesis idea provides a clear problem definition and objectives. However, some technical terms are not precisely defined, and the methodology section could be more specific. The structural organization is logical, but the scope could be better defined. The description provides concrete details, but there is some room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Application of machine learning algorithms for classification and regression problems for mobile game monetization"
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but the overall organization is logical. Some room for interpretation exists due to the complexity of the topic.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Applying Machine Learning in Equity Trading"
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but the overall organization is logical. Some room for interpretation exists due to the complexity of credit scoring models.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Predicting Default Loans using Machine Learning"
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the problem. Technical terms are mostly defined, but some could be more precise. The methodology section is somewhat vague, but the overall approach is logical. The scope is generally well-defined, with some minor areas for improvement.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Dynamic Model Selection for Automated Machine Learning in Time Series"
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "The thesis idea provides a clear problem definition and objectives. The terminology is mostly precise, with some minor exceptions. The structural organization is logical, but could benefit from more explicit connections between the different components. The description provides concrete details, but could be more specific in certain areas. There are some minor ambiguities, but overall the idea is well-defined.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 4,
+      "Specificity": 4,
+      "AmbiguityLevel": 2
+    },
+    "title": "Application of Machine Learning in Economic Optimization"
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "The thesis idea is well-structured and provides a clear definition of the research problem. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but overall, the idea is straightforward with minimal room for interpretation.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 5,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Sanity Checks for Explanations of Deep Neural Networks Predictions"
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but the overall organization is logical. Some room for interpretation exists due to the complexity of the topic.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Machine Learning in Application-Based Case Management"
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis idea is well-structured and provides a clear problem definition. Technical terms are mostly defined or obvious from context. The methodology section could be more specific, but the overall organization is logical. Some room for interpretation exists due to the novelty of Federated Learning research.",
+    "OverallClarity": 4,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 4,
+      "StructuralOrganization": 4,
+      "Specificity": 3,
+      "AmbiguityLevel": 2
+    },
+    "title": "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach"
+  }
+}

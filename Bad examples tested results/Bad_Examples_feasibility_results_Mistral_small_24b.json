@@ -1,0 +1,92 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "Building a ChatGPT clone using the OpenAI API is highly feasible due to the availability of the API and well-established methods for integrating it. The primary challenges lie in understanding the API's capabilities and limitations, as well as ensuring seamless integration with user interfaces.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 5,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The project on using decision trees for binary classification of emails as spam or not is highly feasible. Decision trees are a well-established method in machine learning, and there are readily available datasets for email spam classification. The computational requirements are minimal, and the theoretical complexity is low. The expected time to completion is within the standard thesis timeline.",
+    "Feasibility": 5,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 5,
+      "Complexity": 4,
+      "Timeline": 5
+    }
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The idea of using ChatGPT to predict earthquakes is highly ambitious but faces significant challenges in terms of dataset availability, computational resources, theoretical complexity, and timeline. Earthquake prediction is a complex field that requires extensive domain knowledge and specialized data, which are not readily available through general world knowledge or standard NLP models like ChatGPT.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The project involves significant challenges in data collection, computational requirements, and theoretical complexity. While the idea is innovative, it may not be feasible within a standard thesis timeline due to these constraints.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 2
+    }
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The project involves using LLMs to classify plant species from images, which is a novel application but feasible with the right approach. The main challenges lie in dataset availability and computational resources.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The project involves using large language models to optimize traditional sorting algorithms, which is a novel and ambitious idea. While LLMs are powerful for natural language processing tasks, their application to algorithm optimization, particularly for well-understood problems like QuickSort, presents significant challenges in terms of dataset availability, computational resources, theoretical complexity, and timeline.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 1,
+      "Complexity": 2,
+      "Timeline": 4
+    }
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "Developing AGI is an extremely ambitious and complex goal that requires significant theoretical advancements, extensive computational resources, and a vast amount of diverse data. The timeline for completing such a project within the standard thesis duration (~6 months) is unrealistic.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 2,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The project involves significant theoretical and implementation challenges, requiring extensive resources and time. While the motivation is strong, the current state of technology and available datasets make it highly ambitious for a master's thesis.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 1,
+      "Timeline": 2
+    }
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea 'Improving Artificial Intelligence' is extremely vague and lacks specificity. It does not define what aspects of AI need improvement, the methods to be used, or the specific goals. This lack of clarity makes it difficult to assess dataset availability, computational requirements, theoretical complexity, and timeline feasibility.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 1,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  }
+}

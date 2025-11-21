@@ -1,0 +1,110 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The problem definition is basic but lacks depth, stating the aim without specifying unique contributions or challenges. Terminology like 'ChatGPT clone' and 'OpenAI API' are common terms but their application specifics remain undefined. The structure is minimal with only problem and motivation provided, missing methods and outcomes. Specificity is low as there's no detail on implementation steps, evaluation metrics, or scope boundaries. Ambiguity exists in what differentiates this project from existing solutions and how success will be measured.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Building a ChatGPT Clone with OpenAI API"
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The problem is straightforward but lacks specificity. While the title and motivation are clear, key details like dataset choice, evaluation metrics, or decision tree parameters remain undefined. The structure is basic with minimal elaboration on methods or expected contributions.",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 3,
+      "StructuralOrganization": 2,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using Decision Trees for Binary Classification"
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The problem statement is overly simplistic and lacks specificity. While the motivation highlights a valid issue (earthquakes' dangers), the objectives are vague: 'predict time and location using ChatGPT.' There's no mention of methodology details, data sources, or evaluation criteria. Terms like 'general world knowledge' are undefined. The structure is minimal with only title and problem description provided. Ambiguity exists in how exactly ChatGPT would be applied to seismic prediction, which typically requires numerical models rather than language-based AI.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Generating Earthquake Predictions with ChatGPT"
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The problem definition is somewhat clear but lacks specificity regarding how sentiment analysis will directly correlate with seismic activity. Terminology like 'sentiment analysis' and 'seismic activity' are broadly mentioned without precise definitions or technical context. The structural organization is basic, separating problem and motivation but lacking details on methods or expected outcomes. Specificity suffers as there's no mention of data sources, neural network models used, or evaluation metrics. Ambiguity remains high due to undefined variables such as which social media platforms will be analyzed, how 'feelings of unease' are quantified, and the temporal relationship between sentiment shifts and earthquakes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments"
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The problem is stated but lacks specificity. While the title and motivation hint at using LLMs for image classification, critical details are missing (e.g., which species, data sources, model architecture). Terminology like 'text-based classification' is ambiguous since images are involved. The structure is basic with no clear methods or outcomes outlined. Ambiguity remains in how text models process visual data and project boundaries.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Using LLMs to Classify Plant Species"
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The problem statement is vague and lacks specificity. While the title mentions optimizing sorting algorithms with LLMs, there's no clear explanation of how LLMs would be applied to achieve this optimization. The motivation connects LLMs to chatbots but doesn't explain their relevance to algorithm optimization. Key terms like 'optimize' are undefined (e.g., optimize for speed, memory usage?). There is no mention of methods or expected outcomes beyond a general idea. The scope and boundaries are unclear, leaving many questions about the approach.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Optimizing Sorting Algorithms with LLMs"
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The thesis idea is ambitious but suffers from extreme vagueness. While the problem statement ('build a general-purpose AI agent') is conceptually clear, it lacks specificity in objectives and methodology. Key terms like 'any intellectual task' are undefined, and there's no mention of approaches or constraints. The scope is overly broad without boundaries, leading to high ambiguity.",
+    "OverallClarity": 1,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 1,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Developing Artificial General Intelligence (AGI)"
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The problem statement is broad and lacks specificity. While the motivation highlights potential future applications, the objectives are not well-defined. Key terms like 'neural interface' and 'thought control' remain undefined. The structure is minimal with only a title and problem description provided. There's ambiguity in technical approaches, scope boundaries, and expected outcomes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 2
+    },
+    "title": "Direct Brain-AI Communication Using Neural Implants"
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea lacks specificity and precise definitions. The problem statement ('make AI better') is overly broad without clear objectives or scope. Terminology like 'better' is undefined, and there's no mention of methods or expected outcomes. The structure is minimal with missing components (methods, evaluation), leading to high ambiguity.",
+    "OverallClarity": 1,
+    "DimensionScores": {
+      "ProblemDefinition": 1,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Improving Artificial Intelligence"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The thesis idea presents a basic concept but lacks sufficient detail to be considered well-defined. The problem description is present, but the motivation feels somewhat superficial and doesn't fully articulate the research gap. While using ChatGPT API is mentioned as an easy solution, it doesn\u2019t delve into the challenges of replicating its functionality or exploring alternative approaches. The scope isn't clearly delineated \u2013 will this be a complete clone, or a specific subset of features?  The lack of detail regarding methods and expected outcomes significantly reduces clarity.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Building a ChatGPT Clone with OpenAI API"
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The thesis idea is a starting point but lacks sufficient detail. The problem definition and motivation are basic, stating the usefulness of spam filtering. However, it's overly broad \u2013 'apply decision trees' doesn\u2019t specify features, evaluation metrics, or any specific implementation details.  There's significant ambiguity regarding the scope (e.g., what kind of emails? What version of decision trees?). The terminology is assumed to be known by the reader without explanation.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Using Decision Trees for Binary Classification"
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The thesis idea presents a fundamentally flawed approach to earthquake prediction. While the motivation is understandable (earthquakes are deadly), using ChatGPT for this purpose is highly problematic and lacks sufficient grounding in established seismological methods. The problem description is overly simplistic, stating only that ChatGPT 'might help' \u2013 it doesn\u2019t specify *how* or what data will be used.  The concept of leveraging general world knowledge from a large language model for earthquake prediction is not well-defined within the context of seismology and requires significant elaboration. There's a high degree of ambiguity regarding the methodology, scope, and expected outcomes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 4
+    },
+    "title": "Generating Earthquake Predictions with ChatGPT"
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The thesis idea presents a basic concept but suffers from significant lack of detail and precision. The problem definition is present, but the motivation is overly simplistic and relies on a potentially unreliable assumption about public sentiment preceding earthquakes. While mentioning sentiment analysis is relevant to the proposed approach, it lacks specific details regarding the type of sentiment analysis, the social media data sources, or how this will translate into earthquake prediction. The scope is extremely broad \u2013 \u2018social media comments\u2019 encompasses an enormous amount of data and requires significant clarification on what types of comments are being considered and how they'll be processed. There's considerable ambiguity about the predictive power of sentiment analysis alone; it needs to acknowledge the limitations of this approach.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments"
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The thesis idea presents a basic concept but lacks sufficient detail to be considered highly clear. The problem definition is present, but the motivation could be stronger and more specific regarding how LLMs will *specifically* aid botanists in taxonomy. The terminology is assumed to be understood by someone familiar with LLMs and image classification, without explicit definition. The structural organization is rudimentary \u2013 it\u2019s a statement of intent rather than a plan. Specificity is low; the method isn't described, nor are potential datasets or evaluation metrics mentioned. Ambiguity exists regarding the scope - what types of plants? What level of accuracy is expected?",
+    "OverallClarity": 3,
+    "DimensionScores": {
+      "ProblemDefinition": 4,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 2,
+      "AmbiguityLevel": 3
+    },
+    "title": "Using LLMs to Classify Plant Species"
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The thesis idea presents a high-level concept but lacks sufficient detail to be considered well-defined. The problem description is present, but the motivation section feels tacked on and doesn't fully justify the approach.  It\u2019s unclear *how* LLMs will optimize sorting algorithms \u2013 what specific techniques are being explored? The scope is extremely broad; optimizing 'QuickSort' is a significant undertaking that needs more granular definition. While the general idea of using LLMs for algorithm optimization is interesting, the proposal lacks concrete details about implementation and expected outcomes.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Optimizing Sorting Algorithms with LLMs"
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The thesis idea presents a very ambitious goal but lacks sufficient detail to be considered clearly defined. While the motivation is stated, the core problem definition \u2013 'building a general-purpose AI agent that can perform any intellectual task a human can' \u2013 is incredibly broad and vague. It doesn\u2019t specify *how* this will be achieved, what architectural approaches are being considered, or even which specific tasks will serve as benchmarks. The terminology is also imprecise; \u2018AGI\u2019 itself requires significant unpacking within the context of the thesis.  The structure is rudimentary, consisting only of a problem description and motivation.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 2,
+      "TerminologyPrecision": 2,
+      "StructuralOrganization": 3,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Developing Artificial General Intelligence (AGI)"
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The thesis idea presents a high-level concept but lacks sufficient detail to be considered truly clear. The problem definition is present, but the scope of 'controlling AI systems with thoughts' is extremely broad and requires significant narrowing down. While the motivation is reasonable, it\u2019s overly general. The terminology isn't defined, relying on assumed familiarity with neural implants and brain-computer interfaces. The structural organization is rudimentary \u2013 simply stating a problem and motivation without outlining any proposed methods or anticipated outcomes. Specificity is severely lacking; there's no mention of the type of neural implant, the AI system being controlled, the communication protocol, or specific metrics for success.  The ambiguity level is high due to this lack of detail.",
+    "OverallClarity": 2,
+    "DimensionScores": {
+      "ProblemDefinition": 3,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 4
+    },
+    "title": "Direct Brain-AI Communication Using Neural Implants"
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The thesis idea is extremely vague and lacks sufficient detail. The problem description 'This project aims to make AI better' is overly broad and doesn\u2019t specify *how* or *what aspects* of AI are being targeted for improvement. The motivation, stating that AI can make life easier, is a general statement without grounding the research in specific areas. There's no indication of methodology, expected outcomes, or any concrete steps to be taken. It reads like a starting point rather than a developed thesis idea.",
+    "OverallClarity": 1,
+    "DimensionScores": {
+      "ProblemDefinition": 1,
+      "TerminologyPrecision": 1,
+      "StructuralOrganization": 2,
+      "Specificity": 1,
+      "AmbiguityLevel": 1
+    },
+    "title": "Improving Artificial Intelligence"
+  }
+}

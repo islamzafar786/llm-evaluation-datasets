@@ -1,0 +1,92 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "The project aims to create a chatbot similar to ChatGPT using the OpenAI API. The feasibility assessment is based on the availability and complexity of data, computational resources, implementation complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The proposed master's thesis idea involves applying decision trees for binary classification on email spam filtering, which is a common and well-studied problem in machine learning. However, the feasibility depends on various factors such as data availability, computational resources, complexity of implementation, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The proposed project aims to use ChatGPT for earthquake predictions, which is an innovative and challenging idea. However, the feasibility of this project depends on several factors.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The proposed project aims to use sentiment analysis on social media comments to predict seismic activity. The feasibility of this project will be evaluated based on the availability and quality of data, computational resources required, complexity of the methodology, and the expected time to completion.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The proposed master's thesis idea aims to classify plant species using LLMs. The feasibility assessment is based on the availability and quality of the dataset, computational resources required, theoretical and implementation complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The proposed master's thesis idea aims to optimize traditional sorting algorithms using large language models (LLMs). The feasibility of this project will be evaluated based on the availability of datasets, computational resources and infrastructure, theoretical & implementation complexity, and expected time to completion.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "The proposed master's thesis aims to develop Artificial General Intelligence (AGI), which is a highly complex and ambitious goal in the field of AI. The feasibility of this project depends on the availability of suitable data, computational resources, the complexity of the methods involved, and the realistic completion time.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 2,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The proposed master's thesis idea aims to develop a neural interface for direct brain-AI communication using neural implants. This project requires significant theoretical advancements and engineering work, and the availability of certain datasets might be challenging.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The proposed master's thesis idea aims to improve AI in general, which is a broad and complex topic. While the motivation is clear, the specific approach or focus needs to be defined for a feasibility assessment.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 2
+    }
+  }
+}

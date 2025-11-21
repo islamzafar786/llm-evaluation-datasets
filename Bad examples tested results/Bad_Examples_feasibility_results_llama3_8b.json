@@ -1,0 +1,92 @@
+{
+  "Building a ChatGPT Clone with OpenAI API": {
+    "Rationale": "Building a ChatGPT Clone with OpenAI API is feasible, but requires careful consideration of the challenges involved.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Using Decision Trees for Binary Classification": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Using Decision Trees for Binary Classification' to classify emails as spam or not.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Generating Earthquake Predictions with ChatGPT": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Generating Earthquake Predictions with ChatGPT' is as follows:",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 1,
+      "Timeline": 2
+    }
+  },
+  "Training Neural Networks to Predict Earthquakes Using social media comments": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Training Neural Networks to Predict Earthquakes Using social media comments' is as follows:",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Using LLMs to Classify Plant Species": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Using LLMs to Classify Plant Species' is as follows:",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Optimizing Sorting Algorithms with LLMs": {
+    "Rationale": "The feasibility assessment for the master's thesis idea 'Optimizing Sorting Algorithms with LLMs' is as follows.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 2
+    }
+  },
+  "Developing Artificial General Intelligence (AGI)": {
+    "Rationale": "Developing Artificial General Intelligence (AGI) is an ambitious and challenging task, requiring significant advancements in multiple areas.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 3,
+      "Complexity": 1,
+      "Timeline": 1
+    }
+  },
+  "Direct Brain-AI Communication Using Neural Implants": {
+    "Rationale": "The proposed master's thesis idea is ambitious and requires significant advancements in both theoretical and implementation complexity.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 1,
+      "Timeline": 2
+    }
+  },
+  "Improving Artificial Intelligence": {
+    "Rationale": "The project idea is overly broad and lacks specific direction, making it difficult to assess its feasibility.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  }
+}

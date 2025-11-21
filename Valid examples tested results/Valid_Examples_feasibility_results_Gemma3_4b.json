@@ -1,0 +1,422 @@
+{
+  "Generative Adversarial Networks for Multi-Instrument Music Synthesis": {
+    "Rationale": "This thesis idea is ambitious but achievable with careful planning and a focused approach. While GANs for music synthesis are an active research area, the proposed architecture (oGAN) isn't radically new, allowing us to leverage existing techniques. The core challenge lies in effectively translating sheet music into high-quality audio, which requires significant data preparation and model tuning.  The use of PatchGAN and U-Net is a solid starting point, but achieving truly 'natural' sound will be demanding.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Machine Learning Image Segmentation to Improve Object Recognition in Mixed Reality": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and execution. While the core concepts are well-established, integrating image segmentation with MR specific challenges and conducting user studies adds complexity. The availability of suitable datasets and computational resources will be key to success.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Self-supervised Domain Adaptation of Language Models for the Process Industry": {
+    "Rationale": "The thesis idea is promising but requires careful consideration regarding data acquisition and the complexity of graph construction. While self-supervised learning and contrastive learning are established techniques, applying them to a process industry domain with a novel graph-based approach introduces significant engineering challenges. The reliance on unstructured text logs also means potential difficulties in creating a robust and representative process industry graph.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 4
+    }
+  },
+  "Deep Learning Techniques Applied to Constituency Parsing of German": {
+    "Rationale": "This thesis idea is feasible, but requires careful planning and execution. While the core concepts are well-established within deep learning for parsing, applying them specifically to German constituency parsing presents challenges related to data scarcity and the intricacies of the language. The use of self-attention and multi-layered architectures is a reasonable approach, but achieving state-of-the-art accuracy will likely require significant experimentation and fine-tuning.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Applying Deep Reinforcement Learning in the Navigation of Mobile Robots in Static and Dynamic Environments": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and execution. While PPO and robot navigation are established techniques, applying them effectively to dynamic environments with human crowds presents significant challenges. The reliance on simulation data necessitates a robust environment model and realistic crowd simulations. Balancing exploration and exploitation in this context can be difficult, potentially leading to slow learning or unstable policies.  The comparison of different training strategies adds complexity but also provides valuable insights.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Graph Neural Networks for Electrical Grid State Estimation": {
+    "Rationale": "The thesis idea is promising but requires careful consideration regarding data availability and computational complexity. While GNNs are gaining traction in power systems, applying them to state estimation with sparse measurements presents a significant challenge in terms of dataset creation and model training.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Representation Learning on Electronic Health Records Using Graph Neural Networks": {
+    "Rationale": "This thesis idea is feasible, but with some caveats. EHR data is generally accessible, though obtaining a sufficiently large and well-structured dataset for mortality prediction can be challenging. GNNs are increasingly popular in healthcare, providing established techniques for representation learning. However, the specific choice of graph representations and encoding methods requires careful consideration and experimentation. The timeline is reasonable assuming focused effort and access to necessary computational resources.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Deep Reinforcement Learning for Decentralized Autonomous Decision-Making in Federated Satellite Systems": {
+    "Rationale": "This thesis idea is ambitious and potentially impactful, but requires careful consideration regarding data availability, computational demands, and the complexity of implementing DRL in a federated setting. While DRL itself has established algorithms, applying it to satellite systems introduces unique challenges related to intermittent connectivity, asynchronous updates, and realistic simulation environments.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Solving Machine Learning Problems": {
+    "Rationale": "This thesis idea is ambitious and innovative, but requires careful consideration of several factors. While the core concept \u2013 using a transformer-based model to solve machine learning problems \u2013 is grounded in existing research, integrating GNNs and expression trees adds significant complexity. The reliance on MIT 6.036 data provides a good starting point, but generating sufficient diverse and challenging problems for training will likely require some effort.  The timeline is potentially aggressive given the complexities involved.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 2
+    }
+  },
+  "Optimization Methods for Machine Learning underStructural Constraints": {
+    "Rationale": "The thesis idea is ambitious and covers several distinct but related areas. While each component has reasonable feasibility, the combination of multiple algorithms and techniques, particularly the log-concave density MLE and BnB enhancements, introduces significant complexity and potentially lengthy development times. The need for efficient implementation across diverse constraints (subgradient regularization, log-concavity, Gaussian Graphical Models, sparse learning) elevates the overall difficulty.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Probabilistic data analysis with probabilistic programming": {
+    "Rationale": "This thesis idea is ambitious and innovative, but requires careful consideration regarding the scope and available resources. The core concept of CGPMs and their integration with BayesDB is novel, demanding significant theoretical understanding and implementation effort. While probabilistic programming and Bayesian modeling are established fields, applying them in this structured way \u2013 specifically with a focus on composability and latent variable mediation \u2013 represents a substantial undertaking. Obtaining suitable datasets for comprehensive testing will likely require some curation or adaptation of existing data. The computational demands, particularly for exploring various modeling techniques within the BayesDB framework, could be considerable, especially if aiming for scalability.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Artificial intelligence-assisted data analysis with BayesDB": {
+    "Rationale": "The thesis idea is ambitious but achievable with careful planning and execution. The use of BayesDB and CrossCat is a solid approach to addressing the stated problems, and the datasets are reasonably accessible. However, the complexity of integrating probabilistic programming with predictive error detection requires a significant investment in learning and implementation. Furthermore, while Gapminder data is readily available, the ANES dataset might require some preprocessing or adaptation for optimal use within BayesDB.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Data analysis and simulation approach to capacity planning": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and realistic expectations. While the core concepts are well-established, obtaining sufficient data for a specific military installation presents challenges. Simulation modeling itself is relatively straightforward, but translating real-world complexities like provider behavior and patient needs into a robust model will demand significant effort. The timeline is potentially achievable with focused research, but delays due to data acquisition could be substantial.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Faster linear algebra for data analysis and machine learning": {
+    "Rationale": "This thesis idea is ambitious and touches upon several active areas of research, but the combination of techniques \u2013 importance sampling, randomized sketching, and fast iterative methods \u2013 presents a significant challenge. While each component individually has established literature, integrating them effectively for large-scale machine learning will require substantial engineering effort and careful theoretical justification. The reliance on matrix approximation and SVD also means dealing with potentially very large matrices, which can strain computational resources.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Emotional response modeling in financial markets : Boston Stock Exchange data analysis": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and execution. The core concept \u2013 linking physiological responses to trading decisions \u2013 is well-established in the burgeoning field of behavioral finance. However, accessing and cleaning the specific data from the Boston Stock Exchange presents a significant challenge, as does ensuring robust physiological data collection protocols with professional traders. While HRV, skin conductance, and tension are commonly measured, integrating them reliably alongside detailed transaction data requires careful consideration of ethical approvals, participant recruitment, and equipment calibration. The analysis itself will likely involve advanced statistical modeling techniques to account for confounding variables and establish meaningful correlations.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?": {
+    "Rationale": "This thesis idea is intriguing and addresses a gap in our understanding of LLM reasoning, but it presents significant challenges related to the difficulty of generating truly 'unanswerable' questions. The core problem \u2013 creating questions that consistently stump even powerful LLMs \u2013 is inherently difficult to quantify and requires careful design. While RQA itself isn\u2019t new, pushing it to this extreme will demand a substantial amount of experimentation and potentially require novel techniques for question generation.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Exploration of Different Large Language Models for Retrieval-Augmented Generation in Analyzing Wearable Running Data for Sports Physiotherapy": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and execution. While the core concept \u2013 using RAG with LLMs for analyzing running data \u2013 is well-established, the specific application within sports physiotherapy and the selection/optimization of various LLM sizes present significant challenges. The need to acquire and potentially clean a relevant dataset, coupled with the computational demands of experimenting with different LLM sizes, could strain resources and timeline.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Evaluating Large Language Models for Automated Cyber Security Alarm Analysis Processes": {
+    "Rationale": "This thesis idea is feasible, but requires careful planning and a pragmatic approach to LLM selection. While the core concept aligns with current trends and has potential, several challenges related to data availability, computational requirements, and the specific nature of cybersecurity alarm data need addressing.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Automatic Evaluation of Companies' Alignment with EU Taxonomy Using Large Language Models": {
+    "Rationale": "This thesis idea is feasible but requires careful planning and execution. The core concept \u2013 using LLMs for EU Taxonomy alignment assessment \u2013 aligns with current trends and has potential. However, the reliance on corporate sustainability reports introduces challenges related to data quality, format variability, and the complexity of extracting relevant information. While LLMs are powerful, achieving high accuracy in this specific domain will necessitate significant prompt engineering and potentially fine-tuning efforts. The scope needs to be realistically managed within a 6-month timeframe.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Variational Auto-Encoder for Latent Uncertainty Encoding in Large Language Models": {
+    "Rationale": "This thesis idea is feasible but requires careful consideration and a focused approach. The core concept \u2013 using a VAE to encode uncertainty in LLMs \u2013 aligns with current research trends, however, the implementation details and potential challenges need to be addressed realistically within a master's thesis timeframe. While the underlying theory is established, integrating it effectively into an existing LLM architecture presents significant engineering hurdles.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Using LLMs to aid developers with code comprehension in codebases": {
+    "Rationale": "This thesis idea is feasible, but requires careful planning and a pragmatic approach. LLMs are increasingly capable in code understanding tasks, making this a relevant topic. However, the scope needs to be narrowed down significantly to ensure completion within a reasonable timeframe. The core challenge lies in effectively utilizing LLMs for *comprehension* rather than just generation \u2013 which is a more complex task.  The reliance on existing LLM models and potentially limited access to diverse codebases will impact dataset availability and computational requirements.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Telepathic Machine Learning: Training AI Models with Brain Waves": {
+    "Rationale": "This thesis idea is ambitious and innovative, but faces significant challenges related to the nascent field of brain-computer interfaces and telepathic machine learning. While conceptually exciting, translating this into a practical master's thesis within a reasonable timeframe requires addressing substantial hurdles in data acquisition, signal processing, model training, and interpretation.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Infinite Data Compression Using a Single Byte": {
+    "Rationale": "The core concept \u2013 compressing an entire dataset into a single byte \u2013 is fundamentally challenging and likely impossible with current understanding of information theory and computation. While the motivation regarding data storage costs is valid, achieving this goal requires breakthroughs in compression algorithms that go far beyond existing techniques. The thesis idea leans heavily on theoretical advancements rather than practical implementation.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 1,
+      "Complexity": 5,
+      "Timeline": 1
+    }
+  },
+  "The Square Root of a Cat: Applying Algebraic Structures to Living Organisms": {
+    "Rationale": "The core concept \u2013 calculating the 'square root' of a living organism \u2013 is fundamentally flawed and presents significant challenges across all evaluation criteria. While the motivation to explore deeper insights into biology through mathematics is admirable, the proposed approach lacks a scientifically sound basis and relies on an overly simplistic analogy. Applying algebraic structures in this manner risks misinterpreting biological complexity and potentially leading to misleading conclusions. The thesis would require substantial theoretical work to even begin defining what 'square root' means in this context, making it more of a philosophical exercise than a rigorous scientific investigation.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 1,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Training a Neural Network Using Only White Noise": {
+    "Rationale": "This thesis idea is ambitious and potentially groundbreaking, but faces significant challenges related to the nature of white noise as input. While conceptually interesting, training a neural network solely on random noise presents fundamental difficulties in learning meaningful representations. The model will likely produce outputs that appear somewhat structured but lack genuine understanding or predictive power.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Reverse Evolution: Teaching Dinosaurs to Use Smartphones": {
+    "Rationale": "This thesis idea, while intriguing and conceptually stimulating, presents significant challenges across multiple domains. The core concept \u2013 reverse engineering dinosaur cognition through smartphone interaction \u2013 is highly ambitious and pushes the boundaries of current AI capabilities. While not entirely impossible, it requires substantial breakthroughs in several areas.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 2,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Predicting Earthquake Locations Using Sentient AI Pigeons": {
+    "Rationale": "This thesis idea is ambitious and innovative, but faces significant challenges related to data acquisition, pigeon behavior interpretation, and the integration of biological signals with AI. While the core concept is intriguing, translating it into a practical predictive system presents substantial hurdles.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Quantum Blockchain for Faster-than-Light Financial Transactions": {
+    "Rationale": "This thesis idea, while ambitious and potentially groundbreaking, faces significant hurdles related to the current state of quantum technology. Leveraging quantum entanglement for financial transactions is a highly theoretical concept with substantial practical challenges that are not yet addressable within a standard master's thesis timeframe.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 1,
+      "Complexity": 2,
+      "Timeline": 2
+    }
+  },
+  "Sentiment Analysis on Dolphin Communication Using Large Language Models": {
+    "Rationale": "This thesis idea is ambitious but achievable with careful planning and a focused approach. While applying LLMs to dolphin communication is novel, the core NLP techniques are well-established. The biggest challenge lies in the data acquisition and preprocessing, requiring significant effort. Computational resources will be needed for training and experimentation, though not excessively demanding compared to some other deep learning projects.  The timeline is potentially tight given the complexities involved, but manageable with a dedicated student.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  },
+  "Using AI to Detect Ghosts in Abandoned Buildings": {
+    "Rationale": "This thesis idea, while intriguing, presents significant challenges due to the nature of the data and the inherent difficulty in objectively defining 'paranormal activity' for AI analysis. The reliance on infrared and electromagnetic field data introduces considerable noise and variability, making reliable anomaly detection extremely difficult. Furthermore, establishing a clear definition of what constitutes an \u2018unexplained anomaly\u2019 that could be linked to ghosts is problematic \u2013 it\u2019s largely subjective.",
+    "Feasibility": 2,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Infinite Battery Life Using Perpetual Motion Machines": {
+    "Rationale": "This thesis idea, while ambitious and intriguing from a theoretical perspective, faces fundamental challenges rooted in the laws of physics. The core concept \u2013 a perpetual motion machine powering a battery \u2013 is considered impossible according to our current understanding. While exploring novel approaches to energy harvesting *could* be part of the research, attempting to build a true perpetual motion device for this purpose is highly unlikely to succeed within the constraints of a master's thesis.",
+    "Feasibility": 1,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Machine Learning approach for Enterprise Data with a focus on SAPLeonardo": {
+    "Rationale": "This thesis idea is feasible, but requires careful scoping and a pragmatic approach. The focus on SAP Leonardo offers a valuable constraint that simplifies the scope compared to a purely external ML solution. However, leveraging an existing enterprise system like SAP introduces complexities related to data access, integration, and potentially legacy systems. While image recognition is a well-understood problem, applying it within a specific SAP Leonardo context (Quality Management) will require tailoring and may necessitate some custom development.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Lead Scoring with Machine Learning": {
+    "Rationale": "This thesis idea is highly feasible, leveraging established ML techniques and readily available data. However, a focused approach to model selection, feature engineering, and hyperparameter tuning will be crucial for achieving meaningful results within the timeframe.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 5,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Using Machine Learning Methods for Evaluating the Quality of Technical Documents": {
+    "Rationale": "This thesis idea is feasible, but requires careful planning and a pragmatic approach. While the core concept aligns with established ML techniques, the lack of readily available labeled data for translation quality assessment presents a significant challenge. The reliance on recombined metrics adds complexity, requiring thoughtful feature engineering and potentially custom metric development.  The timeline needs to be realistic considering the data acquisition and preparation phase.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 2,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 3
+    }
+  },
+  "Application of machine learning algorithms for classification and regression problems for mobile game monetization": {
+    "Rationale": "This thesis idea is feasible, but with some caveats. The core problem \u2013 applying ML to mobile game monetization \u2013 is well-trodden and has existing literature. However, the specific combination of solely using installation data for classification and predicting day-30 revenue from limited initial gameplay data presents a moderate challenge. Obtaining relevant, anonymized game data will require collaboration with a company, which can be time-consuming. The algorithms themselves are established, but achieving high accuracy and interpretability within a reasonable timeframe requires careful feature engineering and model selection.  The timeline is achievable, but dependent on the quality of the dataset and the complexity of the chosen models.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Applying Machine Learning in Equity Trading": {
+    "Rationale": "The thesis idea is a reasonable starting point for exploring ML in equity trading, but several factors contribute to a moderate level of feasibility. While the core concept is well-established and utilizes readily available data, the complexity of building a robust and profitable portfolio strategy with ML requires careful consideration. The classification task itself isn't overly complex, however, translating that into a consistently outperforming portfolio involves significant challenges related to feature engineering, model selection, risk management, transaction costs, and backtesting rigor.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Predicting Default Loans using Machine Learning": {
+    "Rationale": "This thesis idea is feasible, but with some caveats. The core problem \u2013 predicting loan defaults using machine learning \u2013 is well-established and has numerous existing datasets available. However, the specific request for a standardized dataset of 30,000 Taiwanese credit card clients presents a moderate challenge in terms of data acquisition and potential cleaning/preprocessing. While publicly available credit data might be difficult to obtain directly due to privacy regulations, collaborating with a financial institution in Taiwan could provide access to such a dataset. The choice of algorithms (neural networks, decision trees, XGBoost) is also standard and well-understood.  The computational requirements are reasonable given the scope of the project \u2013 likely achievable on a single workstation or a modest cloud computing instance. The timeline is potentially achievable within 6 months, assuming efficient data handling and model experimentation.",
+    "Feasibility": 4,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 4,
+      "Timeline": 4
+    }
+  },
+  "Dynamic Model Selection for Automated Machine Learning in Time Series": {
+    "Rationale": "The thesis idea is ambitious and innovative, combining dynamic model selection with time series forecasting. However, several aspects present significant challenges that impact feasibility. While the core concepts are grounded in established techniques like ensemble methods and meta-learning, the specific application to *time series* with dynamic distance measures (DTW) and automated selection requires substantial research and development. Obtaining suitable datasets for rigorous evaluation will be a key bottleneck. The computational demands of exploring diverse models and calculating DTW distances across time could also be considerable, particularly if aiming for real-time adaptation.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 3,
+      "Complexity": 4,
+      "Timeline": 3
+    }
+  },
+  "Application of Machine Learning in Economic Optimization": {
+    "Rationale": "This thesis idea is ambitious and combines multiple advanced techniques, presenting a moderate level of challenge. While the individual components are well-established, integrating them into a cohesive solution for a specific industrial application requires careful consideration and potentially significant engineering effort. The reliance on GP and CNNs necessitates expertise in both areas, and translating these models to a practical chemical plant scenario adds complexity.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 2,
+      "Timeline": 3
+    }
+  },
+  "Sanity Checks for Explanations of Deep Neural Networks Predictions": {
+    "Rationale": "This thesis idea is feasible, but requires careful consideration and a focused approach. The core concept \u2013 applying sanity checks to XAI explanations \u2013 is sound and addresses a critical gap in the field. However, the success hinges on selecting appropriate models and explanation methods, as well as designing effective randomization tests. While the underlying theory is established, implementing robust and meaningful tests will require significant engineering effort.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 3,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning in Application-Based Case Management": {
+    "Rationale": "This thesis idea presents a reasonably feasible project, leveraging established ML techniques and addressing a practical problem within a defined domain. However, the reliance on unstructured data via LDA introduces some complexity and potential challenges regarding data quality and interpretation.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 4,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 4
+    }
+  },
+  "Machine Learning for All: a Methodology for Choosing a Federated Learning Approach": {
+    "Rationale": "The thesis idea is ambitious but achievable with a focused approach. The core concept \u2013 developing a methodology for FL selection \u2013 is valuable and addresses a genuine need. However, the scope requires careful management to ensure it\u2019s completed within a reasonable timeframe. The reliance on case study validation in the financial industry adds complexity, requiring access to relevant data and expertise.",
+    "Feasibility": 3,
+    "Subscores": {
+      "Dataset": 3,
+      "Computation": 4,
+      "Complexity": 3,
+      "Timeline": 2
+    }
+  }
+}
