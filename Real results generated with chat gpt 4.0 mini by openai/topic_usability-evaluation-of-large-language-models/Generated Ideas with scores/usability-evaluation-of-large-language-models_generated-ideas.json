@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Evaluating User-Centric Usability of LLMs in Healthcare Communication",
+    "description": "Current evaluations of large language models (LLMs) in healthcare often focus on accuracy and clinical relevance, neglecting user experience and communication effectiveness. This research aims to develop a comprehensive usability evaluation framework that incorporates user feedback from healthcare professionals and patients when interacting with LLMs for medical inquiries.",
+    "motivation": "As LLMs are increasingly integrated into healthcare settings, ensuring that they communicate effectively and understandably with both professionals and patients is crucial. Existing studies primarily assess LLMs based on technical metrics, which may overlook how well these models facilitate real-world communication. A user-centric approach is necessary to enhance the practical application of LLMs in healthcare, ultimately improving patient outcomes and satisfaction.",
+    "scores": {
+      "feasibility": 2,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Interactive Evaluation Framework for LLMs in Educational Settings",
+    "description": "While LLMs have shown promise in educational applications, their evaluation often lacks a dynamic, interactive component that reflects real-time user engagement and learning outcomes. This thesis proposes an interactive evaluation framework that assesses LLMs based on student interactions, learning progress, and feedback mechanisms.",
+    "motivation": "The educational landscape is rapidly evolving with AI integration, yet the evaluation of LLMs remains static and does not account for the interactive nature of learning. By developing a framework that captures user engagement and adaptability, this research aims to provide insights into how LLMs can be optimized for educational purposes, addressing the gap between theoretical performance and practical usability.",
+    "scores": {
+      "feasibility": 1,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 3
+    }
+  },
+  {
+    "title": "Assessing the Impact of Prompt Engineering on LLM Usability in Clinical Decision Support",
+    "description": "Prompt engineering significantly influences the outputs of LLMs, yet there is limited understanding of how different prompting strategies affect usability in clinical decision support systems. This research will systematically evaluate various prompt designs and their impact on the quality and relevance of LLM-generated clinical recommendations.",
+    "motivation": "As LLMs are deployed in clinical settings, the effectiveness of their recommendations can directly impact patient care. Understanding how to optimize prompts for better usability is essential to ensure that healthcare professionals can rely on these tools for accurate and timely decision-making. This study addresses the need for a structured approach to prompt engineering that enhances the practical application of LLMs in healthcare.",
+    "scores": {
+      "feasibility": 4,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Evaluating the Explainability of LLMs in Conversational Recommendation Systems",
+    "description": "Existing evaluation methods for conversational recommendation systems (CRSs) using LLMs often overlook the importance of explainability in user interactions. This research aims to develop an evaluation framework that assesses the explainability of LLM-generated recommendations and its effect on user trust and satisfaction.",
+    "motivation": "As LLMs are increasingly used in CRSs, users must understand the rationale behind recommendations to trust and act on them. Current evaluation protocols do not adequately measure explainability, which is critical for user acceptance and effective decision-making. This research seeks to fill this gap by providing a framework that emphasizes the importance of explainability in enhancing user experience with LLMs.",
+    "scores": {
+      "feasibility": 4,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Framework for Evaluating LLMs in Generating Personalized Health Information",
+    "description": "The ability of LLMs to generate personalized health information is promising, yet there is a lack of comprehensive evaluation frameworks that assess the accuracy, relevance, and personalization of the information provided. This thesis proposes a multi-dimensional evaluation framework that incorporates user feedback and clinical validation.",
+    "motivation": "Personalized health information can significantly improve patient engagement and adherence to treatment plans. However, without a robust evaluation framework, the risks of misinformation and lack of relevance remain high. This research aims to establish a systematic approach to evaluate LLMs in generating personalized health content, ensuring that patients receive accurate and tailored information.",
+    "scores": {
+      "feasibility": 4,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in Mental Health Support Applications",
+    "description": "This research aims to evaluate the usability of large language models (LLMs) in providing mental health support through chatbots. Current LLMs often generate responses that lack empathy, context-awareness, and personalization, which are critical in mental health interactions. This study will assess how well LLMs can engage users in a supportive manner and provide appropriate responses to sensitive topics.",
+    "motivation": "Mental health issues are on the rise, and many individuals seek support online. However, existing LLMs may not be equipped to handle the nuances of mental health conversations, leading to potential harm. By developing a framework to evaluate LLMs specifically for mental health applications, this research can contribute to safer and more effective AI-driven support systems.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Assessing the Usability of LLMs in Legal Document Analysis",
+    "description": "This thesis will investigate the usability of LLMs in analyzing and summarizing legal documents. Current methods often struggle with the complexity and specificity of legal language, resulting in inaccuracies and misinterpretations. This research will focus on developing evaluation metrics tailored to the legal domain to assess LLM performance.",
+    "motivation": "Legal professionals increasingly rely on AI tools for document analysis, yet the risk of misinterpretation can have serious consequences. By creating a robust evaluation framework for LLMs in this context, the study aims to enhance the reliability of AI tools in legal practice, ultimately improving efficiency and accuracy in legal work.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Evaluating the Role of LLMs in Enhancing User Experience in E-commerce",
+    "description": "This thesis will assess how LLMs can improve user experience in e-commerce platforms through personalized recommendations and customer support. Current evaluations often focus on technical performance rather than user satisfaction and engagement, which are critical for e-commerce success.",
+    "motivation": "With the rapid growth of online shopping, enhancing user experience is vital for retaining customers. By developing a comprehensive evaluation framework that prioritizes user experience, this research can provide insights into how LLMs can be effectively integrated into e-commerce, ultimately driving sales and customer loyalty.",
+    "scores": {
+      "feasibility": 4,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 3
+    }
+  },
+  {
+    "title": "Framework for Evaluating LLMs in Crisis Communication Scenarios",
+    "description": "This research will develop a framework to evaluate the effectiveness of LLMs in crisis communication, focusing on their ability to provide timely, accurate, and empathetic responses during emergencies. Current evaluation methods do not adequately address the unique challenges posed by crisis situations.",
+    "motivation": "In times of crisis, effective communication is critical for public safety and trust. LLMs have the potential to assist in disseminating information quickly, but their current limitations in understanding context and urgency can lead to misinformation. This study aims to create a framework that ensures LLMs can be reliably used in crisis communication, thereby enhancing public safety.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  }
+]

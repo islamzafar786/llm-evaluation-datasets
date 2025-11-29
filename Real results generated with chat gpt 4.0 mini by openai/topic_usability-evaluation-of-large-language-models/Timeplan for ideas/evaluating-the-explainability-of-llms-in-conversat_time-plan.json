@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Evaluating the Explainability of LLMs in Conversational Recommendation Systems",
+    "description": "Existing evaluation methods for conversational recommendation systems (CRSs) using LLMs often overlook the importance of explainability in user interactions. This research aims to develop an evaluation framework that assesses the explainability of LLM-generated recommendations and its effect on user trust and satisfaction.",
+    "motivation": "As LLMs are increasingly used in CRSs, users must understand the rationale behind recommendations to trust and act on them. Current evaluation protocols do not adequately measure explainability, which is critical for user acceptance and effective decision-making. This research seeks to fill this gap by providing a framework that emphasizes the importance of explainability in enhancing user experience with LLMs.",
+    "milestones": [
+      "Conduct a literature review on explainability in LLMs and CRSs (Weeks 1-2)",
+      "Identify key metrics for evaluating explainability (Weeks 3-4)",
+      "Design a preliminary evaluation framework (Weeks 5-6)",
+      "Develop a prototype conversational recommendation system using LLMs (Weeks 7-10)",
+      "Implement the evaluation framework in the prototype system (Weeks 11-12)",
+      "Conduct user studies to assess user trust and satisfaction (Weeks 13-16)",
+      "Analyze user study data (Weeks 17-18)",
+      "Refine the evaluation framework based on user feedback (Weeks 19-20)",
+      "Prepare a draft report outlining findings and recommendations (Weeks 21-22)",
+      "Review and finalize the research report (Weeks 23-24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on explainability in LLMs and CRSs",
+      "Week 2": "Continue literature review and finalize key sources",
+      "Week 3": "Identify key metrics for evaluating explainability",
+      "Week 4": "Complete metric identification and start framework design",
+      "Week 5": "Design the preliminary evaluation framework",
+      "Week 6": "Finalize the evaluation framework design",
+      "Week 7": "Begin development of the prototype CRS with LLMs",
+      "Week 8": "Continue developing the prototype CRS",
+      "Week 9": "Finish developing the prototype CRS",
+      "Week 10": "Testing and debugging the prototype CRS",
+      "Week 11": "Implement the evaluation framework in the prototype",
+      "Week 12": "Final testing of the evaluation framework integration",
+      "Week 13": "Plan and prepare for user studies",
+      "Week 14": "Conduct user studies and collect data",
+      "Week 15": "Continue conducting user studies",
+      "Week 16": "Wrap up user studies and finalize data collection",
+      "Week 17": "Analyze user study data",
+      "Week 18": "Complete data analysis and start reporting findings",
+      "Week 19": "Refine the evaluation framework based on analysis",
+      "Week 20": "Finalize refinements and prepare for reporting",
+      "Week 21": "Draft the research report",
+      "Week 22": "Continue drafting and begin revisions of the report",
+      "Week 23": "Review and finalize the research report",
+      "Week 24": "Submit the final report and prepare for presentation"
+    }
+  }
+]

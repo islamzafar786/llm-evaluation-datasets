@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Framework for Evaluating LLMs in Crisis Communication Scenarios",
+    "description": "This research will develop a framework to evaluate the effectiveness of LLMs in crisis communication, focusing on their ability to provide timely, accurate, and empathetic responses during emergencies. Current evaluation methods do not adequately address the unique challenges posed by crisis situations.",
+    "motivation": "In times of crisis, effective communication is critical for public safety and trust. LLMs have the potential to assist in disseminating information quickly, but their current limitations in understanding context and urgency can lead to misinformation. This study aims to create a framework that ensures LLMs can be reliably used in crisis communication, thereby enhancing public safety.",
+    "skills": [
+      "Python",
+      "natural language processing",
+      "LLM evaluation metrics",
+      "crisis communication theory",
+      "sentiment analysis",
+      "data annotation",
+      "qualitative research methods",
+      "statistical analysis",
+      "user experience design",
+      "ethical considerations in AI"
+    ]
+  }
+]

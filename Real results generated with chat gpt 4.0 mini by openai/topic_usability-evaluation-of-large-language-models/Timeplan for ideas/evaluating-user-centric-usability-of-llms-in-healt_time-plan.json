@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Evaluating User-Centric Usability of LLMs in Healthcare Communication",
+    "description": "Current evaluations of large language models (LLMs) in healthcare often focus on accuracy and clinical relevance, neglecting user experience and communication effectiveness. This research aims to develop a comprehensive usability evaluation framework that incorporates user feedback from healthcare professionals and patients when interacting with LLMs for medical inquiries.",
+    "motivation": "As LLMs are increasingly integrated into healthcare settings, ensuring that they communicate effectively and understandably with both professionals and patients is crucial. Existing studies primarily assess LLMs based on technical metrics, which may overlook how well these models facilitate real-world communication. A user-centric approach is necessary to enhance the practical application of LLMs in healthcare, ultimately improving patient outcomes and satisfaction.",
+    "milestones": [
+      "Conduct literature review on usability evaluation frameworks in healthcare communication (Weeks 1-2)",
+      "Identify key stakeholders including healthcare professionals and patients for user feedback (Weeks 3-4)",
+      "Develop a preliminary usability evaluation framework based on literature review and stakeholder input (Weeks 5-6)",
+      "Design user study methodology including surveys, interviews, and usability testing (Weeks 7-8)",
+      "Obtain ethical approval for the research study (Weeks 9-10)",
+      "Recruit participants for the user study (Weeks 11-12)",
+      "Conduct user studies with healthcare professionals and patients (Weeks 13-16)",
+      "Analyze collected data from user studies (Weeks 17-18)",
+      "Refine the usability evaluation framework based on user feedback and data analysis (Weeks 19-20)",
+      "Prepare final report summarizing findings and framework (Weeks 21-22)",
+      "Present findings to stakeholders and incorporate any final feedback (Weeks 23-24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review",
+      "Week 2": "Complete literature review",
+      "Week 3": "Identify key stakeholders",
+      "Week 4": "Finalize stakeholder list",
+      "Week 5": "Develop preliminary usability framework",
+      "Week 6": "Complete framework development",
+      "Week 7": "Design user study methodology",
+      "Week 8": "Finalize methodology design",
+      "Week 9": "Submit for ethical approval",
+      "Week 10": "Receive ethical approval",
+      "Week 11": "Recruit participants",
+      "Week 12": "Finalize participant recruitment",
+      "Week 13": "Conduct user studies with healthcare professionals",
+      "Week 14": "Continue user studies with healthcare professionals",
+      "Week 15": "Conduct user studies with patients",
+      "Week 16": "Complete all user studies",
+      "Week 17": "Begin data analysis",
+      "Week 18": "Complete data analysis",
+      "Week 19": "Refine usability framework based on findings",
+      "Week 20": "Finalize the refined framework",
+      "Week 21": "Prepare final report",
+      "Week 22": "Complete and review final report",
+      "Week 23": "Present findings to stakeholders",
+      "Week 24": "Incorporate final feedback and project closure"
+    }
+  }
+]

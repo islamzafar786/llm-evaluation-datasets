@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Framework for Evaluating LLMs in Generating Personalized Health Information",
+    "description": "The ability of LLMs to generate personalized health information is promising, yet there is a lack of comprehensive evaluation frameworks that assess the accuracy, relevance, and personalization of the information provided. This thesis proposes a multi-dimensional evaluation framework that incorporates user feedback and clinical validation.",
+    "motivation": "Personalized health information can significantly improve patient engagement and adherence to treatment plans. However, without a robust evaluation framework, the risks of misinformation and lack of relevance remain high. This research aims to establish a systematic approach to evaluate LLMs in generating personalized health content, ensuring that patients receive accurate and tailored information.",
+    "skills": [
+      "Python",
+      "LLM frameworks (e.g., Hugging Face Transformers)",
+      "natural language processing",
+      "health informatics",
+      "user experience research",
+      "clinical validation methods",
+      "evaluation metrics (e.g., BLEU, ROUGE)",
+      "statistical analysis",
+      "user feedback collection",
+      "data annotation techniques"
+    ]
+  }
+]

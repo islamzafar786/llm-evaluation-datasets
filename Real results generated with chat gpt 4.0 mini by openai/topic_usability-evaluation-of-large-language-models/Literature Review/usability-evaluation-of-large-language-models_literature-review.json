@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "633f3b8bdc042e7ab750f3458e8ce208bb540184",
+    "title": "Autonomous medical evaluation for guideline adherence of large language models",
+    "abstract": "Autonomous Medical Evaluation for Guideline Adherence (AMEGA) is a comprehensive benchmark designed to evaluate large language models’ adherence to medical guidelines across 20 diagnostic scenarios spanning 13 specialties. It includes an evaluation framework and methodology to assess models’ capabilities in medical reasoning, differential diagnosis, treatment planning, and guideline adherence, using open-ended questions that mirror real-world clinical interactions. It includes 135 questions and 1337 weighted scoring elements designed to assess comprehensive medical knowledge. In tests of 17 LLMs, GPT-4 scored highest with 41.9/50, followed closely by Llama-3 70B and WizardLM-2-8x22B. For comparison, a recent medical graduate scored 25.8/50. The benchmark introduces novel content to avoid the issue of LLMs memorizing existing medical data. AMEGA’s publicly available code supports further research in AI-assisted clinical decision-making, aiming to enhance patient care by aiding clinicians in diagnosis and treatment under time constraints.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/633f3b8bdc042e7ab750f3458e8ce208bb540184",
+    "excluded": false
+  },
+  {
+    "id": "ed0ed87161a2beab9e1bed3e783d7487a5f1062a",
+    "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+    "abstract": "A prominent weakness of modern language models (LMs) is their tendency to generate factually incorrect text, which hinders their usability. A natural question is whether such factual errors can be detected automatically. Inspired by truth-seeking mechanisms in law, we propose a factuality evaluation framework for LMs that is based on cross-examination. Our key idea is that an incorrect claim is likely to result in inconsistency with other claims that the model generates. To discover such inconsistencies, we facilitate a multi-turn interaction between the LM that generated the claim and another LM (acting as an examiner) which introduces questions to discover inconsistencies. We empirically evaluate our method on factual claims made by multiple recent LMs on four benchmarks, finding that it outperforms existing methods and baselines, often by a large gap. Our results demonstrate the potential of using interacting LMs for capturing factual errors.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/ed0ed87161a2beab9e1bed3e783d7487a5f1062a",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the problem of detecting factuality errors in language models (LMs), which often generate inconsistent, non-attributable, or factually incorrect text, hindering their reliability and usability. They focus on improving factual question answering and ensuring factual accuracy in model predictions without relying on reference texts or external knowledge bases.",
+      "idea": "The core novel contribution is the LMVLM (Language Model Verification through Language Model) approach, which employs a cross-examination mechanism inspired by truth-seeking methods in law. This method facilitates zero-shot detection of factuality errors through multi-turn interactions between an examiner LM and an examinee LM, allowing for the prediction of whether a model's claim is correct or incorrect.",
+      "methodology": "The LMVLM approach involves a structured multi-turn interaction between two language models: the EXAMINER, which evaluates claims made by the EXAMINEE. The process includes three stages: Setup, Follow-up Questions, and Factuality Decision, using prompts designed to facilitate this interaction. The authors empirically evaluate their method on various Question Answering and Fact Completion datasets, converting predicted answers into claims and manually reviewing claims marked as incorrect to ensure accurate labeling. They also compare the performance of different models (CHATGPT, GPT-3, and LLAMA) in cross-examination settings, measuring metrics such as F1 score, accuracy, and the impact of follow-up questions.",
+      "result": "The evaluation shows that the LMVLM approach substantially improves the detection of factual errors, achieving high precision, recall, and F1 scores across various datasets. For instance, CHATGPT achieves an F1 score of 85.4 on PopQA, significantly higher than baseline scores, while GPT-3 shows strong performance on TriviaQA and the Falsehood dataset. The method effectively detects over 70% of incorrect claims with a precision of over 80%, outperforming strong baselines across multiple datasets and examination settings.",
+      "discussion": "The results indicate a fundamental connection between self-consistency and factual consistency, demonstrating the potential of using interacting LMs to capture factual errors. However, limitations include the requirement for multiple queries, reliance on larger models for effective reasoning, and the potential impact of logical flaws in the examiner on outcomes. The authors suggest developing safety mechanisms to detect and mitigate these flaws as future work, as well as exploring further refinements in the examination process and integrating additional datasets to enhance the models' reasoning capabilities."
+    },
+    "entities": {
+      "datasets": [
+        "Natural Questions",
+        "PopQA",
+        "TriviaQA",
+        "NQ",
+        "four benchmarks",
+        "Falsehood",
+        "LAMA"
+      ],
+      "models": [
+        "LLAMA-7B",
+        "EXAMINER",
+        "LMVLM",
+        "CHATGPT",
+        "another LM",
+        "LM",
+        "GPT-3",
+        "LLAMA",
+        "LMs",
+        "CHAT-GPT",
+        "EXAMINEE"
+      ],
+      "losses": [],
+      "metrics": [
+        "F1",
+        "Recall",
+        "Precision",
+        "accuracy"
+      ]
+    }
+  },
+  {
+    "id": "d33a14592d68da068953cdf37f8bf562740c0085",
+    "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+    "abstract": "Background Large language models (LLMs) have shown remarkable capabilities in natural language processing (NLP), especially in domains where labeled data are scarce or expensive, such as the clinical domain. However, to unlock the clinical knowledge hidden in these LLMs, we need to design effective prompts that can guide them to perform specific clinical NLP tasks without any task-specific training data. This is known as in-context learning, which is an art and science that requires understanding the strengths and weaknesses of different LLMs and prompt engineering approaches. Objective The objective of this study is to assess the effectiveness of various prompt engineering techniques, including 2 newly introduced types—heuristic and ensemble prompts, for zero-shot and few-shot clinical information extraction using pretrained language models. Methods This comprehensive experimental study evaluated different prompt types (simple prefix, simple cloze, chain of thought, anticipatory, heuristic, and ensemble) across 5 clinical NLP tasks: clinical sense disambiguation, biomedical evidence extraction, coreference resolution, medication status extraction, and medication attribute extraction. The performance of these prompts was assessed using 3 state-of-the-art language models: GPT-3.5 (OpenAI), Gemini (Google), and LLaMA-2 (Meta). The study contrasted zero-shot with few-shot prompting and explored the effectiveness of ensemble approaches. Results The study revealed that task-specific prompt tailoring is vital for the high performance of LLMs for zero-shot clinical NLP. In clinical sense disambiguation, GPT-3.5 achieved an accuracy of 0.96 with heuristic prompts and 0.94 in biomedical evidence extraction. Heuristic prompts, alongside chain of thought prompts, were highly effective across tasks. Few-shot prompting improved performance in complex scenarios, and ensemble approaches capitalized on multiple prompt strengths. GPT-3.5 consistently outperformed Gemini and LLaMA-2 across tasks and prompt types. Conclusions This study provides a rigorous evaluation of prompt engineering methodologies and introduces innovative techniques for clinical information extraction, demonstrating the potential of in-context learning in the clinical domain. These findings offer clear guidelines for future prompt-based clinical NLP research, facilitating engagement by non-NLP experts in clinical NLP advancements. To the best of our knowledge, this is one of the first works on the empirical evaluation of different prompt engineering approaches for clinical NLP in this era of generative artificial intelligence, and we hope that it will inspire and inform future research in this area.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/d33a14592d68da068953cdf37f8bf562740c0085",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aimed to address challenges and limitations in prompt design and evaluation for large language models (LLMs) in clinical natural language processing (NLP). They sought to explore the capabilities of generative LLMs in zero-shot and few-shot learning contexts, benchmark different prompt engineering techniques, and optimize the selection of prompts and LLMs for various clinical tasks, all while highlighting the need for systematic studies in this area.",
+      "idea": "The study introduces a comprehensive prompt engineering process tailored for clinical NLP tasks, proposing new types of prompts, specifically heuristic and ensemble prompts, and emphasizes the importance of task-specific prompt tailoring to enhance model performance. It aims to unlock clinical knowledge from LLMs without requiring task-specific training data.",
+      "methodology": "The authors conducted a comprehensive empirical evaluation across five clinical NLP tasks, including clinical sense disambiguation, biomedical evidence extraction, coreference resolution, medication status extraction, and medication attribute extraction. They benchmarked various prompt engineering techniques, such as task-specific prompt tailoring, heuristic prompts, chain of thought prompts, few-shot prompting, and ensemble approaches, using pretrained language models like GPT-3.5, Gemini, and LLaMA-2. The evaluation compared performance under zero-shot and few-shot conditions, focusing on accuracy as the primary metric.",
+      "result": "The findings indicate that prompt engineering significantly enhances the accuracy and quality of outputs in clinical NLP tasks. GPT-3.5 demonstrated high adaptability and precision, achieving an accuracy of 0.96 in clinical sense disambiguation and 0.94 in biomedical evidence extraction with heuristic prompts. The study found that task-specific prompts are crucial for high performance, with heuristic and chain of thought prompts being particularly effective. Few-shot prompting improved performance in complex scenarios, while ensemble approaches yielded mixed results.",
+      "discussion": "The results suggest that careful selection of prompt types and LLMs can significantly impact performance metrics such as accuracy, precision, recall, and F1-score. Limitations include reliance on the quality and availability of pretrained LLMs, the need for iterative testing, and potential modifications to prompts or model choices if initial performance is unsatisfactory. The authors recommend ongoing empirical testing of prompt strategies and further exploration of sophisticated prompt engineering methodologies to enhance model applicability in clinical settings."
+    },
+    "entities": {
+      "datasets": [
+        "Evidence-based medicine-NLP",
+        "Clinical abbreviation sense inventories"
+      ],
+      "models": [
+        "meta-learning",
+        "prompt-tuning",
+        "GPT-3.5",
+        "Gemini",
+        "LLMs",
+        "BERT",
+        "ELMO",
+        "PubMedBERT-CRF",
+        "ScispaCy",
+        "LLaMA-2"
+      ],
+      "losses": [],
+      "metrics": [
+        "confidence scores",
+        "accuracy",
+        "F1-score",
+        "recall",
+        "precision"
+      ]
+    }
+  },
+  {
+    "id": "bd0b0cd5b01b3a9b62aacda5fb1b8f357e30e533",
+    "title": "Evaluating and Enhancing Large Language Models’ Performance in Domain-Specific Medicine: Development and Usability Study With DocOA",
+    "abstract": "Background The efficacy of large language models (LLMs) in domain-specific medicine, particularly for managing complex diseases such as osteoarthritis (OA), remains largely unexplored. Objective This study focused on evaluating and enhancing the clinical capabilities and explainability of LLMs in specific domains, using OA management as a case study. Methods A domain-specific benchmark framework was developed to evaluate LLMs across a spectrum from domain-specific knowledge to clinical applications in real-world clinical scenarios. DocOA, a specialized LLM designed for OA management integrating retrieval-augmented generation and instructional prompts, was developed. It can identify the clinical evidence upon which its answers are based through retrieval-augmented generation, thereby demonstrating the explainability of those answers. The study compared the performance of GPT-3.5, GPT-4, and a specialized assistant, DocOA, using objective and human evaluations. Results Results showed that general LLMs such as GPT-3.5 and GPT-4 were less effective in the specialized domain of OA management, particularly in providing personalized treatment recommendations. However, DocOA showed significant improvements. Conclusions This study introduces a novel benchmark framework that assesses the domain-specific abilities of LLMs in multiple aspects, highlights the limitations of generalized LLMs in clinical contexts, and demonstrates the potential of tailored approaches for developing domain-specific medical LLMs.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/bd0b0cd5b01b3a9b62aacda5fb1b8f357e30e533",
+    "excluded": false,
+    "summary": {
+      "motivation": "The study aims to evaluate the capabilities of large language models (LLMs) in managing osteoarthritis (OA) and to address the limitations of generalized LLMs in clinical contexts. It highlights the inadequacies of current training datasets and methodologies, emphasizing the need for effective AI tools in clinical settings and the development of tailored benchmarks for specific medical domains.",
+      "idea": "The authors propose a novel benchmark framework for assessing LLMs in medical knowledge, evidence summarization, and clinical capabilities, specifically focusing on OA management. This includes the development of DocOA, a specialized LLM that integrates retrieval-augmented generation (RAG) and instructional prompts to enhance performance in clinical applications.",
+      "methodology": "The study involved curating a dataset for OA management based on clinical guidelines and real-world cases, selecting six well-acknowledged guidelines and data from 80 real-world patients. A benchmark framework was developed to evaluate LLMs across various clinical decision-making scenarios, including guideline-item QA, management options QA, treatment strategy QA, and real-case QA. The performance of DocOA was compared with GPT-3.5 and GPT-4 using both objective measures and human evaluations.",
+      "result": "The evaluation metrics indicated that DocOA significantly outperformed both GPT-3.5 and GPT-4 across all QA types, achieving accuracies of 0.92 (GIQA), 0.87 (MOQA), 0.88 (TSQA), and 0.72 (RCQA). Human evaluations showed that DocOA had the lowest inaccuracy rate (19.3%) compared to GPT-3.5 (57%) and GPT-4. Additionally, DocOA fulfilled patient intention with a success rate of 71.3%, while GPT-4 and GPT-3.5 had lower rates of 39.8% and 36.5%, respectively.",
+      "discussion": "The findings highlight a significant performance gap between domain-specific knowledge and clinical proficiency in general-purpose LLMs. While the study demonstrates a cost-effective method for enhancing LLM capabilities in specialized medical fields, it also notes limitations in the RAG technology and the need for ongoing improvements in the retrieval process to enhance accuracy and relevance in clinical applications. Future work should focus on improving the accuracy and safety of LLM outputs in clinical settings, particularly as the complexity of clinical scenarios increases."
+    },
+    "entities": {
+      "datasets": [
+        "OA management",
+        "Osteoarthritis Research Society International (OARSI) guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis",
+        "American College of Rheumatology/Arthritis Foundation (ACR) Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee",
+        "Royal Australian College of General Practitioners Guideline for the management of knee and hip osteoarthritis",
+        "American Academy of Orthopedic Surgeons (AAOS) management of osteoarthritis of the knee (Non-arthroplasty)",
+        "European League Against Rheumatism (EULAR) recommendations for the non-pharmacological core management of hip and knee osteoarthritis",
+        "OA",
+        "OA management dataset",
+        "Osteoarthritis Benchmark",
+        "National Institute for Health and Care Excellence (NICE) guideline for osteoarthritis in over 16s",
+        "external dataset"
+      ],
+      "models": [
+        "DocOA",
+        "RAG",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT-4-1106-preview",
+        "LLMs",
+        "Large language model",
+        "Large Language Models"
+      ],
+      "losses": [],
+      "metrics": [
+        "user intent fulfilment",
+        "biased content",
+        "recommendation strength",
+        "accuracy",
+        "potential harm",
+        "hallucinations",
+        "omissions",
+        "treatment appropriateness",
+        "recommendation status",
+        "P value",
+        "relevance"
+      ]
+    }
+  },
+  {
+    "id": "167a423c259dce807d0ce720e5e7777d247192b4",
+    "title": "Comparative evaluation of Large Language Models using key metrics and emerging tools",
+    "abstract": "This research involved designing and building an interactive generative AI application to conduct a comparative analysis of two advanced Large Language Models (LLMs), GPT‐4, and Claude 2, using Langsmith evaluation tools. The project was developed to explore the potential of LLMs in facilitating postgraduate course recommendations within a simulated environment at Munster Technological University (MTU). Designed for comparative analysis, the application enables testing of GPT‐4 and Claude 2 and can be hosted flexibly on either Amazon Web Services (AWS) or Azure. It utilizes advanced natural language processing and retrieval‐augmented generation (RAG) techniques to process proprietary data tailored to postgraduate needs. A key component of this research was the rigorous assessment of the LLMs using the Langsmith evaluation tool against both customized and standard benchmarks. The evaluation focused on metrics such as bias, safety, accuracy, cost, robustness, and latency. Additionally, adaptability covering critical features like language translation and internet access, was independently researched since the Langsmith tool does not evaluate this metric. This ensures a holistic assessment of the LLM's capabilities.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/167a423c259dce807d0ce720e5e7777d247192b4",
+    "excluded": false
+  },
+  {
+    "id": "510a3330482d5f84c62e1ddfaf626721035193f0",
+    "title": "Applying Large Language Model to User Experience Testing",
+    "abstract": "The maturation of internet usage environments has elevated User Experience (UX) to a critical factor in system success. However, traditional manual UX testing methods are hampered by subjectivity and lack of standardization, resulting in time-consuming and costly processes. This study explores the potential of Large Language Models (LLMs) to address these challenges by developing an automated UX testing tool. Our innovative approach integrates the Rapi web recording tool to capture user interaction data with the analytical capabilities of LLMs, utilizing Nielsen’s usability heuristics as evaluation criteria. This methodology aims to significantly reduce the initial costs associated with UX testing while maintaining assessment quality. To validate the tool’s efficacy, we conducted a case study featuring a tennis-themed course reservation system. The system incorporated multiple scenarios per page, allowing users to perform tasks based on predefined goals. We employed our automated UX testing tool to evaluate screenshots and interaction logs from user sessions. Concurrently, we invited participants to test the system and complete UX questionnaires based on their experiences. Comparative analysis revealed that varying prompts in the automated UX testing tool yielded different outcomes, particularly in detecting interface elements. Notably, our tool demonstrated superior capability in identifying issues aligned with Nielsen’s usability principles compared to participant evaluations. This research contributes to the field of UX evaluation by leveraging advanced language models and established usability heuristics. Our findings suggest that LLM-based automated UX testing tools can offer more consistent and comprehensive assessments.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/510a3330482d5f84c62e1ddfaf626721035193f0",
+    "excluded": false
+  },
+  {
+    "id": "492e526ca2416a734f286da0efcfeda4672ea77f",
+    "title": "Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models",
+    "abstract": "Large language models (LLMs) have revolutionized language processing, but face critical challenges with security, privacy, and generating hallucinations — coherent but factually inaccurate outputs. A major issue is fact-conflicting hallucination (FCH), where LLMs produce content contradicting ground truth facts. Addressing FCH is difficult due to two key challenges: 1) Automatically constructing and updating benchmark datasets is hard, as existing methods rely on manually curated static benchmarks that cannot cover the broad, evolving spectrum of FCH cases. 2) Validating the reasoning behind LLM outputs is inherently difficult, especially for complex logical relations. To tackle these challenges, we introduce a novel logic-programming-aided metamorphic testing technique for FCH detection. We develop an extensive and extensible framework that constructs a comprehensive factual knowledge base by crawling sources like Wikipedia, seamlessly integrated into Drowzee. Using logical reasoning rules, we transform and augment this knowledge into a large set of test cases with ground truth answers. We test LLMs on these cases through template-based prompts, requiring them to provide reasoned answers. To validate their reasoning, we propose two semantic-aware oracles that assess the similarity between the semantic structures of the LLM answers and ground truth. Our approach automatically generates useful test cases and identifies hallucinations across six LLMs within nine domains, with hallucination rates ranging from 24.7% to 59.8%. Key findings include LLMs struggling with temporal concepts, out-of-distribution knowledge, and lack of logical reasoning capabilities. The results show that logic-based test cases generated by Drowzee effectively trigger and detect hallucinations. To further mitigate the identified FCHs, we explored model editing techniques, which proved effective on a small scale (with edits to fewer than 1000 knowledge pieces). Our findings emphasize the need for continued community efforts to detect and mitigate model hallucinations.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/492e526ca2416a734f286da0efcfeda4672ea77f",
+    "excluded": false
+  },
+  {
+    "id": "a0d83f9e15e722f23c14eb83cb2f87c1d1ea6400",
+    "title": "EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria",
+    "abstract": "By simply composing prompts, developers can prototype novel generative applications with Large Language Models (LLMs). To refine prototypes into products, however, developers must iteratively revise prompts by evaluating outputs to diagnose weaknesses. Formative interviews (N=8) revealed that developers invest significant effort in manually evaluating outputs as they assess context-specific and subjective criteria. We present EvalLM, an interactive system for iteratively refining prompts by evaluating multiple outputs on user-defined criteria. By describing criteria in natural language, users can employ the system’s LLM-based evaluator to get an overview of where prompts excel or fail, and improve these based on the evaluator’s feedback. A comparative study (N=12) showed that EvalLM, when compared to manual evaluation, helped participants compose more diverse criteria, examine twice as many outputs, and reach satisfactory prompts with 59% fewer revisions. Beyond prompts, our work can be extended to augment model evaluation and alignment in specific application contexts.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/a0d83f9e15e722f23c14eb83cb2f87c1d1ea6400",
+    "excluded": false
+  },
+  {
+    "id": "c476c1587beda904133f97592a39965be418c8bf",
+    "title": "Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models",
+    "abstract": "The recent success of large language models (LLMs) has shown great potential to develop more powerful conversational recommender systems (CRSs), which rely on natural language conversations to satisfy user needs. In this paper, we embark on an investigation into the utilization of ChatGPT for conversational recommendation, revealing the inadequacy of the existing evaluation protocol. It might over-emphasize the matching with the ground-truth items or utterances generated by human annotators, while neglecting the interactive nature of being a capable CRS. To overcome the limitation, we further propose an interactive Evaluation approach based on LLMs named iEvaLM that harnesses LLM-based user simulators. Our evaluation approach can simulate various interaction scenarios between users and systems. Through the experiments on two publicly available CRS datasets, we demonstrate notable improvements compared to the prevailing evaluation protocol. Furthermore, we emphasize the evaluation of explainability, and ChatGPT showcases persuasive explanation generation for its recommendations. Our study contributes to a deeper comprehension of the untapped potential of LLMs for CRSs and provides a more flexible and easy-to-use evaluation framework for future research endeavors. The codes and data are publicly available at https://github.com/RUCAIBox/iEvaLM-CRS.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/c476c1587beda904133f97592a39965be418c8bf",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the limitations in the design of prompts for ChatGPT and LLM-based user simulators, particularly in terms of performance evaluation and the need for a more comprehensive assessment framework. They also seek to evaluate the performance of ChatGPT in conversational recommendation systems (CRSs) and explore its potential for generating accurate recommendations, while addressing the inadequacies of existing evaluation protocols that focus too much on matching with human-annotated ground-truth items and neglect the interactive nature of CRSs.",
+      "idea": "The authors propose a novel interactive evaluation approach called iEvaLM, which utilizes LLM-based user simulators to assess the performance of CRSs more effectively than traditional evaluation methods. They also suggest exploring more effective prompting strategies, such as zero-shot prompting and chain-of-thought techniques, to improve ChatGPT's performance and robustness in evaluations.",
+      "methodology": "The authors manually write several prompt candidates and select the best-performing one based on representative examples. They conduct experiments on benchmark datasets (RE-DIAL and OPENDIALKG) to systematically examine ChatGPT's capabilities and analyze failure cases. The evaluation uses Recall metrics (Recall@k) and compares the performance of various CRSs, including ChatGPT, against several baseline methods. Additionally, they introduce an LLM-based scorer for evaluating the persuasiveness of explanations generated by ChatGPT, comparing it to human annotators.",
+      "result": "ChatGPT outperforms currently leading conversational recommendation systems in accuracy and explainability, with significant improvements in Recall metrics, particularly in the REDIAL dataset where Recall@10 increased from 0.174 to 0.570. The LLM-based scorer shows high reliability, with a Cohen's Kappa of 0.83, indicating strong agreement with human evaluators. The proposed iEvaLM approach demonstrates notable improvements in evaluation outcomes compared to existing protocols, highlighting ChatGPT's potential as a general-purpose CRS and its ability to generate persuasive explanations for recommendations.",
+      "discussion": "The findings suggest that traditional evaluation methods inadequately capture the complexities of real-world conversations and the interactive nature of CRSs. The authors highlight the importance of evaluating explainability and the need for more comprehensive evaluation frameworks that encompass various interaction scenarios. They acknowledge limitations such as the reliance on specific datasets and the potential instability of LLM generation. Future work should focus on refining evaluation methods, exploring additional datasets, and incorporating fairness, bias, and privacy concerns into the assessment of CRSs."
+    },
+    "entities": {
+      "datasets": [
+        "two public CRS datasets",
+        "existing benchmark datasets",
+        "OpenDialKG",
+        "RE-DIAL",
+        "ReDial",
+        "REDIAL",
+        "REDIALdataset",
+        "OPENDIALKG"
+      ],
+      "models": [
+        "ChatGPT + text-embedding-ada-002",
+        "CRS model MESE",
+        "gpt-3.5-turbo",
+        "iEvaLM",
+        "KGSF",
+        "LLM-based user simulators",
+        "BARCOR",
+        "DialoGPT",
+        "ReDial",
+        "ChatGPT",
+        "UniCRS",
+        "CRFR",
+        "text-embedding-ada-002",
+        "LLMs",
+        "MESE",
+        "text-davinci-003",
+        "KBRD"
+      ],
+      "losses": [],
+      "metrics": [
+        "Recall@50",
+        "accuracy",
+        "explainability",
+        "Recall@10",
+        "Cohen’s Kappa",
+        "Recall@25",
+        "p-value",
+        "persuasiveness",
+        "Recall",
+        "Recall@1",
+        "t-test"
+      ]
+    }
+  },
+  {
+    "id": "92a04a16a99eeec7d6bfc644e07c98589fe1cdf6",
+    "title": "Evaluation and mitigation of the limitations of large language models in clinical decision-making",
+    "abstract": "Clinical decision-making is one of the most impactful parts of a physician’s responsibilities and stands to benefit greatly from artificial intelligence solutions and large language models (LLMs) in particular. However, while LLMs have achieved excellent performance on medical licensing exams, these tests fail to assess many skills necessary for deployment in a realistic clinical decision-making environment, including gathering information, adhering to guidelines, and integrating into clinical workflows. Here we have created a curated dataset based on the Medical Information Mart for Intensive Care database spanning 2,400 real patient cases and four common abdominal pathologies as well as a framework to simulate a realistic clinical setting. We show that current state-of-the-art LLMs do not accurately diagnose patients across all pathologies (performing significantly worse than physicians), follow neither diagnostic nor treatment guidelines, and cannot interpret laboratory results, thus posing a serious risk to the health of patients. Furthermore, we move beyond diagnostic accuracy and demonstrate that they cannot be easily integrated into existing workflows because they often fail to follow instructions and are sensitive to both the quantity and order of information. Overall, our analysis reveals that LLMs are currently not ready for autonomous clinical decision-making while providing a dataset and framework to guide future studies. Using a curated dataset of 2,400 cases and a framework to simulate a realistic clinical setting, current large language models are shown to incur substantial pitfalls when used for autonomous clinical decision-making.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/92a04a16a99eeec7d6bfc644e07c98589fe1cdf6",
+    "excluded": false
+  },
+  {
+    "id": "5932a504a1b53ea4eb33325a8e34a57b00921183",
+    "title": "LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models",
+    "abstract": "Recently developed large language models (LLMs) have been shown to perform remarkably well on a wide range of language understanding tasks. But, can they really\"reason\"over the natural language? This question has been receiving significant research attention and many reasoning skills such as commonsense, numerical, and qualitative have been studied. However, the crucial skill pertaining to 'logical reasoning' has remained underexplored. Existing work investigating this reasoning ability of LLMs has focused only on a couple of inference rules (such as modus ponens and modus tollens) of propositional and first-order logic. Addressing the above limitation, we comprehensively evaluate the logical reasoning ability of LLMs on 25 different reasoning patterns spanning over propositional, first-order, and non-monotonic logics. To enable systematic evaluation, we introduce LogicBench, a natural language question-answering dataset focusing on the use of a single inference rule. We conduct detailed analysis with a range of LLMs such as GPT-4, ChatGPT, Gemini, Llama-2, and Mistral using chain-of-thought prompting. Experimental results show that existing LLMs do not fare well on LogicBench; especially, they struggle with instances involving complex reasoning and negations. Furthermore, they sometimes overlook contextual information necessary for reasoning to arrive at the correct conclusion. We believe that our work and findings facilitate future research for evaluating and enhancing the logical reasoning ability of LLMs. Data and code are available at https://github.com/Mihir3009/LogicBench.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/5932a504a1b53ea4eb33325a8e34a57b00921183",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the gap in evaluating the logical reasoning capabilities of large language models (LLMs), as existing datasets are limited in scope and do not independently assess logical reasoning. They specifically focus on the underexplored area of logical reasoning in LLMs, which has received less attention compared to other reasoning skills.",
+      "idea": "The study introduces LogicBench, a comprehensive natural language question-answering dataset designed to evaluate the logical reasoning ability of LLMs across various inference rules and reasoning patterns. It includes tasks for Boolean Question Answering (BQA) and Multiple Choice Question Answering (MCQA), enhancing the evaluation by incorporating additional inference rules and logic types, particularly focusing on multi-step reasoning.",
+      "methodology": "LogicBench is constructed through a three-stage process: (1) generating coherent natural language sentences with diverse ontologies using GPT-3.5, (2) creating (context, question) pairs where the context consists of logical statements, and (3) generating task-specific data instances in the form of (context, question, answer) triplets. The authors evaluated a range of LLMs, including GPT-4, ChatGPT, Gemini-Pro, Llama-2, and Mistral, using chain-of-thought prompting in a zero-shot setting to assess their performance on logical reasoning tasks.",
+      "result": "The evaluation reveals that existing LLMs perform poorly on LogicBench, particularly struggling with complex reasoning, negations, and longer inference chains. For instance, GPT-4 and ChatGPT achieved average accuracies of 63.98% and 48.04% respectively for the BQA task, with models generally performing better on negative responses than positive ones. The results indicate significant room for improvement in the logical reasoning capabilities of these models, especially in handling complex logical contexts and inference rules involving negations.",
+      "discussion": "The findings highlight the limitations of current LLMs in logical reasoning, suggesting that while larger models perform better overall, they still face challenges with certain tasks. The authors propose that further training with augmented datasets like LogicBench(Aug) can enhance LLM performance, indicating a potential direction for future research. They also acknowledge the need for careful validation of logical propositions and suggest future work could explore more intricate logical scenarios, including multilingual evaluations and combinations of inference rules."
+    },
+    "entities": {
+      "datasets": [
+        "LogicBench(Eval)",
+        "TaxiNLI",
+        "LogicNLI",
+        "RuleBert",
+        "FOLIO",
+        "LogicBench",
+        "SimpleLogic",
+        "LogicBench(Aug)",
+        "LogicBench(Eval)MCQA",
+        "LogiQA",
+        "ReClor",
+        "Reclor",
+        "ProntoQA",
+        "CLUTTER",
+        "LogicBench(Eval)BQA"
+      ],
+      "models": [
+        "Mistral-7B-Instruct-v0.2",
+        "Google Gemini-Pro",
+        "Llama-2",
+        "Llama-2-7B-Chat",
+        "ChatGPT (GPT-3.5-Turbo)",
+        "Gemini",
+        "T5-large",
+        "GPT-3.5-Turbo",
+        "GPT-4",
+        "Yi-34B-chat",
+        "ChatGPT",
+        "Mistral",
+        "LogicT5",
+        "Gemini-Pro",
+        "Mistral-7B-Instruct"
+      ],
+      "losses": [],
+      "metrics": [
+        "Disjunctive Syllogism",
+        "Hypothetical Syllogism",
+        "accuracy",
+        "Commutation",
+        "Universal Instantiation",
+        "A(Y es)",
+        "Modus Tollens",
+        "Existential Generalization",
+        "A(No)",
+        "Constructive Dilemma",
+        "Material Implication",
+        "Destructive Dilemma",
+        "Modus Ponens",
+        "Bidirectional Dilemma"
+      ]
+    }
+  },
+  {
+    "id": "2e6db691884205d415527f78d62f90247b7e5795",
+    "title": "Evaluation Framework of Large Language Models in Medical Documentation: Development and Usability Study",
+    "abstract": "Background The advancement of large language models (LLMs) offers significant opportunities for health care, particularly in the generation of medical documentation. However, challenges related to ensuring the accuracy and reliability of LLM outputs, coupled with the absence of established quality standards, have raised concerns about their clinical application. Objective This study aimed to develop and validate an evaluation framework for assessing the accuracy and clinical applicability of LLM-generated emergency department (ED) records, aiming to enhance artificial intelligence integration in health care documentation. Methods We organized the Healthcare Prompt-a-thon, a competitive event designed to explore the capabilities of LLMs in generating accurate medical records. The event involved 52 participants who generated 33 initial ED records using HyperCLOVA X, a Korean-specialized LLM. We applied a dual evaluation approach. First, clinical evaluation: 4 medical professionals evaluated the records using a 5-point Likert scale across 5 criteria—appropriateness, accuracy, structure/format, conciseness, and clinical validity. Second, quantitative evaluation: We developed a framework to categorize and count errors in the LLM outputs, identifying 7 key error types. Statistical methods, including Pearson correlation and intraclass correlation coefficients (ICC), were used to assess consistency and agreement among evaluators. Results The clinical evaluation demonstrated strong interrater reliability, with ICC values ranging from 0.653 to 0.887 (P<.001), and a test-retest reliability Pearson correlation coefficient of 0.776 (P<.001). Quantitative analysis revealed that invalid generation errors were the most common, constituting 35.38% of total errors, while structural malformation errors had the most significant negative impact on the clinical evaluation score (Pearson r=–0.654; P<.001). A strong negative correlation was found between the number of quantitative errors and clinical evaluation scores (Pearson r=–0.633; P<.001), indicating that higher error rates corresponded to lower clinical acceptability. Conclusions Our research provides robust support for the reliability and clinical acceptability of the proposed evaluation framework. It underscores the framework’s potential to mitigate clinical burdens and foster the responsible integration of artificial intelligence technologies in health care, suggesting a promising direction for future research and practical applications in the field.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/2e6db691884205d415527f78d62f90247b7e5795",
+    "excluded": false
+  },
+  {
+    "id": "d034845314490c8a30ce8d801f87e00c853098fc",
+    "title": "Quality of Answers of Generative Large Language Models vs Peer Patients for Interpreting Lab Test Results for Lay Patients: Evaluation Study",
+    "abstract": "Background: Even though patients have easy access to their electronic health records and lab test results data through patient portals, lab results are often confusing and hard to understand. Many patients turn to online forums or question and answering (Q&A) sites to seek advice from their peers. However, the quality of answers from social Q&A on health-related questions varies significantly, and not all the responses are accurate or reliable. Large language models (LLMs) such as ChatGPT have opened a promising avenue for patients to get their questions answered. Objective: We aim to assess the feasibility of using LLMs to generate relevant, accurate, helpful, and unharmful responses to lab test-related questions asked by patients and to identify potential issues that can be mitigated with augmentation approaches. Methods: We first collected lab test results related question and answer data from Yahoo! Answers and selected 53 Q&A pairs for this study. Using the LangChain framework and ChatGPT web portal, we generated responses to the 53 questions from four LLMs including GPT-4, Meta LLaMA 2, MedAlpaca, and ORCA_mini. We first assessed the similarity of their answers using standard QA similarity-based evaluation metrics including ROUGE, BLEU, METEOR, BERTScore. We also utilized an LLM-based evaluator to judge whether a target model has higher quality in terms of relevance, correctness, helpfulness, and safety than the baseline model. Finally, we performed a manual evaluation with medical experts for all the responses of seven selected questions on the same four aspects. Results: Regarding the similarity of the responses from 4 LLMs, where GPT-4 output was used as the reference answer, the responses from LLaMa 2 are the most similar ones, followed by LLaMa 2, ORCA_mini, and MedAlpaca. Human answers from Yahoo data were scored lowest and thus least similar to GPT-4-generated answers. The results of Win Rate and medical expert evaluation both showed that GPT-4’s responses achieved better scores than all the other LLM responses and human responses on all the four aspects (relevance, correctness, helpfulness, and safety). However, LLM responses occasionally also suffer from lack of interpretation in one’s medical context, incorrect statements, and lack of references. Conclusions: By evaluating LLMs in generating responses to patients’ lab test results related questions, we find that compared to other three LLMs and human answer from the Q&A website, GPT-4’s responses are more accurate, helpful, relevant, and safer. However, there are cases that GPT-4 responses are inaccurate and not individualized. We identified a number of ways to improve the quality of LLM responses including prompt engineering, prompt augmentation, retrieval augmented generation, and response evaluation.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/d034845314490c8a30ce8d801f87e00c853098fc",
+    "excluded": false
+  },
+  {
+    "id": "cd4d112f3f9120d0715f22a9de2ce4720822368c",
+    "title": "How Does ChatGPT Perform on the United States Medical Licensing Examination (USMLE)? The Implications of Large Language Models for Medical Education and Knowledge Assessment",
+    "abstract": "Background Chat Generative Pre-trained Transformer (ChatGPT) is a 175-billion-parameter natural language processing model that can generate conversation-style responses to user input. Objective This study aimed to evaluate the performance of ChatGPT on questions within the scope of the United States Medical Licensing Examination (USMLE) Step 1 and Step 2 exams, as well as to analyze responses for user interpretability. Methods We used 2 sets of multiple-choice questions to evaluate ChatGPT’s performance, each with questions pertaining to Step 1 and Step 2. The first set was derived from AMBOSS, a commonly used question bank for medical students, which also provides statistics on question difficulty and the performance on an exam relative to the user base. The second set was the National Board of Medical Examiners (NBME) free 120 questions. ChatGPT’s performance was compared to 2 other large language models, GPT-3 and InstructGPT. The text output of each ChatGPT response was evaluated across 3 qualitative metrics: logical justification of the answer selected, presence of information internal to the question, and presence of information external to the question. Results Of the 4 data sets, AMBOSS-Step1, AMBOSS-Step2, NBME-Free-Step1, and NBME-Free-Step2, ChatGPT achieved accuracies of 44% (44/100), 42% (42/100), 64.4% (56/87), and 57.8% (59/102), respectively. ChatGPT outperformed InstructGPT by 8.15% on average across all data sets, and GPT-3 performed similarly to random chance. The model demonstrated a significant decrease in performance as question difficulty increased (P=.01) within the AMBOSS-Step1 data set. We found that logical justification for ChatGPT’s answer selection was present in 100% of outputs of the NBME data sets. Internal information to the question was present in 96.8% (183/189) of all questions. The presence of information external to the question was 44.5% and 27% lower for incorrect answers relative to correct answers on the NBME-Free-Step1 (P<.001) and NBME-Free-Step2 (P=.001) data sets, respectively. Conclusions ChatGPT marks a significant improvement in natural language processing models on the tasks of medical question answering. By performing at a greater than 60% threshold on the NBME-Free-Step-1 data set, we show that the model achieves the equivalent of a passing score for a third-year medical student. Additionally, we highlight ChatGPT’s capacity to provide logic and informational context across the majority of answers. These facts taken together make a compelling case for the potential applications of ChatGPT as an interactive medical education tool to support learning.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/cd4d112f3f9120d0715f22a9de2ce4720822368c",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aimed to evaluate ChatGPT's performance on medical examinations assessing knowledge and reasoning, addressing the gap in understanding how generative language models can be utilized in medical education and their effectiveness in answering medical questions.",
+      "idea": "ChatGPT represents a significant advancement in natural language processing for medical question answering, performing at a level expected of a third-year medical student and showing potential as a virtual medical tutor or educational tool in small group medical education.",
+      "methodology": "The study utilized four unique datasets (AMBOSS-Step1, AMBOSS-Step2, NBME-Free-Step1, NBME-Free-Step2) to assess ChatGPT's understanding of medical knowledge related to the USMLE Step 1 and Step 2 exams. The authors standardized input formats, removed non-textual questions, and prompted ChatGPT with medical questions, including additional context from AMBOSS tips. The performance of ChatGPT was compared to that of GPT-3 and InstructGPT across these datasets, focusing on accuracy and logical reasoning in responses.",
+      "result": "ChatGPT achieved accuracies of 44% on AMBOSS-Step1, 42% on AMBOSS-Step2, 64.4% on NBME-Free-Step1, and 57.8% on NBME-Free-Step2, outperforming both GPT-3 and InstructGPT across all datasets. The model provided logical justifications for its answers in 100% of cases for the NBME datasets, and its performance improved with additional context from the Attending Tips. However, its accuracy decreased with increasing question difficulty, particularly on Step 1 questions without the Attending Tip.",
+      "discussion": "The findings suggest that while ChatGPT demonstrates significant advancements in accuracy and coherence compared to previous models, limitations include reliance on training data prior to 2021, the inability to fine-tune the model, and potential for logical errors in responses. Future research should focus on enhancing the model's performance on more challenging questions and exploring its applications in real-world medical education settings."
+    },
+    "entities": {
+      "datasets": [
+        "12,723 questions derived from Chinese medical licensing exams",
+        "USMLE Step 2",
+        "AMBOSS",
+        "AMBOSS-Step1",
+        "NBME-Free-Step2",
+        "United States Medical Licensing Examination (USMLE) Step 2 Clinical Knowledge",
+        "NBME-Free-Step1",
+        "NBME",
+        "AMBOSS-Step2",
+        "United States Medical Licensing Examination (USMLE) Step 1",
+        "4 unique medical knowledge competency data sets",
+        "454 USMLE Step 1 and Step 2 questions",
+        "USMLE Step 1"
+      ],
+      "models": [
+        "text-davinci-003",
+        "ChatGPT",
+        "GPT-3",
+        "InstructGPT",
+        "davinci"
+      ],
+      "losses": [
+        "Proximal Policy Optimization"
+      ],
+      "metrics": [
+        "P=.001",
+        "logical reasoning",
+        "USMLE Step 2",
+        "29%",
+        "60%",
+        "P<.001",
+        "68.1%",
+        "internal information",
+        "P=.01",
+        "external information",
+        "36.7%",
+        "USMLE Step 1",
+        "P-value"
+      ]
+    }
+  },
+  {
+    "id": "6d6a12b3b18eea58a32acca02f24b53dfeec78d4",
+    "title": "AI-Tutoring in Software Engineering Education: Experiences with Large Language Models in Programming Assessments",
+    "abstract": "With the rapid advancement of artificial intelligence (AI) in various domains, the education sector is set for transformation. The potential of AI-driven tools in enhancing the learning experience, especially in programming, is immense. However, the scientific evaluation of Large Language Models (LLMs) used in Automated Programming Assessment Systems (APASs) as an AI-Tutor remains largely unexplored. Therefore, there is a need to understand how students interact with such AI-Tutors and to analyze their experiences. In this paper, we conducted an exploratory case study by integrating the GPT-3.5-Turbo model as an AI-Tutor within the APAS Artemis. Through a combination of empirical data collection and an exploratory survey, we identified different user types based on their interaction patterns with the AI-Tutor. Additionally, the findings highlight advantages, such as timely feedback and scalability. However, challenges like generic responses and students' concerns about a learning progress inhibition when using the AI-Tutor were also evident. This research adds to the discourse on AI's role in education.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/6d6a12b3b18eea58a32acca02f24b53dfeec78d4",
+    "excluded": false
+  },
+  {
+    "id": "cae3b88554064db17227fa8eef4853d84d7e34e0",
+    "title": "Generating Automatic Feedback on UI Mockups with Large Language Models",
+    "abstract": "Feedback on user interface (UI) mockups is crucial in design. However, human feedback is not always readily available. We explore the potential of using large language models for automatic feedback. Specifically, we focus on applying GPT-4 to automate heuristic evaluation, which currently entails a human expert assessing a UI’s compliance with a set of design guidelines. We implemented a Figma plugin that takes in a UI design and a set of written heuristics, and renders automatically-generated feedback as constructive suggestions. We assessed performance on 51 UIs using three sets of guidelines, compared GPT-4-generated design suggestions with those from human experts, and conducted a study with 12 expert designers to understand fit with existing practice. We found that GPT-4-based feedback is useful for catching subtle errors, improving text, and considering UI semantics, but feedback also decreased in utility over iterations. Participants described several uses for this plugin despite its imperfect suggestions.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/cae3b88554064db17227fa8eef4853d84d7e34e0",
+    "excluded": false
+  },
+  {
+    "id": "5271e1c561b6c82aff1b4aaab712797d33910dc3",
+    "title": "LLMChain: Blockchain-Based Reputation System for Sharing and Evaluating Large Language Models",
+    "abstract": "Large Language Models (LLMs) have witnessed a rapid growth in emerging challenges and capabilities of language understanding, generation, and reasoning. Despite their remarkable performance in natural language processing-based applications, LLMs are susceptible to undesirable and erratic behaviors, including hallucinations, unreliable reasoning, and the generation of harmful content. These flawed behaviors under-mine trust in LLMs and pose significant hurdles to their adoption in real-world applications, such as legal assistance and medical diagnosis, where precision, reliability, and ethical considerations are paramount. These could also lead to user dissatisfaction, which is currently inadequately assessed and captured. Therefore, to effectively and transparently assess users' satisfaction and trust in their interactions with LLMs, we design and develop LLMChain, a decentralized blockchain-based reputation system that combines automatic evaluation with human feedback to assign contextual reputation scores that accurately reflect LLM's behavior. LLMChain helps users and entities identify the most trustworthy LLM for their specific needs and provides LLM developers with valuable information to refine and improve their models. To our knowledge, this is the first time that a blockchain-based distributed framework for sharing and evaluating LLMs has been introduced. Implemented using emerging tools, LLMChain is evaluated across two benchmark datasets, showcasing its effectiveness and scalability in assessing seven different LLMs.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/5271e1c561b6c82aff1b4aaab712797d33910dc3",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address trust concerns associated with the flawed behaviors of large language models (LLMs), such as hallucinations and unreliable reasoning, by developing a decentralized framework for evaluating LLMs. This framework seeks to effectively and transparently assess users' satisfaction and trust in their interactions with LLMs, which is crucial for their adoption in critical applications.",
+      "idea": "The novel contribution is LLMChain, a blockchain-powered framework designed for the efficient and transparent sharing and evaluation of LLMs. It incorporates a context-driven reputation system that combines human feedback with automatic evaluation to assign contextual reputation scores reflecting LLM behavior.",
+      "methodology": "LLMChain is implemented using emerging tools and evaluated across three benchmark datasets (MTBench, GooAQ, and LLMGooAQ). The evaluation process is facilitated through smart contracts on a Hyperledger Besu blockchain and consists of three main phases: registration of users and developers, sharing of LLMs, and the evaluation of LLMs through both automatic and human feedback mechanisms. Various automatic metrics (BERTScore, BARTScore, DISCOScore) are used to benchmark LLM performance, and performance evaluations are conducted using Hyperledger Caliper to measure throughput and latency under different transaction rates.",
+      "result": "The experimental evaluation demonstrates the effectiveness of the proposed reputation model and the scalability of LLMChain. BARTScore significantly outperforms other metrics, achieving an 80% correlation with human judgments. The best model, 'Vicuna-13b', outperformed others in nearly 90% of contexts, and the LLMChain framework achieved an average throughput of 420 TPS, meeting the demands of the use case. The reputation model effectively tracks and updates the reputation of LLMs based on both automatic evaluations and human feedback, demonstrating the scalability and fairness of the decentralized approach.",
+      "discussion": "The authors acknowledge limitations in human evaluation due to reliance on user feedback and the accuracy of automatic evaluation depending on reference models. They discuss the challenges of gathering genuine human feedback and the importance of balancing automated and human evaluations. Future work could focus on improving the automatic evaluation methods, enhancing the transparency and user engagement in the evaluation process, and exploring further scaling techniques for large-scale deployment."
+    },
+    "entities": {
+      "datasets": [
+        "LLMGooAQ",
+        "GooAQ",
+        "MTBench"
+      ],
+      "models": [
+        "Llama-2-13b",
+        "Fastchat-t5-3b",
+        "GPT-3.5",
+        "Vicuna-7b",
+        "Llama-13B",
+        "GPT-4",
+        "Alpaca-13B",
+        "Claud-v1",
+        "Chatglm-6b",
+        "GPT-3",
+        "Llama",
+        "Koala-13b",
+        "LLMChain",
+        "Vicuna-13B",
+        "Vicuna",
+        "GPT3.5"
+      ],
+      "losses": [],
+      "metrics": [
+        "LLM Trust",
+        "Throughput",
+        "pairwise comparison",
+        "single-answer grading",
+        "Completeness",
+        "Latency",
+        "Utility",
+        "Familiarity",
+        "F1 score",
+        "Kendall’s Correlation",
+        "Uncertainty",
+        "BERTScore",
+        "BLEU Score",
+        "Accuracy",
+        "reference-guided grading",
+        "DISCOScore",
+        "Duration",
+        "Reliability",
+        "ROUGE Score",
+        "Chain-of-Thoughts (CoT)",
+        "BARTScore"
+      ]
+    }
+  },
+  {
+    "id": "037b4345769b0608819cddc9bb2cff3a6daf8699",
+    "title": "On the Evaluation of Large Language Models in Unit Test Generation",
+    "abstract": "Unit testing is an essential activity in software development for verifying the correctness of software components. However, manually writing unit tests is challenging and time-consuming. The emergence of Large Language Models (LLMs) offers a new direction for automating unit test generation. Existing research primarily focuses on closed-source LLMs (e.g., ChatGPT and CodeX) with fixed prompting strategies, leaving the capabilities of advanced open-source LLMs with various prompting settings unexplored. Particularly, open-source LLMs offer advantages in data privacy protection and have demonstrated superior performance in some tasks. Moreover, effective prompting is crucial for maximizing LLMs’ capabilities. In this paper, we conduct the first empirical study to fill this gap, based on 17 Java projects, five widely-used open-source LLMs with different structures and parameter sizes, and comprehensive evaluation metrics. Our findings highlight the significant influence of various prompt factors, show the performance of open-source LLMs compared to the commercial GPT-4 and the traditional Evosuite, and identify limitations in LLM-based unit test generation. We then derive a series of implications from our study to guide future research and practical use of LLM-based unit test generation.CCS CONCEPTS • Software and its engineering → Software testing and debugging.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/037b4345769b0608819cddc9bb2cff3a6daf8699",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the limitations of existing unit test generation techniques, particularly the challenges of manually writing unit tests, the lack of readability and maintainability in traditional methods, and the transparency issues in deep learning-based techniques. They also seek to analyze the effectiveness of large language models (LLMs) in generating effective unit tests, focusing on test coverage and defect detection rates.",
+      "idea": "The study presents the first empirical evaluation of open-source LLMs for unit test generation, exploring various prompting strategies and their effects on performance. It emphasizes the importance of prompt design and proposes strategies to enhance LLM effectiveness, including static analysis, empirical selection of LLMs, refining in-context learning methods, and supervised fine-tuning.",
+      "methodology": "The authors conducted an empirical study using 17 Java projects from the Defects4J benchmark, evaluating five widely-used open-source LLMs alongside commercial models like GPT-4 and traditional methods like Evosuite. They employed various prompt designs and in-context learning methods, measuring metrics such as syntactic validity, test coverage, and defect detection ability. The study also analyzed specific types of errors caused by LLM hallucinations and the impact of different prompting styles on performance.",
+      "result": "The findings indicate that prompt design significantly affects LLM performance in unit test generation. While open-source LLMs show potential, they often underperform compared to traditional methods, particularly in generating syntactically valid tests and detecting defects. The study revealed that a high percentage of defects remain undetected due to compilation issues, and many valid tests fail to detect defects due to insufficient coverage and improper assertions. Notably, the effectiveness of in-context learning methods varied across different models, with Chain of Thought (CoT) improving performance for some but not all models.",
+      "discussion": "The results highlight the limitations of LLMs in generating maintainable and effective unit tests, suggesting the need for improved prompt design and post-processing strategies to enhance syntactic validity. The study emphasizes the importance of task-specific adaptations of in-context learning techniques and the potential benefits of supervised fine-tuning. Limitations include the reliance on specific benchmarks, the potential for data leakage, and the underperformance of LLMs compared to traditional methods. Future work should explore more effective mutation strategies for input generation and further investigate the impact of various prompting factors."
+    },
+    "entities": {
+      "datasets": [
+        "Defects4J 2.0",
+        "Defects4J",
+        "17 Java projects"
+      ],
+      "models": [
+        "DC-33B",
+        "GPT-3.5",
+        "Evosuite",
+        "CodeLlama-7B-Instruct",
+        "TELPA",
+        "ChatTester",
+        "Large Language Models",
+        "CodeLlama-13B-Instruct",
+        "PD-34B",
+        "GPT-4",
+        "DeepSeekCoder-33B-Instruct",
+        "ChatGPT",
+        "ATLAS",
+        "Phind-CodeLlama-34B-v2",
+        "CodeBERT",
+        "Codex",
+        "TestPilot",
+        "CL-13B",
+        "DeepSeekCoder-6.7B-Instruct",
+        "DC-7B",
+        "BART Transformer",
+        "CL-7B",
+        "AthenaTest",
+        "EDITAS",
+        "TOGA"
+      ],
+      "losses": [],
+      "metrics": [
+        "Branch Coverage",
+        "CovL",
+        "Compilation Success Rate",
+        "defect detection",
+        "Cohen’s Kappa score",
+        "Rank-biserial correlation",
+        "line coverage",
+        "branch coverage",
+        "p-value",
+        "CSR",
+        "test coverage",
+        "Line Coverage",
+        "CovB",
+        "evaluation metrics",
+        "syntactic validity"
+      ]
+    }
+  },
+  {
+    "id": "08a4e7a22d52f78e11b53f13415324a86f2a0497",
+    "title": "Evaluation of the Performance of Generative AI Large Language Models ChatGPT, Google Bard, and Microsoft Bing Chat in Supporting Evidence-Based Dentistry: Comparative Mixed Methods Study",
+    "abstract": "Background The increasing application of generative artificial intelligence large language models (LLMs) in various fields, including dentistry, raises questions about their accuracy. Objective This study aims to comparatively evaluate the answers provided by 4 LLMs, namely Bard (Google LLC), ChatGPT-3.5 and ChatGPT-4 (OpenAI), and Bing Chat (Microsoft Corp), to clinically relevant questions from the field of dentistry. Methods The LLMs were queried with 20 open-type, clinical dentistry–related questions from different disciplines, developed by the respective faculty of the School of Dentistry, European University Cyprus. The LLMs’ answers were graded 0 (minimum) to 10 (maximum) points against strong, traditionally collected scientific evidence, such as guidelines and consensus statements, using a rubric, as if they were examination questions posed to students, by 2 experienced faculty members. The scores were statistically compared to identify the best-performing model using the Friedman and Wilcoxon tests. Moreover, the evaluators were asked to provide a qualitative evaluation of the comprehensiveness, scientific accuracy, clarity, and relevance of the LLMs’ answers. Results Overall, no statistically significant difference was detected between the scores given by the 2 evaluators; therefore, an average score was computed for every LLM. Although ChatGPT-4 statistically outperformed ChatGPT-3.5 (P=.008), Bing Chat (P=.049), and Bard (P=.045), all models occasionally exhibited inaccuracies, generality, outdated content, and a lack of source references. The evaluators noted instances where the LLMs delivered irrelevant information, vague answers, or information that was not fully accurate. Conclusions This study demonstrates that although LLMs hold promising potential as an aid in the implementation of evidence-based dentistry, their current limitations can lead to potentially harmful health care decisions if not used judiciously. Therefore, these tools should not replace the dentist’s critical thinking and in-depth understanding of the subject matter. Further research, clinical validation, and model improvements are necessary for these tools to be fully integrated into dental practice. Dental practitioners must be aware of the limitations of LLMs, as their imprudent use could potentially impact patient care. Regulatory measures should be established to oversee the use of these evolving technologies.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/08a4e7a22d52f78e11b53f13415324a86f2a0497",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the need for extensive research and clinical validation of large language models (LLMs) like ChatGPT in evidence-based clinical practice, particularly in dentistry, due to their inherent weaknesses and the challenges in implementing evidence-based dentistry (EBD) in clinical settings.",
+      "idea": "The study proposes a systematic evaluation of the performance of four LLMs (ChatGPT-4, ChatGPT-3.5, Google Bard, and Microsoft Bing Chat) in providing clinically relevant answers to dental questions, highlighting their potential as tools to enhance EBD while emphasizing the need for careful and critical use by healthcare professionals until they are fully validated and improved.",
+      "methodology": "The authors conducted a comparative analysis by querying the LLMs with 20 open-type clinical dentistry-related questions developed by faculty members. The responses were graded by two experienced evaluators based on a rubric assessing comprehensiveness, scientific accuracy, clarity, and relevance. Statistical analyses, including Friedman and Wilcoxon tests, were performed to evaluate the performance of the models and inter-evaluator reliability.",
+      "result": "ChatGPT-4 exhibited the highest average score of 7.2, significantly outperforming ChatGPT-3.5 (5.9), Google Bard (5.7), and Microsoft Bing Chat (5.4). Despite the overall good performance, all LLMs demonstrated weaknesses, including inaccuracies, outdated content, and a lack of source references, with evaluators noting instances of irrelevant information and vague answers.",
+      "discussion": "The findings suggest that while LLMs like ChatGPT-4 can enhance evidence-based decision-making in dentistry, their limitations pose risks of biased or harmful healthcare decisions if used imprudently. The authors emphasize the importance of critical thinking, continuous education among healthcare providers, and the need for high-quality, continuously updated training data for LLMs. They call for further research and regulatory measures to ensure the safe and effective use of AI technologies in clinical practice."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "ChatGPT model GPT-3.5",
+        "Bard",
+        "ChatGPT-3.5",
+        "Pathways Language Model",
+        "GPT-3.5",
+        "Generative AI",
+        "GPT-4",
+        "Google Bard",
+        "ChatGPT",
+        "Bing Chat",
+        "ChatGPT model GPT-4",
+        "GPT",
+        "Microsoft Bing Chat",
+        "ChatGPT-4",
+        "Bing Chat AI",
+        "LaMDA"
+      ],
+      "losses": [],
+      "metrics": [
+        "P=.049",
+        "P=.008",
+        "Spearman",
+        "Pearson r",
+        "Friedman test",
+        "percent correct responses",
+        "SDs",
+        "coefficient of variation",
+        "mean average score",
+        "statistically significantly",
+        "median",
+        "Spearman ρ",
+        "Friedman",
+        "ICC",
+        "Cronbachα",
+        "Pearson",
+        "P=.045",
+        "Wilcoxon test",
+        "average",
+        "Cronbach α",
+        "mean",
+        "SD",
+        "Wilcoxon",
+        "minimum",
+        "intraclass correlation coefficient",
+        "maximum",
+        "P-value"
+      ]
+    }
+  },
+  {
+    "id": "2dec3ce7a1a42702080bb968a3e5412484d729a9",
+    "title": "LinkNER: Linking Local Named Entity Recognition Models to Large Language Models using Uncertainty",
+    "abstract": "Named Entity Recognition (NER) serves as a fundamental task in natural language understanding, bearing direct implications for web content analysis, search engines, and information retrieval systems. Fine-tuned NER models exhibit satisfactory performance on standard NER benchmarks. However, due to limited fine-tuning data and lack of knowledge, it performs poorly on unseen entity recognition. As a result, the usability and reliability of NER models in web-related applications are compromised. Instead, Large Language Models (LLMs) like GPT-4 possess extensive external knowledge, but research indicates that they lack specialty for NER tasks. Furthermore, non-public and large-scale weights make tuning LLMs difficult. To address these challenges, we propose a framework that combines small fine-tuned models with LLMs (LinkNER) and an uncertainty-based linking strategy called RDC that enables fine-tuned models to complement black-box LLMs, achieving better performance. We experiment with both standard NER test sets and noisy social media datasets. LinkNER enhances NER task performance, notably surpassing SOTA models in robustness tests. We also quantitatively analyze the influence of key components like uncertainty estimation methods, LLMs, and in-context learning on diverse NER tasks, offering specific web-related recommendations.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/2dec3ce7a1a42702080bb968a3e5412484d729a9",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenges in Named Entity Recognition (NER), particularly the poor performance of fine-tuned models on unseen entities due to limited fine-tuning data and the variability of web content. They focus on improving system availability and reliability in open environments, especially when encountering Out-of-Vocabulary (OOV) and Out-of-Domain (OOD) entities.",
+      "idea": "The authors propose the LinkNER framework, which synergistically combines small fine-tuned models (SpanNER) with Large Language Models (LLMs) using an uncertainty-based linking strategy called RDC. This approach enhances NER performance by leveraging the strengths of both local models and LLMs, particularly in handling challenging entities.",
+      "methodology": "The study employs a combination of local fine-tuned models (SpanNER) and LLMs, utilizing four uncertainty estimation methods: Least Confidence (LC), Prediction Entropy (PE), Monte Carlo Dropout (MCD), and Evidential Neural Network (ENN). The authors conduct extensive experiments on various datasets, including CoNLL 2003, OntoNotes 5.0, WikiGold, and noisy social media datasets, to evaluate LinkNER's performance and analyze the influence of context and learning dynamics on model effectiveness.",
+      "result": "LinkNER significantly outperformed state-of-the-art models, achieving F1 score improvements ranging from 3.04% to 21.30% in robustness tests. It demonstrated enhanced performance on in-domain datasets and excelled in out-of-domain scenarios, particularly in noisy environments, indicating its robustness in recognizing unseen entities.",
+      "discussion": "The results validate the effectiveness of LinkNER in improving entity classification, especially in high uncertainty intervals. However, the authors acknowledge limitations related to the choice of local models and the computational demands of certain uncertainty estimation methods. They suggest that future work should focus on refining these methods, exploring additional datasets, and addressing the distribution gap between training and test sets."
+    },
+    "entities": {
+      "datasets": [
+        "Typos Dataset",
+        "Onto. 5.0",
+        "OOV Dataset",
+        "TweetNER Dataset",
+        "OntoNotes 5.0",
+        "WikiGold Dataset",
+        "WNUT’17",
+        "CoNLL’03-OOV",
+        "standard NER test sets",
+        "JNLPBA",
+        "TweetNER",
+        "JNLPBA Dataset",
+        "CoNLL’03-Typos",
+        "CoNLL’03",
+        "WikiGold",
+        "Typos",
+        "CoNLL’03 Dataset",
+        "WNUT’17 Dataset",
+        "OOV variant dataset",
+        "OntoNotes 5.0 Dataset",
+        "WNUT’17 dataset",
+        "noisy social media datasets",
+        "ID data"
+      ],
+      "models": [
+        "Llama 2",
+        "HuggingGPT",
+        "SpanNER",
+        "Llama 2-Chat (13B)",
+        "MINER",
+        "GPT-3.5",
+        "E-NER",
+        "Bloom",
+        "ChatGPT",
+        "GPT-3",
+        "RDC’s interaction model",
+        "DataAug",
+        "LLMs",
+        "local NER model",
+        "LargeLanguageModel",
+        "Large Language Models",
+        "LinkNER",
+        "VaniIB"
+      ],
+      "losses": [
+        "cross-entropy loss function",
+        "Lpenalty",
+        "Lcls"
+      ],
+      "metrics": [
+        "Ratio@SOTA",
+        "F1 score",
+        "robustness",
+        "mutual information",
+        "F1 scores"
+      ]
+    }
+  },
+  {
+    "id": "7c22eca5e00d1ea9523be6151e9d40bb77ddb241",
+    "title": "Large Language Models as Evaluators for Recommendation Explanations",
+    "abstract": "The explainability of recommender systems has attracted significant attention in academia and industry. Many efforts have been made for explainable recommendations, yet evaluating the quality of the explanations remains a challenging and unresolved issue. In recent years, leveraging LLMs as evaluators presents a promising avenue in Natural Language Processing tasks (e.g., sentiment classification, information extraction), as they perform strong capabilities in instruction following and common-sense reasoning. However, evaluating recommendation explanatory texts is different from these NLG tasks, as its criteria are related to human perceptions and are usually subjective. In this paper, we investigate whether LLMs can serve as evaluators of recommendation explanations. To answer the question, we utilize real user feedback on explanations given from previous work and additionally collect third-party annotations and LLM evaluations. We design and apply a 3-level meta-evaluation strategy to measure the correlation between evaluator labels and the ground truth provided by users. Our experiments reveal that LLMs, such as GPT4, can provide comparable evaluations with appropriate prompts and settings. We also provide further insights into combining human labels with the LLM evaluation process and utilizing ensembles of multiple heterogeneous LLM evaluators to enhance the accuracy and stability of evaluations. Our study verifies that utilizing LLMs as evaluators can be an accurate, reproducible and cost-effective solution for evaluating recommendation explanation texts. Our code is available here1.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/7c22eca5e00d1ea9523be6151e9d40bb77ddb241",
+    "excluded": false
+  },
+  {
+    "id": "a9f4f733ea4a4a707a59515910728657b2d750be",
+    "title": "Conversational Text Extraction with Large Language Models Using Retrieval-Augmented Systems",
+    "abstract": "This study introduces a system leveraging Large Language Models (LLMs) to extract text and enhance user interaction with PDF documents via a conversational interface. Utilizing Retrieval-Augmented Generation (RAG), the system provides informative responses to user inquiries while highlighting relevant passages within the PDF. Upon user upload, the system processes the PDF, employing sentence embeddings to create a document-specific vector store. This vector store enables efficient retrieval of pertinent sections in response to user queries. The LLM then engages in a conversational exchange, using the retrieved information to extract text and generate comprehensive, contextually aware answers. While our approach demonstrates competitive ROUGE values compared to existing state-of-the-art techniques for text extraction and summarization, we acknowledge that further qualitative evaluation is necessary to fully assess its effectiveness in real-world applications. The proposed system gives competitive ROUGE values as compared to existing state-of-the-art techniques for text extraction and summarization, thus offering a valuable tool for researchers, students, and anyone seeking to efficiently extract knowledge and gain insights from documents through an intuitive question-answering interface.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/a9f4f733ea4a4a707a59515910728657b2d750be",
+    "excluded": false,
+    "summary": {
+      "motivation": "The study addresses the challenge of efficiently extracting knowledge from text-heavy PDF documents, which is increasingly important due to the growing volume of digital documents and the need for effective interaction with complex academic materials.",
+      "idea": "The authors propose a system called RAG-PDF that leverages Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG) to enhance user interaction with PDF documents through a conversational interface, facilitating coherent and contextually relevant responses to user queries.",
+      "methodology": "The system processes user-uploaded PDFs by creating a document-specific vector store using sentence embeddings with the faiss library for efficient retrieval of relevant sections. It employs the Groq LLM integrated through the langchain_groq library and utilizes the ConversationBufferMemory class for managing conversational context. The ConversationalRetrievalChain links these components to enable interactive exchanges based on the retrieved information.",
+      "result": "The proposed system demonstrates competitive ROUGE scores, achieving average values of 0.4604 (ROUGE-1), 0.3576 (ROUGE-2), and 0.4283 (ROUGE-L), indicating its effectiveness in summarizing and answering questions based on complex academic texts, while also showing competitive performance compared to existing state-of-the-art techniques for text extraction and summarization.",
+      "discussion": "While the approach shows promise, the authors acknowledge the need for further qualitative evaluation to fully assess its effectiveness in real-world applications. The relatively low ROUGE scores highlight challenges in achieving high word-for-word overlap due to the nature of summarization. Future work will focus on enhancing user interaction quality, incorporating qualitative evaluations, and adapting the model for a broader range of document types, potentially integrating reinforcement learning and knowledge graphs to improve performance."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "ConversationBufferMemory",
+        "LeanDojo",
+        "Groq LLM",
+        "RAG-PDF",
+        "BiomedRAG",
+        "ChatGPT",
+        "Almanac",
+        "ConversationalRetrievalChain"
+      ],
+      "losses": [],
+      "metrics": [
+        "cosine similarity",
+        "ROUGE-1",
+        "ROUGE-2",
+        "ROUGE-L",
+        "ROUGE"
+      ]
+    }
+  },
+  {
+    "id": "697e0add95e880bd42e00bef838181e105f91981",
+    "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+    "abstract": "Multimodal Large Language Model (MLLM) relies on the powerful LLM to perform multimodal tasks, showing amazing emergent abilities in recent studies, such as writing poems based on an image. However, it is difficult for these case studies to fully reflect the performance of MLLM, lacking a comprehensive evaluation. In this paper, we fill in this blank, presenting the first comprehensive MLLM Evaluation benchmark MME. It measures both perception and cognition abilities on a total of 14 subtasks. In order to avoid data leakage that may arise from direct use of public datasets for evaluation, the annotations of instruction-answer pairs are all manually designed. The concise instruction design allows us to fairly compare MLLMs, instead of struggling in prompt engineering. Besides, with such an instruction, we can also easily carry out quantitative statistics. A total of 30 advanced MLLMs are comprehensively evaluated on our MME, which not only suggests that existing MLLMs still have a large room for improvement, but also reveals the potential directions for the subsequent model optimization. The data are released at the project page https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/697e0add95e880bd42e00bef838181e105f91981",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the lack of comprehensive evaluation for Multimodal Large Language Models (MLLMs), which have shown impressive abilities in specific tasks but lack a thorough assessment of their overall performance. They highlight the existing gaps in current evaluation methods and the need for a structured approach to evaluate MLLMs effectively.",
+      "idea": "The paper presents the first comprehensive MLLM Evaluation benchmark (MME) that measures both perception and cognition abilities across 14 subtasks. This benchmark evaluates MLLMs based on task type, data source, instruction design, and quantitative statistics, providing a structured framework for assessment.",
+      "methodology": "The evaluation framework includes manually designed instruction-answer pairs for various tasks, focusing on both coarse-grained and fine-grained recognition, as well as logical reasoning tasks. A total of 30 advanced MLLMs were evaluated using the MME benchmark to assess their performance and identify common issues, with results presented in leaderboards for each subtask.",
+      "result": "The evaluation results indicate significant room for improvement in the evaluated MLLMs, with models like GPT-4V, WeMM, and Lion performing well in various tasks. However, none of the highest scores in cognition tasks exceeded 150, indicating ongoing challenges. The results also highlight common problems affecting MLLM performance, such as failure to follow instructions, lack of perception, lack of reasoning, and object hallucination.",
+      "discussion": "While the MME benchmark is comprehensive, it has limitations in capability coverage, particularly in reasoning scenarios. The authors suggest that addressing the identified issues is crucial for improving model reliability and performance. They plan to iterate on the MME series to enhance its evaluation capabilities and reflect on future model developments, emphasizing the need for further research to improve reasoning abilities and expand the dataset for more complex tasks."
+    },
+    "entities": {
+      "datasets": [
+        "ScienceQA",
+        "MME",
+        "COCO"
+      ],
+      "models": [
+        "Lion",
+        "LLaMA-Adapter V2",
+        "LLaMA-Adapter-v2",
+        "Qwen-VL-Chat",
+        "ImageBind-LLM",
+        "WeMM",
+        "MLLM",
+        "Octopus",
+        "LLaMA-AdapterV2",
+        "Flamingo",
+        "MMICL",
+        "PandaGPT",
+        "XComposer-VL",
+        "Multimodal-GPT",
+        "LaVIN",
+        "InfMLLM",
+        "InstructBLIP",
+        "MiniGPT-4",
+        "Muffin",
+        "Large Language Model",
+        "Skywork-MM",
+        "LRV-Instruction",
+        "mPLUG-Owl",
+        "PaLM-E",
+        "mPLUG-Owl2",
+        "VisualGLM-6B",
+        "VPGTrans",
+        "Cheetor",
+        "Lynx",
+        "LLaVA",
+        "SPHINX",
+        "GIT2",
+        "Otter",
+        "GPT-4V",
+        "BLIP-2",
+        "BLIVA"
+      ],
+      "losses": [],
+      "metrics": [
+        "numerical calculation",
+        "position",
+        "accuracy",
+        "code reasoning",
+        "MME",
+        "count",
+        "color",
+        "accuracy+",
+        "existence",
+        "OCR",
+        "commonsense reasoning",
+        "cognition score",
+        "perception score",
+        "text translation"
+      ]
+    }
+  },
+  {
+    "id": "977a9851f74b82c8d76a5edcf2b40e356e755b94",
+    "title": "Chatbot for the Return of Positive Genetic Screening Results for Hereditary Cancer Syndromes: a Prompt Engineering Study",
+    "abstract": "Background The growing demand for genomic testing and limited access to experts necessitate innovative service models. While chatbots have shown promise in supporting genomic services like pre-test counseling, their use in returning positive genetic results, especially using the more recent large language models (LLMs) remains unexplored. Objective This study reports the prompt engineering process and intrinsic evaluation of the LLM component of a chatbot designed to support returning positive population-wide genomic screening results. Methods We used a three-step prompt engineering process, including Retrieval-Augmented Generation (RAG) and few-shot techniques to develop an open-response chatbot. This was then evaluated using two hypothetical scenarios, with experts rating its performance using a 5-point Likert scale across eight criteria: tone, clarity, program accuracy, domain accuracy, robustness, efficiency, boundaries, and usability. Results The chatbot achieved an overall score of 3.88 out of 5 across all criteria and scenarios. The highest ratings were in Tone (4.25), Usability (4.25), and Boundary management (4.0), followed by Efficiency (3.88), Clarity and Robustness (3.81), and Domain Accuracy (3.63). The lowest-rated criterion was Program Accuracy, which scored 3.25. Discussion The LLM handled open-ended queries and maintained boundaries, while the lower Program Accuracy rating indicates areas for improvement. Future work will focus on refining prompts, expanding evaluations, and exploring optimal hybrid chatbot designs that integrate LLM components with rule-based chatbot components to enhance genomic service delivery.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/977a9851f74b82c8d76a5edcf2b40e356e755b94",
+    "excluded": false
+  },
+  {
+    "id": "6d5dd3afce1515543ea38faaac49cb956cf18186",
+    "title": "You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content",
+    "abstract": "The spread of toxic content online is an important problem that has adverse effects on user experience online and in our society at large. Motivated by the importance and impact of the problem, research focuses on developing solutions to detect toxic content, usually leveraging machine learning (ML) models trained on human-annotated datasets. While these efforts are important, these models usually do not generalize well and they can not cope with new trends (e.g., the emergence of new toxic terms). Currently, we are witnessing a shift in the approach to tackling societal issues online, particularly leveraging large language models (LLMs) like GPT-3 or T5 that are trained on vast corpora and have strong generalizability. In this work, we investigate how we can use LLMs and prompt learning to tackle the problem of toxic content, particularly focusing on three tasks; 1) Toxicity Classification, 2) Toxic Span Detection, and 3) Detoxification. We perform an extensive evaluation over five model architectures and eight datasets demonstrating that LLMs with prompt learning can achieve similar or even better performance compared to models trained on these specific tasks. We find that prompt learning achieves around 10% improvement in the toxicity classification task compared to the baselines, while for the toxic span detection task we find better performance to the best baseline (0.643 vs. 0.640 in terms of F1-score). Finally, for the detoxification task, we find that prompt learning can successfully reduce the average toxicity score (from 0.775 to 0.213) while preserving semantic meaning.1",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/6d5dd3afce1515543ea38faaac49cb956cf18186",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors address the long-standing problem of toxic content in online platforms, which adversely affects user experience and can lead to users leaving conversations. They highlight the challenges in developing accurate toxicity detection classifiers due to the lack of comprehensive labeled datasets and the costly data collection process. The spread of toxic content online is an important problem that has adverse effects on user experience and society at large.",
+      "idea": "The authors propose using prompt learning with large language models (LLMs) to tackle the problem of toxic content, specifically focusing on three tasks: toxicity classification, toxic span detection, and detoxification. The novel contribution is the application of prompt tuning to improve performance in these tasks, showing that it can achieve comparable or better results than state-of-the-art baselines while preserving semantic meaning.",
+      "methodology": "The authors conduct a systematic analysis using prompt tuning to optimize the performance of LLMs for the three tasks related to toxic content. They evaluate their methods on eight datasets and five model architectures, comparing the results to state-of-the-art methods. The evaluation involved using prompt tuning with LLMs such as GPT2 and T5, and they measure performance using metrics like F1-score, BLEU score, and token-level perplexity. They also consider baselines like BiLSTM, BERT, SPAN-BERT, and DetoxBART for comparison.",
+      "result": "Prompt tuning achieves around a 10% improvement in the toxicity classification task compared to the baselines, with notable F1-scores such as 0.731 on HateXplain with GPT2-L, and 0.643 for toxic span detection, outperforming SPAN-BERT. The detoxification task successfully reduces the average toxicity score from 0.775 to 0.213 while preserving semantic meaning. Prompt tuning demonstrated comparable or superior performance to existing baselines, enhancing dataset quality and model utility in toxicity-related tasks.",
+      "discussion": "The authors discuss the advantages of prompt tuning, including its adaptability to different tasks with fewer training samples and reduced computational costs. They acknowledge limitations such as the reliance on specific LLMs, potential inaccuracies of the Perspective API for quantifying toxicity, and the need for more epochs for optimal detoxification performance. They suggest future work could explore the application of prompt tuning to other socio-technical issues and enhance the method's sensitivity to ambiguous toxic spans."
+    },
+    "entities": {
+      "datasets": [
+        "human-annotated datasets",
+        "HateCheck",
+        "human-annotated dataset",
+        "HateXplain",
+        "Perspective API",
+        "SBIC.v2",
+        "MHS",
+        "ToxicSpan",
+        "Parallel",
+        "USElection-Hate20",
+        "Paradox",
+        "SBIC",
+        "8 Parallel",
+        "ParaDetox",
+        "USElectionHate20"
+      ],
+      "models": [
+        "GPT2",
+        "Google’s Perspective API",
+        "T5",
+        "OpenAI’s GPT-3",
+        "BiLSTM",
+        "GPT2-M",
+        "T5-S",
+        "Detoxify",
+        "T5-small",
+        "BERT-base",
+        "SPAN-BERT",
+        "BERT",
+        "GPT2-L",
+        "CAE-T5",
+        "DetoxBART",
+        "flairNLP",
+        "T5-B",
+        "BiL-STM",
+        "GPT-3",
+        "GPT2-medium",
+        "T5-base",
+        "BERT+CRF",
+        "PT (T5-L)",
+        "ParaDetox",
+        "PT (T5-B)",
+        "GPT2-large",
+        "BART",
+        "HateSonar",
+        "T5-large",
+        "RoBERTa-base",
+        "PT (T5-S)",
+        "T5-L"
+      ],
+      "losses": [
+        "binary cross-entropy loss",
+        "custom loss"
+      ],
+      "metrics": [
+        "embedding similarities",
+        "TokenPPL",
+        "average toxicity score",
+        "toxicity score",
+        "text embeddings similarity",
+        "SIM (W)",
+        "BLEU",
+        "toxicity level change",
+        "accuracy",
+        "F1-score",
+        "precision",
+        "toxicity prediction label",
+        "BLEU score",
+        "SIM (F)",
+        "T0.9",
+        "T0.7",
+        "Perspective API",
+        "recall",
+        "token-level perplexity",
+        "Tavg"
+      ]
+    }
+  },
+  {
+    "id": "23032d660c0cc05d3822928ea67430e58923088a",
+    "title": "A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules",
+    "abstract": "Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key-provided by the LLM to the verifier-to control the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of incorrectly classifying LLM-generated text as human-written). Our framework further reduces the problem of determining the optimal detection rule to solving a minimax optimization program. We apply this framework to two representative watermarks-one of which has been internally implemented at OpenAI-and obtain several findings that can be instrumental in guiding the practice of implementing watermarks. In particular, we derive optimal detection rules for these watermarks under our framework. These theoretically derived detection rules are demonstrated to be competitive and sometimes enjoy a higher power than existing detection approaches through numerical experiments.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/23032d660c0cc05d3822928ea67430e58923088a",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenges posed by large language models (LLMs) in generating human-like text, which can lead to misinformation and data pollution. They highlight the need for effective watermarking methods to distinguish LLM-generated text from human-written text, particularly in the context of improving detection techniques through a formal statistical framework for analyzing watermark detection from a hypothesis testing perspective.",
+      "idea": "The paper introduces a comprehensive statistical framework for evaluating watermark detection rules, incorporating class-dependent efficiency and a minimax optimization problem to enhance the analysis of watermark detection performance. This framework allows for flexible rejection regions and improved Type II error rates, facilitating the design of effective detection rules for LLM-generated text.",
+      "methodology": "The authors develop a statistical framework that evaluates watermark detection rules by controlling Type I error using pivotal statistics and assessing Type II error through large deviation theory. They apply this framework to two unbiased watermarks, the Gumbel-max and inverse transform watermarks, deriving optimal detection rules and evaluating their performance through synthetic studies and numerical experiments. The methodology includes deriving closed-form expressions for asymptotic false negative rates and analyzing the limiting behavior of pivotal statistics under different hypotheses.",
+      "result": "The derived optimal detection rules for both the Gumbel-max and inverse transform watermarks demonstrate competitive or superior performance compared to existing detection methods. Empirical results indicate that the proposed methods effectively control Type I and II errors, with Type I errors aligning with nominal levels and Type II errors showing significant improvements. The findings suggest that the new detection rules outperform previous methods in various distribution classes, confirming theoretical predictions regarding error rates.",
+      "discussion": "The results indicate that the proposed framework provides a principled approach to watermark detection, addressing the complexities of non-identically distributed data and the challenges of selecting pivotal statistics. Limitations include the nonconvex nature of pivotal statistics selection and the complexity of the minimax optimization problem. Future research directions include exploring adaptive distribution classes, alternative score functions, and further optimizing detection rules to enhance watermark detection efficacy."
+    },
+    "entities": {
+      "datasets": [
+        "C4"
+      ],
+      "models": [
+        "LLaMA series models",
+        "Claude 3",
+        "Gumbel-max decoder",
+        "ChatGPT-3.5-turbo",
+        "Sheared-LLaMA-2.7B",
+        "GPT-2",
+        "GPT-3.5 series models",
+        "OPT-1.3B",
+        "ChatGPT-4",
+        "Gemini 1.5 Pro"
+      ],
+      "losses": [
+        "L(θh,P⋆ ∆)",
+        "DKL(µ0, µ1,P⋆ ∆)",
+        "L(h,P)"
+      ],
+      "metrics": [
+        "R∆-efficiency",
+        "lim sup",
+        "log-likelihood ratio",
+        "Type II error",
+        "lim inf",
+        "E0h(Ygum) + logϕh(P)",
+        "Lipschitz-continuous",
+        "P-efficiency rate",
+        "p-value",
+        "Type I error",
+        "lim ∆→1RP∆(hlog)/RP∆(h⋆ gum,∆)",
+        "P∆-efficiency rate",
+        "inf",
+        "sup"
+      ]
+    }
+  },
+  {
+    "id": "e3fa465afc43ef75fb0f7b097c93d4afc36e3edb",
+    "title": "Are Large Language Models Aligned with People’s Social Intuitions for Human–Robot Interactions?",
+    "abstract": "Large language models (LLMs) are increasingly used in robotics, especially for high-level action planning. Meanwhile, many robotics applications involve human supervisors or collaborators. Hence, it is crucial for LLMs to generate socially acceptable actions that align with people’s preferences and values. In this work, we test whether LLMs capture people’s intuitions about behavior judgments and communication preferences in human-robot interaction (HRI) scenarios. For evaluation, we reproduce three HRI user studies, comparing the output of LLMs with that of real participants. We find that GPT-4 strongly outperforms other models, generating answers that correlate strongly with users’ answers in two studies — the first study dealing with selecting the most appropriate communicative act for a robot in various situations (rs = 0.82), and the second with judging the desirability, intentionality, and surprisingness of behavior (rs = 0.83). However, for the last study, testing whether people judge the behavior of robots and humans differently, no model achieves strong correlations. Moreover, we show that vision models fail to capture the essence of video stimuli and that LLMs tend to rate different communicative acts and behavior desirability higher than people.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/e3fa465afc43ef75fb0f7b097c93d4afc36e3edb",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to investigate how well large language models (LLMs), particularly GPT-4, can generate socially acceptable actions in human-robot interaction (HRI) scenarios that align with people's preferences and values. This research addresses the gap in understanding LLMs' alignment with human social intuitions and their ability to replicate human judgments of robot and human behaviors in terms of desirability, intentionality, and surprisingness.",
+      "idea": "The novel contribution of this study is the evaluation of LLMs, especially GPT-4, in generating responses that correlate with human judgments in HRI scenarios. The research explores the effectiveness of chain-of-thought prompting and the use of multimodal inputs (video and text) to assess the performance of LLMs in judging communication norms and behavior appropriateness in HRI contexts.",
+      "methodology": "The authors conducted two main experiments: the first focused on communication preferences where participants rated the relevance of follow-up actions for robots, and the second involved judging behaviors acted out by humans and robots. They reproduced three HRI user studies, prompting LLMs with both textual and multimodal stimuli, and compared LLM outputs with real participant responses. The evaluation included analyzing correlations between LLM and human ratings using Spearman’s rank correlation coefficient.",
+      "result": "GPT-4 outperformed other models, achieving strong correlations with human responses in two studies (rs=0.82 and rs=0.83) for communication preferences and behavior judgments. However, it struggled with video inputs, correctly parsing only 50% of the videos and showing a lower correlation (0.57) with human judgments in that condition. Overall, LLMs tended to overvalue communicative acts and behavior desirability compared to human participants, indicating a positivity bias in their ratings.",
+      "discussion": "The findings suggest that while GPT-4 aligns well with human intuitions in certain scenarios, it fails to capture nuances in others, particularly in distinguishing between human and robot actions. Limitations include the models' tendency to overrate certain responses and challenges with multimodal inputs. Future work should focus on refining LLM training and prompting techniques to improve alignment with human social values and enhance understanding of social contexts."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "LLaMA-2-70bChat",
+        "GPT-3.5",
+        "LLaMA-2Chat",
+        "GPT-4",
+        "ChatGPT",
+        "GPT-3 base model",
+        "GPT-3",
+        "LLaMA-2",
+        "LLaMA-2-13bChat"
+      ],
+      "losses": [],
+      "metrics": [
+        "Likert scale",
+        "p-value",
+        "correlation",
+        "0.95",
+        "rs= 0.83",
+        "rs= 0.82",
+        "Spearman coefficient"
+      ]
+    }
+  },
+  {
+    "id": "bf27c81faad0dd21bd39c45ee5e85300577fda66",
+    "title": "ChatMOF: an artificial intelligence system for predicting and generating metal-organic frameworks using large language models",
+    "abstract": "ChatMOF is an artificial intelligence (AI) system that is built to predict and generate metal-organic frameworks (MOFs). By leveraging a large-scale language model (GPT-4, GPT-3.5-turbo, and GPT-3.5-turbo-16k), ChatMOF extracts key details from textual inputs and delivers appropriate responses, thus eliminating the necessity for rigid and formal structured queries. The system is comprised of three core components (i.e., an agent, a toolkit, and an evaluator) and it forms a robust pipeline that manages a variety of tasks, including data retrieval, property prediction, and structure generations. ChatMOF shows high accuracy rates of 96.9% for searching, 95.7% for predicting, and 87.5% for generating tasks with GPT-4. Additionally, it successfully creates materials with user-desired properties from natural language. The study further explores the merits and constraints of utilizing large language models (LLMs) in combination with database and machine learning in material sciences and showcases its transformative potential for future advancements. LLMs can be augmented with tools to increase their capabilities. Here, authors have developed an artificial intelligence system called ChatMOF combining LLMs and specialised libraries and utilities to predict and generate metal-organic frameworks.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/bf27c81faad0dd21bd39c45ee5e85300577fda66",
+    "excluded": false,
+    "summary": {
+      "motivation": "The study addresses the underutilization of large language models (LLMs) in materials science, particularly in predicting and generating metal-organic frameworks (MOFs). The authors aim to evaluate the performance of ChatMOF in various tasks related to MOFs, addressing the need for a systematic approach to problem-solving in this domain and enhancing the capabilities of AI in extracting and generating information efficiently.",
+      "idea": "ChatMOF is a novel AI system that integrates large language models, specifically GPT-4, to autonomously perform search, prediction, and generation tasks related to MOFs. It represents significant progress towards achieving higher autonomy in AI for materials science, demonstrating superior accuracy compared to previous models like GPT-3.5-turbo.",
+      "methodology": "ChatMOF operates through an agent that processes user queries, selects appropriate tools from a toolkit, and evaluates outputs to provide final responses. It employs a combination of table-searchers, predictors, generators, and utilities, utilizing databases like CoREMOF and QMOF, and machine learning models such as MOFTransformer for property predictions. The evaluation involved generating questions using GPT-4 about MOF properties, measuring accuracy across 100 sample questions for search and prediction tasks, and 10 for the generation task, without fine-tuning the models.",
+      "result": "ChatMOF achieved high accuracy rates of 96.9% for searching, 95.7% for predicting, and 87.5% for generating tasks with GPT-4. It successfully retrieved specific information about MOFs and generated new structures based on user-defined properties, including identifying the MOF with the highest hydrogen diffusivity at 77 K, 1 bar, which is 'BAZGAM_clean' with a diffusivity of 0.0030176841738998412 cm²/s. The accuracy of predictions and generated structures was evaluated, showing values close to target metrics for accessible surface area and hydrogen uptake.",
+      "discussion": "The results indicate the transformative potential of LLMs in materials science, though limitations exist in gene diversity, the complexity of advanced materials, and the reliance on accurate input data. Future work should focus on enhancing the LLM's performance, improving the integration of generative models for inverse design of MOFs, and expanding the database of MOFs to fully leverage LLM capabilities in material development."
+    },
+    "entities": {
+      "datasets": [
+        "CoREMOF",
+        "QMOF",
+        "DigiMOF",
+        "MOFkey"
+      ],
+      "models": [
+        "GPT-3.5-turbo-16k",
+        "genetic algorithm",
+        "llama-2-13B-chat",
+        "GPT-4",
+        "ChatMOF",
+        "MOFTransformer",
+        "llama2-7B-chat",
+        "GPT-3.5-turbo"
+      ],
+      "losses": [],
+      "metrics": [
+        "87.5%",
+        "accuracy",
+        "hydrogen diffusivity",
+        "precision value",
+        "mean",
+        "96.9%",
+        "95.7%",
+        "CO2 Henry's coefficient",
+        "accuracy rates",
+        "variance",
+        "accessible surface area",
+        "hydrogen uptake",
+        "recall value",
+        "quartile values"
+      ]
+    }
+  },
+  {
+    "id": "151b1d14ebfde24bef76c6b5c44e6efd8c8e89ed",
+    "title": "Robustness of Large Language Models Against Adversarial Attacks",
+    "abstract": "The increasing deployment of Large Language Models (LLMs) in various applications necessitates a rigorous evaluation of their robustness against adversarial attacks. In this paper, we present a comprehensive study on the robustness of GPT LLM family. We employ two distinct evaluation methods to assess their resilience. The first method introduces character-level text attack in input prompts, testing the models on three sentiment classification datasets: StanfordNLP/IMDB, Yelp Reviews, and SST-2. The second method involves using jailbreak prompts to challenge the safety mechanisms of the LLMs. Our experiments reveal significant variations in the robustness of these models, demonstrating their varying degrees of vulnerability to both character-level and semantic-level adversarial attacks. These findings underscore the necessity for improved adversarial training and enhanced safety mechanisms to bolster the robustness of LLMs.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/151b1d14ebfde24bef76c6b5c44e6efd8c8e89ed",
+    "excluded": false,
+    "summary": {
+      "motivation": "The increasing deployment of Large Language Models (LLMs) in various applications necessitates a rigorous evaluation of their robustness against adversarial attacks, particularly character-level attacks and jailbreak prompts. This evaluation addresses the need for improved safety mechanisms in LLMs.",
+      "idea": "The paper presents a comprehensive comparative analysis of the performance and robustness of different GPT models against adversarial attacks, utilizing two distinct evaluation methods: character-level text attacks and jailbreak prompts. This highlights the varying effectiveness of their safety mechanisms.",
+      "methodology": "Experiments were conducted using character-level perturbations on three sentiment classification datasets (StanfordNLP/IMDB, Yelp Reviews, and SST-2) and a dataset of 1405 jailbreak prompts collected from various online platforms, designed to challenge the safety mechanisms of the LLMs.",
+      "result": "The results reveal significant variations in the robustness of the evaluated LLMs. GPT-4o demonstrated the highest original accuracy and robustness, detecting 95.7% of jailbreak prompts, while GPT-3.5-turbo exhibited the lowest accuracy, detecting only 48.9% of the prompts. All models showed notable drops in accuracy when subjected to character-level text attacks, indicating significant vulnerabilities.",
+      "discussion": "The findings underscore the necessity for improved adversarial training and enhanced safety mechanisms to bolster the robustness of LLMs. The results indicate that even minor errors can significantly impact performance, highlighting the importance of ongoing research to ensure safe deployment in critical applications. Future work should focus on adaptive defense strategies and robust evaluation frameworks to address the identified vulnerabilities."
+    },
+    "entities": {
+      "datasets": [
+        "JAILBREAKHUB",
+        "SST-2",
+        "StanfordNLP/IMDB",
+        "JailbreakHub",
+        "Yelp Reviews"
+      ],
+      "models": [
+        "GPT-4o",
+        "GPT-4-turbo",
+        "GPT-3.5-turbo",
+        "GPT-4"
+      ],
+      "losses": [],
+      "metrics": []
+    }
+  },
+  {
+    "id": "50d40517ede17d332bc3d590da5dc44999bf2490",
+    "title": "ConSiDERS-The-Human Evaluation Framework: Rethinking Human Evaluation for Generative Large Language Models",
+    "abstract": "In this position paper, we argue that human evaluation of generative large language models (LLMs) should be a multidisciplinary undertaking that draws upon insights from disciplines such as user experience research and human behavioral psychology to ensure that the experimental design and results are reliable. The conclusions from these evaluations, thus, must consider factors such as usability, aesthetics, and cognitive biases. We highlight how cognitive biases can conflate fluent information and truthfulness, and how cognitive uncertainty affects the reliability of rating scores such as Likert. Furthermore, the evaluation should differentiate the capabilities and weaknesses of increasingly powerful large language models -- which requires effective test sets. The scalability of human evaluation is also crucial to wider adoption. Hence, to design an effective human evaluation system in the age of generative NLP, we propose the ConSiDERS-The-Human evaluation framework consisting of 6 pillars -- Consistency, Scoring Criteria, Differentiating, User Experience, Responsible, and Scalability.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/50d40517ede17d332bc3d590da5dc44999bf2490",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenges and inconsistencies in evaluating state-of-the-art (SOTA) large language models (LLMs) across various applications and domains, particularly focusing on the limitations of human evaluation and the misalignment between automated metrics and human judgment.",
+      "idea": "The paper proposes a comprehensive evaluation framework called ConSiDERS-The-Human Evaluation Framework, which consists of six pillars: Consistency, Scoring Criteria, Differentiating capabilities, User Experience, Responsible AI practices, and Scalability. Additionally, it introduces a six-category framework for Responsible AI (RAI) evaluation, encompassing truthfulness, safety, fairness, robustness, privacy, and machine ethics, emphasizing the need for domain-specific customization in evaluation criteria.",
+      "methodology": "The authors analyze existing literature and empirical studies to identify common pitfalls in human evaluation, such as ill-defined guidelines and high task complexity. They propose a structured approach to improve human evaluation consistency, including clearer guidelines and better task simplification. The framework also recommends using benchmarks like Big-Bench and HELM to evaluate LLMs across various tasks and aspects beyond mere accuracy.",
+      "result": "The findings indicate that existing public test sets often do not adequately represent end-user scenarios, leading to misleading conclusions about model capabilities. The proposed framework aims to enhance the reliability and generalizability of human evaluations in NLP, with less than 5% of human evaluations being repeatable due to systematic inconsistencies. The authors highlight that self-reported metrics frequently do not correlate with actual performance, indicating discrepancies between user satisfaction and functional efficiency.",
+      "discussion": "The authors emphasize the importance of understanding cognitive biases in human evaluation and suggest that neglecting these biases can lead to incorrect conclusions about LLM capabilities. They recommend specific strategies to improve evaluation consistency and accuracy, indicating a need for further research in curating effective test sets that reflect real-world use cases. The discussion also highlights the necessity for collaboration across disciplines to enhance evaluation methods and ensure responsible AI practices."
+    },
+    "entities": {
+      "datasets": [
+        "Super-GLUE",
+        "XSum",
+        "IMDB dataset",
+        "GLUE"
+      ],
+      "models": [
+        "SOTA LLMs",
+        "LLMs",
+        "large language models"
+      ],
+      "losses": [],
+      "metrics": [
+        "usability",
+        "percent agreement",
+        "p-value",
+        "perception-based metrics",
+        "Kappa score",
+        "scale",
+        "Likert scale",
+        "accuracy",
+        "aesthetics",
+        "Cohen’s-κ",
+        "Likert",
+        "AUC",
+        "bias",
+        "Krippendorff’s-α",
+        "toxicity",
+        "cost",
+        "rating scores",
+        "cognitive biases",
+        "human evaluation"
+      ]
+    }
+  }
+]

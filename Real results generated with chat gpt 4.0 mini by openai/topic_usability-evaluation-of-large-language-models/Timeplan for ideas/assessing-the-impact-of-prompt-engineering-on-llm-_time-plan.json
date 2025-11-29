@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Assessing the Impact of Prompt Engineering on LLM Usability in Clinical Decision Support",
+    "description": "Prompt engineering significantly influences the outputs of LLMs, yet there is limited understanding of how different prompting strategies affect usability in clinical decision support systems. This research will systematically evaluate various prompt designs and their impact on the quality and relevance of LLM-generated clinical recommendations.",
+    "motivation": "As LLMs are deployed in clinical settings, the effectiveness of their recommendations can directly impact patient care. Understanding how to optimize prompts for better usability is essential to ensure that healthcare professionals can rely on these tools for accurate and timely decision-making. This study addresses the need for a structured approach to prompt engineering that enhances the practical application of LLMs in healthcare.",
+    "milestones": [
+      "Conduct literature review on prompt engineering and LLM usability in clinical settings (Weeks 1-2)",
+      "Define the research objectives and formulate hypotheses (Weeks 3)",
+      "Develop a preliminary list of prompting strategies to evaluate (Weeks 4)",
+      "Design the experimental framework and protocols for testing (Weeks 5-6)",
+      "Obtain necessary ethical approvals for research involving clinical data (Weeks 7-8)",
+      "Develop LLM models with varying prompt designs (Weeks 9-10)",
+      "Conduct initial tests to refine prompt strategies based on preliminary outputs (Weeks 11-12)",
+      "Set up user study parameters, including participant recruitment and training (Weeks 13-14)",
+      "Execute user studies to gather usability feedback on LLM outputs (Weeks 15-18)",
+      "Analyze user feedback and performance data against defined metrics (Weeks 19-20)",
+      "Prepare a draft report summarizing findings and conclusions (Weeks 21-22)",
+      "Revise report based on feedback and prepare for presentation (Weeks 23)",
+      "Submit final report and prepare for dissemination of results (Week 24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on prompt engineering and LLM usability",
+      "Week 2": "Complete literature review and prepare findings summary",
+      "Week 3": "Define research objectives and formulate hypotheses",
+      "Week 4": "Develop preliminary list of prompting strategies",
+      "Week 5": "Design experimental framework and testing protocols",
+      "Week 6": "Finalize experimental design and materials",
+      "Week 7": "Submit ethical approval application",
+      "Week 8": "Receive ethical approval and prepare for experiments",
+      "Week 9": "Develop LLM models with initial prompt designs",
+      "Week 10": "Finalize LLM models and prepare for testing",
+      "Week 11": "Conduct initial tests on prompt strategies",
+      "Week 12": "Refine prompt strategies based on initial tests",
+      "Week 13": "Set up user study parameters and recruit participants",
+      "Week 14": "Train participants and finalize study logistics",
+      "Week 15": "Begin user studies to gather usability feedback",
+      "Week 16": "Continue user studies and collect data",
+      "Week 17": "Complete user studies and finalize data collection",
+      "Week 18": "Analyze collected usability feedback",
+      "Week 19": "Analyze performance data against defined metrics",
+      "Week 20": "Complete data analysis and prepare findings",
+      "Week 21": "Draft report summarizing findings and conclusions",
+      "Week 22": "Revise report based on feedback from peers",
+      "Week 23": "Finalize report and prepare for presentation",
+      "Week 24": "Submit final report and disseminate results"
+    }
+  }
+]

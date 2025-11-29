@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Evaluating the Role of LLMs in Enhancing User Experience in E-commerce",
+    "description": "This thesis will assess how LLMs can improve user experience in e-commerce platforms through personalized recommendations and customer support. Current evaluations often focus on technical performance rather than user satisfaction and engagement, which are critical for e-commerce success.",
+    "motivation": "With the rapid growth of online shopping, enhancing user experience is vital for retaining customers. By developing a comprehensive evaluation framework that prioritizes user experience, this research can provide insights into how LLMs can be effectively integrated into e-commerce, ultimately driving sales and customer loyalty.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "NLP",
+      "LLM fine-tuning",
+      "recommendation systems",
+      "user experience research",
+      "A/B testing",
+      "data analysis",
+      "survey design",
+      "customer support tools"
+    ]
+  }
+]

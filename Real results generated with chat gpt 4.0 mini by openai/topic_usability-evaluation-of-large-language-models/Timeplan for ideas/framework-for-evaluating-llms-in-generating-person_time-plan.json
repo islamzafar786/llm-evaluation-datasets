@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Framework for Evaluating LLMs in Generating Personalized Health Information",
+    "description": "The ability of LLMs to generate personalized health information is promising, yet there is a lack of comprehensive evaluation frameworks that assess the accuracy, relevance, and personalization of the information provided. This thesis proposes a multi-dimensional evaluation framework that incorporates user feedback and clinical validation.",
+    "motivation": "Personalized health information can significantly improve patient engagement and adherence to treatment plans. However, without a robust evaluation framework, the risks of misinformation and lack of relevance remain high. This research aims to establish a systematic approach to evaluate LLMs in generating personalized health content, ensuring that patients receive accurate and tailored information.",
+    "milestones": [
+      "Conduct literature review on LLMs and health information generation (Weeks 1-3)",
+      "Identify gaps in existing evaluation frameworks (Weeks 4-5)",
+      "Develop a preliminary outline for the evaluation framework (Weeks 6-7)",
+      "Design user feedback mechanisms (Weeks 8-9)",
+      "Plan clinical validation processes (Weeks 10-11)",
+      "Draft the evaluation framework (Weeks 12-14)",
+      "Conduct initial testing of the framework with sample data (Weeks 15-16)",
+      "Gather feedback from users and clinical experts (Weeks 17-18)",
+      "Revise the framework based on feedback (Weeks 19-20)",
+      "Prepare final report and presentation of the evaluation framework (Weeks 21-22)",
+      "Submit the thesis and framework for review (Weeks 23-24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on LLMs",
+      "Week 2": "Continue literature review on health information generation",
+      "Week 3": "Finalize literature review and summarize findings",
+      "Week 4": "Identify gaps in existing evaluation frameworks",
+      "Week 5": "Complete gap analysis and document findings",
+      "Week 6": "Develop preliminary outline for the evaluation framework",
+      "Week 7": "Finalize outline and outline key dimensions of the framework",
+      "Week 8": "Design user feedback mechanisms",
+      "Week 9": "Finalize user feedback design",
+      "Week 10": "Plan clinical validation processes",
+      "Week 11": "Document clinical validation plan",
+      "Week 12": "Draft the evaluation framework",
+      "Week 13": "Continue drafting the framework",
+      "Week 14": "Complete draft of the evaluation framework",
+      "Week 15": "Conduct initial testing of the framework with sample data",
+      "Week 16": "Analyze test results and document findings",
+      "Week 17": "Gather feedback from users",
+      "Week 18": "Gather feedback from clinical experts",
+      "Week 19": "Revise the framework based on feedback",
+      "Week 20": "Finalize revisions and prepare for final reporting",
+      "Week 21": "Prepare final report of the evaluation framework",
+      "Week 22": "Prepare presentation of the framework",
+      "Week 23": "Submit the thesis for review",
+      "Week 24": "Complete any final revisions and submit final framework"
+    }
+  }
+]

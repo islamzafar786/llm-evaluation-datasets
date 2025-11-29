@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Assessing the Impact of Prompt Engineering on LLM Usability in Clinical Decision Support",
+    "description": "Prompt engineering significantly influences the outputs of LLMs, yet there is limited understanding of how different prompting strategies affect usability in clinical decision support systems. This research will systematically evaluate various prompt designs and their impact on the quality and relevance of LLM-generated clinical recommendations.",
+    "motivation": "As LLMs are deployed in clinical settings, the effectiveness of their recommendations can directly impact patient care. Understanding how to optimize prompts for better usability is essential to ensure that healthcare professionals can rely on these tools for accurate and timely decision-making. This study addresses the need for a structured approach to prompt engineering that enhances the practical application of LLMs in healthcare.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "natural language processing",
+      "prompt engineering",
+      "clinical decision support systems",
+      "usability testing",
+      "statistical analysis",
+      "evaluation metrics",
+      "qualitative research methods",
+      "survey design"
+    ]
+  }
+]

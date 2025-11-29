@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Assessing the Usability of LLMs in Legal Document Analysis",
+    "description": "This thesis will investigate the usability of LLMs in analyzing and summarizing legal documents. Current methods often struggle with the complexity and specificity of legal language, resulting in inaccuracies and misinterpretations. This research will focus on developing evaluation metrics tailored to the legal domain to assess LLM performance.",
+    "motivation": "Legal professionals increasingly rely on AI tools for document analysis, yet the risk of misinterpretation can have serious consequences. By creating a robust evaluation framework for LLMs in this context, the study aims to enhance the reliability of AI tools in legal practice, ultimately improving efficiency and accuracy in legal work.",
+    "milestones": [
+      "Conduct literature review on LLMs and legal document analysis (Weeks 1-3)",
+      "Identify key evaluation metrics specific to the legal domain (Weeks 4-5)",
+      "Select LLMs for analysis and summarization tasks (Weeks 6-7)",
+      "Gather and preprocess legal documents for testing (Weeks 8-10)",
+      "Design experiments to evaluate LLMs against the identified metrics (Weeks 11-12)",
+      "Conduct experiments and collect data (Weeks 13-15)",
+      "Analyze results and compare LLM performance (Weeks 16-18)",
+      "Draft the thesis document, including findings and discussions (Weeks 19-21)",
+      "Review and revise the thesis based on feedback (Weeks 22-23)",
+      "Prepare for final presentation and submission (Week 24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on LLMs and legal document analysis",
+      "Week 2": "Continue literature review; summarize findings",
+      "Week 3": "Finalize literature review; identify gaps in research",
+      "Week 4": "Identify key evaluation metrics specific to legal domain",
+      "Week 5": "Finalize evaluation metrics and methodology",
+      "Week 6": "Select LLMs for analysis and summarization tasks",
+      "Week 7": "Finalize selection of LLMs and prepare testing framework",
+      "Week 8": "Gather legal documents for testing; begin preprocessing",
+      "Week 9": "Continue preprocessing legal documents",
+      "Week 10": "Complete preprocessing and finalize document dataset",
+      "Week 11": "Design experiments to evaluate LLM performance",
+      "Week 12": "Finalize experiment design and prepare for execution",
+      "Week 13": "Conduct experiments and begin data collection",
+      "Week 14": "Continue experiments and data collection",
+      "Week 15": "Complete data collection and organize results",
+      "Week 16": "Begin analysis of results and compare LLM performance",
+      "Week 17": "Continue analysis and start drafting findings",
+      "Week 18": "Finalize analysis and prepare comparative results",
+      "Week 19": "Start drafting the thesis document",
+      "Week 20": "Continue drafting thesis; incorporate findings and discussions",
+      "Week 21": "Finalize thesis drafting and prepare for review",
+      "Week 22": "Review thesis and incorporate feedback",
+      "Week 23": "Revise thesis based on final feedback",
+      "Week 24": "Prepare for final presentation and submit thesis"
+    }
+  }
+]

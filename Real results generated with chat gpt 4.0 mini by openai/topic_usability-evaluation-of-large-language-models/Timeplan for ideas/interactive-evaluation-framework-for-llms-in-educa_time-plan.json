@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Interactive Evaluation Framework for LLMs in Educational Settings",
+    "description": "While LLMs have shown promise in educational applications, their evaluation often lacks a dynamic, interactive component that reflects real-time user engagement and learning outcomes. This thesis proposes an interactive evaluation framework that assesses LLMs based on student interactions, learning progress, and feedback mechanisms.",
+    "motivation": "The educational landscape is rapidly evolving with AI integration, yet the evaluation of LLMs remains static and does not account for the interactive nature of learning. By developing a framework that captures user engagement and adaptability, this research aims to provide insights into how LLMs can be optimized for educational purposes, addressing the gap between theoretical performance and practical usability.",
+    "milestones": [
+      "Conduct a literature review on existing LLM evaluation frameworks (Weeks 1-2)",
+      "Define the objectives and scope of the interactive evaluation framework (Week 3)",
+      "Identify key metrics for assessing student interactions and learning outcomes (Weeks 4-5)",
+      "Design the interactive evaluation framework architecture (Weeks 6-7)",
+      "Develop a prototype of the evaluation framework (Weeks 8-12)",
+      "Conduct pilot testing of the prototype with a small group of users (Weeks 13-15)",
+      "Collect feedback from pilot testing and refine the framework (Weeks 16-18)",
+      "Document the framework's design, methodology, and findings (Weeks 19-21)",
+      "Prepare the final report and presentation of the interactive evaluation framework (Weeks 22-24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on existing LLM evaluation frameworks",
+      "Week 2": "Continue literature review and finalize key references",
+      "Week 3": "Define objectives and scope of the interactive evaluation framework",
+      "Week 4": "Identify key metrics for assessing student interactions",
+      "Week 5": "Continue identifying metrics and finalize them",
+      "Week 6": "Design the architecture of the interactive evaluation framework",
+      "Week 7": "Finalize the design of the framework architecture",
+      "Week 8": "Begin development of the prototype for the evaluation framework",
+      "Week 9": "Continue development of the prototype",
+      "Week 10": "Continue development of the prototype",
+      "Week 11": "Continue development of the prototype",
+      "Week 12": "Finalize the prototype and prepare for pilot testing",
+      "Week 13": "Conduct pilot testing with a small group of users",
+      "Week 14": "Continue pilot testing and collect initial feedback",
+      "Week 15": "Analyze feedback from pilot testing",
+      "Week 16": "Refine the framework based on feedback",
+      "Week 17": "Continue refining the framework",
+      "Week 18": "Finalize refinements and prepare documentation",
+      "Week 19": "Document the framework's design and methodology",
+      "Week 20": "Continue documentation and begin drafting the final report",
+      "Week 21": "Finalize documentation of findings and conclusions",
+      "Week 22": "Prepare the final report and presentation",
+      "Week 23": "Finalize the presentation materials",
+      "Week 24": "Present the interactive evaluation framework"
+    }
+  }
+]

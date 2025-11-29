@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Evaluating the Explainability of LLMs in Conversational Recommendation Systems",
+    "description": "Existing evaluation methods for conversational recommendation systems (CRSs) using LLMs often overlook the importance of explainability in user interactions. This research aims to develop an evaluation framework that assesses the explainability of LLM-generated recommendations and its effect on user trust and satisfaction.",
+    "motivation": "As LLMs are increasingly used in CRSs, users must understand the rationale behind recommendations to trust and act on them. Current evaluation protocols do not adequately measure explainability, which is critical for user acceptance and effective decision-making. This research seeks to fill this gap by providing a framework that emphasizes the importance of explainability in enhancing user experience with LLMs.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "natural language processing",
+      "large language models",
+      "explainability techniques",
+      "user study design",
+      "survey methodology",
+      "statistical analysis",
+      "evaluation metrics",
+      "qualitative analysis"
+    ]
+  }
+]

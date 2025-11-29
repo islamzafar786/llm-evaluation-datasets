@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Framework for Evaluating LLMs in Crisis Communication Scenarios",
+    "description": "This research will develop a framework to evaluate the effectiveness of LLMs in crisis communication, focusing on their ability to provide timely, accurate, and empathetic responses during emergencies. Current evaluation methods do not adequately address the unique challenges posed by crisis situations.",
+    "motivation": "In times of crisis, effective communication is critical for public safety and trust. LLMs have the potential to assist in disseminating information quickly, but their current limitations in understanding context and urgency can lead to misinformation. This study aims to create a framework that ensures LLMs can be reliably used in crisis communication, thereby enhancing public safety.",
+    "milestones": [
+      "Conduct literature review on LLMs and crisis communication (Weeks 1-3)",
+      "Identify key evaluation criteria for LLMs in crisis contexts (Weeks 4-5)",
+      "Develop a framework outlining evaluation methodology (Weeks 6-8)",
+      "Gather case studies of LLM usage in real crisis scenarios (Weeks 9-11)",
+      "Analyze case studies to refine the evaluation framework (Weeks 12-14)",
+      "Pilot test the evaluation framework on selected LLMs (Weeks 15-17)",
+      "Collect feedback and iterate on the framework (Weeks 18-20)",
+      "Prepare final report detailing findings and recommendations (Weeks 21-23)",
+      "Present findings to stakeholders and submit for publication (Week 24)"
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on LLMs and crisis communication",
+      "Week 2": "Continue literature review and document findings",
+      "Week 3": "Finalize literature review and identify gaps in current research",
+      "Week 4": "Identify key evaluation criteria for LLMs in crisis contexts",
+      "Week 5": "Finalize and validate evaluation criteria with experts",
+      "Week 6": "Develop a framework outlining the evaluation methodology",
+      "Week 7": "Detail specific metrics and tools for evaluation",
+      "Week 8": "Complete the framework documentation",
+      "Week 9": "Gather case studies of LLM usage in real crisis scenarios",
+      "Week 10": "Continue gathering and categorizing case studies",
+      "Week 11": "Finalize case study collection",
+      "Week 12": "Analyze case studies to refine the evaluation framework",
+      "Week 13": "Document insights and adjustments to the framework",
+      "Week 14": "Finalize the analysis and prepare for pilot testing",
+      "Week 15": "Pilot test the evaluation framework on selected LLMs",
+      "Week 16": "Collect data from the pilot tests",
+      "Week 17": "Analyze pilot test results and refine framework",
+      "Week 18": "Collect feedback from experts and stakeholders",
+      "Week 19": "Iterate on the framework based on feedback",
+      "Week 20": "Finalize the revised evaluation framework",
+      "Week 21": "Prepare final report detailing findings and recommendations",
+      "Week 22": "Draft the final report",
+      "Week 23": "Finalize and proofread the report",
+      "Week 24": "Present findings to stakeholders and submit for publication"
+    }
+  }
+]

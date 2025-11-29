@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Assessing the Usability of LLMs in Legal Document Analysis",
+    "description": "This thesis will investigate the usability of LLMs in analyzing and summarizing legal documents. Current methods often struggle with the complexity and specificity of legal language, resulting in inaccuracies and misinterpretations. This research will focus on developing evaluation metrics tailored to the legal domain to assess LLM performance.",
+    "motivation": "Legal professionals increasingly rely on AI tools for document analysis, yet the risk of misinterpretation can have serious consequences. By creating a robust evaluation framework for LLMs in this context, the study aims to enhance the reliability of AI tools in legal practice, ultimately improving efficiency and accuracy in legal work.",
+    "skills": [
+      "Python",
+      "Natural Language Processing",
+      "legal text analysis",
+      "LLM fine-tuning",
+      "evaluation metrics development",
+      "data annotation",
+      "statistical analysis",
+      "machine learning",
+      "text summarization",
+      "evaluation design"
+    ]
+  }
+]

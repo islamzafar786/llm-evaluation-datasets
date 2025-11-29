@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating User-Centric Usability of LLMs in Healthcare Communication",
+    "description": "Current evaluations of large language models (LLMs) in healthcare often focus on accuracy and clinical relevance, neglecting user experience and communication effectiveness. This research aims to develop a comprehensive usability evaluation framework that incorporates user feedback from healthcare professionals and patients when interacting with LLMs for medical inquiries.",
+    "motivation": "As LLMs are increasingly integrated into healthcare settings, ensuring that they communicate effectively and understandably with both professionals and patients is crucial. Existing studies primarily assess LLMs based on technical metrics, which may overlook how well these models facilitate real-world communication. A user-centric approach is necessary to enhance the practical application of LLMs in healthcare, ultimately improving patient outcomes and satisfaction.",
+    "questions": [
+      "How do healthcare professionals perceive the usability and communication effectiveness of LLMs when used for medical inquiries?",
+      "What specific user experience factors influence patient satisfaction and trust when interacting with LLMs in a healthcare context?",
+      "How can a user-centric usability evaluation framework be developed and validated for assessing LLMs in healthcare communication?"
+    ]
+  }
+]

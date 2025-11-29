@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Interactive Evaluation Framework for LLMs in Educational Settings",
+    "description": "While LLMs have shown promise in educational applications, their evaluation often lacks a dynamic, interactive component that reflects real-time user engagement and learning outcomes. This thesis proposes an interactive evaluation framework that assesses LLMs based on student interactions, learning progress, and feedback mechanisms.",
+    "motivation": "The educational landscape is rapidly evolving with AI integration, yet the evaluation of LLMs remains static and does not account for the interactive nature of learning. By developing a framework that captures user engagement and adaptability, this research aims to provide insights into how LLMs can be optimized for educational purposes, addressing the gap between theoretical performance and practical usability.",
+    "questions": [
+      "How can real-time user engagement metrics be integrated into the evaluation framework for LLMs in educational contexts?",
+      "What impact does interactive feedback from students have on the learning outcomes facilitated by LLMs in educational settings?",
+      "In what ways can an interactive evaluation framework enhance the adaptability and effectiveness of LLMs in meeting diverse learning needs?"
+    ]
+  }
+]

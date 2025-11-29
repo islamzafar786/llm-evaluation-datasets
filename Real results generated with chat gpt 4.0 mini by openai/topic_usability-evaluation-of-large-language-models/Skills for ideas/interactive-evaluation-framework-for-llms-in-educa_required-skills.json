@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Interactive Evaluation Framework for LLMs in Educational Settings",
+    "description": "While LLMs have shown promise in educational applications, their evaluation often lacks a dynamic, interactive component that reflects real-time user engagement and learning outcomes. This thesis proposes an interactive evaluation framework that assesses LLMs based on student interactions, learning progress, and feedback mechanisms.",
+    "motivation": "The educational landscape is rapidly evolving with AI integration, yet the evaluation of LLMs remains static and does not account for the interactive nature of learning. By developing a framework that captures user engagement and adaptability, this research aims to provide insights into how LLMs can be optimized for educational purposes, addressing the gap between theoretical performance and practical usability.",
+    "skills": [
+      "Python",
+      "NLP",
+      "LLM frameworks (e.g., Hugging Face Transformers)",
+      "interactive interface design",
+      "user experience (UX) research",
+      "data collection and analysis",
+      "feedback mechanisms",
+      "evaluation metrics",
+      "statistical analysis",
+      "machine learning evaluation techniques"
+    ]
+  }
+]

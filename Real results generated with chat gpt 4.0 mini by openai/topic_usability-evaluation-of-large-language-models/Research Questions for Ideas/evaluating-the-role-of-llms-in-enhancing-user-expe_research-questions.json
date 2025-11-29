@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Role of LLMs in Enhancing User Experience in E-commerce",
+    "description": "This thesis will assess how LLMs can improve user experience in e-commerce platforms through personalized recommendations and customer support. Current evaluations often focus on technical performance rather than user satisfaction and engagement, which are critical for e-commerce success.",
+    "motivation": "With the rapid growth of online shopping, enhancing user experience is vital for retaining customers. By developing a comprehensive evaluation framework that prioritizes user experience, this research can provide insights into how LLMs can be effectively integrated into e-commerce, ultimately driving sales and customer loyalty.",
+    "questions": [
+      "How do LLM-generated personalized recommendations impact user engagement and satisfaction on e-commerce platforms?",
+      "What are the perceptions of users regarding the effectiveness of LLM-based customer support compared to traditional support methods in e-commerce?",
+      "In what ways do LLMs enhance the overall shopping experience for users, and what specific features contribute most significantly to this enhancement?"
+    ]
+  }
+]
