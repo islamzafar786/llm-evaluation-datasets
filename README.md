@@ -1,7 +1,7 @@
 # LLM Evaluation Datasets  
 This repository is part of the research project *“Can LLMs Generate Bachelor’s or Master’s Thesis Ideas?”*..
 It provides the complete resulted datasets created by Large Language Models (LLMs) based on given valid and bad thesis-ideas dataset during an evaluation. It also contain real structured thesis-ideas results generated using ChatGPT-4o-mini.
-It includesthe **LLM-generated evaluation results** for four metrics:
+It includes the **LLM-generated evaluation results** for four metrics:
 
 - **Clarity**
 - **Novelty**
