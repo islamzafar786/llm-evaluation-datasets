@@ -1,0 +1,92 @@
+[
+    {
+    "title": "Building a ChatGPT Clone with OpenAI API",
+    "problem_description": "This project aims to create a chatbot similar to ChatGPT using the OpenAI API.",
+    "problem_motivation": "Students need intelligent chatbots, and using ChatGPT API will allow anyone to build one easily.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "LLMs in Chatbot Development",
+    "bad_example": true,
+    "failing_metric": ["clarity", "validness"]
+  },
+  {
+    "title": "Using Decision Trees for Binary Classification",
+    "problem_description": "Apply decision trees to classify emails as spam or not.",
+    "problem_motivation": "Spam filtering is useful in email systems.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "Classic ML",
+    "bad_example": true,
+    "failing_metric": ["novelty", "clarity"]
+  },
+  {
+    "title": "Generating Earthquake Predictions with ChatGPT",
+    "problem_description": "The model will use ChatGPT to predict the time and location of future earthquakes.",
+    "problem_motivation": "Earthquakes are deadly, and ChatGPT might help in forecasting them using general world knowledge.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "LLMs in Natural Disaster Prediction",
+    "bad_example": true,
+    "failing_metric": ["novelty"]
+  },
+  {
+    "title": "Training Neural Networks to Predict Earthquakes Using social media comments",
+    "problem_description": "This thesis proposes to use sentiment analysis on social media comments to predict seismic activity.",
+    "problem_motivation": "People often share feelings of unease before a natural disaster.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "Seismology and Social Media NLP",
+    "bad_example": true,
+    "failing_metric": ["validness"]
+  },
+  {
+    "title": "Using LLMs to Classify Plant Species",
+    "problem_description": "This research uses LLMs to classify images of plants into species.",
+    "problem_motivation": "Text-based classification using language models can help botanists study plant taxonomy.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "LLMs in Biology",
+    "bad_example": true,
+    "failing_metric": ["clarity", "feasibility"]
+  },
+  {
+    "title": "Optimizing Sorting Algorithms with LLMs",
+    "problem_description": "We use large language models to optimize traditional sorting algorithms like QuickSort.",
+    "problem_motivation": "LLMs are great for language understanding and improving chatbot performance.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "Algorithms & LLMs",
+    "bad_example": true,
+    "failing_metric": ["clarity", "feasibility"]
+  },
+  {
+    "title": "Developing Artificial General Intelligence (AGI)",
+    "problem_description": "This thesis will build a general-purpose AI agent that can perform any intellectual task a human can.",
+    "problem_motivation": "Achieving AGI is the ultimate goal of AI research and would revolutionize society.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "Artificial Intelligence",
+    "bad_example": true,
+    "failing_metric": ["feasibility"]
+  },
+  {
+    "title": "Direct Brain-AI Communication Using Neural Implants",
+    "problem_description": "Design a neural interface to allow humans to control AI systems with their thoughts.",
+    "problem_motivation": "Brain-computer interaction could be the future of seamless AI integration.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "Neurotechnology",
+    "bad_example": true,
+    "failing_metric": ["feasibility"]
+  },
+  {
+    "title": "Improving Artificial Intelligence",
+    "problem_description": "This project aims to make AI better.",
+    "problem_motivation": "AI can be improved to make life easier.",
+    "year": "2024",
+    "abstract": null,
+    "topic": "General AI",
+    "bad_example": true,
+    "failing_metric": ["clarity", "validness"]
+  }
+]
