@@ -1,0 +1,18 @@
+Evaluating LLM Idea Generation Capabilities in Cold-Start Domains:
+    Rationale: 'The thesis idea proposes evaluating the idea generation capabilities
+        of Large Language Models (LLMs) in cold-start domains. While several papers
+        have explored LLMs for idea generation, the focus on cold-start domains and
+        the investigation of adaptation strategies provide meaningful differentiation.
+        However, the idea is somewhat similar to the paper ''IdeaBench: Benchmarking
+        Large Language Models for Research Idea Generation'', which also evaluates
+        LLMs for research idea generation, but in a more general context.'
+    OverallNovelty: 4
+    DimensionScores:
+        ProblemOverlap: 3
+        MethodologicalOverlap: 3
+        DifferentiationValue: 4
+        LiteratureCoverage: 4
+    SimilarWorks:
+    -   Title: 'IdeaBench: Benchmarking Large Language Models for Research Idea Generation'
+        Similarity: medium
+        KeyDifferences: Focuses on cold-start domains and adaptation strategies

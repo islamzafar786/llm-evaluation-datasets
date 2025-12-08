@@ -1,0 +1,645 @@
+all_queries:
+-   KeywordQuery: LLM idea generation language model creativity
+paper_bank:
+-   abstract: The pace of scientific research, vital for improving human life, is
+        complex, slow, and needs specialized expertise. Meanwhile, novel, impactful
+        research often stems from both a deep understanding of prior work, and a cross-pollination
+        of ideas across domains and fields. To enhance the productivity of researchers,
+        we propose ResearchAgent, which leverages the encyclopedic knowledge and linguistic
+        reasoning capabilities of Large Language Models (LLMs) to assist them in their
+        work. This system automatically defines novel problems, proposes methods and
+        designs experiments, while iteratively refining them based on the feedback
+        from collaborative LLM-powered reviewing agents. Specifically, starting with
+        a core scientific paper, ResearchAgent is augmented not only with relevant
+        publications by connecting information over an academic graph but also entities
+        retrieved from a knowledge store derived from shared underlying concepts mined
+        across numerous papers. Then, mimicking a scientific approach to improving
+        ideas with peer discussions, we leverage multiple LLM-based ReviewingAgents
+        that provide reviews and feedback via iterative revision processes. These
+        reviewing agents are instantiated with human preference-aligned LLMs whose
+        criteria for evaluation are elicited from actual human judgments via LLM prompting.
+        We experimentally validate our ResearchAgent on scientific publications across
+        multiple disciplines, showing its effectiveness in generating novel, clear,
+        and valid ideas based on both human and model-based evaluation results. Our
+        initial foray into AI-mediated scientific research has important implications
+        for the development of future systems aimed at supporting researchers in their
+        ideation and operationalization of novel work.
+    authors:
+    -   authorId: '90765684'
+        name: Jinheon Baek
+    -   authorId: '3001990'
+        name: S. Jauhar
+    -   authorId: '73040249'
+        name: Silviu Cucerzan
+    -   authorId: '2260611009'
+        name: Sung Ju Hwang
+    citationCount: 100
+    citationStyles:
+        bibtex: "@Article{Baek2024ResearchAgentIR,\n author = {Jinheon Baek and S.\
+            \ Jauhar and Silviu Cucerzan and Sung Ju Hwang},\n booktitle = {North\
+            \ American Chapter of the Association for Computational Linguistics},\n\
+            \ journal = {ArXiv},\n title = {ResearchAgent: Iterative Research Idea\
+            \ Generation over Scientific Literature with Large Language Models},\n\
+            \ volume = {abs/2404.07738},\n year = {2024}\n}\n"
+    externalIds:
+        ArXiv: '2404.07738'
+        CorpusId: 269042844
+        DBLP: conf/naacl/BaekJCH25
+        DOI: 10.48550/arXiv.2404.07738
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2404.07738,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: 51b7b3ad7645a69e3c1c80cae69473b8bd472f67
+    score: 9
+    title: 'ResearchAgent: Iterative Research Idea Generation over Scientific Literature
+        with Large Language Models'
+    tldr:
+        model: tldr@v2.0.0
+        text: This work proposes ResearchAgent, a system that automatically defines
+            novel problems, proposes methods and designs experiments, while iteratively
+            refining them based on the feedback from collaborative LLM-powered reviewing
+            agents, to enhance the productivity of researchers.
+    year: 2024
+-   abstract: 'The scientific ideation process often involves blending salient aspects
+        of existing papers to create new ideas -- a framework known as facet-based
+        ideation. To see how large language models (LLMs) might assist in this process,
+        we contribute Scideator, the first human-LLM interface for facet-based scientific
+        ideation. Starting from a user-provided set of scientific papers, Scideator
+        extracts key facets -- purposes, mechanisms, and evaluations -- from these
+        and related papers, allowing users to explore the idea space by interactively
+        recombining facets to synthesize inventive ideas. Scideator also helps users
+        gauge idea originality by searching the literature for overlaps, assessing
+        idea novelty based on an explicit facet-based definition. To support these
+        tasks, Scideator introduces three LLM-powered retrieval-augmented generation
+        (RAG) modules: Analogous Paper Facet Finder, Faceted Idea Generator, and Idea
+        Novelty Checker. In a within-subjects user study (N=22) with computer-science
+        researchers comparing Scideator to a strong baseline, our tool provided significantly
+        more creativity support, particularly with respect to exploration and expressiveness.'
+    authors:
+    -   authorId: '40961666'
+        name: Marissa Radensky
+    -   authorId: '49260478'
+        name: Simra Shahid
+    -   authorId: '27083453'
+        name: Raymond Fok
+    -   authorId: '3061428'
+        name: Pao Siangliulue
+    -   authorId: '2322445499'
+        name: Tom Hope
+    -   authorId: '1780531'
+        name: Daniel S. Weld
+    citationCount: 39
+    citationStyles:
+        bibtex: "@Article{Radensky2024ScideatorHS,\n author = {Marissa Radensky and\
+            \ Simra Shahid and Raymond Fok and Pao Siangliulue and Tom Hope and Daniel\
+            \ S. Weld},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title =\
+            \ {Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper\
+            \ Facet Recombination},\n volume = {abs/2409.14634},\n year = {2024}\n\
+            }\n"
+    externalIds:
+        ArXiv: '2409.14634'
+        CorpusId: 272827497
+        DBLP: journals/corr/abs-2409-14634
+        DOI: 10.48550/arXiv.2409.14634
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2409.14634,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: e140f13752f7fdfaa91ef4aa160cb3300669073b
+    score: 9
+    title: 'Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination'
+    tldr:
+        model: tldr@v2.0.0
+        text: Scideator is contributed, the first human-LLM interface for facet-based
+            scientific ideation, allowing users to explore the idea space by interactively
+            recombining facets to synthesize inventive ideas.
+    year: 2024
+-   abstract: Large Language Models (LLMs) have revolutionized interactions between
+        human and artificial intelligence (AI) systems, demonstrating state-of-the-art
+        performance across various domains, including scientific discovery and hypothesis
+        generation. However, the absence of a comprehensive and systematic evaluation
+        framework for LLM-driven research idea generation hinders a rigorous understanding
+        of their strengths and limitations. To address this gap, we propose IdeaBench,
+        a benchmark system that provides a structured dataset and evaluation framework
+        for standardizing the assessment of research idea generation by LLMs. Our
+        dataset comprises titles and abstracts from 2,374 influential papers across
+        eight research domains, along with their 29,408 referenced works, creating
+        a context-rich environment that mirrors human researchers' ideation processes.
+        By profiling LLMs as domain-specific researchers and grounding them in similar
+        contextual constraints, we directly leverage the models' knowledge learned
+        from the pre-training stage to generate new research ideas. To systematically
+        evaluate LLMs' research ideation capability and approximate human assessment,
+        we propose a reference-based metric that aligns with human judgment to quantify
+        idea quality with the assistance of LLMs. Through this evaluation, we find
+        that while LLMs excel at generating novel ideas, they may struggle with generating
+        feasible ideas. IdeaBench serves as a critical resource for benchmarking and
+        comparing LLMs, ultimately advancing research on AI's role in automating scientific
+        discovery.
+    authors:
+    -   authorId: '2329319705'
+        name: Sikun Guo
+    -   authorId: '2329187174'
+        name: Amir Hassan Shariatmadari
+    -   authorId: '2048053804'
+        name: Guangzhi Xiong
+    -   authorId: '2329731969'
+        name: Albert Huang
+    -   authorId: '2302737899'
+        name: Eric Xie
+    -   authorId: '2257368147'
+        name: Stefan Bekiranov
+    -   authorId: '2265729351'
+        name: Aidong Zhang
+    citationCount: 23
+    citationStyles:
+        bibtex: "@Article{Guo2024IdeaBenchBL,\n author = {Sikun Guo and Amir Hassan\
+            \ Shariatmadari and Guangzhi Xiong and Albert Huang and Eric Xie and Stefan\
+            \ Bekiranov and Aidong Zhang},\n booktitle = {Proceedings of the 31st\
+            \ ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},\n\
+            \ journal = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge\
+            \ Discovery and Data Mining V.2},\n title = {IdeaBench: Benchmarking Large\
+            \ Language Models for Research Idea Generation},\n year = {2024}\n}\n"
+    externalIds:
+        ArXiv: '2411.02429'
+        CorpusId: 273821733
+        DBLP: journals/corr/abs-2411-02429
+        DOI: 10.1145/3711896.3737419
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2411.02429,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: 28a3582ecab72e2a91ec9004075d744b8bac4640
+    score: 9
+    title: 'IdeaBench: Benchmarking Large Language Models for Research Idea Generation'
+    tldr:
+        model: tldr@v2.0.0
+        text: null
+    year: 2024
+-   abstract: "Large language models (LLMs) such as OpenID\u2019s GPT series have\
+        \ shown remarkable capabilities in generating fluent and coherent text in\
+        \ various domains. We compare the ideation capabilities of ChatGPT-4, a chatbot\
+        \ based on a state-of-the-art LLM, with those of students at an elite university.\
+        \ ChatGPT-4 can generate ideas much faster and cheaper than students, and\
+        \ the ideas are on average of higher quality (as measured by purchase-intent\
+        \ surveys) and exhibit higher variance in quality. More important, the vast\
+        \ majority of the best ideas in the pooled sample are generated by ChatGPT\
+        \ and not by the students. Providing ChatGPT with a few examples of highly\
+        \ rated ideas further increases its performance. We discuss the implications\
+        \ of these findings for the management of innovation."
+    authors:
+    -   authorId: '3198189'
+        name: Karan Girotra
+    -   authorId: '2227212595'
+        name: Lennart Meincke
+    -   authorId: '2181801'
+        name: C. Terwiesch
+    -   authorId: '1817766'
+        name: K. Ulrich
+    citationCount: 128
+    citationStyles:
+        bibtex: "@Article{Girotra2023IdeasAD,\n author = {Karan Girotra and Lennart\
+            \ Meincke and C. Terwiesch and K. Ulrich},\n booktitle = {Social Science\
+            \ Research Network},\n journal = {SSRN Electronic Journal},\n title =\
+            \ {Ideas are Dimes a Dozen: Large Language Models for Idea Generation\
+            \ in Innovation},\n year = {2023}\n}\n"
+    externalIds:
+        CorpusId: 260467886
+        DOI: 10.2139/ssrn.4526071
+    fieldsOfStudy: null
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2139/ssrn.4526071?email=<INSERT_YOUR_EMAIL>
+            or https://doi.org/10.2139/ssrn.4526071, which is subject to the license
+            by the author or copyright owner provided with this content. Please go
+            to the source to verify the license and copyright information for your
+            use.'
+        license: null
+        status: CLOSED
+        url: ''
+    paperId: ed7c053b38074003bfb947c78373f69598b960b8
+    score: 9
+    title: 'Ideas are Dimes a Dozen: Large Language Models for Idea Generation in
+        Innovation'
+    tldr:
+        model: tldr@v2.0.0
+        text: This work compares the ideation capabilities of ChatGPT-4, a chatbot
+            based on a state-of-the-art LLM, with those of students at an elite university,
+            and finds it can generate ideas much faster and cheaper than students,
+            and the ideas are on average of higher quality and exhibit higher variance
+            in quality.
+    year: 2023
+-   abstract: 'As LLMs become increasingly prevalent, it is interesting to consider
+        how ``creative'''' these models can be. From cognitive science, creativity
+        consists of at least two key characteristics: \emph{convergent} thinking (purposefulness
+        to achieve a given goal) and \emph{divergent} thinking (adaptability to explore
+        new environments or constraints) \citep{runco2003critical}. In this work,
+        we introduce a framework for quantifying LLM creativity that incorporates
+        the two design ingredients: (1) We introduce DENIAL PROMPTING which pushes
+        LLMs to develop more creative solutions to a given problem by incrementally
+        imposing new constraints on the previous solution, compelling LLMs to adopt
+        new strategies. (2) We define NEOGAUGE, a metric that quantifies both convergent
+        and divergent thinking in the generated creative responses by LLMs. We test
+        the proposed framework on Codeforces problems, which serve as both a natural
+        dataset for coding tasks and a collection of prior human solutions. We quantify
+        NEOGAUGE for various proprietary and open-source models and find that even
+        the most creative model, GPT-4, still falls short of demonstrating human-like
+        creativity. We also experiment with advanced reasoning strategies (MCTS, self-correction,
+        etc.) and observe no significant improvement in creativity. As a by-product
+        of our analysis, we release NEOCODER dataset for reproducing our results on
+        future models.'
+    authors:
+    -   authorId: '2146424602'
+        name: Yining Lu
+    -   authorId: '2311340848'
+        name: Dixuan Wang
+    -   authorId: '2256304994'
+        name: Tianjian Li
+    -   authorId: '2285428192'
+        name: Dongwei Jiang
+    -   authorId: '1783281'
+        name: Daniel Khashabi
+    citationCount: 29
+    citationStyles:
+        bibtex: "@Article{Lu2024BenchmarkingLM,\n author = {Yining Lu and Dixuan Wang\
+            \ and Tianjian Li and Dongwei Jiang and Daniel Khashabi},\n booktitle\
+            \ = {North American Chapter of the Association for Computational Linguistics},\n\
+            \ journal = {ArXiv},\n title = {Benchmarking Language Model Creativity:\
+            \ A Case Study on Code Generation},\n volume = {abs/2407.09007},\n year\
+            \ = {2024}\n}\n"
+    externalIds:
+        ArXiv: '2407.09007'
+        CorpusId: 271162279
+        DBLP: journals/corr/abs-2407-09007
+        DOI: 10.48550/arXiv.2407.09007
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2407.09007,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: 20be3ba3f361d9630cc0c17442a0d0132873e63d
+    score: 8
+    title: 'Benchmarking Language Model Creativity: A Case Study on Code Generation'
+    tldr:
+        model: tldr@v2.0.0
+        text: A framework for quantifying LLM creativity is introduced that incorporates
+            DENIAL PROMPTING which pushes LLMs to develop more creative solutions
+            to a given problem by incrementally imposing new constraints on the previous
+            solution, compelling LLMs to adopt new strategies.
+    year: 2024
+-   abstract: Large language models (LLMs) have shown exceptional proficiency in natural
+        language processing but often fall short of generating creative and original
+        responses to open-ended questions. To enhance LLM creativity, our key insight
+        is to emulate the human process of inducing collective creativity through
+        engaging discussions with participants from diverse backgrounds and perspectives.
+        To this end, we propose LLM Discussion, a three-phase discussion framework
+        that facilitates vigorous and diverging idea exchanges and ensures convergence
+        to creative answers. Moreover, we adopt a role-playing technique by assigning
+        distinct roles to LLMs to combat the homogeneity of LLMs. We evaluate the
+        efficacy of the proposed framework with the Alternative Uses Test, Similarities
+        Test, Instances Test, and Scientific Creativity Test through both LLM evaluation
+        and human study. The results show that our proposed framework outperforms
+        single-LLM approaches and existing multi-LLM frameworks across various creativity
+        metrics. The code is available at https://github.com/lawraa/LLM-Discussion.
+    authors:
+    -   authorId: '2301074478'
+        name: Li-Chun Lu
+    -   authorId: '2301069875'
+        name: Shou-Jen Chen
+    -   authorId: '2301016588'
+        name: Tsung-Min Pai
+    -   authorId: '2301110323'
+        name: Chan-Hung Yu
+    -   authorId: '2282959610'
+        name: Hung-yi Lee
+    -   authorId: '2282971296'
+        name: Shao-Hua Sun
+    citationCount: 66
+    citationStyles:
+        bibtex: "@Article{Lu2024LLMDE,\n author = {Li-Chun Lu and Shou-Jen Chen and\
+            \ Tsung-Min Pai and Chan-Hung Yu and Hung-yi Lee and Shao-Hua Sun},\n\
+            \ booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LLM Discussion:\
+            \ Enhancing the Creativity of Large Language Models via Discussion Framework\
+            \ and Role-Play},\n volume = {abs/2405.06373},\n year = {2024}\n}\n"
+    externalIds:
+        ArXiv: '2405.06373'
+        CorpusId: 269741092
+        DBLP: journals/corr/abs-2405-06373
+        DOI: 10.48550/arXiv.2405.06373
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2405.06373,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: 83d721abd07298ef0f5d05575410ae386b77bb4a
+    score: 8
+    title: 'LLM Discussion: Enhancing the Creativity of Large Language Models via
+        Discussion Framework and Role-Play'
+    tldr:
+        model: tldr@v2.0.0
+        text: This work proposes LLM Discussion, a three-phase discussion framework
+            that facilitates vigorous and diverging idea exchanges and ensures convergence
+            to creative answers and adopts a role-playing technique by assigning distinct
+            roles to LLMs to combat the homogeneity of LLMs.
+    year: 2024
+-   abstract: Scenario engineering plays a vital role in various Industry 5.0 applications.
+        In the field of autonomous driving systems, driving scenario data are important
+        for the training and testing of critical modules. However, the corner scenario
+        cases are usually rare and necessary to be extended. Existing methods cannot
+        handle the interpretation and reasoning of the generation process well, which
+        reduces the reliability and usability of the generated scenarios. With the
+        rapid development of Foundation Models, especially the large language model
+        (LLM), we can conduct scenario generation via more powerful tools. In this
+        article, we propose LLMScenario, a novel LLM-driven scenario generation framework,
+        which is composed of scenario prompt engineering, LLM scenario generation,
+        and evaluation feedback tuning. The minimum scenario description specific
+        to LLM is given by scenario analysis and ablation studies. We also appropriately
+        design the score functions in terms of reality and rarity to evaluate the
+        generated scenarios. The model performance is further enhanced through chain-of-thoughts
+        and experiences. Different LLMs are also compared with our framework. Experimental
+        results on naturalistic datasets demonstrate the effectiveness of LLMScenario,
+        which can provide solid support for scenario engineering in Industry 5.0.
+    authors:
+    -   authorId: '87920848'
+        name: Chen Chang
+    -   authorId: '2301621626'
+        name: Siqi Wang
+    -   authorId: '2144138656'
+        name: Jiawei Zhang
+    -   authorId: '2149634848'
+        name: Jingwei Ge
+    -   authorId: '2156061620'
+        name: Li Li
+    citationCount: 51
+    citationStyles:
+        bibtex: "@Article{Chang2024LLMScenarioLL,\n author = {Chen Chang and Siqi\
+            \ Wang and Jiawei Zhang and Jingwei Ge and Li Li},\n booktitle = {IEEE\
+            \ Transactions on Systems, Man, and Cybernetics: Systems},\n journal =\
+            \ {IEEE Transactions on Systems, Man, and Cybernetics: Systems},\n pages\
+            \ = {6581-6594},\n title = {LLMScenario: Large Language Model Driven Scenario\
+            \ Generation},\n volume = {54},\n year = {2024}\n}\n"
+    externalIds:
+        CorpusId: 269831050
+        DBLP: journals/tsmc/ChangWZGL24
+        DOI: 10.1109/TSMC.2024.3392930
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: The following paper fields have been elided by the publisher:
+            {''tldr''}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TSMC.2024.3392930?email=<INSERT_YOUR_EMAIL>
+            or https://doi.org/10.1109/TSMC.2024.3392930, which is subject to the
+            license by the author or copyright owner provided with this content. Please
+            go to the source to verify the license and copyright information for your
+            use.'
+        license: null
+        status: CLOSED
+        url: ''
+    paperId: b1c1391ba9b5a3374adbe1757951e07577786fc5
+    score: 8
+    title: 'LLMScenario: Large Language Model Driven Scenario Generation'
+    tldr: null
+    year: 2024
+-   abstract: Effective research ideation is a critical step for scientific research.
+        However, the exponential increase in scientific literature makes it challenging
+        for researchers to stay current with recent advances and identify meaningful
+        research directions. Recent developments in large language models~(LLMs) suggest
+        a promising avenue for automating the generation of novel research ideas.
+        However, existing methods for idea generation either trivially prompt LLMs
+        or directly expose LLMs to extensive literature without indicating useful
+        information. Inspired by the research process of human researchers, we propose
+        a Chain-of-Ideas~(CoI) agent, an LLM-based agent that organizes relevant literature
+        in a chain structure to effectively mirror the progressive development in
+        a research domain. This organization facilitates LLMs to capture the current
+        advancements in research, thereby enhancing their ideation capabilities. Furthermore,
+        we propose Idea Arena, an evaluation protocol that can comprehensively evaluate
+        idea generation methods from different perspectives, aligning closely with
+        the preferences of human researchers. Experimental results indicate that the
+        CoI agent consistently outperforms other methods and shows comparable quality
+        as humans in research idea generation. Moreover, our CoI agent is budget-friendly,
+        with a minimum cost of \$0.50 to generate a candidate idea and its corresponding
+        experimental design.
+    authors:
+    -   authorId: '2326448748'
+        name: Long Li
+    -   authorId: '2313881740'
+        name: Weiwen Xu
+    -   authorId: '5765645'
+        name: Jiayan Guo
+    -   authorId: '2091437375'
+        name: Ruochen Zhao
+    -   authorId: '2326341023'
+        name: Xinxuan Li
+    -   authorId: '2258794044'
+        name: Yuqian Yuan
+    -   authorId: '2326705179'
+        name: Boqiang Zhang
+    -   authorId: '2326473480'
+        name: Yuming Jiang
+    -   authorId: '112862525'
+        name: Yifei Xin
+    -   authorId: '2131077260'
+        name: Ronghao Dang
+    -   authorId: '2303980061'
+        name: Deli Zhao
+    -   authorId: '2326302367'
+        name: Yu Rong
+    -   authorId: '2326302705'
+        name: Tian Feng
+    -   authorId: '2211459675'
+        name: Li Bing
+    citationCount: 56
+    citationStyles:
+        bibtex: "@Article{Li2024ChainOI,\n author = {Long Li and Weiwen Xu and Jiayan\
+            \ Guo and Ruochen Zhao and Xinxuan Li and Yuqian Yuan and Boqiang Zhang\
+            \ and Yuming Jiang and Yifei Xin and Ronghao Dang and Deli Zhao and Yu\
+            \ Rong and Tian Feng and Li Bing},\n booktitle = {Conference on Empirical\
+            \ Methods in Natural Language Processing},\n journal = {ArXiv},\n title\
+            \ = {Chain of Ideas: Revolutionizing Research Via Novel Idea Development\
+            \ with LLM Agents},\n volume = {abs/2410.13185},\n year = {2024}\n}\n"
+    externalIds:
+        ArXiv: '2410.13185'
+        CorpusId: 273403983
+        DBLP: journals/corr/abs-2410-13185
+        DOI: 10.48550/arXiv.2410.13185
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: false
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2410.13185,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: null
+        url: ''
+    paperId: 63aa9598da11da04d044ecf7211b2055b7a1775c
+    score: 8
+    title: 'Chain of Ideas: Revolutionizing Research Via Novel Idea Development with
+        LLM Agents'
+    tldr:
+        model: tldr@v2.0.0
+        text: A Chain-of-Ideas~(CoI) agent is proposed, an LLM-based agent that organizes
+            relevant literature in a chain structure to effectively mirror the progressive
+            development in a research domain and consistently outperforms other methods
+            and shows comparable quality as humans in research idea generation.
+    year: 2024
+-   abstract: "Large Language Models (LLMs) have proved effective and efficient in\
+        \ generating code, leading to their utilization within the hardware design\
+        \ process. Prior works evaluating LLMs\u2019 abilities for register transfer\
+        \ level code generation solely focus on functional correctness. However, the\
+        \ creativity associated with these LLMs, or the ability to generate novel\
+        \ and unique solutions, is a metric not as well understood, in part due to\
+        \ the challenge of quantifying this quality.To address this research gap,\
+        \ we present CreativEval, a framework for evaluating the creativity of LLMs\
+        \ within the context of generating hardware designs. We quantify four creative\
+        \ sub-components, fluency, flexibility, originality, and elaboration, through\
+        \ various prompting and post-processing techniques. We then evaluate multiple\
+        \ popular LLMs (including GPT models, CodeLlama, and VeriGen) upon this creativity\
+        \ metric, with results indicating GPT-3.5 as the most creative model in generating\
+        \ hardware designs."
+    authors:
+    -   authorId: '2282533434'
+        name: Matthew DeLorenzo
+    -   authorId: '1410624440'
+        name: Vasudev Gohil
+    -   authorId: '34720531'
+        name: Jeyavijayan Rajendran
+    citationCount: 24
+    citationStyles:
+        bibtex: "@Article{DeLorenzo2024CreativEvalEC,\n author = {Matthew DeLorenzo\
+            \ and Vasudev Gohil and Jeyavijayan Rajendran},\n booktitle = {2024 IEEE\
+            \ LLM Aided Design Workshop (LAD)},\n journal = {2024 IEEE LLM Aided Design\
+            \ Workshop (LAD)},\n pages = {1-5},\n title = {CreativEval: Evaluating\
+            \ Creativity of LLM-Based Hardware Code Generation},\n year = {2024}\n\
+            }\n"
+    externalIds:
+        ArXiv: '2404.08806'
+        CorpusId: 269148855
+        DBLP: journals/corr/abs-2404-08806
+        DOI: 10.1109/LAD62341.2024.10691798
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: true
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2404.08806,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: GREEN
+        url: https://arxiv.org/pdf/2404.08806
+    paperId: 8c5aab75826620559d33e99652f4cac9f6efd2fc
+    score: 7
+    title: 'CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation'
+    tldr:
+        model: tldr@v2.0.0
+        text: CreativEval is presented, a framework for evaluating the creativity
+            of LLMs within the context of generating hardware designs that quantifies
+            four creative sub-components, fluency, flexibility, originality, and elaboration,
+            and results indicate GPT-3.5 as the most creative model in generating
+            hardware designs.
+    year: 2024
+-   abstract: "This paper introduces a pioneering methodology in autonomous robot\
+        \ control, denoted as LLM-BRAIn, enabling the generation of adaptive behaviors\
+        \ in robots in response to operator commands, while simultaneously considering\
+        \ a multitude of potential future events. Unlike traditional step-by-step\
+        \ behavior generation methods, LLM-BRAIn leverages a behavior tree (BT) format\
+        \ that inherently encompasses various potential outcomes, thus reducing the\
+        \ frequency of model queries and optimizing resource utilization and decision-making\
+        \ time. LLM-BRAIn is a transformer-based Large Language Model (LLM) fine-tuned\
+        \ from the Stanford Alpaca 7B model to generate a BT from text descriptions.\
+        \ The model was trained on 8.5k instruction-following demonstrations generated\
+        \ using GPT-3.5. LLM-BRAIn accurately builds complex robot behavior while\
+        \ remaining small enough to run on the robot\u2019s onboard microcomputer.\
+        \ The model generates structurally and logically correct BTs and can manage\
+        \ instructions not presented in the training set. Experiments revealed no\
+        \ significant subjective differences between BTs generated by LLM-BRAIn and\
+        \ human-created BTs, with participants distinguishing between them correctly\
+        \ in only 4.53 out of 10 cases, indicating performance close to random chance.The\
+        \ proposed approach holds promise for applications across various domains,\
+        \ including mobile robotics, drone operations, robot manipulator systems,\
+        \ and Industry 5.0. This applicability stems from the BT framework\u2019s\
+        \ inherent consideration of numerous potential outcomes, obviating the need\
+        \ for exhaustive deliberation at each step, thereby expediting the robot\u2019\
+        s operations. We provide a dataset for LLM-BRAIn replication: huggingface.co/datasets/ArtemLykov/LLM\
+        \ BRAIn dataset."
+    authors:
+    -   authorId: '2189477580'
+        name: Artem Lykov
+    -   authorId: '48470616'
+        name: Dzmitry Tsetserukou
+    citationCount: 42
+    citationStyles:
+        bibtex: "@Article{Lykov2023LLMBRAInAF,\n author = {Artem Lykov and Dzmitry\
+            \ Tsetserukou},\n booktitle = {2024 2nd International Conference on Foundation\
+            \ and Large Language Models (FLLM)},\n journal = {2024 2nd International\
+            \ Conference on Foundation and Large Language Models (FLLM)},\n pages\
+            \ = {392-397},\n title = {LLM-BRAIn: AI-driven Fast Generation of Robot\
+            \ Behaviour Tree based on Large Language Model},\n year = {2023}\n}\n"
+    externalIds:
+        ArXiv: '2305.19352'
+        CorpusId: 258987995
+        DBLP: journals/corr/abs-2305-19352
+        DOI: 10.1109/FLLM63129.2024.10852491
+    fieldsOfStudy:
+    - Computer Science
+    isOpenAccess: true
+    openAccessPdf:
+        disclaimer: 'Notice: Paper or abstract available at https://arxiv.org/abs/2305.19352,
+            which is subject to the license by the author or copyright owner provided
+            with this content. Please go to the source to verify the license and copyright
+            information for your use.'
+        license: null
+        status: GREEN
+        url: http://arxiv.org/pdf/2305.19352
+    paperId: 73b2dee720ebc9014dfe57d9b73da60ca7645c86
+    score: 6
+    title: 'LLM-BRAIn: AI-driven Fast Generation of Robot Behaviour Tree based on
+        Large Language Model'
+    tldr:
+        model: tldr@v2.0.0
+        text: null
+    year: 2023
+params:
+    exclude_keywords: ''
+    from_year: 2020
+    grounding_k: 5
+    max_iterations: 10
+    max_paper_bank_size: 10
+    model_id: neuralmagic/Meta-Llama-3.1-70B-Instruct-quantized.w8a8
+    to_year: 2026
+topic_description: LLM-based idea generation

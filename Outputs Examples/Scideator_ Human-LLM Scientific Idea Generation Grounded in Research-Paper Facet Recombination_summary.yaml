@@ -1,0 +1,42 @@
+final_summary:
+    discussion: "The study provides new insights on interfaces for facet-based idea\
+        \ generation and novelty assessment. The results suggest that Scideator extends\
+        \ users\u2019 thinking beyond initial perspectives and helps scientists filter\
+        \ unoriginal ideas. The automated evaluation demonstrates the effectiveness\
+        \ of the facet-based novelty checker, which improves agreement with human\
+        \ novelty ratings and outperforms recent automatic evaluation methods. The\
+        \ study\u2019s findings suggest that Scideator\u2019s facet-level interaction\
+        \ and scaffolding features can help researchers generate more novel and creative\
+        \ ideas."
+    idea: Scideator, a human-LLM interface for facet-based scientific idea generation
+        and novelty evaluation, extracts key facets from input papers, retrieves analogous
+        work, recombines facets to generate research ideas, and assesses their novelty
+        by comparing facet combinations against existing literature. The idea is to
+        develop a tool that can support both divergent and convergent ideation, and
+        provide affordances for idea novelty evaluation.
+    methodology: "Scideator extracts key facets\u2014purposes, mechanisms, and evaluations\u2014\
+        from user-provided scientific papers and related papers, allowing users to\
+        \ explore the idea space by interactively recombining facets to synthesize\
+        \ inventive ideas. The system integrates electronic health records (EHRs)\
+        \ with clinical guidelines, leveraging prompts to identify and follow potential\
+        \ diagnostic routes. A within-subjects user study with 22 computer-science\
+        \ researchers compared using Scideator versus a strong baseline for idea generation\
+        \ and novelty evaluation."
+    motivation: "The scientific ideation process often involves blending salient aspects\
+        \ of existing papers to create new ideas \u2014 a framework known as facet-based\
+        \ ideation. The ever-expanding literature makes it challenging for scientists\
+        \ to discover new ideas, and cognitive fixation biases them toward familiar\
+        \ thinking. This challenge has spurred interest in automated systems to assist\
+        \ researchers in discovering new ideas. The motivation behind this work is\
+        \ to develop a human-LLM tool that supports facet-based ideation for scientific\
+        \ idea generation and novelty evaluation."
+    result: "In a within-subjects user study (N=22) with computer-science researchers\
+        \ comparing Scideator to a strong baseline, our tool provided significantly\
+        \ more creativity support, particularly with respect to exploration and expressiveness.\
+        \ Participants experienced significantly more creativity support with Scideator,\
+        \ particularly in exploring different ideas. The facet-level interaction supported\
+        \ creativity by providing transparency and control over the generation process.\
+        \ Scideator\u2019s novelty checker helped scientists filter unoriginal ideas,\
+        \ and the automated evaluation demonstrated the effectiveness of the facet-based\
+        \ novelty checker."
+raw_chunks_count: 12

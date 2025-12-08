@@ -1,0 +1,28 @@
+datasets:
+- semantic scholar api
+- all-cs
+- expert-annotated dataset
+losses: []
+metrics:
+- accuracy
+- auc
+- cohen kappa
+- f1
+- mann-whitney u test
+- overlap
+- p-value
+- precision
+- rank shift
+- recall
+- sign test
+- wilcoxon signed-rank test
+models:
+- o3-mini
+- rankgpt
+- idea novelty checker
+- textgrad
+- faceted idea generator
+- gpt-4o
+- llms
+- gpt-4
+- dspy

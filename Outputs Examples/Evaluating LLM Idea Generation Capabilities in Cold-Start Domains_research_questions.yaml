@@ -1,0 +1,11 @@
+Research Questions:
+- Can large language models (LLMs) generate novel and relevant ideas in cold-start
+    domains with limited pre-training data, and if so, how do their performance metrics
+    (e.g., precision, recall, and F1-score) compare to those in well-represented domains?
+- What adaptation strategies (e.g., fine-tuning, transfer learning, or data augmentation)
+    can be employed to effectively leverage LLMs for idea generation in cold-start
+    domains, and how do these strategies impact the models' performance?
+- How do different cold-start domains (e.g., emerging technologies, niche markets,
+    or underrepresented industries) affect the idea generation capabilities of LLMs,
+    and are there domain-specific characteristics that influence the models' performance
+    in these settings?

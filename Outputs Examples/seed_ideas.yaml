@@ -1,0 +1,78 @@
+base:
+    topic_description: LLM-based idea generation
+ideas:
+    Evaluating LLM Idea Generation Capabilities in Cold-Start Domains:
+        Grounding Papers: ''
+        Problem Description: Cold-start domains lack sufficient labeled data, rendering
+            many AI-driven approaches ineffective. Since LLMs rely heavily on pre-training
+            data, their idea generation capabilities in cold-start settings are poorly
+            understood. This research investigates the idea generation performance
+            of LLMs in various cold-start domains and explores strategies to adapt
+            these models to such settings.
+        Problem Motivation: Current research mostly evaluates LLMs in familiar domains
+            where they have been fine-tuned. The ability of LLMs to generalize to
+            entirely novel domains with minimal data remains a mystery, underscoring
+            the need for targeted research. This study addresses this gap, examining
+            both how well LLMs perform in cold-start conditions and what adaptation
+            strategies might improve their ideation capabilities in unfamiliar territory.
+    LLM-Powered Idea Generation for Constraint-Based System Design:
+        Grounding Papers: ''
+        Problem Description: System design often involves generating viable solutions
+            that satisfy multiple constraints. While LLMs excel at generating novel
+            ideas, they may struggle with incorporating explicit constraints in their
+            ideation process. This study aims to bridge this gap by developing a constraint-aware
+            LLM-based idea generation framework for system design.
+        Problem Motivation: Current LLM-driven idea generation methods mostly focus
+            on unconstrained or open-ended scenarios, neglecting the demands of real-world
+            system design where constraints play a vital role. To enhance the practicality
+            of LLMs in system design, we need new approaches that efficiently incorporate
+            and manage constraints. This study responds to this call by integrating
+            knowledge graph-based constraint modeling with idea generation capabilities
+            of LLMs.
+    Modifying the Memory-Augmented Architecture of LLMs for Tailored Idea Generation Tasks:
+        Grounding Papers: ''
+        Problem Description: Memory-augmented architectures enable LLMs to retain
+            and process larger knowledge bases, potentially improving their idea generation
+            capabilities. However, the generic design of these architectures fails
+            to accommodate domain-specific requirements. This study explores modifications
+            to LLM memory-augmented architectures tailored for specialized idea generation
+            tasks, assessing their impact on performance and efficiency.
+        Problem Motivation: Generic architectures might not fully leverage the strengths
+            of LLMs in specialized contexts. Customizing memory-augmented LLMs to
+            cater to specific domains or tasks could unlock superior performance and
+            efficiency. By adapting these architectures for various idea generation
+            tasks, this study seeks to identify optimal design patterns that enhance
+            LLM functionality in targeted applications.
+    'Scientific Idea Generation with Conversational LLM Agents: Enhanced Feedback Loops for Improved Idea Quality':
+        Grounding Papers: ''
+        Problem Description: While LLM-driven scientific idea generation has shown
+            promise, current methods mostly use one-way LLM output without substantive
+            expert feedback loops. This study proposes a conversational framework
+            that enables iterative refinement of LLM-generated ideas through active
+            feedback from scientific experts, enhancing the validity and utility of
+            generated ideas.
+        Problem Motivation: Expert feedback is crucial in improving the quality of
+            research ideas. However, integrating this feedback efficiently into LLM-driven
+            systems remains an open challenge. By developing conversational LLM agents
+            that engage in meaningful dialogue with experts, this study seeks to create
+            a collaborative platform for refining research ideas, ultimately contributing
+            to the advancement of scientific research.
+    Understanding the Impact of LLM Pre-Training Objectives on Downstream Idea Generation Tasks:
+        Grounding Papers: ''
+        Problem Description: The relationship between LLM pre-training objectives
+            and their subsequent performance in idea generation tasks is not well
+            understood. This research investigates how different pre-training objectives
+            influence LLM performance in idea generation, providing insights into
+            the optimal pre-training strategies for specific downstream tasks.
+        Problem Motivation: Despite their widespread adoption, the influence of pre-training
+            objectives on LLM performance in specialized tasks remains an open question.
+            Clarifying this relationship is crucial for guiding the development of
+            more effective LLMs. This study contributes to the development of informed
+            LLM design by exploring the connections between pre-training objectives
+            and downstream idea generation performance.
+params:
+    RAG: false
+    grounding_k: 10
+    ideas_n: 5
+    max_tokens: 4096
+    temperature: 1.0
