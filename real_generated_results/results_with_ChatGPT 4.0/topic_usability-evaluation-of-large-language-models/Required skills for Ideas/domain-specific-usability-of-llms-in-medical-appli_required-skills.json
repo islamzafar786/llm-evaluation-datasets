@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Domain-Specific Usability of LLMs in Medical Applications",
+    "description": "Assess the usability of LLMs in domain-specific medical applications, focusing on their ability to provide accurate and explainable clinical recommendations.",
+    "motivation": "General LLMs often struggle with domain-specific tasks, such as medical applications. Evaluating their usability in these contexts can lead to more effective and reliable medical tools.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "LLM fine-tuning",
+      "natural language processing",
+      "clinical data analysis",
+      "prompt engineering",
+      "interpretability techniques",
+      "explainable AI methods",
+      "evaluation metrics for medical AI",
+      "healthcare informatics",
+      "ethical considerations in AI",
+      "statistical analysis",
+      "domain-specific medical knowledge"
+    ]
+  }
+]

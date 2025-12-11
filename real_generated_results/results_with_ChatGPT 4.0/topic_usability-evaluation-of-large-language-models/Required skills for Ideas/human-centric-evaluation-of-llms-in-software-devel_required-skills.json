@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Human-Centric Evaluation of LLMs in Software Development",
+    "description": "Examine the usability of LLMs in software development tasks, focusing on human-LLM interaction and task efficiency.",
+    "motivation": "While LLMs are increasingly used in software development, their impact on human efficiency and task completion remains unclear. A human-centric evaluation can provide insights into optimizing these interactions.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "Large Language Models (LLM)",
+      "Human-Computer Interaction (HCI)",
+      "Usability Testing",
+      "Data Analysis",
+      "Prompt Engineering",
+      "Software Development Lifecycle",
+      "Task Efficiency Analysis",
+      "Evaluation Metrics Design",
+      "User Experience Research",
+      "Machine Learning Libraries (e.g., TensorFlow, PyTorch)",
+      "Qualitative and Quantitative Research Methods",
+      "Survey Design and Analysis",
+      "Statistical Analysis",
+      "Version Control (e.g., Git)"
+    ]
+  }
+]

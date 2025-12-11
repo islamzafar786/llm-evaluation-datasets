@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Cross-Domain Usability Assessment of LLMs in Educational Settings",
+    "description": "Investigate the usability of LLMs in educational environments, focusing on their ability to support cross-domain learning and provide explainable recommendations.",
+    "motivation": "LLMs have shown potential in educational settings, but their cross-domain usability and explainability remain underexplored. Understanding these aspects can enhance their integration into educational tools.",
+    "questions": [
+      "How do Large Language Models (LLMs) facilitate cross-disciplinary learning in educational settings, and what are the measurable outcomes of their implementation?",
+      "What are the key usability challenges faced by educators and students when integrating LLMs into cross-domain curricula, and how can these challenges be mitigated?",
+      "To what extent can LLMs provide explainable and actionable recommendations in educational environments, and how do these recommendations influence teaching strategies and student engagement?"
+    ]
+  }
+]

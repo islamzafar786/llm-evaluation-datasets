@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Cross-Domain Usability Assessment of LLMs in Educational Settings",
+    "description": "Investigate the usability of LLMs in educational environments, focusing on their ability to support cross-domain learning and provide explainable recommendations.",
+    "motivation": "LLMs have shown potential in educational settings, but their cross-domain usability and explainability remain underexplored. Understanding these aspects can enhance their integration into educational tools.",
+    "milestones": [
+      "Conduct literature review to understand current LLM usability in education.",
+      "Define specific educational domains for cross-domain analysis.",
+      "Develop evaluation criteria for usability and explainability.",
+      "Select LLMs for evaluation.",
+      "Design a methodology for testing LLMs in the selected domains.",
+      "Recruit participants for user studies.",
+      "Conduct initial usability testing with selected participants.",
+      "Collect and analyze data from initial tests.",
+      "Refine methodology based on initial findings.",
+      "Conduct expanded usability testing across multiple domains.",
+      "Collect and analyze data from expanded tests.",
+      "Generate a report on findings from usability tests.",
+      "Develop recommendations for LLM deployment in educational settings.",
+      "Draft a comprehensive report on the entire study.",
+      "Review and revise the report based on feedback from peers.",
+      "Prepare final presentation for stakeholders.",
+      "Submit the final report and presentation."
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review to understand current LLM usability in education.",
+      "Week 2": "Define specific educational domains for cross-domain analysis.",
+      "Week 3": "Develop evaluation criteria for usability and explainability.",
+      "Week 4": "Select LLMs for evaluation.",
+      "Week 5": "Design a methodology for testing LLMs in the selected domains.",
+      "Week 6": "Recruit participants for user studies.",
+      "Week 7": "Conduct initial usability testing with selected participants.",
+      "Week 8": "Collect and analyze data from initial tests.",
+      "Week 9": "Refine methodology based on initial findings.",
+      "Week 10": "Conduct expanded usability testing across multiple domains.",
+      "Week 11": "Continue expanded usability testing.",
+      "Week 12": "Collect and analyze data from expanded tests.",
+      "Week 13": "Continue data analysis from expanded tests.",
+      "Week 14": "Generate a report on findings from usability tests.",
+      "Week 15": "Develop recommendations for LLM deployment in educational settings.",
+      "Week 16": "Draft a comprehensive report on the entire study.",
+      "Week 17": "Continue drafting the comprehensive report.",
+      "Week 18": "Review and revise the report based on feedback from peers.",
+      "Week 19": "Continue reviewing and revising the report.",
+      "Week 20": "Prepare final presentation for stakeholders.",
+      "Week 21": "Continue preparing the final presentation.",
+      "Week 22": "Submit the final report and presentation.",
+      "Week 23": "Buffer week for any unforeseen delays.",
+      "Week 24": "Buffer week for any unforeseen delays."
+    }
+  }
+]

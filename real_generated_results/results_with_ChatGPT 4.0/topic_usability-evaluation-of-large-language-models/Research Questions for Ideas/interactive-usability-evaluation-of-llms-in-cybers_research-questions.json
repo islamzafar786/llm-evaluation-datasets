@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Interactive Usability Evaluation of LLMs in Cybersecurity",
+    "description": "Develop an interactive framework for evaluating the usability of LLMs in cybersecurity, focusing on their ability to engage with and respond to cyber threats.",
+    "motivation": "LLMs have potential in cybersecurity, but their interactive usability and effectiveness in real-world scenarios are not well understood. A focused evaluation can enhance their application in this critical field.",
+    "questions": [
+      "How can interactive frameworks improve the usability of Large Language Models (LLMs) in identifying and responding to cybersecurity threats?",
+      "What are the key usability challenges faced when implementing LLMs in cybersecurity contexts, and how can these be addressed through an interactive evaluation framework?",
+      "In what ways do different interactive evaluation methods affect the performance and reliability of LLMs in real-time cybersecurity threat scenarios?"
+    ]
+  }
+]

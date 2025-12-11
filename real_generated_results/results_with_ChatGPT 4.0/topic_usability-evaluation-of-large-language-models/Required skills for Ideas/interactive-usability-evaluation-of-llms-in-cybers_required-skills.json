@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Interactive Usability Evaluation of LLMs in Cybersecurity",
+    "description": "Develop an interactive framework for evaluating the usability of LLMs in cybersecurity, focusing on their ability to engage with and respond to cyber threats.",
+    "motivation": "LLMs have potential in cybersecurity, but their interactive usability and effectiveness in real-world scenarios are not well understood. A focused evaluation can enhance their application in this critical field.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "PyTorch or TensorFlow",
+      "Cybersecurity fundamentals",
+      "Large Language Models (LLM) fine-tuning",
+      "Interactive system design",
+      "Usability testing methodologies",
+      "Prompt engineering",
+      "Data visualization tools",
+      "Security threat modeling",
+      "Statistical analysis",
+      "User experience (UX) design",
+      "Cyber threat intelligence",
+      "API integration"
+    ]
+  }
+]

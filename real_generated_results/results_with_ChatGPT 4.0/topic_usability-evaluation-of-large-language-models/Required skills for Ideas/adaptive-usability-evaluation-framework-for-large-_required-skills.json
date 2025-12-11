@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Adaptive Usability Evaluation Framework for Large Language Models",
+    "description": "Develop an adaptive framework for evaluating the usability of LLMs across various domains, focusing on user interaction and satisfaction metrics.",
+    "motivation": "Current evaluation methods often overlook user-centric metrics, focusing instead on technical performance. An adaptive framework can provide insights into how users interact with LLMs, enhancing their usability and acceptance.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Natural Language Processing (NLP)",
+      "Human-Computer Interaction (HCI)",
+      "User Experience (UX) Design",
+      "Usability Testing",
+      "Machine Learning Evaluation Metrics",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Large Language Models (LLM) Fine-tuning",
+      "Sentiment Analysis",
+      "Survey Design and Analysis",
+      "Interaction Design",
+      "A/B Testing",
+      "Feedback Loop Integration",
+      "Adaptive Algorithms"
+    ]
+  }
+]

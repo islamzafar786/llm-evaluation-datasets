@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Creative Writing Assistance",
+    "description": "This research aims to evaluate the usability of large language models (LLMs) in assisting creative writing tasks, focusing on their ability to generate coherent narratives, character development, and thematic consistency.",
+    "motivation": "While LLMs have shown potential in generating text, their application in creative writing remains underexplored. Current models often produce text that lacks depth and creativity, which are crucial for storytelling. This study seeks to address these limitations by developing a framework to assess and enhance the creative capabilities of LLMs.",
+    "milestones": [
+      "Conduct literature review on existing LLMs and creative writing assistance tools.",
+      "Identify and select the most relevant LLMs for the study.",
+      "Design a methodology for evaluating LLM usability in creative writing.",
+      "Prepare datasets for testing LLMs' creative writing capabilities.",
+      "Develop metrics for assessing narrative coherence, character development, and thematic consistency.",
+      "Train selected LLMs using the prepared datasets.",
+      "Conduct initial tests to gauge LLM performance.",
+      "Analyze initial testing results and refine evaluation criteria.",
+      "Engage with creative writing experts for qualitative feedback on LLM outputs.",
+      "Iterate on LLM models based on expert feedback.",
+      "Perform detailed usability tests with improved LLM models.",
+      "Compile test results and compare against initial criteria.",
+      "Draft a report summarizing findings, methodologies, and insights.",
+      "Submit report for peer review.",
+      "Present findings at a relevant academic or industry conference."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct literature review and identify relevant LLMs.",
+      "Week 3": "Design evaluation methodology.",
+      "Week 4-5": "Prepare datasets for testing.",
+      "Week 6": "Develop assessment metrics.",
+      "Week 7-8": "Train selected LLMs on datasets.",
+      "Week 9": "Conduct initial tests on LLMs.",
+      "Week 10": "Analyze test results and refine evaluation criteria.",
+      "Week 11-12": "Engage with creative writing experts for feedback.",
+      "Week 13-14": "Iterate LLM models based on feedback.",
+      "Week 15-17": "Conduct detailed usability tests.",
+      "Week 18": "Compile and analyze comprehensive test results.",
+      "Week 19-20": "Draft research report.",
+      "Week 21": "Submit report for peer review.",
+      "Week 22-23": "Integrate peer feedback into the final report.",
+      "Week 24": "Present findings at a conference."
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Creative Writing Assistance",
+    "description": "This research aims to evaluate the usability of large language models (LLMs) in assisting creative writing tasks, focusing on their ability to generate coherent narratives, character development, and thematic consistency.",
+    "motivation": "While LLMs have shown potential in generating text, their application in creative writing remains underexplored. Current models often produce text that lacks depth and creativity, which are crucial for storytelling. This study seeks to address these limitations by developing a framework to assess and enhance the creative capabilities of LLMs.",
+    "questions": [
+      "How effectively can large language models assist in generating coherent narratives in creative writing compared to traditional writing methods?",
+      "To what extent do large language models contribute to character development in creative writing, and what are their limitations?",
+      "How do large language models influence thematic consistency in creative writing, and what are the potential areas for improvement?"
+    ]
+  }
+]

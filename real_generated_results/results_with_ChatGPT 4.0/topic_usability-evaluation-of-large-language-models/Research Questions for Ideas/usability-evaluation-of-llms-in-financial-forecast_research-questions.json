@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Financial Forecasting",
+    "description": "This study explores the usability of LLMs in financial forecasting, focusing on their ability to analyze market trends, predict stock movements, and provide actionable insights.",
+    "motivation": "Financial forecasting requires accurate analysis of complex data, which LLMs have yet to master. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in financial forecasting tasks.",
+    "questions": [
+      "How effectively do Large Language Models (LLMs) interpret and analyze market trends compared to traditional financial forecasting methods?",
+      "What are the limitations and challenges of using LLMs for predicting stock movements in volatile market conditions?",
+      "How do actionable insights derived from LLMs impact decision-making processes for financial analysts and investors?"
+    ]
+  }
+]

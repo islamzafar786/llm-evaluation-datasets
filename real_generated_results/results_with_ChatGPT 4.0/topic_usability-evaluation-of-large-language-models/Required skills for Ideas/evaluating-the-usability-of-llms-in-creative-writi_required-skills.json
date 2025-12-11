@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Creative Writing Assistance",
+    "description": "This research aims to evaluate the usability of large language models (LLMs) in assisting creative writing tasks, focusing on their ability to generate coherent narratives, character development, and thematic consistency.",
+    "motivation": "While LLMs have shown potential in generating text, their application in creative writing remains underexplored. Current models often produce text that lacks depth and creativity, which are crucial for storytelling. This study seeks to address these limitations by developing a framework to assess and enhance the creative capabilities of LLMs.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "PyTorch or TensorFlow",
+      "GPT-3 or GPT-4 APIs",
+      "prompt engineering",
+      "creative writing",
+      "narrative analysis",
+      "sentiment analysis",
+      "user experience design",
+      "usability testing",
+      "qualitative research methods",
+      "statistical analysis",
+      "data visualization",
+      "human-computer interaction (HCI)",
+      "thematic analysis"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Legal Document Drafting",
+    "description": "This study investigates the usability of LLMs in drafting legal documents, focusing on their ability to maintain legal accuracy, coherence, and adherence to legal standards.",
+    "motivation": "Legal document drafting requires precision and adherence to specific legal standards, which LLMs currently struggle to achieve consistently. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in this domain.",
+    "questions": [
+      "How do Large Language Models (LLMs) compare to traditional legal drafting processes in terms of accuracy, coherence, and adherence to legal standards when creating legal documents?",
+      "What are the specific challenges and limitations faced by legal professionals when utilizing LLMs for drafting legal documents, and how do these affect the final output's usability?",
+      "In what ways can the integration of LLMs into legal document drafting processes improve efficiency and productivity while ensuring compliance with industry standards and regulations?"
+    ]
+  }
+]

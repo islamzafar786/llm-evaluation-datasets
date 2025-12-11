@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Adaptive Usability Evaluation Framework for Large Language Models",
+    "description": "Develop an adaptive framework for evaluating the usability of LLMs across various domains, focusing on user interaction and satisfaction metrics.",
+    "motivation": "Current evaluation methods often overlook user-centric metrics, focusing instead on technical performance. An adaptive framework can provide insights into how users interact with LLMs, enhancing their usability and acceptance.",
+    "questions": [
+      "How does the proposed adaptive usability evaluation framework for large language models perform across different domains in terms of user interaction efficiency and satisfaction?",
+      "What are the key usability metrics that most significantly impact user satisfaction when interacting with large language models in diverse application areas?",
+      "In what ways can an adaptive evaluation framework enhance the iterative improvement of large language models based on user feedback and interaction data?"
+    ]
+  }
+]

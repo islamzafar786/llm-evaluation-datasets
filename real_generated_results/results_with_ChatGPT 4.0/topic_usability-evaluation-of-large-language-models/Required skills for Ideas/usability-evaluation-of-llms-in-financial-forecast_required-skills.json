@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Financial Forecasting",
+    "description": "This study explores the usability of LLMs in financial forecasting, focusing on their ability to analyze market trends, predict stock movements, and provide actionable insights.",
+    "motivation": "Financial forecasting requires accurate analysis of complex data, which LLMs have yet to master. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in financial forecasting tasks.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "financial data analysis",
+      "time series forecasting",
+      "LLM fine-tuning",
+      "natural language processing",
+      "sentiment analysis",
+      "statistical modeling",
+      "machine learning algorithms",
+      "data visualization",
+      "prompt engineering",
+      "evaluation metrics",
+      "financial market knowledge."
+    ]
+  }
+]

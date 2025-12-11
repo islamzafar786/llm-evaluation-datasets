@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Domain-Specific Usability of LLMs in Medical Applications",
+    "description": "Assess the usability of LLMs in domain-specific medical applications, focusing on their ability to provide accurate and explainable clinical recommendations.",
+    "motivation": "General LLMs often struggle with domain-specific tasks, such as medical applications. Evaluating their usability in these contexts can lead to more effective and reliable medical tools.",
+    "milestones": [
+      "Define project scope and objectives.",
+      "Conduct a literature review on LLMs and their applications in medicine.",
+      "Identify specific medical domains for assessment.",
+      "Design a methodology for usability assessment.",
+      "Acquire necessary datasets for evaluation.",
+      "Prepare and preprocess datasets for LLM evaluation.",
+      "Select appropriate LLM models for assessment.",
+      "Develop a framework for evaluating LLM usability.",
+      "Conduct initial LLM evaluations on preselected tasks.",
+      "Analyze initial results to identify trends and issues.",
+      "Iterate on the evaluation methodology as needed.",
+      "Expand evaluation to additional medical domains.",
+      "Conduct comprehensive usability testing across domains.",
+      "Analyze results for accuracy and explainability.",
+      "Compile findings into a comprehensive report.",
+      "Draft a paper for publication in a peer-reviewed journal.",
+      "Prepare a presentation for stakeholders.",
+      "Conduct a peer review of the draft paper.",
+      "Incorporate feedback from peer review.",
+      "Finalize the paper for submission."
+    ],
+    "timeline": {
+      "Week 1": "Define project scope and objectives.",
+      "Week 2": "Conduct a literature review on LLMs and their applications in medicine.",
+      "Week 3": "Identify specific medical domains for assessment.",
+      "Week 4": "Design a methodology for usability assessment.",
+      "Week 5": "Acquire necessary datasets for evaluation.",
+      "Week 6": "Prepare and preprocess datasets for LLM evaluation.",
+      "Week 7": "Select appropriate LLM models for assessment.",
+      "Week 8-9": "Develop a framework for evaluating LLM usability.",
+      "Week 10-11": "Conduct initial LLM evaluations on preselected tasks.",
+      "Week 12": "Analyze initial results to identify trends and issues.",
+      "Week 13": "Iterate on the evaluation methodology as needed.",
+      "Week 14-15": "Expand evaluation to additional medical domains.",
+      "Week 16-17": "Conduct comprehensive usability testing across domains.",
+      "Week 18-19": "Analyze results for accuracy and explainability.",
+      "Week 20": "Compile findings into a comprehensive report.",
+      "Week 21": "Draft a paper for publication in a peer-reviewed journal.",
+      "Week 22": "Prepare a presentation for stakeholders.",
+      "Week 23": "Conduct a peer review of the draft paper.",
+      "Week 24": "Incorporate feedback from peer review and finalize the paper for submission."
+    }
+  }
+]

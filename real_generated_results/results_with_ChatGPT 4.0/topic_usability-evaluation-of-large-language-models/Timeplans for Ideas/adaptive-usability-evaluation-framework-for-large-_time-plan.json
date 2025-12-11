@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Adaptive Usability Evaluation Framework for Large Language Models",
+    "description": "Develop an adaptive framework for evaluating the usability of LLMs across various domains, focusing on user interaction and satisfaction metrics.",
+    "motivation": "Current evaluation methods often overlook user-centric metrics, focusing instead on technical performance. An adaptive framework can provide insights into how users interact with LLMs, enhancing their usability and acceptance.",
+    "milestones": [
+      "Conduct a comprehensive literature review on LLM usability and evaluation metrics.",
+      "Identify and categorize domains for LLM usability evaluation.",
+      "Develop a preliminary framework for usability evaluation.",
+      "Design a methodology for user interaction and satisfaction data collection.",
+      "Recruit domain experts and users for initial testing.",
+      "Pilot test the framework with a small user group.",
+      "Analyze pilot test results and refine the framework.",
+      "Develop a comprehensive plan for large-scale testing across selected domains.",
+      "Implement the large-scale usability evaluation.",
+      "Collect and analyze data from large-scale testing.",
+      "Iterate and refine the framework based on findings.",
+      "Document the final framework and prepare a detailed report.",
+      "Develop recommendations for stakeholders based on findings."
+    ],
+    "timeline": {
+      "Week 1": "Conduct literature review on LLM usability and evaluation metrics.",
+      "Week 2": "Continue literature review and start identifying domains for LLM usability evaluation.",
+      "Week 3": "Finalize domain categorization and begin developing a preliminary framework.",
+      "Week 4": "Design methodology for user interaction and satisfaction data collection.",
+      "Week 5": "Recruit domain experts and users for initial testing.",
+      "Week 6": "Pilot test the framework with a small user group.",
+      "Week 7": "Analyze pilot test results; begin refining the framework.",
+      "Week 8": "Continue refining the framework based on pilot test feedback.",
+      "Week 9": "Develop a comprehensive plan for large-scale testing.",
+      "Week 10": "Finalize the plan for large-scale usability evaluation.",
+      "Week 11": "Begin implementation of large-scale usability evaluation.",
+      "Week 12": "Continue large-scale testing across selected domains.",
+      "Week 13": "Collect and review data from ongoing evaluations.",
+      "Week 14": "Analyze collected data; prepare interim findings.",
+      "Week 15": "Iterate and refine the framework based on interim findings.",
+      "Week 16": "Continue refining framework; begin compiling results.",
+      "Week 17": "Initiate final data collection phase for comprehensive analysis.",
+      "Week 18": "Analyze final data set; prepare for reporting.",
+      "Week 19": "Complete framework iteration and finalize usability evaluation results.",
+      "Week 20": "Document the final framework and prepare a detailed report.",
+      "Week 21": "Draft recommendations for stakeholders.",
+      "Week 22": "Review and finalize recommendations; prepare presentation materials.",
+      "Week 23": "Conduct internal review and gather feedback on project outcomes.",
+      "Week 24": "Complete all documentation; deliver final presentation and report to stakeholders."
+    }
+  }
+]

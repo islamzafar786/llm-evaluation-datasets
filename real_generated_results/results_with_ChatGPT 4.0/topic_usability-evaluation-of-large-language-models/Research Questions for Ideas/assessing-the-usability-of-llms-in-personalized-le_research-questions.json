@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Assessing the Usability of LLMs in Personalized Learning Environments",
+    "description": "This research evaluates the usability of LLMs in personalized learning environments, focusing on their ability to adapt to individual learning styles and provide tailored educational content.",
+    "motivation": "Current educational applications of LLMs often fail to account for individual learning differences, resulting in a one-size-fits-all approach. This study aims to develop a framework to assess and enhance the adaptability of LLMs in personalized learning settings.",
+    "questions": [
+      "How do Large Language Models (LLMs) enhance the adaptability of personalized learning environments to accommodate various individual learning styles?",
+      "What are the key usability challenges faced by educators and learners when integrating LLMs into personalized learning environments, and how can these challenges be mitigated?",
+      "To what extent can LLMs provide tailored educational content that effectively improves learning outcomes for students with diverse educational needs and preferences?"
+    ]
+  }
+]

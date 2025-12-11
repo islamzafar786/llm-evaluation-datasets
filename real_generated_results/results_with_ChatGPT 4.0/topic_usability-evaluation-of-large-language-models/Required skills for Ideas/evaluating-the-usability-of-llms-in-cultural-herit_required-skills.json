@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Cultural Heritage Preservation",
+    "description": "This research investigates the usability of LLMs in preserving cultural heritage, focusing on their ability to generate accurate translations, contextual interpretations, and digital reconstructions of historical texts and artifacts.",
+    "motivation": "Cultural heritage preservation requires a deep understanding of historical context and linguistic nuances, which LLMs currently lack. This study aims to develop a framework to assess and enhance the capabilities of LLMs in this domain.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "NLP (Natural Language Processing)",
+      "GPT models",
+      "fine-tuning LLMs",
+      "machine translation",
+      "historical linguistics",
+      "ontology development",
+      "cultural heritage databases",
+      "data annotation",
+      "contextual analysis",
+      "digital reconstruction tools",
+      "3D modeling software",
+      "image processing libraries",
+      "evaluation metrics design",
+      "user experience testing",
+      "qualitative research methods"
+    ]
+  }
+]

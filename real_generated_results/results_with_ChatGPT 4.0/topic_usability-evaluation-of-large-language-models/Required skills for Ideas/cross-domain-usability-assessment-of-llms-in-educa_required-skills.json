@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Cross-Domain Usability Assessment of LLMs in Educational Settings",
+    "description": "Investigate the usability of LLMs in educational environments, focusing on their ability to support cross-domain learning and provide explainable recommendations.",
+    "motivation": "LLMs have shown potential in educational settings, but their cross-domain usability and explainability remain underexplored. Understanding these aspects can enhance their integration into educational tools.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "LLM fine-tuning",
+      "cross-domain transfer learning",
+      "educational data analysis",
+      "user experience research",
+      "explainable AI methods",
+      "qualitative and quantitative evaluation",
+      "human-computer interaction",
+      "data visualization",
+      "ethical AI considerations",
+      "survey design and analysis",
+      "educational technology integration"
+    ]
+  }
+]

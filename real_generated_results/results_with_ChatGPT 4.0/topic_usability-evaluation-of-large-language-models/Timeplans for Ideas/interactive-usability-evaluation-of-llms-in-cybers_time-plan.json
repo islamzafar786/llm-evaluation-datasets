@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Interactive Usability Evaluation of LLMs in Cybersecurity",
+    "description": "Develop an interactive framework for evaluating the usability of LLMs in cybersecurity, focusing on their ability to engage with and respond to cyber threats.",
+    "motivation": "LLMs have potential in cybersecurity, but their interactive usability and effectiveness in real-world scenarios are not well understood. A focused evaluation can enhance their application in this critical field.",
+    "milestones": [
+      "Conduct a comprehensive literature review on LLMs and cybersecurity.",
+      "Identify key usability metrics relevant to LLMs in cybersecurity contexts.",
+      "Design a preliminary framework for usability evaluation.",
+      "Recruit cybersecurity professionals for initial interviews and feedback sessions.",
+      "Develop interactive testing scenarios that simulate cyber threats for LLM evaluation.",
+      "Implement the first version of the framework in a controlled environment.",
+      "Conduct initial usability tests with selected LLMs.",
+      "Analyze initial results and refine the framework based on feedback.",
+      "Prepare a mid-project progress report highlighting initial findings and adjustments.",
+      "Recruit additional participants for expanded testing.",
+      "Conduct a second round of usability testing with a broader range of LLMs.",
+      "Compile and analyze data from the second round of testing.",
+      "Refine framework further and prepare a final version for comprehensive evaluation.",
+      "Conduct final usability tests with the refined framework.",
+      "Analyze final testing results and draw conclusions on LLM usability in cybersecurity.",
+      "Prepare a comprehensive final report summarizing research findings.",
+      "Develop visual aids and presentations for stakeholders.",
+      "Organize a project presentation to discuss findings and implications with stakeholders.",
+      "Prepare for publication in relevant academic and industry journals."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct literature review on LLMs and cybersecurity.",
+      "Week 3": "Identify key usability metrics.",
+      "Week 4-5": "Design preliminary framework for evaluation.",
+      "Week 6": "Recruit professionals for interviews.",
+      "Week 7-8": "Develop testing scenarios.",
+      "Week 9": "Implement the first version of the framework.",
+      "Week 10-11": "Conduct initial usability tests.",
+      "Week 12": "Analyze results and refine framework.",
+      "Week 13": "Prepare mid-project progress report.",
+      "Week 14": "Recruit additional participants for testing.",
+      "Week 15-16": "Conduct second round of usability testing.",
+      "Week 17-18": "Compile and analyze second round data.",
+      "Week 19": "Refine and finalize framework.",
+      "Week 20": "Conduct final usability tests.",
+      "Week 21": "Analyze final results and conclusions.",
+      "Week 22": "Prepare comprehensive final report.",
+      "Week 23": "Develop visual aids and presentations.",
+      "Week 24": "Organize project presentation and prepare for publication."
+    }
+  }
+]

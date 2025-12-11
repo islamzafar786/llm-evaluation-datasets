@@ -1,0 +1,691 @@
+[
+  {
+    "id": "ed0ed87161a2beab9e1bed3e783d7487a5f1062a",
+    "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+    "abstract": "A prominent weakness of modern language models (LMs) is their tendency to generate factually incorrect text, which hinders their usability. A natural question is whether such factual errors can be detected automatically. Inspired by truth-seeking mechanisms in law, we propose a factuality evaluation framework for LMs that is based on cross-examination. Our key idea is that an incorrect claim is likely to result in inconsistency with other claims that the model generates. To discover such inconsistencies, we facilitate a multi-turn interaction between the LM that generated the claim and another LM (acting as an examiner) which introduces questions to discover inconsistencies. We empirically evaluate our method on factual claims made by multiple recent LMs on four benchmarks, finding that it outperforms existing methods and baselines, often by a large gap. Our results demonstrate the potential of using interacting LMs for capturing factual errors.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/ed0ed87161a2beab9e1bed3e783d7487a5f1062a",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [
+        "PopQA",
+        "TriviaQA",
+        "Falsehood dataset"
+      ],
+      "models": [
+        "LLAMA",
+        "EXAMINER",
+        "GPT-3",
+        "EXAMINEE",
+        "LMVLM",
+        "examinee LM",
+        "examiner LM",
+        "CHATGPT",
+        "CHAT-GPT"
+      ],
+      "losses": [],
+      "metrics": [
+        "F1",
+        "accuracy",
+        "recall"
+      ]
+    }
+  },
+  {
+    "id": "9ac304b5531d5adc1b5021dfc0dbe6e90b41c406",
+    "title": "A Quantitative and Qualitative Evaluation of LLM-Based Explainable Fault Localization",
+    "abstract": "Fault Localization (FL), in which a developer seeks to identify which part of the code is malfunctioning and needs to be fixed, is a recurring challenge in debugging. To reduce developer burden, many automated FL techniques have been proposed. However, prior work has noted that existing techniques fail to provide rationales for the suggested locations, hindering developer adoption of these techniques. With this in mind, we propose AutoFL, a Large Language Model (LLM)-based FL technique that generates an explanation of the bug along with a suggested fault location. AutoFL prompts an LLM to use function calls to navigate a repository, so that it can effectively localize faults over a large software repository and overcome the limit of the LLM context length. Extensive experiments on 798 real-world bugs in Java and Python reveal AutoFL improves method-level acc@1 by up to 233.3% over baselines. Furthermore, developers were interviewed on their impression of AutoFL-generated explanations, showing that developers generally liked the natural language explanations of AutoFL, and that they preferred reading a few, high-quality explanations instead of many.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/9ac304b5531d5adc1b5021dfc0dbe6e90b41c406",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [
+        "BugsInPy",
+        "Defects4J"
+      ],
+      "models": [
+        "GPT-3.5",
+        "AutoFL",
+        "Test-GPT3.5",
+        "GPT-4",
+        "Large Language Model"
+      ],
+      "losses": [],
+      "metrics": [
+        "acc@1 score",
+        "precision",
+        "acc@1",
+        "Precision@1",
+        "precision-recall curve"
+      ]
+    }
+  },
+  {
+    "id": "8f9e864fab09bbae4a46a2a62bb954db1a88eb3e",
+    "title": "Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
+    "abstract": "Pre-trained large language models (“LLMs”) like GPT-3 can engage in fluent, multi-turn instruction-taking out-of-the-box, making them attractive materials for designing natural language interactions. Using natural language to steer LLM outputs (“prompting”) has emerged as an important design technique potentially accessible to non-AI-experts. Crafting effective prompts can be challenging, however, and prompt-based interactions are brittle. Here, we explore whether non-AI-experts can successfully engage in “end-user prompt engineering” using a design probe—a prototype LLM-based chatbot design tool supporting development and systematic evaluation of prompting strategies. Ultimately, our probe participants explored prompt designs opportunistically, not systematically, and struggled in ways echoing end-user programming systems and interactive machine learning systems. Expectations stemming from human-to-human instructional experiences, and a tendency to overgeneralize, were barriers to effective prompt design. These findings have implications for non-AI-expert-facing LLM-based tool design and for improving LLM-and-prompt literacy among programmers and the public, and present opportunities for further research.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/8f9e864fab09bbae4a46a2a62bb954db1a88eb3e",
+    "excluded": false
+  },
+  {
+    "id": "d33a14592d68da068953cdf37f8bf562740c0085",
+    "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+    "abstract": "Background Large language models (LLMs) have shown remarkable capabilities in natural language processing (NLP), especially in domains where labeled data are scarce or expensive, such as the clinical domain. However, to unlock the clinical knowledge hidden in these LLMs, we need to design effective prompts that can guide them to perform specific clinical NLP tasks without any task-specific training data. This is known as in-context learning, which is an art and science that requires understanding the strengths and weaknesses of different LLMs and prompt engineering approaches. Objective The objective of this study is to assess the effectiveness of various prompt engineering techniques, including 2 newly introduced types—heuristic and ensemble prompts, for zero-shot and few-shot clinical information extraction using pretrained language models. Methods This comprehensive experimental study evaluated different prompt types (simple prefix, simple cloze, chain of thought, anticipatory, heuristic, and ensemble) across 5 clinical NLP tasks: clinical sense disambiguation, biomedical evidence extraction, coreference resolution, medication status extraction, and medication attribute extraction. The performance of these prompts was assessed using 3 state-of-the-art language models: GPT-3.5 (OpenAI), Gemini (Google), and LLaMA-2 (Meta). The study contrasted zero-shot with few-shot prompting and explored the effectiveness of ensemble approaches. Results The study revealed that task-specific prompt tailoring is vital for the high performance of LLMs for zero-shot clinical NLP. In clinical sense disambiguation, GPT-3.5 achieved an accuracy of 0.96 with heuristic prompts and 0.94 in biomedical evidence extraction. Heuristic prompts, alongside chain of thought prompts, were highly effective across tasks. Few-shot prompting improved performance in complex scenarios, and ensemble approaches capitalized on multiple prompt strengths. GPT-3.5 consistently outperformed Gemini and LLaMA-2 across tasks and prompt types. Conclusions This study provides a rigorous evaluation of prompt engineering methodologies and introduces innovative techniques for clinical information extraction, demonstrating the potential of in-context learning in the clinical domain. These findings offer clear guidelines for future prompt-based clinical NLP research, facilitating engagement by non-NLP experts in clinical NLP advancements. To the best of our knowledge, this is one of the first works on the empirical evaluation of different prompt engineering approaches for clinical NLP in this era of generative artificial intelligence, and we hope that it will inspire and inform future research in this area.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/d33a14592d68da068953cdf37f8bf562740c0085",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [],
+      "models": [
+        "GPT-3.5",
+        "Gemini",
+        "LLaMA-2"
+      ],
+      "losses": [],
+      "metrics": [
+        "accuracy"
+      ]
+    }
+  },
+  {
+    "id": "2e6db691884205d415527f78d62f90247b7e5795",
+    "title": "Evaluation Framework of Large Language Models in Medical Documentation: Development and Usability Study",
+    "abstract": "Background The advancement of large language models (LLMs) offers significant opportunities for health care, particularly in the generation of medical documentation. However, challenges related to ensuring the accuracy and reliability of LLM outputs, coupled with the absence of established quality standards, have raised concerns about their clinical application. Objective This study aimed to develop and validate an evaluation framework for assessing the accuracy and clinical applicability of LLM-generated emergency department (ED) records, aiming to enhance artificial intelligence integration in health care documentation. Methods We organized the Healthcare Prompt-a-thon, a competitive event designed to explore the capabilities of LLMs in generating accurate medical records. The event involved 52 participants who generated 33 initial ED records using HyperCLOVA X, a Korean-specialized LLM. We applied a dual evaluation approach. First, clinical evaluation: 4 medical professionals evaluated the records using a 5-point Likert scale across 5 criteria—appropriateness, accuracy, structure/format, conciseness, and clinical validity. Second, quantitative evaluation: We developed a framework to categorize and count errors in the LLM outputs, identifying 7 key error types. Statistical methods, including Pearson correlation and intraclass correlation coefficients (ICC), were used to assess consistency and agreement among evaluators. Results The clinical evaluation demonstrated strong interrater reliability, with ICC values ranging from 0.653 to 0.887 (P<.001), and a test-retest reliability Pearson correlation coefficient of 0.776 (P<.001). Quantitative analysis revealed that invalid generation errors were the most common, constituting 35.38% of total errors, while structural malformation errors had the most significant negative impact on the clinical evaluation score (Pearson r=–0.654; P<.001). A strong negative correlation was found between the number of quantitative errors and clinical evaluation scores (Pearson r=–0.633; P<.001), indicating that higher error rates corresponded to lower clinical acceptability. Conclusions Our research provides robust support for the reliability and clinical acceptability of the proposed evaluation framework. It underscores the framework’s potential to mitigate clinical burdens and foster the responsible integration of artificial intelligence technologies in health care, suggesting a promising direction for future research and practical applications in the field.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/2e6db691884205d415527f78d62f90247b7e5795",
+    "excluded": false
+  },
+  {
+    "id": "08446b787a75b3df0274936a3de82b67909c2374",
+    "title": "AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design",
+    "abstract": "In digital circuit design, testbenches (TBs) constitute the cornerstone of simulation-based hardware verification. Traditional methodologies for testbench generation during simulation-based hardware verification still remain partially manual, resulting in inefficiencies in testing various scenarios and requiring expensive time from designers. Large Language Models (LLMs) have demonstrated their potential in automating the circuit design flow. However, directly applying LLMs to generate testbenches suffers from a low pass rate. To address this challenge, we introduce AutoBench, the first LLM-based testbench generator for digital circuit design, which requires only the description of the design under test (DUT) to automatically generate comprehensive testbenches. In AutoBench, a hybrid testbench structure and a self-checking system are realized using LLMs. To validate the generated testbenches, we also introduce an automated testbench evaluation framework to evaluate the quality of generated testbenches from multiple perspectives. Experimental results demonstrate that AutoBench achieves a 57% improvement in the testbench pass@1 ratio compared with the baseline that directly generates testbenches using LLMs. For 75 sequential circuits, AutoBench successfully has a 3.36 times testbench pass@1 ratio compared with the baseline. The source codes and experimental results are open-sourced at this link: https://github.com/AutoBench/AutoBench. Artifact DOI: 10.5281/zenodo.13325723.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/08446b787a75b3df0274936a3de82b67909c2374",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenge of automating the generation and evaluation of testbenches for hardware functional verification. This process is currently time-consuming and requires significant human effort. Despite previous efforts, a fully automated solution that includes both test vector selection and signal checking has not been achieved. Additionally, the paper seeks to evaluate the correctness and coverage of testbenches generated by large language models (LLMs) for hardware description languages (HDLs).",
+      "idea": "The paper introduces AutoBench and AutoEval, which are frameworks for automated testbench generation and evaluation in hardware simulation-based verification. AutoBench is a novel LLM-based workflow for automatically generating testbenches for RTL verification, leveraging the capabilities of large language models to automate the entire process. AutoEval is designed to evaluate testbenches generated by LLMs using a set of criteria that ensure syntactic correctness, preliminary correctness, and coverage through mutant-based evaluation.",
+      "methodology": "The authors propose a hybrid testbench architecture that combines LLM-generated Python and Verilog code. The AutoBench workflow is divided into stages, including circuit type discrimination, testbench specification generation, and scenario checking. Python is used as a testbench checker language due to its abstraction, ease of use, and orthogonal nature compared to Verilog. The evaluation framework, AutoEval, uses three criteria (Eval0, Eval1, Eval2) to assess testbenches, with Eval2 focusing on coverage by comparing results with mutants of the golden RTL code.",
+      "result": "The results demonstrate that the AutoBench framework, which includes AutoEval, outperforms baseline methods in terms of pass rates across different evaluation criteria, particularly in Eval2, which measures coverage. AutoBench shows a 57% improvement in the testbench Eval2 pass@1 ratio. For sequential circuits, it achieves 3.36 times the Eval2 pass@1 ratio compared to the baseline.",
+      "discussion": "The discussion highlights the potential for manual correction in AutoBench, a tool designed to generate testbench code. Unlike the baseline, AutoBench organizes testbench structures by scenarios, making it easier for software engineers to rectify errors in the Python-written core checker codes. The scenario-based driver is also extendable by humans, allowing for the addition of missing scenarios. The limitations of current evaluation criteria, which may not fully address incomplete coverage, are acknowledged. The authors propose a mutant-based coverage criterion (Eval2) to enhance the evaluation process. Future work may involve refining the mutant generation process, exploring self-examination and self-correction approaches for AutoBench, and developing additional criteria for comprehensive testbench evaluation."
+    },
+    "entities": {
+      "datasets": [
+        "HDLBits",
+        "VerilogEval-Human",
+        "Benchmark dataset"
+      ],
+      "models": [
+        "AutoEval",
+        "gpt-4-turbo-2024-04-09",
+        "AutoBench",
+        "Large Language Models",
+        "LLMs"
+      ],
+      "losses": [],
+      "metrics": [
+        "Pass@1",
+        "Eval0",
+        "Pass@5",
+        "pass@k",
+        "Eval2 pass@1 ratio",
+        "Pass@10",
+        "pass@1",
+        "pass@5",
+        "Eval1",
+        "Eval2",
+        "pass@10",
+        "Eval2b"
+      ]
+    }
+  },
+  {
+    "id": "ed7fddff0bc8a0388446f0c1c1b65a8e1c346056",
+    "title": "LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation",
+    "abstract": "Large language models (LLMs) have shown great potential in automating significant aspects of coding by producing natural code from informal natural language (NL) intent. However, given NL is informal, it does not lend easily to checking that the generated code correctly satisfies the user intent. In this paper, we propose a novel interactive workflow TiCoder for guided intent clarification (i.e., partial formalization) through tests to support the generation of more accurate code suggestions. Through a mixed methods user study with 15 programmers, we present an empirical evaluation of the effectiveness of the workflow to improve code generation accuracy. We find that participants using the proposed workflow are significantly more likely to correctly evaluate AI generated code, and report significantly less task-induced cognitive load. Furthermore, we test the potential of the workflow at scale with four different state-of-the-art LLMs on two python datasets, using an idealized proxy for a user feedback. We observe an average absolute improvement of 45.97% in the pass@1 code generation accuracy for both datasets and across all LLMs within 5 user interactions, in addition to the automatic generation of accompanying unit tests.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/ed7fddff0bc8a0388446f0c1c1b65a8e1c346056",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to enhance the accuracy of code generation by leveraging user interactions and test-driven approaches. This is to better align AI-generated code with user intent and address the challenges of ambiguity in user requirements.",
+      "idea": "The novel contribution is the introduction of TICODER, a workflow that employs test-driven interactions to improve the accuracy of code generation by large language models (LLMs). This approach uses tests as a mechanism to clarify and formalize user intent, thereby enhancing the quality of AI-generated code suggestions.",
+      "methodology": "The authors conducted a comprehensive user study and empirical evaluation using two widely recognized Python benchmarks, MBPP and HumanEval. These were used to assess the effectiveness of TICODER in improving code generation accuracy. The study involved multiple user interactions to validate the improvements in code generation.",
+      "result": "TICODER significantly enhances pass@1 performance for all studied LLMs, with performance improvements increasing with each test validation interaction. Notably, it boosts the performance of smaller models to levels that can outperform larger models like GPT-4-32k. TICODER-OUTPUT consistently provides higher accuracy compared to TICODER-PASSFAIL, with an average absolute improvement of 45.73% in code generation accuracy across datasets and LLMs within 5 user interactions.",
+      "discussion": "The study underscores the potential of using tests to disambiguate and formalize user intent, thereby improving code generation accuracy. However, the effectiveness of TICODER is contingent on the quality of tests generated. Future work should explore more sophisticated test generation mechanisms. Additionally, the study acknowledges the limitations in the generalizability of the user study and the potential overhead associated with test execution."
+    },
+    "entities": {
+      "datasets": [
+        "MBPP",
+        "HumanEval"
+      ],
+      "models": [
+        "GPT-4-32k",
+        "code-davinci-002",
+        "GPT-4-turbo",
+        "GPT-3.5-turbo",
+        "CodeGen-6B"
+      ],
+      "losses": [],
+      "metrics": [
+        "pass@1",
+        "pass@1@1",
+        "pass@k",
+        "pass@100"
+      ]
+    }
+  },
+  {
+    "id": "93bfd6f781ca5b8c6e1169274b9642eaffec9381",
+    "title": "Alchemist: LLM-Aided End-User Development of Robot Applications",
+    "abstract": "Large Language Models (LLMs) have the potential to catalyze a paradigm shift in end-user robot programming—moving from the conventional process of user specifying programming logic to an iterative, collaborative process in which the user specifies desired program outcomes while LLM produces detailed specifications. We introduce a novel integrated development system, Alchemist, that leverages LLMs to empower end-users in creating, testing, and running robot programs using natural language inputs, aiming to reduce the required knowledge for developing robot applications. We present a detailed examination of our system design and provide an exploratory study involving true end-users to assess capabilities, usability, and limitations of our system. Through the design, development, and evaluation of our system, we derive a set of lessons learned from the use of LLMs in robot programming. We discuss how LLMs may be the next frontier for democratizing end-user development of robot applications.CCS CONCEPTS• Human-centered computing; • Computer systems organization → Robotics;",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/93bfd6f781ca5b8c6e1169274b9642eaffec9381",
+    "excluded": false
+  },
+  {
+    "id": "dd3d339303f10415fbdf5635593e462852098881",
+    "title": "Instructing and Prompting Large Language Models for Explainable Cross-domain Recommendations",
+    "abstract": "In this paper, we present a strategy to provide users with explainable cross-domain recommendations (CDR) that exploits large language models (LLMs). Generally speaking, CDR is a task that is hard to tackle, mainly due to data sparsity issues. Indeed, CDR models require a large amount of data labeled in both source and target domains, which are not easy to collect. Accordingly, our approach relies on the intuition that the knowledge that is already encoded in LLMs can be used to more easily bridge the domains and seamlessly provide users with personalized cross-domain suggestions. To this end, we designed a pipeline to: (a) instruct a LLM to handle a CDR task; (b) design a personalized prompt, based on the preferences of the user in a source domain, and a list of items to be ranked in target domain; (c) feed the LLM with the prompt, in both zero-shot and one-shot settings, and process the answer in order to extract the recommendations and a natural language explanation. As shown in the experimental evaluation, our approach beats several established state-of-the-art baselines for CDR in most of the experimental settings, thus showing the effectiveness of LLMs also in this novel and scarcely investigated scenario.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/dd3d339303f10415fbdf5635593e462852098881",
+    "excluded": false
+  },
+  {
+    "id": "037b4345769b0608819cddc9bb2cff3a6daf8699",
+    "title": "On the Evaluation of Large Language Models in Unit Test Generation",
+    "abstract": "Unit testing is an essential activity in software development for verifying the correctness of software components. However, manually writing unit tests is challenging and time-consuming. The emergence of Large Language Models (LLMs) offers a new direction for automating unit test generation. Existing research primarily focuses on closed-source LLMs (e.g., ChatGPT and CodeX) with fixed prompting strategies, leaving the capabilities of advanced open-source LLMs with various prompting settings unexplored. Particularly, open-source LLMs offer advantages in data privacy protection and have demonstrated superior performance in some tasks. Moreover, effective prompting is crucial for maximizing LLMs’ capabilities. In this paper, we conduct the first empirical study to fill this gap, based on 17 Java projects, five widely-used open-source LLMs with different structures and parameter sizes, and comprehensive evaluation metrics. Our findings highlight the significant influence of various prompt factors, show the performance of open-source LLMs compared to the commercial GPT-4 and the traditional Evosuite, and identify limitations in LLM-based unit test generation. We then derive a series of implications from our study to guide future research and practical use of LLM-based unit test generation.CCS CONCEPTS • Software and its engineering → Software testing and debugging.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/037b4345769b0608819cddc9bb2cff3a6daf8699",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenge and time-consuming nature of manually writing unit tests in software development. They recognize the potential of Large Language Models (LLMs) to automate this process, particularly focusing on the unexplored capabilities of open-source LLMs. The study seeks to evaluate the effectiveness of these models in generating unit tests, comparing them with a commercial LLM (GPT-4) and a traditional method (Evosuite), while identifying factors influencing their performance.",
+      "idea": "The novel contribution is the first empirical study evaluating the effectiveness of open-source LLMs in unit test generation. The study explores the impact of prompt design, in-context learning, and defect detection capabilities on the effectiveness of LLM-generated unit tests. It also investigates the application of Chain of Thought (CoT) and Retrieval-Augmented Generation (RAG) techniques to enhance unit test generation in open-source LLMs.",
+      "methodology": "The study uses the Defects4J 2.0 benchmark, which includes 835 real-world defects from 17 open-source Java projects. The authors employ CodeBERT for semantic encoding and cosine similarity for method retrieval. They use an AST parser to extract unit tests and integrate them into test classes for evaluation. Experiments are conducted on servers with specific hardware configurations, and the code is available on the project homepage. A comprehensive evaluation of five open-source LLMs is conducted, comparing their performance with GPT-4 and Evosuite, and analyzing the influence of prompt design and in-context learning.",
+      "result": "The study found that prompt design significantly affects LLM effectiveness, and that open-source LLMs, including GPT-4, underperform compared to Evosuite due to invalid tests caused by hallucination. In-context learning techniques from other tasks do not improve unit test generation effectiveness. Larger LLMs generally perform better, but the best model can vary by task. Key reasons for test failures include insufficient test coverage and missing specific inputs.",
+      "discussion": "The authors suggest that effective post-processing could mitigate the issue of invalid tests, and that special design of in-context learning methods is needed for unit test generation. They propose designing effective mutation strategies to improve defect detection and highlight the need for a high-quality retrieval database. Refining LLMs through supervised fine-tuning (SFT) and designing better input mutation strategies could significantly improve defect detection. They also derive a series of implications from their findings to guide future research and practical use of LLM-based unit test generation."
+    },
+    "entities": {
+      "datasets": [
+        "Defects4J 2.0"
+      ],
+      "models": [
+        "AthenaTest",
+        "DC-7B",
+        "Evosuite",
+        "CL-7B",
+        "ChatGPT",
+        "ATLAS",
+        "CODAMOSA",
+        "TELPA",
+        "PD-34B",
+        "GPT-4",
+        "CL-13B",
+        "GPT-3.5",
+        "Large Language Models",
+        "ChatTester",
+        "TestPilot",
+        "BART Transformer",
+        "CodeX",
+        "open-source LLMs",
+        "DC-33B",
+        "CodeBERT",
+        "TOGA",
+        "EDITAS"
+      ],
+      "losses": [],
+      "metrics": [
+        "Branch Coverage",
+        "Compilation Success Rate",
+        "Line Coverage"
+      ]
+    }
+  },
+  {
+    "id": "668206c8fe931c39d5a69c66dbb44363188322af",
+    "title": "Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation",
+    "abstract": "Evaluating the quality of automatically generated question items has been a long standing challenge. In this paper, we leverage LLMs to simulate student profiles and generate responses to multiple-choice questions (MCQs). The generative students' responses to MCQs can further support question item evaluation. We propose Generative Students, a prompt architecture designed based on the KLI framework. A generative student profile is a function of the list of knowledge components the student has mastered, has confusion about or has no evidence of knowledge of. We instantiate the Generative Students concept on the subject domain of heuristic evaluation. We created 45 generative students using GPT-4 and had them respond to 20 MCQs. We found that the generative students produced logical and believable responses that were aligned with their profiles. We then compared the generative students' responses to real students' responses on the same set of MCQs and found a high correlation. Moreover, there was considerable overlap in the difficult questions identified by generative students and real students. A subsequent case study demonstrated that an instructor could improve question quality based on the signals provided by Generative Students.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/668206c8fe931c39d5a69c66dbb44363188322af",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenge of evaluating the quality of automatically generated multiple-choice questions (MCQs) in educational technology. This is particularly important in contexts where traditional psychometric methods are impractical due to a lack of substantial response data. They seek to improve the reliability and believability of student responses by simulating student profiles using a generative approach.",
+      "idea": "The novel contribution is the development of 'Generative Students,' a modular prompt architecture leveraging large language models (LLMs) to simulate student profiles. This approach allows for the generation of reliable responses to MCQs, aiding in the evaluation of question items without needing historical student performance data. The generative student profiles vary in their mastery, confusion, and unknown rules, providing a nuanced evaluation of AI responses in educational settings.",
+      "methodology": "The authors employed the Knowledge-Learning-Instruction (KLI) framework to simulate student profiles based on their mastery of Knowledge Components (KCs). They created 45 generative student profiles with varying levels of knowledge and confusion, using GPT-4 to generate responses to 20 MCQs. The model's temperature was set to 0 for consistent outputs. Statistical methods, including Pearson's correlation and Cronbach's Alpha, were used to analyze the consistency of responses between generative and real students. A qualitative analysis was also performed to assess the logical consistency of the responses.",
+      "result": "The generative students produced logical and believable responses that aligned with their profiles. There was a high correlation (Pearson's correlation of 0.72) between the responses of generative and real students, with considerable overlap in identifying difficult questions. A case study demonstrated that generative students could help instructors identify and improve poorly-worded MCQs, and a classroom experiment indicated that revised questions became less difficult, as intended.",
+      "discussion": "The study highlights the potential of using LLM-simulated student profiles for rapid prototyping and iteration of question items. However, it also notes the necessity of expert input to guide the process and mitigate potential risks associated with the approach. Future work could explore the integration of expert feedback into the generative process and further refine the simulation of student profiles to enhance the reliability of AI-generated educational content."
+    },
+    "entities": {
+      "datasets": [
+        "Random Students’ Response Dataset",
+        "authentic student response dataset",
+        "Real Students’ Response Dataset",
+        "Generative Students Response Dataset"
+      ],
+      "models": [
+        "Cronbach’s alpha",
+        "Rasch model",
+        "Generative Students",
+        "LLM",
+        "GPT-4"
+      ],
+      "losses": [],
+      "metrics": [
+        "Pearson’s correlation",
+        "Cronbach’s Alpha"
+      ]
+    }
+  },
+  {
+    "id": "c894ac9cbb77d96b7ff6f4754b7831c37c825510",
+    "title": "Rocks Coding, Not Development: A Human-Centric, Experimental Evaluation of LLM-Supported SE Tasks",
+    "abstract": "Recently, large language models (LLM) based generative AI has been gaining momentum for their impressive high-quality performances in multiple domains, particularly after the release of the ChatGPT. Many believe that they have the potential to perform general-purpose problem-solving in software development and replace human software developers. Nevertheless, there are in a lack of serious investigation into the capability of these LLM techniques in fulfilling software development tasks. In a controlled 2 × 2 between-subject experiment with 109 participants, we examined whether and to what degree working with ChatGPT was helpful in the coding task and typical software development task and how people work with ChatGPT. We found that while ChatGPT performed well in solving simple coding problems, its performance in supporting typical software development tasks was not that good. We also observed the interactions between participants and ChatGPT and found the relations between the interactions and the outcomes. Our study thus provides first-hand insights into using ChatGPT to fulfill software engineering tasks with real-world developers and motivates the need for novel interaction mechanisms that help developers effectively work with large language models to achieve desired outcomes.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/c894ac9cbb77d96b7ff6f4754b7831c37c825510",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to explore the role of large language models (LLMs), such as ChatGPT, in software engineering. They address the gap in understanding how LLMs can be integrated into software development processes, focusing on their potential to assist rather than replace human developers. The study also considers the implications for software engineering education.",
+      "idea": "The core idea is that while LLMs like ChatGPT can enhance certain aspects of software development, they are not yet capable of fully replacing human developers. The study emphasizes the importance of collaboration between humans and AI, suggesting that effective interaction mechanisms could improve software engineering outcomes. It also highlights the need for software engineers to develop skills in 'prompt engineering' to effectively utilize LLMs.",
+      "methodology": "The authors conducted a controlled 2×2 between-subject experiment with 109 participants to evaluate the capabilities of LLMs, specifically ChatGPT, in supporting software development tasks. The study involved analyzing participants' interactions with ChatGPT using screen history data to measure the efficiency and quality of task completion, focusing on communication patterns and outcomes.",
+      "result": "The study found that while LLMs can improve efficiency in solving simple coding puzzles, they do not yet possess the capabilities to fully support typical software development activities. ChatGPT did not demonstrate overwhelming superiority in tasks like bug fixing, indicating that LLMs are not ready to replace human developers. Continuous and specific communication with LLMs showed some positive effects, but overall, LLMs were less effective in supporting complex software development tasks.",
+      "discussion": "The study suggests that effective collaboration between developers and LLMs requires continuous, purposeful, and specific communication. It highlights the need for further research to build theoretical and empirical knowledge on human-AI collaboration in software engineering. The authors emphasize the importance of designing tools and mechanisms to promote effective collaboration and suggest rethinking software engineering education to better prepare future engineers for working with AI. Limitations include the study's focus on a single type of task and the use of students as participants, which may not fully represent professional developers' capabilities. Future work should explore a broader range of tasks and settings."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "GPT 3.5",
+        "ChatGPT",
+        "large language models",
+        "LLMs"
+      ],
+      "losses": [],
+      "metrics": [
+        "NASA-TLX"
+      ]
+    }
+  },
+  {
+    "id": "bd0b0cd5b01b3a9b62aacda5fb1b8f357e30e533",
+    "title": "Evaluating and Enhancing Large Language Models’ Performance in Domain-Specific Medicine: Development and Usability Study With DocOA",
+    "abstract": "Background The efficacy of large language models (LLMs) in domain-specific medicine, particularly for managing complex diseases such as osteoarthritis (OA), remains largely unexplored. Objective This study focused on evaluating and enhancing the clinical capabilities and explainability of LLMs in specific domains, using OA management as a case study. Methods A domain-specific benchmark framework was developed to evaluate LLMs across a spectrum from domain-specific knowledge to clinical applications in real-world clinical scenarios. DocOA, a specialized LLM designed for OA management integrating retrieval-augmented generation and instructional prompts, was developed. It can identify the clinical evidence upon which its answers are based through retrieval-augmented generation, thereby demonstrating the explainability of those answers. The study compared the performance of GPT-3.5, GPT-4, and a specialized assistant, DocOA, using objective and human evaluations. Results Results showed that general LLMs such as GPT-3.5 and GPT-4 were less effective in the specialized domain of OA management, particularly in providing personalized treatment recommendations. However, DocOA showed significant improvements. Conclusions This study introduces a novel benchmark framework that assesses the domain-specific abilities of LLMs in multiple aspects, highlights the limitations of generalized LLMs in clinical contexts, and demonstrates the potential of tailored approaches for developing domain-specific medical LLMs.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/bd0b0cd5b01b3a9b62aacda5fb1b8f357e30e533",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the limitations of generalized large language models (LLMs) in clinical contexts, particularly in managing complex diseases like osteoarthritis (OA). They identify a gap in the training data of LLMs, which predominantly consists of general medical knowledge, lacking in-depth, domain-specific content. The study seeks to explore the potential of tailored approaches for developing domain-specific medical LLMs.",
+      "idea": "The novel contribution is the introduction of a benchmark framework specifically designed to assess the domain-specific abilities of LLMs, particularly in the field of osteoarthritis management. The study also proposes creating a specialized dataset focused on specific medical diseases, such as OA, which includes updated evidence-based medical knowledge and real-world clinical cases. This dataset will serve as a benchmark for testing LLMs' performance in specific medical domains.",
+      "methodology": "The study developed a domain-specific benchmark framework to evaluate LLMs across a spectrum from domain-specific knowledge to clinical applications. A specialized LLM, DocOA, was created using retrieval-augmented generation (RAG) and instructional prompts to improve explainability and performance in OA management. The framework combines objective measures and human evaluations to assess LLMs' medical knowledge, evidence summarization, and clinical capabilities. The dataset was developed from six well-acknowledged guidelines and data from 80 real-world patients. Models, including DocOA, GPT-3.5, and GPT-4, were tested against the OA benchmark, with each question presented five times to assess robustness. Human evaluation was conducted by physicians and patients to assess the quality of model-generated responses. Statistical analyses were performed using SPSS 25.0 and GraphPad Prism version 8.",
+      "result": "The study found that general-purpose LLMs like GPT-3.5 and GPT-4 performed suboptimally in specialized domains, with a significant performance gap between domain-specific knowledge and clinical proficiency. However, DocOA significantly outperformed these models in terms of accuracy and reliability across all QA subsets, demonstrating improved domain-specific performance and explainability. The accuracy results were as follows: \n- **GIQA**: GPT-3.5 (0.26), GPT-4 (0.38), DocOA (0.92)\n- **MOQA**: GPT-3.5 (0.22), GPT-4 (0.30), DocOA (0.87)\n- **TSQA**: GPT-3.5 (0.01), GPT-4 (0.07), DocOA (0.88)\n- **RCQA**: GPT-3.5 (0.03), GPT-4 (0.01), DocOA (0.72)\nHuman evaluations further revealed that DocOA had the lowest rate of inaccuracies and harmful content, while GPT-3.5 had the highest. DocOA also excelled in fulfilling patient intentions and providing helpful responses.",
+      "discussion": "The study highlights the challenges faced by general-purpose LLMs in applying specialized knowledge to clinical scenarios. It suggests that augmenting LLMs with domain-specific abilities using techniques like RAG and instruction-based prompts is cost-effective and adaptable. The study also emphasizes the importance of explainability and the potential of DocOA in clinical practice, while acknowledging the limitations of RAG technology and the need for ongoing improvements. Specific limitations include the complexity of OA management, the limited dataset, and the reliance on English sources, which could restrict the applicability of findings across different linguistic and cultural contexts. Future work could focus on refining prompt techniques, expanding datasets, and exploring ways to reduce inaccuracies and harmful content in LLM-generated responses."
+    },
+    "entities": {
+      "datasets": [
+        "USMLE",
+        "GIQA",
+        "OA management dataset",
+        "DocOA",
+        "TSQA",
+        "Osteoarthritis Benchmark",
+        "OA benchmark",
+        "MOQA",
+        "RCQA"
+      ],
+      "models": [
+        "GPT-3.5",
+        "large language models",
+        "DocOA",
+        "Large language model",
+        "GPT-4-1106-preview",
+        "GPT-4",
+        "Retrieval-Augmented Generation"
+      ],
+      "losses": [],
+      "metrics": [
+        "accuracy",
+        "P value",
+        "chi-square test",
+        "P Value"
+      ]
+    }
+  },
+  {
+    "id": "697e0add95e880bd42e00bef838181e105f91981",
+    "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+    "abstract": "Multimodal Large Language Model (MLLM) relies on the powerful LLM to perform multimodal tasks, showing amazing emergent abilities in recent studies, such as writing poems based on an image. However, it is difficult for these case studies to fully reflect the performance of MLLM, lacking a comprehensive evaluation. In this paper, we fill in this blank, presenting the first comprehensive MLLM Evaluation benchmark MME. It measures both perception and cognition abilities on a total of 14 subtasks. In order to avoid data leakage that may arise from direct use of public datasets for evaluation, the annotations of instruction-answer pairs are all manually designed. The concise instruction design allows us to fairly compare MLLMs, instead of struggling in prompt engineering. Besides, with such an instruction, we can also easily carry out quantitative statistics. A total of 30 advanced MLLMs are comprehensively evaluated on our MME, which not only suggests that existing MLLMs still have a large room for improvement, but also reveals the potential directions for the subsequent model optimization. The data are released at the project page https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/697e0add95e880bd42e00bef838181e105f91981",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the lack of a comprehensive evaluation benchmark for Multimodal Large Language Models (MLLMs), which hinders the understanding of their full performance capabilities. They focus on evaluating the perception and cognition abilities of various MLLMs to identify their strengths and weaknesses, and to highlight gaps in current evaluation methods.",
+      "idea": "The novel contribution is the introduction of the MLLM evaluation benchmark, MME, which is the first comprehensive framework designed to assess both perception and cognition abilities of MLLMs across 14 subtasks. This benchmark has four distinct characteristics: task type, data source, instruction design, and quantitative statistics, and is intended to guide the development of future MLLM capabilities.",
+      "methodology": "The authors evaluated a total of 30 Multimodal Large Language Models (MLLMs) using their MME benchmark. The evaluation avoids data leakage by using manually designed instruction-answer pairs instead of public datasets, allowing for fair comparison and quantitative analysis. The experimental setup includes 10 perception subtasks and 4 cognition subtasks, using score leaderboards to compare performance. Tasks include coarse-grained and fine-grained recognition, OCR, commonsense reasoning, numerical calculation, text translation, and code reasoning.",
+      "result": "The evaluation of 30 advanced MLLMs on the MME benchmark revealed significant room for improvement in their performance. Different models excel in different areas, with some models like GPT-4V leading in cognition tasks, while others like WeMM perform well in perception tasks. However, common issues such as instruction following, perception accuracy, reasoning, and hallucination were identified.",
+      "discussion": "The authors acknowledge that while MME is comprehensive, it lacks in capability coverage, particularly in scenarios requiring reasoning. They plan to iterate on the MME series to enhance its capability coverage and meet future evaluation needs. The study highlights the need for improvement in MLLMs' ability to follow instructions, accurately perceive and reason, and avoid hallucinations. Future work should focus on addressing these limitations to enhance the reliability and performance of MLLMs."
+    },
+    "entities": {
+      "datasets": [
+        "ScienceQA",
+        "COCO"
+      ],
+      "models": [
+        "Octopus",
+        "BLIP-2",
+        "LaVIN",
+        "Lion",
+        "SPHINX",
+        "mPLUG-Owl",
+        "BLIVA",
+        "LLaMA-AdapterV2",
+        "VPGTrans",
+        "Muffin",
+        "LLaMA-Adapter-v2",
+        "mPLUG-Owl2",
+        "MiniGPT-4",
+        "LLaVA",
+        "MMICL",
+        "Qwen-VL-Chat",
+        "PandaGPT",
+        "Skywork-MM",
+        "MLLM",
+        "InstructBLIP",
+        "InfMLLM",
+        "Lynx",
+        "GIT2",
+        "LRV-Instruction",
+        "ImageBind-LLM",
+        "Cheetor",
+        "GPT-4V",
+        "VisualGLM-6B",
+        "Multimodal-GPT",
+        "WeMM",
+        "Otter",
+        "XComposer-VL"
+      ],
+      "losses": [],
+      "metrics": [
+        "accuracy",
+        "accuracy+"
+      ]
+    }
+  },
+  {
+    "id": "7476b4ca9d7545c3f83d938242f8a9f058a49de0",
+    "title": "CS1-LLM: Integrating LLMs into CS1 Instruction",
+    "abstract": "The recent, widespread availability of Large Language Models (LLMs) like ChatGPT and GitHub Copilot may impact introductory programming courses (CS1) both in terms of what should be taught and how to teach it. Indeed, recent research has shown that LLMs are capable of solving the majority of the assignments and exams we previously used in CS1. In addition, professional software engineers are often using these tools, raising the question of whether we should be training our students in their use as well. This experience report describes a CS1 course at a large research-intensive university that fully embraces the use of LLMs from the beginning of the course. To incorporate the LLMs, the course was intentionally altered to reduce emphasis on syntax and writing code from scratch. Instead, the course now emphasizes skills needed to successfully produce software with an LLM. This includes explaining code, testing code, and decomposing large problems into small functions that are solvable by an LLM. In addition to frequent, formative assessments of these skills, students were given three large, open-ended projects in three separate domains (data science, image processing, and game design) that allowed them to showcase their creativity in topics of their choosing. In an end-of-term survey, students reported that they appreciated learning with the assistance of the LLM and that they interacted with the LLM in a variety of ways when writing code. We provide lessons learned for instructors who may wish to incorporate LLMs into their course.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/7476b4ca9d7545c3f83d938242f8a9f058a49de0",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to enhance introductory programming courses (CS1) by integrating Large Language Models (LLMs) to improve student learning outcomes and experiences. They seek to address the impact of LLMs on these courses and explore how these tools can be effectively incorporated into the curriculum.",
+      "idea": "The novel contribution is the introduction of a new kind of introductory programming course (CS1-LLM) that integrates LLMs into the curriculum. This approach focuses on skills like code explanation, testing, and problem decomposition, rather than traditional coding from scratch. The integration of PrairieLearn and Copilot into the course structure provides personalized assistance and enhances student learning.",
+      "methodology": "The course was redesigned to include frequent formative assessments and three large, open-ended projects in diverse domains such as data science, image processing, and game design. The authors revised the learning goals and course structure to integrate LLMs, utilizing a combination of formative and summative assessments, including homework, quizzes, projects, and a final exam. PrairieLearn was used for homework and quizzes, while Copilot was integrated into projects and some labs. Data was gathered through student surveys and projects to assess the impact.",
+      "result": "Students reported positive experiences with LLMs, appreciating the learning process and engaging with the tools in various ways during coding tasks. They were able to create projects beyond typical CS1 expectations, though some felt over-reliant on LLMs. Performance on code writing was slightly lower, but code tracing and reading remained consistent with past classes. 79% of students reported feeling comfortable using GenAI tools like Copilot, and 59% felt it helped their learning.",
+      "discussion": "The integration of LLMs led to both challenges and opportunities. While students were enthusiastic and capable of advanced projects, concerns about over-reliance and understanding of fundamentals were noted. The authors provide insights and lessons learned for other instructors interested in integrating LLMs into their courses. Future iterations of the course will address these issues by adjusting the timing of LLM introduction, clarifying expectations, and aligning assessments with learning goals. The course is seen as a preliminary step towards broader use of LLMs in educational settings to enhance learning experiences."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "Copilot",
+        "Large Language Models",
+        "ChatGPT",
+        "LLM",
+        "GitHub Copilot"
+      ],
+      "losses": [],
+      "metrics": []
+    }
+  },
+  {
+    "id": "005498a4f651b5f4870ca48ee45fead072b7045e",
+    "title": "Evaluation of Code LLMs on Geospatial Code Generation",
+    "abstract": "Software development support tools have been studied for a long time, with recent approaches using Large Language Models (LLMs) for code generation. These models can generate Python code for data science and machine learning applications. LLMs are helpful for software engineers because they increase productivity in daily work. An LLM can also serve as a \"mentor\" for inexperienced software developers, and be a viable learning support. High-quality code generation with LLMs can also be beneficial in geospatial data science. However, this domain poses different challenges, and code generation LLMs are typically not evaluated on geospatial tasks. Here, we show how we constructed an evaluation benchmark for code generation models, based on a selection of geospatial tasks. We categorised geospatial tasks based on their complexity and required tools. Then, we created a dataset with tasks that test model capabilities in spatial reasoning, spatial data processing, and geospatial tools usage. The dataset consists of specific coding problems that were manually created for high quality. For every problem, we proposed a set of test scenarios that make it possible to automatically check the generated code for correctness. In addition, we tested a selection of existing code generation LLMs for code generation in the geospatial domain. We share our dataset and reproducible evaluation code on a public GitHub repository1, arguing that this can serve as an evaluation benchmark for new LLMs in the future. Our dataset will hopefully contribute to the development new models capable of solving geospatial coding tasks with high accuracy. These models will enable the creation of coding assistants tailored for geospatial applications.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/005498a4f651b5f4870ca48ee45fead072b7045e",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to evaluate the performance of existing code generation models on geospatial coding tasks, addressing the need for effective tools in this domain. They explore the effectiveness of Large Language Models (LLMs) in generating code for geospatial data science tasks, tackling challenges posed by the need for geospatial reasoning and the limited availability of relevant code examples. Additionally, they address the lack of evaluation benchmarks for code generation models in the geospatial domain, which poses unique challenges not typically considered in existing evaluations.",
+      "idea": "The novel contribution is the creation of a benchmark specifically designed to evaluate the performance of code generation LLMs in the geospatial domain. This includes a dataset specifically designed for evaluating code generation models on geospatial tasks, considering the complexity of tasks and the tools used. The benchmark categorizes tasks by complexity and required tools, providing a structured approach to assess model performance.",
+      "methodology": "The authors created a dataset consisting of 20 unique geospatial tasks, augmented to form 77 samples, categorized based on dimensions such as input, tools, and framing. They manually curated tasks to match the proposed categorization and evaluated existing code generation models using this dataset. The evaluation involved using a combination of code-specific models and base LLMs available on HuggingFace, employing the transformers library for model loading and the bitsandbytes library for efficient execution. Seven models were selected for the experiments, with evaluation metrics including accuracy, pass@1, and pass_any@1. The experimental setup involved cleaning generated code, installing necessary libraries in a virtual environment, and running tests on two different machines with Nvidia GPUs.",
+      "result": "The authors developed a dataset and evaluation code, shared publicly, to serve as a benchmark for future LLMs in geospatial code generation. The results showed that the bigcode/starcoder2-7b model performed best on geospatial tasks, despite being fourth on generic programming tasks. Models like google/gemma-7b, which performed well on HumanEval, struggled with geospatial code generation. The study also found that models performed better with geodataframes and shapely objects, indicating potential for improvement through finetuning. However, models showed limitations in using geospatial tools like OSMNX and MovingPandas, often generating placeholders instead of functional code.",
+      "discussion": "The authors hope their dataset will aid in developing new models capable of solving geospatial coding tasks with high accuracy, enabling the creation of coding assistants tailored for geospatial applications. They noted that the current benchmark is a first step towards a comprehensive geospatial code generation benchmark, acknowledging limitations due to computational constraints and the need to expand the benchmark to cover more tasks and tools. Future work includes extending the dataset, adding more test cases, and creating a leaderboard for tracking model performance on geospatial tasks. The authors also plan to train a code LLM specific to the geospatial domain, leveraging insights from their comparison."
+    },
+    "entities": {
+      "datasets": [
+        "DS-1000",
+        "our dataset",
+        "HumanEval",
+        "geospatial-code-llms-dataset"
+      ],
+      "models": [
+        "meta-llama/CodeLlama-7b-Python-hf",
+        "meta-llama/Meta-Llama-3-8B",
+        "mistralai/Mistral-7B-v0.1",
+        "google/gemma-7b",
+        "bigcode/starcoder2-7b",
+        "google/codegemma-7b",
+        "Large Language Models",
+        "LLMs",
+        "meta-llama/CodeLlama-7b-hf"
+      ],
+      "losses": [],
+      "metrics": [
+        "Pass@1",
+        "Accuracy",
+        "Pass_any@1"
+      ]
+    }
+  },
+  {
+    "id": "92a04a16a99eeec7d6bfc644e07c98589fe1cdf6",
+    "title": "Evaluation and mitigation of the limitations of large language models in clinical decision-making",
+    "abstract": "Clinical decision-making is one of the most impactful parts of a physician’s responsibilities and stands to benefit greatly from artificial intelligence solutions and large language models (LLMs) in particular. However, while LLMs have achieved excellent performance on medical licensing exams, these tests fail to assess many skills necessary for deployment in a realistic clinical decision-making environment, including gathering information, adhering to guidelines, and integrating into clinical workflows. Here we have created a curated dataset based on the Medical Information Mart for Intensive Care database spanning 2,400 real patient cases and four common abdominal pathologies as well as a framework to simulate a realistic clinical setting. We show that current state-of-the-art LLMs do not accurately diagnose patients across all pathologies (performing significantly worse than physicians), follow neither diagnostic nor treatment guidelines, and cannot interpret laboratory results, thus posing a serious risk to the health of patients. Furthermore, we move beyond diagnostic accuracy and demonstrate that they cannot be easily integrated into existing workflows because they often fail to follow instructions and are sensitive to both the quantity and order of information. Overall, our analysis reveals that LLMs are currently not ready for autonomous clinical decision-making while providing a dataset and framework to guide future studies. Using a curated dataset of 2,400 cases and a framework to simulate a realistic clinical setting, current large language models are shown to incur substantial pitfalls when used for autonomous clinical decision-making.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/92a04a16a99eeec7d6bfc644e07c98589fe1cdf6",
+    "excluded": false
+  },
+  {
+    "id": "c6ae89489e2846913d07c9dc85fb8a2a3c358a69",
+    "title": "LLM-Inference-Bench: Inference Benchmarking of Large Language Models on AI Accelerators",
+    "abstract": "Large Language Models (LLMs) have propelled groundbreaking advancements across several domains and are commonly used for text generation applications. However, the computational demands of these complex models pose significant challenges, requiring efficient hardware acceleration. Benchmarking the performance of LLMs across diverse hardware platforms is crucial to understanding their scalability and throughput characteristics. We introduce LLM-Inference-Bench, a comprehensive benchmarking suite to evaluate the hardware inference performance of LLMs. We thoroughly analyze diverse hardware platforms, including GPUs from Nvidia and AMD and specialized AI accelerators, Intel Habana and SambaNova. Our evaluation includes several LLM inference frameworks and models from LLaMA, Mistral, and Qwen families with 7B and 70B parameters. Our benchmarking results reveal the strengths and limitations of various models, hardware platforms, and inference frameworks. We provide an interactive dashboard to help identify configurations for optimal performance for a given hardware platform.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/c6ae89489e2846913d07c9dc85fb8a2a3c358a69",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [
+        "LongBench"
+      ],
+      "models": [
+        "LLaMA-2-7B",
+        "LLaMA-3-8B",
+        "DeciLM-7B",
+        "Deepspeed-MII",
+        "Qwen2-72B",
+        "DS-MII",
+        "Qwen",
+        "GPT",
+        "LLM-Inference-Bench",
+        "Gemma-7B",
+        "Qwen-2-72B",
+        "LaMDA",
+        "Qwen1.5-7B",
+        "LLaMA-2-70B",
+        "Mixtral-7x8B MoE",
+        "LLaMA-3-70B",
+        "TRT-LLM",
+        "SambaNova SN40L",
+        "Qwen2-7B",
+        "Aquila-7B",
+        "vLLM",
+        "Mistral",
+        "llama.cpp",
+        "TensorRT-LLM",
+        "OPT-6.7B",
+        "Mistral-7B",
+        "GPT-J-6B",
+        "Mixtral-8x7B",
+        "LLaMA",
+        "Qwen-2-7B",
+        "DeciLM",
+        "Bloom-7.1B",
+        "Habana Gaudi2"
+      ],
+      "losses": [],
+      "metrics": [
+        "power consumption",
+        "throughput",
+        "Inter Token Latency",
+        "Throughput",
+        "perplexity"
+      ]
+    }
+  },
+  {
+    "id": "7946939665d679486ee1e44a140def77562854fb",
+    "title": "Efficiently Measuring the Cognitive Ability of LLMs: An Adaptive Testing Perspective",
+    "abstract": "A fine-grained diagnosis and rank the latest 6 instruction-tuned LLMs from three aspects of Subject Knowledge, Mathematical Reasoning, and Programming, where GPT4 can outperform other models significantly and reach the cognitive ability of middle-level students.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/7946939665d679486ee1e44a140def77562854fb",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [
+        "ARC",
+        "MMLU",
+        "TruthfulQA",
+        "WinoGrande",
+        "HellaSwag",
+        "GSM8K"
+      ],
+      "models": [
+        "Transformer architecture",
+        "Preference Model",
+        "LLM",
+        "1600B GPT model",
+        "Decision-Making Model",
+        "Implicit Bias Model"
+      ],
+      "losses": [],
+      "metrics": [
+        "R2 score",
+        "Fisher Information",
+        "Kendall’s rank correlation"
+      ]
+    }
+  },
+  {
+    "id": "17922d1b7408d51f33974c87e75a8f6684cc23c4",
+    "title": "LLM Honeypot: Leveraging Large Language Models as Advanced Interactive Honeypot Systems",
+    "abstract": "The rapid evolution of cyber threats necessitates innovative solutions for detecting and analyzing malicious activity. Honeypots, which are decoy systems designed to lure and interact with attackers, have emerged as a critical component in cybersecurity. In this paper, we present a novel approach to creating realistic and interactive honeypot systems using Large Language Models (LLMs). By fine-tuning a pre-trained open-source language model on a diverse dataset of attacker-generated commands and responses, we developed a honeypot capable of sophisticated engagement with attackers. Our methodology involved several key steps: data collection and processing, prompt engineering, model selection, and supervised fine-tuning to optimize the model’s performance. Evaluation through similarity metrics and live deployment demonstrated that our approach effectively generates accurate and informative responses. The results highlight the potential of LLMs to revolutionize honeypot technology, providing cybersecurity professionals with a powerful tool to detect and analyze malicious activity, thereby enhancing overall security infrastructure.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/17922d1b7408d51f33974c87e75a8f6684cc23c4",
+    "excluded": false,
+    "summary": null,
+    "entities": {
+      "datasets": [],
+      "models": [
+        "Llama3-8B",
+        "LLM",
+        "Huggingface Transformers"
+      ],
+      "losses": [],
+      "metrics": [
+        "Levenshtein distance",
+        "Jaro-Winkler similarity",
+        "cosine similarity"
+      ]
+    }
+  },
+  {
+    "id": "2ab90f60ea2e0d345f8f6f66dd4efa5d347eac25",
+    "title": "Human-Centered Evaluation and Auditing of Language Models",
+    "abstract": "The recent advancements in Large Language Models (LLMs) have significantly impacted numerous, and will impact more, real-world applications. However, these models also pose significant risks to individuals and society. To mitigate these issues and guide future model development, responsible evaluation and auditing of LLMs are essential. This workshop aims to address the current “evaluation crisis” in LLM research and practice by bringing together HCI and AI researchers and practitioners to rethink LLM evaluation and auditing from a human-centered perspective. The workshop will explore topics around understanding stakeholders’ needs and goals with evaluation and auditing LLMs, establishing human-centered evaluation and auditing methods, developing tools and resources to support these methods, building community and fostering collaboration. By soliciting papers, organizing invited keynote and panel, and facilitating group discussions, this workshop aims to develop a future research agenda for addressing the challenges in LLM evaluation and auditing.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/2ab90f60ea2e0d345f8f6f66dd4efa5d347eac25",
+    "excluded": false
+  },
+  {
+    "id": "9741eb61739f2221c186634663876e2c1024c746",
+    "title": "OpenFactCheck: A Unified Framework for Factuality Evaluation of LLMs",
+    "abstract": "The increased use of large language models (LLMs) across a variety of real-world applications calls for automatic tools to check the factual accuracy of their outputs, as LLMs often hallucinate. This is difficult as it requires assessing the factuality of free-form open-domain responses. While there has been a lot of research on this topic, different papers use different evaluation benchmarks and measures,which makes them hard to compare and hampers future progress. To mitigate these issues, we developed OpenFactCheck, a unified framework, with three modules: (i) RESPONSEEVAL, which allows users to easily customize an automatic fact-checking system and to assess the factuality of all claims in an input document using that system, (ii) LLMEVAL, which assesses the overall factuality of an LLM, and (iii) CHECKEREVAL, a module to evaluate automatic fact-checking systems. OpenFactCheck is open-sourced (https://github.com/mbzuai-nlp/openfactcheck) and publicly released as a Python library (https://pypi.org/project/openfactcheck/) and also as a web service (http://app.openfactcheck.com). A video describing the system is available at https://youtu.be/-i9VKL0HleI.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/9741eb61739f2221c186634663876e2c1024c746",
+    "excluded": false,
+    "summary": {
+      "motivation": "The authors aim to address the challenge of verifying the factual accuracy of outputs from large language models (LLMs) and automatic fact-checking systems in various real-world applications. They note the difficulty in assessing factuality in open domains, the inconsistency in evaluation benchmarks, and the limitations of existing systems, which complicate comparison and hinder progress. The goal is to improve the accuracy and efficiency of these systems by providing a customizable and extensible framework.",
+      "idea": "The novel contribution is the introduction of OpenFactCheck, a unified framework designed to build customized automatic fact-checking systems, benchmark their accuracy, evaluate the factuality of LLMs, and verify claims in documents. It integrates various fact-checking systems into a unified pipeline, allowing for easy customization and extension by users and developers. The framework includes three modules: CUSTCHECKER, LLMEVAL, and CHECKEREVAL, and proposes using a set of LLM factuality benchmarks, collectively referred to as FactBench.",
+      "methodology": "OpenFactCheck is composed of three modules: (i) CUSTCHECKER for customizing automatic fact-checkers and verifying document and claim accuracy, (ii) LLMEVAL for a unified evaluation of LLMs' factuality using benchmarks like FactQA, Snowball, and FreshQA, and (iii) CHECKEREVAL for assessing the reliability of automatic fact-checkers using human-annotated datasets. The authors evaluate recent fact-checking frameworks and commercial retrieval-augmented generative models using evidence from Wikipedia and web pages, comparing the performance of different LLM-based verifiers and analyzing the impact of implementation strategies on verification accuracy, latency, and cost.",
+      "result": "The study finds that automatic fact-checking systems struggle to detect false claims, with web-based evidence retrieval being more effective than Wikipedia-based retrieval. LLM-based verifiers' accuracy depends on the LLM's capabilities and prompt effectiveness, with GPT-4 outperforming other models. Factcheck-GPT shows superior effectiveness but at higher latency and cost. The results indicate that GPT-4 has the best factuality performance with a higher percentage of true claims and fewer false claims compared to LLaMA-2 models. Fact-checking systems showed varying performance across different frameworks and evidence sources.",
+      "discussion": "The authors highlight the dependency of fact-checking system efficacy on engineering considerations such as search tool choice, prompts, and backend LLMs. They note the challenges LLMs face with straightforward questions and the bottleneck posed by evidence retrieval. The study suggests that while LLMs can generate mostly correct content, they may not fully understand instructions or their knowledge scope. The cost of evaluating open-domain answers remains high, and future work will focus on integrating new techniques and evaluation benchmarks into OpenFactCheck, improving the efficiency and accuracy of fact-checking systems, and evaluating intermediate results to identify which step in the fact-checking pipeline leads to erroneous factual judgments."
+    },
+    "entities": {
+      "datasets": [
+        "Snowball",
+        "FactScore",
+        "FreshQA",
+        "SelfAware",
+        "FacTool",
+        "CoVe",
+        "Factcheck-GPT",
+        "RARR",
+        "FactQA",
+        "Factcheck-Bench",
+        "FIRE",
+        "FacTool-QA",
+        "HaluEval",
+        "FactScore-Bio",
+        "FELM-WK"
+      ],
+      "models": [
+        "LLaMA-2 7B",
+        "CUSTCHECKER",
+        "FactScore",
+        "CHECKEREVAL",
+        "Factcheck-GPT",
+        "FacTool",
+        "Perplexity.ai",
+        "LLaMA-2 13B",
+        "GPT-4",
+        "OpenFactCheck",
+        "GPT-3.5-Turbo",
+        "LLMEVAL"
+      ],
+      "losses": [],
+      "metrics": [
+        "accuracy",
+        "Precision",
+        "F1",
+        "Accuracy",
+        "Recall",
+        "F1-score",
+        "precision",
+        "recall"
+      ]
+    }
+  }
+]

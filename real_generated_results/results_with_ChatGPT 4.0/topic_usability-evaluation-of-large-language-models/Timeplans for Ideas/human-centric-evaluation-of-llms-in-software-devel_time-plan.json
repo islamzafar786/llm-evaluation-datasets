@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Human-Centric Evaluation of LLMs in Software Development",
+    "description": "Examine the usability of LLMs in software development tasks, focusing on human-LLM interaction and task efficiency.",
+    "motivation": "While LLMs are increasingly used in software development, their impact on human efficiency and task completion remains unclear. A human-centric evaluation can provide insights into optimizing these interactions.",
+    "milestones": [
+      "Define research objectives and formulate hypotheses.",
+      "Conduct a literature review on LLMs and their applications in software development.",
+      "Design a research methodology prioritizing human-LLM interaction.",
+      "Develop a prototype LLM integration for software development tasks.",
+      "Prepare ethical guidelines and obtain necessary approvals for the study.",
+      "Recruit participants from diverse software development backgrounds.",
+      "Conduct preliminary trials with the prototype.",
+      "Collect and analyze data from initial trials to refine the methodology.",
+      "Execute the main study with the refined methodology.",
+      "Gather and analyze data focusing on task efficiency and user interaction.",
+      "Prepare a comprehensive report of findings and insights.",
+      "Publish results in a peer-reviewed journal and present at a relevant conference."
+    ],
+    "timeline": {
+      "Week 1": "Define research objectives and hypotheses.",
+      "Week 2-3": "Conduct a literature review.",
+      "Week 4-5": "Design research methodology.",
+      "Week 6-7": "Develop prototype LLM integration.",
+      "Week 8": "Prepare ethical guidelines and approvals.",
+      "Week 9-10": "Recruit participants.",
+      "Week 11": "Conduct preliminary trials.",
+      "Week 12": "Analyze data from preliminary trials.",
+      "Week 13-18": "Execute the main study.",
+      "Week 19-20": "Analyze data from the main study.",
+      "Week 21-22": "Prepare and finalize report.",
+      "Week 23": "Submit manuscript to a journal.",
+      "Week 24": "Prepare conference presentation."
+    }
+  }
+]

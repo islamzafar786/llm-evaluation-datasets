@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Legal Document Drafting",
+    "description": "This study investigates the usability of LLMs in drafting legal documents, focusing on their ability to maintain legal accuracy, coherence, and adherence to legal standards.",
+    "motivation": "Legal document drafting requires precision and adherence to specific legal standards, which LLMs currently struggle to achieve consistently. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in this domain.",
+    "skills": [
+      "Python",
+      "Natural Language Processing",
+      "Transformer models",
+      "Legal domain knowledge",
+      "Prompt engineering",
+      "Usability testing",
+      "Data analysis",
+      "Evaluation metrics",
+      "GPT-3 or similar API",
+      "Legal drafting standards",
+      "User interface design",
+      "Human-computer interaction",
+      "Statistical analysis",
+      "Data visualization"
+    ]
+  }
+]

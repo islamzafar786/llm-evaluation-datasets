@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Adaptive Usability Evaluation Framework for Large Language Models",
+    "description": "Develop an adaptive framework for evaluating the usability of LLMs across various domains, focusing on user interaction and satisfaction metrics.",
+    "motivation": "Current evaluation methods often overlook user-centric metrics, focusing instead on technical performance. An adaptive framework can provide insights into how users interact with LLMs, enhancing their usability and acceptance.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Cross-Domain Usability Assessment of LLMs in Educational Settings",
+    "description": "Investigate the usability of LLMs in educational environments, focusing on their ability to support cross-domain learning and provide explainable recommendations.",
+    "motivation": "LLMs have shown potential in educational settings, but their cross-domain usability and explainability remain underexplored. Understanding these aspects can enhance their integration into educational tools.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Human-Centric Evaluation of LLMs in Software Development",
+    "description": "Examine the usability of LLMs in software development tasks, focusing on human-LLM interaction and task efficiency.",
+    "motivation": "While LLMs are increasingly used in software development, their impact on human efficiency and task completion remains unclear. A human-centric evaluation can provide insights into optimizing these interactions.",
+    "scores": {
+      "feasibility": 4,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Domain-Specific Usability of LLMs in Medical Applications",
+    "description": "Assess the usability of LLMs in domain-specific medical applications, focusing on their ability to provide accurate and explainable clinical recommendations.",
+    "motivation": "General LLMs often struggle with domain-specific tasks, such as medical applications. Evaluating their usability in these contexts can lead to more effective and reliable medical tools.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Interactive Usability Evaluation of LLMs in Cybersecurity",
+    "description": "Develop an interactive framework for evaluating the usability of LLMs in cybersecurity, focusing on their ability to engage with and respond to cyber threats.",
+    "motivation": "LLMs have potential in cybersecurity, but their interactive usability and effectiveness in real-world scenarios are not well understood. A focused evaluation can enhance their application in this critical field.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in Creative Writing Assistance",
+    "description": "This research aims to evaluate the usability of large language models (LLMs) in assisting creative writing tasks, focusing on their ability to generate coherent narratives, character development, and thematic consistency.",
+    "motivation": "While LLMs have shown potential in generating text, their application in creative writing remains underexplored. Current models often produce text that lacks depth and creativity, which are crucial for storytelling. This study seeks to address these limitations by developing a framework to assess and enhance the creative capabilities of LLMs.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Usability Evaluation of LLMs in Legal Document Drafting",
+    "description": "This study investigates the usability of LLMs in drafting legal documents, focusing on their ability to maintain legal accuracy, coherence, and adherence to legal standards.",
+    "motivation": "Legal document drafting requires precision and adherence to specific legal standards, which LLMs currently struggle to achieve consistently. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in this domain.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Assessing the Usability of LLMs in Personalized Learning Environments",
+    "description": "This research evaluates the usability of LLMs in personalized learning environments, focusing on their ability to adapt to individual learning styles and provide tailored educational content.",
+    "motivation": "Current educational applications of LLMs often fail to account for individual learning differences, resulting in a one-size-fits-all approach. This study aims to develop a framework to assess and enhance the adaptability of LLMs in personalized learning settings.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Usability Evaluation of LLMs in Financial Forecasting",
+    "description": "This study explores the usability of LLMs in financial forecasting, focusing on their ability to analyze market trends, predict stock movements, and provide actionable insights.",
+    "motivation": "Financial forecasting requires accurate analysis of complex data, which LLMs have yet to master. This research aims to develop a usability evaluation framework to assess and improve the performance of LLMs in financial forecasting tasks.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in Cultural Heritage Preservation",
+    "description": "This research investigates the usability of LLMs in preserving cultural heritage, focusing on their ability to generate accurate translations, contextual interpretations, and digital reconstructions of historical texts and artifacts.",
+    "motivation": "Cultural heritage preservation requires a deep understanding of historical context and linguistic nuances, which LLMs currently lack. This study aims to develop a framework to assess and enhance the capabilities of LLMs in this domain.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  }
+]

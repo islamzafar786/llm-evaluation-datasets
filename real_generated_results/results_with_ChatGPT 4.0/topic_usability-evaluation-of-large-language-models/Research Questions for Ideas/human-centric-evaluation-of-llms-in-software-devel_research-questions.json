@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Human-Centric Evaluation of LLMs in Software Development",
+    "description": "Examine the usability of LLMs in software development tasks, focusing on human-LLM interaction and task efficiency.",
+    "motivation": "While LLMs are increasingly used in software development, their impact on human efficiency and task completion remains unclear. A human-centric evaluation can provide insights into optimizing these interactions.",
+    "questions": [
+      "How do software developers perceive the usability and effectiveness of Large Language Models (LLMs) when integrated into their everyday coding tasks?",
+      "What impact do LLMs have on the efficiency and quality of software development, as measured by task completion time and error rate, compared to traditional development practices?",
+      "How does the interaction between software developers and LLMs evolve over time, and what factors influence the successful adoption and integration of these technologies in the development process?"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Assessing the Usability of LLMs in Personalized Learning Environments",
+    "description": "This research evaluates the usability of LLMs in personalized learning environments, focusing on their ability to adapt to individual learning styles and provide tailored educational content.",
+    "motivation": "Current educational applications of LLMs often fail to account for individual learning differences, resulting in a one-size-fits-all approach. This study aims to develop a framework to assess and enhance the adaptability of LLMs in personalized learning settings.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformer models",
+      "LLM fine-tuning",
+      "personalized learning algorithms",
+      "educational data analysis",
+      "NLP evaluation metrics",
+      "user experience design",
+      "machine learning interpretability",
+      "adaptive learning technologies"
+    ]
+  }
+]

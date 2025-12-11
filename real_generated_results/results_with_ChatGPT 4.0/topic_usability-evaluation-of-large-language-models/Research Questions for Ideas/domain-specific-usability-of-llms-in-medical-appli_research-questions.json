@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Domain-Specific Usability of LLMs in Medical Applications",
+    "description": "Assess the usability of LLMs in domain-specific medical applications, focusing on their ability to provide accurate and explainable clinical recommendations.",
+    "motivation": "General LLMs often struggle with domain-specific tasks, such as medical applications. Evaluating their usability in these contexts can lead to more effective and reliable medical tools.",
+    "questions": [
+      "How effective are LLMs in improving the accuracy of clinical recommendations when applied to specific medical domains such as cardiology, oncology, and pediatrics?",
+      "What are the primary challenges and limitations of LLMs in providing explainable recommendations for complex medical cases, and how do these challenges vary across different medical specialties?",
+      "In what ways do user perceptions of the usability and trustworthiness of LLM-generated clinical recommendations differ between healthcare professionals and patients in various medical fields?"
+    ]
+  }
+]

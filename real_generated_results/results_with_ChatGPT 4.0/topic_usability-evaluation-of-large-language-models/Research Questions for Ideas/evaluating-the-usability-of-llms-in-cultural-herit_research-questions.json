@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Cultural Heritage Preservation",
+    "description": "This research investigates the usability of LLMs in preserving cultural heritage, focusing on their ability to generate accurate translations, contextual interpretations, and digital reconstructions of historical texts and artifacts.",
+    "motivation": "Cultural heritage preservation requires a deep understanding of historical context and linguistic nuances, which LLMs currently lack. This study aims to develop a framework to assess and enhance the capabilities of LLMs in this domain.",
+    "questions": [
+      "How effective are Large Language Models (LLMs) in translating historical texts from ancient languages compared to traditional translation methods?",
+      "To what extent can LLMs accurately interpret the cultural context of historical artifacts, and how does this affect the preservation and understanding of cultural heritage?",
+      "What are the challenges and limitations associated with using LLMs for digital reconstructions of historical texts and artifacts, and how can these be addressed to improve their usability in cultural heritage preservation?"
+    ]
+  }
+]
