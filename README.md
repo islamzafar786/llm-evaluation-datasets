@@ -1,109 +1,205 @@
-# LLM Evaluation Datasets  
-This repository is part of the research project *“Can LLMs Generate Bachelor’s or Master’s Thesis Ideas?”*..
-It provides the complete resulted datasets created by Large Language Models (LLMs) based on given valid and bad thesis-ideas dataset during an evaluation. It also contain real structured thesis-ideas results generated using ChatGPT-4o-mini.
-It includes the **LLM-generated evaluation results** for four metrics:
+# **LLM Evaluation Datasets**
 
-- **Clarity**
-- **Novelty**
-- **Feasibility**
-- **Validness**
+This repository is part of the research project **“Can LLMs Generate Bachelor’s or Master’s Thesis Ideas?”**
+It contains all datasets used to evaluate multiple Large Language Models (LLMs) on structured thesis-idea generation and thesis-idea quality assessment.
 
----
+The repository includes:
 
-## Repository Structure
+* **Cleaned versions of the ground-truth datasets** (valid & bad ideas)
+* **All model-generated evaluation outputs** across four academic metrics
+* **Real, fully structured thesis-idea outputs** generated with ChatGPT-4o, ChatGPT-4o-mini, and Mistral-small-24b-instruct
+* **Examples of YAML outputs** used in the evaluation pipeline
+* **Summary insights** for model behaviour across metrics
 
-### 1. **Valid examples tested results/**
-Contains all *LLM-generated scoring results* for **42 valid thesis ideas**, across all four metrics and models.  
-Each file is in JSON format.
+The evaluation uses four metrics:
 
-Example models:
-- Mistral-7B  
-- Mistral-24B  
-- Llama-3-8B  
-- Gemma-3-4B  
-- QWQ-32B  
-
-Each JSON contains:
-- model-generated score (1–5)
-- rationale text
-- metric-specific sub-scores  
-- pass/fail mapping  
-- normalized JSON structure
-
----
-### 2. **Bad examples tested results/**
-Contains all *evaluation results* for the **9 bad thesis ideas**, where each idea is labeled with the metric(s) it should fail.  
-
-These files were used for:
-- overall accuracy  
-- true-fail detection (recall on failing metrics)  
-- non-target correctness (specificity)
+* **Clarity**
+* **Novelty**
+* **Feasibility**
+* **Validness**
 
 ---
 
-### 3. **Evaluation related Insights/**
-Contains high-level PDF summaries generated from the model results:
-- per-model insights  
-- metric-wise distribution  
-- cross-metric observations  
-- strengths/weaknesses of each LLM  
+# **Repository Structure**
 
-These PDFs are used to support the evaluation chapter in the research paper.
+## **1. `Datasets Versions/`**
 
-### 4. **Valid and Bad thesis ideas with sources.pdf**
-This document contains:
-- all **original 42 valid ideas**  
-- all **9 bad ideas**  
-- their textual descriptions  
-- source links  
-- topic categorization  
+Contains all versions of the **ground-truth dataset** used during evaluation.
 
-This is the *ground-truth dataset* used to perform all evaluations.
+Includes:
 
-### 5. **Real results generated with chat gpt 4.0 mini by openai**
-This folder contains the structured thesis-ideas results generated entirely by ChatGPT-4o-mini based on the topic
-“Usability Evaluation of Large Language Models.”
+* `20251803_dataset.json`
+* `20251803_full_dataset.json`
+* `Bad_Examples.json`
+* `Cleaned_Evaluation_Dataset.json`
+* `Valid_Examples.json`
+
+These files contain:
+
+* **42 valid thesis ideas**
+* **9 bad thesis ideas**
+
+This represents the dataset against which all LLM outputs were evaluated.
+
+---
+
+## **2. `Outputs Examples/`**
+
+This folder contains **example YAML output files** generated during the evaluation pipeline.
+
+Included examples:
+
+* clarity evaluations
+* novelty evaluations
+* feasibility evaluations
+* validness evaluations
+* research questions
+* seed ideas
+* literature review examples
+* deduplication examples
+
+These examples demonstrate the **exact output format** the pipeline produces, including:
+
+* metric-specific sub-scores
+* rationale text
+* structured JSON/YAML schemas
+* grounding citations
+
+---
+
+## **3. `collected_thesis_ideas_sources/`**
+
+Contains:
+
+* **Valid and Bad thesis ideas with sources.pdf**
+
+This PDF includes:
+
+* the original **42 valid** thesis ideas
+* the **9 bad** thesis ideas
+* source links
+* topic categories
+  
+---
+
+## **4. `evaluation_results/`**
+
+This folder contains the **evaluation outputs** grouped into three folders:
+
+### **`valid/`**
+
+Contains model-evaluated results for all 42 valid thesis ideas across:
+
+* Clarity
+* Novelty
+* Feasibility
+* Validness
+
+Each file is a structured JSON with:
+
+* model score (1–5)
+* rationale
+* sub-scores (metric-dependent)
+* pass/fail decision
+
+### **`bad/`**
+
+Contains evaluations for the 9 *bad* thesis ideas.
+Used for:
+
+* **true-fail detection**
+* **metric-specific recall**
+* **false-positive analysis**
+
+### **`insights/`**
+
 It includes:
-  1: Literature Review
-  2: Generated Ideas with detailed scoring
-  3: Research Questions
-  4: Required Skills
-  5: Timeplans
 
-## Evaluation Summary
-The datasets in this repository were used to evaluate whether LLMs can accurately assess thesis-idea quality under four academic metrics.  
+* per-model behavioral insights
+* per-metric distributions
+* accuracy
+  
+---
 
-Each LLM returned:
-- a 1–5 score  
-- rationale text  
-- optional sub-metric scores (for clarity testing)  
+## **5. `real_generated_results/`**
 
-Accuracy was calculated separately for:
-- **Valid ideas (42)**  
-- **Bad ideas (9)** including true-fail detection and non-target metric handling  
+Contains *real structured thesis-idea outputs* created by different LLMs.
+
+### Subfolders include:
+
+#### **`results_with_ChatGPT 4.0/`**
+
+Structured full thesis-idea results generated using ChatGPT-4o.
+
+#### **`results_with_ChatGPT 4.0 mini/`**
+
+Structured full thesis-idea results generated using ChatGPT-4o mini.
+
+
+
+#### **`results_with_Mistral_small_24b_instruct/`**
+
+Contains structured outputs generated by the Mistral-small-24b-instruct model:
+
+
+**Each contain five sections:
+
+1. Literature Review
+2. Generated Ideas with Scoring
+3. Generated Ideas with Detailed Scoring
+4. Research Questions
+5. Required Skills
+6. Timeplans
+7. 
+These results align with topics:
+**“Usability Evaluation of Large Language Models.”**
+**“Graphical User Interface with Large Language Models.”**
 
 ---
 
-## Usage
-You can use these JSON datasets to:
-- reproduce the evaluation process  
-- test new LLM models  
-- train custom scoring models  
-- analyze model-specific judgment patterns  
-- benchmark your own evaluation pipeline  
+# **Evaluation Summary**
+
+This repository includes the complete datasets used in our study for (a) evaluating LLMs’ ability to judge thesis-idea quality across four metrics, and (b) generating fully structured thesis-idea artifacts such as literature reviews, ideas with detailed scoring, research questions, required skills, and timeplans.
+For each evaluation:
+
+* Models returned a **1–5 score**
+* Produced detailed **rationale**
+* (Optional) **subscores** per metric
+
+
+These example datasets used during evaluation enable robust research on:
+
+* LLM self-evaluation
+* consistency in academic reasoning
+* cross-model comparison
+* prompt-format sensitivity
 
 ---
 
-## License
-This dataset is released for academic and research use.  
-If used, please cite the associated project/research work.
+# **Usage**
+
+You can use this dataset to:
+
+* reproduce the evaluation experiments
+* benchmark new LLMs
+* run LLM-as-a-Judge experiments
+* analyze structured output formats
+* study LLM reasoning behaviours
 
 ---
 
-## Contributors
-- Anastasia
-- Islam Zafar  
-- Abishek  
-- Supervisors (Marburg University)
+# **License**
 
+These datasets are released for **academic and research use only**.
+Please cite the associated research project if used.
 
+---
+
+# **Contributors**
+
+* **Anastasia**
+* **Islam Zafar**
+* **Abishek**
+* Supervisors — Philipps University Marburg
+
+---
