@@ -1,0 +1,33 @@
+[
+  {
+    "title": "LLM-Powered Interactive Data Storytelling Framework",
+    "description": "Creating compelling data stories often requires significant effort in curating data, designing visuals, and crafting narratives. This thesis aims to develop an LLM-powered framework that automates the process of generating interactive data stories, making it easier for users to communicate insights effectively.",
+    "motivation": "Current methods for data storytelling are labor-intensive and require specialized skills. An LLM-powered framework can streamline this process, enabling users to create engaging and informative data stories with minimal effort.",
+    "milestones": [
+      "Conduct a thorough literature review on existing data storytelling tools, frameworks, and LLM applications.",
+      "Define the scope and requirements for the LLM-powered interactive data storytelling framework.",
+      "Design the architecture for the data storytelling framework, including data processing, visualization, and narrative generation modules.",
+      "Develop individual components of the framework: data curation module, visualization engine, narrative generator (using LLMs).",
+      "Integrate all components into a cohesive system.",
+      "Conduct initial testing and debugging to ensure functionality.",
+      "Gather feedback from potential users or stakeholders for iterative improvements.",
+      "Refine the framework based on user feedback and conduct further testing.",
+      "Document the entire development process, including code documentation, user manuals, and academic papers.",
+      "Prepare presentations and materials for project defense."
+    ],
+    "timeline": {
+      "Week 1-2": "Literature Review",
+      "Week 3": "Define Scope and Requirements",
+      "Week 4-6": "Architecture Design",
+      "Week 7-9": "Development of Data Curation Module",
+      "Week 10-12": "Development of Visualization Engine",
+      "Week 13-15": "Development of Narrative Generator (LLM)",
+      "Week 16": "Integration Testing and Debugging",
+      "Week 17-18": "User Feedback Collection and Initial Refinements",
+      "Week 19-20": "Final Refinements and Comprehensive Testing",
+      "Week 21": "Documentation Preparation",
+      "Week 22-23": "Project Defense Preparation",
+      "Week 24": "Project Completion Review"
+    }
+  }
+]

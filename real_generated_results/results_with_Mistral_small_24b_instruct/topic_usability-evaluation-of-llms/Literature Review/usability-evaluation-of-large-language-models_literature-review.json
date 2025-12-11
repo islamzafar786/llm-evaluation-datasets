@@ -1,0 +1,250 @@
+[
+  {
+    "id": "47dbce63f439fff0d9b12dc09ae938c2ad3e96b2",
+    "title": "Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System",
+    "abstract": "Integration of artificial intelligence (AI) into clinical decision support systems (CDSS) poses a socio-technological challenge that is impacted by usability, trust, and human-computer interaction (HCI). AI-CDSS interventions have shown limited benefit in clinical outcomes, which may be due to insufficient understanding of how health-care providers interact with AI systems. Large language models (LLMs) have the potential to enhance AI-CDSS, but haven’t been studied in either simulated or real-world clinical scenarios. We present findings from a randomized controlled trial deploying AI-CDSS for the management of upper gastrointestinal bleeding (UGIB) with and without an LLM interface within realistic clinical simulations for physician and medical student participants. We find evidence that LLM augmentation improves ease-of-use, that LLM-generated responses with citations improve trust, and HCI varies based on clinical expertise. Qualitative themes from interviews suggest the perception of LLM-augmented AI-CDSS as a team-member used to confirm initial clinical intuitions and help evaluate borderline decisions.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/47dbce63f439fff0d9b12dc09ae938c2ad3e96b2",
+    "excluded": false
+  },
+  {
+    "id": "d8ceefffd5472b1224ad73d6b3a78c5609776043",
+    "title": "Task Supportive and Personalized Human-Large Language Model Interaction: A User Study",
+    "abstract": "Large language model (LLM) applications, such as ChatGPT, are a powerful tool for online information-seeking (IS) and problem-solving tasks. However, users still face challenges initializing and refining prompts, and their cognitive barriers and biased perceptions further impede task completion. These issues reflect broader challenges identified within the fields of IS and interactive information retrieval (IIR). To address these, our approach integrates task context and user perceptions into human-ChatGPT interactions through prompt engineering. We developed a ChatGPT-like platform integrated with supportive functions, including perception articulation, prompt suggestion, and conversation explanation. Our findings of a user study demonstrate that the supportive functions help users manage expectations, reduce cognitive loads, better refine prompts, and increase user engagement. This research enhances our comprehension of designing proactive and user-centric systems with LLMs. It offers insights into evaluating human-LLM interactions and emphasizes potential challenges for under served users.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/d8ceefffd5472b1224ad73d6b3a78c5609776043",
+    "excluded": false
+  },
+  {
+    "id": "ddcd2bcc809bd0c2755a4a9487473d61ac327c50",
+    "title": "Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models",
+    "abstract": "The escalating debate on AI’s capabilities warrants developing reliable metrics to assess machine “intelligence.” Recently, many anecdotal examples were used to suggest that newer Large Language Models (LLMs) like ChatGPT and GPT-4 exhibit Neural Theory-of-Mind (N-ToM); however, prior work reached conflicting conclusions regarding those abilities. We investigate the extent of LLMs’ N-ToM through an extensive evaluation of 6 tasks and find that while LLMs exhibit certain N-ToM abilities, this behavior is far from being robust. We further examine the factors impacting performance on N-ToM tasks and discover that LLMs struggle with adversarial examples, indicating reliance on shallow heuristics rather than robust ToM abilities. We caution against drawing conclusions from anecdotal examples, limited benchmark testing, and using human-designed psychological tests to evaluate models.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/ddcd2bcc809bd0c2755a4a9487473d61ac327c50",
+    "excluded": false,
+    "summary": {
+      "motivation": "The escalating debate on AI's capabilities warrants developing reliable metrics to assess machine 'intelligence.' The authors aim to address the discrepancy in previous work on Neural Theory of Mind (N-ToM) in machines, specifically Large Language Models (LLMs). They investigate whether LLMs have robust N-ToM abilities and identify factors influencing performance.",
+      "idea": "Investigate the extent of LLMs' Neural Theory-Of-Mind (N-ToM) through an extensive evaluation on 6 tasks. The authors use a combination of existing benchmarks and variants to test N-ToM abilities in LLMs, and create a new dataset, Adv-Common Sense with False Belief (Adv-CSFB), which includes adversarial examples inspired by Ullman's work.",
+      "methodology": "Extensive evaluation on 6 tasks, examining factors impacting performance on N-ToM tasks and discovering reliance on shallow heuristics rather than robust ToM abilities. The authors use a combination of existing benchmarks and variants to test N-ToM abilities in LLMs, and create a new dataset, Adv-Common Sense with False Belief (Adv-CSFB), which includes adversarial examples inspired by Ullman's work.",
+      "result": "LLMs exhibit certain N-ToM abilities but this behavior is far from being robust. LLMs struggle with adversarial examples, suggesting that they do not have robust ToM abilities but rather rely on shallow heuristics. The results show that contemporary LLMs demonstrate certain N-ToM abilities, but these abilities are not robust.",
+      "discussion": "Caution against drawing conclusions from anecdotal examples, limited benchmark testing, and using human-designed psychological tests to evaluate models. The authors discuss the importance of developing robust metrics for assessing N-ToM in machines and warn against drawing conclusions from anecdotal examples or testing on a few benchmarks. They also highlight the need to consider the potential consequences of overblown claims in AI research."
+    },
+    "entities": {
+      "datasets": [
+        "Epistemic Reasoning",
+        "FauxPas-EAI",
+        "ToMi",
+        "ToM-k",
+        "TriangleCOPA",
+        "BIGBench",
+        "SocialIQa",
+        "Triangle COPA",
+        "Adv-CSFB"
+      ],
+      "models": [
+        "ChatGPT",
+        "LLMs",
+        "GPT-4",
+        "j2-jumbo-instruct",
+        "GPT-3.5",
+        "text-davinci-002",
+        "flan-t5-xxl"
+      ],
+      "losses": [],
+      "metrics": [
+        "p-value",
+        "AUC",
+        "accuracy"
+      ]
+    }
+  },
+  {
+    "id": "fa8f46f5f42eb915facb9344e15cd792ebf11781",
+    "title": "A System for Automated Unit Test Generation using Large Language Models and Assessment of Generated Test Suites",
+    "abstract": "Unit tests are fundamental for ensuring software correctness but are costly and time-intensive to design and create. Recent advances in Large Language Models (LLMs) have shown potential for automating test generation, though existing evaluations often focus on simple scenarios and lack scalability for real-world applications. To address these limitations, we present AgoneTest, an automated system for generating and assessing complex, class-level test suites for Java projects. Leveraging the Methods2Test dataset, we developed Classes2Test, a new dataset enabling the evaluation of LLM-generated tests against human-written tests. Our key contributions include a scalable automated software system, a new dataset, and a detailed methodology for evaluating test quality.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/fa8f46f5f42eb915facb9344e15cd792ebf11781",
+    "excluded": false,
+    "summary": {
+      "motivation": "To ensure software correctness and reliability. The automation of unit test generation using Large Language Models (LLMs) is a promising field.",
+      "idea": "Automate unit test generation using LLMs, with AGONETEST being a comprehensive framework for automating the generation and assessment of unit test suites using LLMs. Demonstrate that AGONETEST can produce and evaluate unit tests across various real-world projects",
+      "methodology": "Class-level test code generation, automated process from test generation to test assessment. While the initial findings are promising, they also highlight challenges emphasizing the need for further refinement.",
+      "result": "AGONETEST: an automated system for generating test suites for Java projects. Promising results in instruction, line, and method coverage indicate that further research and refinement can bridge this gap.",
+      "discussion": "Current approaches in applying LLMs to unit test generation exhibit limitations such as limited scope, lack of automation, and subjective choice of prompts. Future work should focus on systematic re-search into the most effective LLMs and prompts, coupled with continuous improvements in automated correction mechanisms for recurrent issues."
+    },
+    "entities": {
+      "datasets": [
+        "METHODS2TEST",
+        "CLASSES2TEST"
+      ],
+      "models": [
+        "LLMs",
+        "human",
+        "gpt-3.5- turbo",
+        "gpt-4",
+        "gpt-3.5 turbo"
+      ],
+      "losses": [],
+      "metrics": [
+        "test smells",
+        "Method coverage",
+        "AUC",
+        "mutation score",
+        "branch coverage",
+        "Branch coverage",
+        "method coverage",
+        "instruction coverage",
+        "Line coverage",
+        "Instruction coverage",
+        "mutation coverage",
+        "line coverage",
+        "Mann-Whitney U test",
+        "Mutation coverage",
+        "code coverage",
+        "p-value"
+      ]
+    }
+  },
+  {
+    "id": "274bf622d6e28581c6f0fbb039e07c3723ff29f7",
+    "title": "(Ir)rationality and cognitive biases in large language models",
+    "abstract": "Do large language models (LLMs) display rational reasoning? LLMs have been shown to contain human biases due to the data they have been trained on; whether this is reflected in rational reasoning remains less clear. In this paper, we answer this question by evaluating seven language models using tasks from the cognitive psychology literature. We find that, like humans, LLMs display irrationality in these tasks. However, the way this irrationality is displayed does not reflect that shown by humans. When incorrect answers are given by LLMs to these tasks, they are often incorrect in ways that differ from human-like biases. On top of this, the LLMs reveal an additional layer of irrationality in the significant inconsistency of the responses. Aside from the experimental results, this paper seeks to make a methodological contribution by showing how we can assess and compare different capabilities of these types of models, in this case with respect to rational reasoning.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/274bf622d6e28581c6f0fbb039e07c3723ff29f7",
+    "excluded": false
+  },
+  {
+    "id": "525ff089b6c5df9b311124adc3e549060093c982",
+    "title": "Do Large Language Models Show Human-like Biases? Exploring Confidence - Competence Gap in AI",
+    "abstract": "This study investigates self-assessment tendencies in Large Language Models (LLMs), examining if patterns resemble human cognitive biases like the Dunning–Kruger effect. LLMs, including GPT, BARD, Claude, and LLaMA, are evaluated using confidence scores on reasoning tasks. The models provide self-assessed confidence levels before and after responding to different questions. The results show cases where high confidence does not correlate with correctness, suggesting overconfidence. Conversely, low confidence despite accurate responses indicates potential underestimation. The confidence scores vary across problem categories and difficulties, reducing confidence for complex queries. GPT-4 displays consistent confidence, while LLaMA and Claude demonstrate more variations. Some of these patterns resemble the Dunning–Kruger effect, where incompetence leads to inflated self-evaluations. While not conclusively evident, these observations parallel this phenomenon and provide a foundation to further explore the alignment of competence and confidence in LLMs. As LLMs continue to expand their societal roles, further research into their self-assessment mechanisms is warranted to fully understand their capabilities and limitations.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/525ff089b6c5df9b311124adc3e549060093c982",
+    "excluded": false
+  },
+  {
+    "id": "3b47f85df53eb5cdc98a95de615b8a076fbf3adf",
+    "title": "Understanding Large-Language Model (LLM)-powered Human-Robot Interaction",
+    "abstract": "Large-language models (LLMs) hold significant promise in improving human-robot interaction, offering advanced conversational skills and versatility in managing diverse, open-ended user requests in various tasks and domains. Despite the potential to transform human-robot interaction, very little is known about the distinctive design requirements for utilizing LLMs in robots, which may differ from text and voice interaction and vary by task and context. To better understand these requirements, we conducted a user study (n = 32) comparing an LLM-powered social robot against text- and voice-based agents, analyzing task-based requirements in conversational tasks, including choose, generate, execute, and negotiate. Our findings show that LLM-powered robots elevate expectations for sophisticated non-verbal cues and excel in connection-building and deliberation, but fall short in logical communication and may induce anxiety. We provide design implications both for robots integrating LLMs and for fine-tuning LLMs for use with robots.CCS CONCEPTS• Human-centered computing → HCI design and evaluation methods; • Computing methodologies → Natural language processing; • Computer systems organization → Robotics.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/3b47f85df53eb5cdc98a95de615b8a076fbf3adf",
+    "excluded": false
+  },
+  {
+    "id": "31dc30898d4b406f8bd81bdfaa43a72e4f6333f2",
+    "title": "Improving citizen-government interactions with generative artificial intelligence: Novel human-computer interaction strategies for policy understanding through large language models",
+    "abstract": "Effective communication of government policies to citizens is crucial for transparency and engagement, yet challenges such as accessibility, complexity, and resource constraints obstruct this process. In the digital transformation and Generative AI era, integrating Generative AI and artificial intelligence technologies into public administration has significantly enhanced government governance, promoting dynamic interaction between public authorities and citizens. This paper proposes a system leveraging the Retrieval-Augmented Generation (RAG) technology combined with Large Language Models (LLMs) to improve policy communication. Addressing challenges of accessibility, complexity, and engagement in traditional dissemination methods, our system uses LLMs and a sophisticated retrieval mechanism to generate accurate, comprehensible responses to citizen queries about policies. This novel integration of RAG and LLMs for policy communication represents a significant advancement over traditional methods, offering unprecedented accuracy and accessibility. We experimented with our system with a diverse dataset of policy documents from both Chinese and US regional governments, comprising over 200 documents across various policy topics. Our system demonstrated high accuracy, averaging 85.58% for Chinese and 90.67% for US policies. Evaluation metrics included accuracy, comprehensibility, and public engagement, measured against expert human responses and baseline comparisons. The system effectively boosted public engagement, with case studies highlighting its impact on transparency and citizen interaction. These results indicate the system’s efficacy in making policy information more accessible and understandable, thus enhancing public engagement. This innovative approach aims to build a more informed and participatory democratic process by improving communication between governments and citizens.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/31dc30898d4b406f8bd81bdfaa43a72e4f6333f2",
+    "excluded": false
+  },
+  {
+    "id": "6ec39a11d405d0220ef0712c333d3699ffaf40ec",
+    "title": "AN AVATAR-BASED FRAMEWORK USING LARGE LANGUAGE MODELS FOR ASSESSING PATIENT COGNITIVE STATE",
+    "abstract": "The goal of this project was to create an avatar-based framework that uses a large language model to communicate with patients in a natural conversational format for the purpose of doing a cognitive assessment. The framework includes a webpage featuring an avatar with computer-generated voice and a large language model to navigate a conversation through a series of standardized cognitive assessment questions while having the conversation feel natural to the patient. The two cognitive assessments include a mini-cog and mini-mental state exam. While generalized chat bots exist, determining if currently available large language models are adequate to perform these assessments and can redirect questions to complete an exam for patients that may have dementia would be useful for doing computer automated assessments on a more frequent basis without human interaction. Six large language models were compared and scored to determine which did best at performing this type of cognitive assessment. It was found that Chat GPT4 was best at performing cognitive assessments.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/6ec39a11d405d0220ef0712c333d3699ffaf40ec",
+    "excluded": false,
+    "summary": {
+      "motivation": "The research aims to create a fine-tuned dementia chatbot that can perform cognitive assessments and interact with patients in a natural way. The need for assessing the elderly for their cognitive state and performing regular on-going cognitive assessments will increase as the population ages. Using an avatar to communicate with dementia patients can have further applications, such as reducing social isolation and cognitive inactivity among those suffering from dementia.",
+      "idea": "The idea is to use a 3D avatar-based chatbot that integrates an out-of-the-box LLM to help users interact with the chatbot in a more natural, conversational way. The research aims to create a fine-tuned dementia chatbot that can perform cognitive assessments and interact with patients in a natural way.",
+      "methodology": "The scope of this study included: 1) the design of a webpage with an avatar, generated voice, and a user input field linked to a LLM to process input, and 2) testing and scoring six different LLM models against two standard mental assessments. The models were tested and scored based on a custom scoring system while the avatar-LLM framework was created prior to testing. The web-based framework was created in PHP, JavaScript, and CSS. Six large language models were compared and scored for their effectiveness at performing a full mini-cog assessment and a mini-mental state assessment, including how well these models respond and redirect questions to incorrect or vague answers.",
+      "result": "The research found that large language models can correctly identify when an answer is not sufficient or understood that they need to ask the question again, and that a dataset could be created consisting of examples of questions, answers, and follow-up actions which are labeled as wrong or right. The results from these findings indicate that out of the box large language models can provide both a Mini Cognitive Assessment and Mini Mental State Exam however significant work will need to be done to have the models perform at an acceptable level to be used in a non-academic setting.",
+      "discussion": "The research found that using avatars to communicate with dementia patients, including reducing social isolation and cognitive inactivity among those suffering from dementia. The study also highlighted the potential benefits of using large language models for performing dementia assessments, but more work is needed to fine-tune the models for optimal performance. Future work will need to be done in creating a dataset for fine-tuning the top LLM model. A dataset will need to be created consisting of questions to ask for each kind of assessment. Another dataset may be needed to help the models overcome user variability in the user's response. The use of computer vision also introduces both the need for an additional dataset of drawings for the model to be trained on but also works on the assumption that every user has a camera or some method to upload their photo. While it is possible to use computer vision, it may be more efficient to simply replace the questions. Once the dataset is assembled, a model will need to be fine-tuned. Fine-tuning can be done in python or through a paid service. The benefit of a paid service is that it would require less coding as fine-tuning services ask for your data and some parameters and would not require you to find a third party to supply GPUs for training. The downside, and what plays into the strength of training from scratch, is that you lose out on flexibility when you code the fine-tuning yourself. By coding the fine-tuning program by hand, you have more flexibility and customization, but at the expense of programmer development time and GPU processing cost. Finally, once the model is trained and ready to be deployed it should be used in place of the current non-fine-tuned LLM. Future work for the web portion would include a more realistic avatar as well as more realistic facial movements as the technology progresses. It is also recommended that future work on the web portion should include input via speech using speech to text translation. This would allow users who aren't as comfortable with a keyboard or can't use a keyboard to be able to still interact with the chat bot. The last part of the recommendation portion of this research is a bit more speculative but will hopefully be useful in future work. The future dementia chatbot should go beyond doing a cognitive assessment, but also interact with patients to stimulate the brain through a mix of casual conversation and game playing. The future dementia chatbot should also be able to repeatedly give users frequent assessments and track their cognitive state without the need for frequent caregiver visits. The current stage of research is simply to have the large language models give an initial assessment with this initial assessment serving as a baseline for future assessments. The future chat bot will need to be able to either independently or with minimal human interaction recognize when a patient is getting worse than expected and either take corrective actions or inform the necessary caregiver."
+    },
+    "entities": {
+      "datasets": [
+        "TCGA"
+      ],
+      "models": [
+        "Mistral 7B v0.2",
+        "Gemma-7B",
+        "Support Vector Machine",
+        "large language model",
+        "Chat GPT4",
+        "Qwen-72B-Chat",
+        "Qwan 72 B",
+        "ChatGPT",
+        "Chat GPT",
+        "ResNet-50",
+        "LLM",
+        "ChatGPT 3.5",
+        "Chat GPT 4",
+        "ChatGPT 4",
+        "Gemma 7B",
+        "Llama-2-70B-Chat",
+        "Mistral-7B-v0.2",
+        "T5th",
+        "Transformer",
+        "Chat GPT 3.5"
+      ],
+      "losses": [],
+      "metrics": [
+        "AUC",
+        "Question Points",
+        "Assessment Points",
+        "Answer Points",
+        "p-value",
+        "Mini Cognitive Assessment"
+      ]
+    }
+  },
+  {
+    "id": "50d40517ede17d332bc3d590da5dc44999bf2490",
+    "title": "ConSiDERS-The-Human Evaluation Framework: Rethinking Human Evaluation for Generative Large Language Models",
+    "abstract": "In this position paper, we argue that human evaluation of generative large language models (LLMs) should be a multidisciplinary undertaking that draws upon insights from disciplines such as user experience research and human behavioral psychology to ensure that the experimental design and results are reliable. The conclusions from these evaluations, thus, must consider factors such as usability, aesthetics, and cognitive biases. We highlight how cognitive biases can conflate fluent information and truthfulness, and how cognitive uncertainty affects the reliability of rating scores such as Likert. Furthermore, the evaluation should differentiate the capabilities and weaknesses of increasingly powerful large language models -- which requires effective test sets. The scalability of human evaluation is also crucial to wider adoption. Hence, to design an effective human evaluation system in the age of generative NLP, we propose the ConSiDERS-The-Human evaluation framework consisting of 6 pillars -- Consistency, Scoring Criteria, Differentiating, User Experience, Responsible, and Scalability.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/50d40517ede17d332bc3d590da5dc44999bf2490",
+    "excluded": false,
+    "summary": {
+      "motivation": "Human evaluation of generative large language models should be a multidisciplinary undertaking. To provide a generic framework extensible for specific domains or applications, human evaluation is challenging due to the increasing capabilities of SOTA LLMs, customization may be required for individual cases, and perception cannot solely dictate how the quality of LLMs is measured.",
+      "idea": "The ConSiDERS- The-Humanevaluation framework consisting of 6 pillars",
+      "methodology": "Drawing upon insights from disciplines such as user experience research and human behavioral psychology. This approach will provide a comprehensive understanding of the challenges and limitations of human evaluation in the context of LLMs.",
+      "result": "",
+      "discussion": "Cognitive biases can conflate fluent information and truthfulness, cognitive uncertainty affects the reliability of rating scores such as Likert, scalability is crucial to wider adoption. Human evaluation should be a multidisciplinary undertaking that considers the complexities of human perception and the limitations of LLMs."
+    },
+    "entities": {
+      "datasets": [],
+      "models": [
+        "LLMs",
+        "Responsible AI",
+        "large language models"
+      ],
+      "losses": [],
+      "metrics": [
+        "Krippendorff's-alpha",
+        "percentage agreement",
+        "Cohen's-kappa",
+        "Fleiss-kappa",
+        "IRA"
+      ]
+    }
+  },
+  {
+    "id": "167a423c259dce807d0ce720e5e7777d247192b4",
+    "title": "Comparative evaluation of Large Language Models using key metrics and emerging tools",
+    "abstract": "This research involved designing and building an interactive generative AI application to conduct a comparative analysis of two advanced Large Language Models (LLMs), GPT‐4, and Claude 2, using Langsmith evaluation tools. The project was developed to explore the potential of LLMs in facilitating postgraduate course recommendations within a simulated environment at Munster Technological University (MTU). Designed for comparative analysis, the application enables testing of GPT‐4 and Claude 2 and can be hosted flexibly on either Amazon Web Services (AWS) or Azure. It utilizes advanced natural language processing and retrieval‐augmented generation (RAG) techniques to process proprietary data tailored to postgraduate needs. A key component of this research was the rigorous assessment of the LLMs using the Langsmith evaluation tool against both customized and standard benchmarks. The evaluation focused on metrics such as bias, safety, accuracy, cost, robustness, and latency. Additionally, adaptability covering critical features like language translation and internet access, was independently researched since the Langsmith tool does not evaluate this metric. This ensures a holistic assessment of the LLM's capabilities.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/167a423c259dce807d0ce720e5e7777d247192b4",
+    "excluded": false
+  },
+  {
+    "id": "ad952fab0444fb09cb2ad782efb4a98bd8d58d44",
+    "title": "A Robot Walks into a Bar: Can Language Models Serve as Creativity SupportTools for Comedy? An Evaluation of LLMs’ Humour Alignment with Comedians",
+    "abstract": "We interviewed twenty professional comedians who perform live shows in front of audiences and who use artificial intelligence in their artistic process as part of 3-hour workshops on “AI x Comedy” conducted at the Edinburgh Festival Fringe in August 2023 and online. The workshop consisted of a comedy writing session with large language models (LLMs), a human-computer interaction questionnaire to assess the Creativity Support Index of AI as a writing tool, and a focus group interrogating the comedians’ motivations for and processes of using AI, as well as their ethical concerns about bias, censorship and copyright. Participants noted that existing moderation strategies used in safety filtering and instruction-tuned LLMs reinforced hegemonic viewpoints by erasing minority groups and their perspectives, and qualified this as a form of censorship. At the same time, most participants felt the LLMs did not succeed as a creativity support tool, by producing bland and biased comedy tropes, akin to “cruise ship comedy material from the 1950s, but a bit less racist”. Our work extends scholarship about the subtle difference between, one the one hand, harmful speech, and on the other hand, “offensive” language as a practice of resistance, satire and “punching up”. We also interrogate the global value alignment behind such language models, and discuss the importance of community-based value alignment and data ownership to build AI tools that better suit artists’ needs. Warning: this study may contain offensive language and discusses self-harm.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/ad952fab0444fb09cb2ad782efb4a98bd8d58d44",
+    "excluded": false
+  }
+]

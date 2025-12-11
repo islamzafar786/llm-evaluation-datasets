@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Real-Time Data Visualization",
+    "description": "LLMs are increasingly being used to generate natural language descriptions and insights from data visualizations. However, current evaluations do not adequately address the real-time performance and usability of these models when dealing with dynamic datasets that change frequently.",
+    "motivation": "Real-time data visualization is essential in fields like finance, healthcare, and emergency management, where timely decision-making is critical. Existing methods for evaluating LLMs in this context are limited to static datasets, failing to capture the challenges posed by real-time data updates. This research aims to fill this gap by developing a framework that evaluates LLM usability in dynamic, real-time scenarios.",
+    "milestones": [
+      "Define project scope and objectives.",
+      "Conduct literature review on LLMs, data visualization, and usability studies.",
+      "Design the evaluation framework for real-time performance and usability.",
+      "Select datasets for real-time evaluation.",
+      "Develop metrics to measure real-time performance and usability.",
+      "Implement prototypes of LLM-based systems for data visualization.",
+      "Conduct pilot testing with small user groups to gather initial feedback.",
+      "Refine the system based on feedback from pilot tests.",
+      "Prepare comprehensive usability test plan.",
+      "Recruit participants for usability evaluation.",
+      "Conduct large-scale usability evaluations.",
+      "Analyze and interpret results of usability evaluations.",
+      "Document findings and prepare final report.",
+      "Present project outcomes to stakeholders."
+    ],
+    "timeline": {
+      "Week 1-2": "Define project scope and objectives.",
+      "Week 3-4": "Conduct literature review on LLMs, data visualization, and usability studies.",
+      "Week 5-6": "Design the evaluation framework for real-time performance and usability.",
+      "Week 7-8": "Select datasets for real-time evaluation.",
+      "Week 9-10": "Develop metrics to measure real-time performance and usability.",
+      "Week 11-12": "Implement prototypes of LLM-based systems for data visualization.",
+      "Week 13": "Conduct pilot testing with small user groups to gather initial feedback.",
+      "Week 14": "Refine the system based on feedback from pilot tests.",
+      "Week 15-16": "Prepare comprehensive usability test plan and recruit participants.",
+      "Week 17-20": "Conduct large-scale usability evaluations.",
+      "Week 21-23": "Analyze and interpret results of usability evaluations, document findings and prepare final report.",
+      "Week 24": "Present project outcomes to stakeholders."
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "title": "User-Centric Evaluation Metrics for LLM-Based Natural Language Interfaces",
+    "description": "Existing evaluation metrics for LLMs often rely on automated benchmarks that do not fully capture user experiences. This research proposes new, user-centric metrics to assess the usability and effectiveness of LLM-based natural language interfaces (NLIs).",
+    "motivation": "Automated evaluations may miss critical aspects of user satisfaction and task performance. Developing user-centric metrics can provide a more holistic view of LLM usability, ensuring that these models meet real-world needs. This idea is grounded in the limitations highlighted by 'LLM Comparator: Interactive Analysis of Side-by-Side Evaluation of Large Language Models' which emphasizes the need for scalable and interpretable evaluation methods.",
+    "milestones": [
+      "Conduct literature review on existing evaluation metrics for LLMs.",
+      "Identify gaps and limitations in current user-centric evaluation methods.",
+      "Design new user-centric evaluation metrics.",
+      "Develop survey tools to gather user feedback.",
+      "Recruit participants for usability testing.",
+      "Conduct pilot studies with a small group of users.",
+      "Iterate on evaluation metrics based on pilot study results.",
+      "Conduct full-scale usability testing with recruited participants.",
+      "Analyze collected data and refine evaluation metrics.",
+      "Prepare final report detailing new user-centric evaluation metrics.",
+      "Present findings at relevant academic or industry conferences."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct literature review on existing evaluation metrics for LLMs.",
+      "Week 3-4": "Identify gaps and limitations in current user-centric evaluation methods.",
+      "Week 5-6": "Design new user-centric evaluation metrics.",
+      "Week 7-8": "Develop survey tools to gather user feedback.",
+      "Week 9-10": "Recruit participants for usability testing.",
+      "Week 11-12": "Conduct pilot studies with a small group of users.",
+      "Week 13-14": "Iterate on evaluation metrics based on pilot study results.",
+      "Week 15-16": "Conduct full-scale usability testing with recruited participants.",
+      "Week 17-18": "Analyze collected data and refine evaluation metrics.",
+      "Week 19-20": "Prepare final report detailing new user-centric evaluation metrics.",
+      "Week 21-22": "Finalize presentation materials for conference submission.",
+      "Week 23": "Submit findings to relevant academic or industry conferences.",
+      "Week 24": "Review feedback from conference and prepare any necessary revisions."
+    }
+  }
+]

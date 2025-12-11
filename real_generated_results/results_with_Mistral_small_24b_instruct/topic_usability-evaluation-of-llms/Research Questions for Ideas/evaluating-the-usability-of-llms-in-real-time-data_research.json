@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Real-Time Data Visualization",
+    "description": "LLMs are increasingly being used to generate natural language descriptions and insights from data visualizations. However, current evaluations do not adequately address the real-time performance and usability of these models when dealing with dynamic datasets that change frequently.",
+    "motivation": "Real-time data visualization is essential in fields like finance, healthcare, and emergency management, where timely decision-making is critical. Existing methods for evaluating LLMs in this context are limited to static datasets, failing to capture the challenges posed by real-time data updates. This research aims to fill this gap by developing a framework that evaluates LLM usability in dynamic, real-time scenarios.",
+    "questions": [
+      "How does the real-time performance of Large Language Models (LLMs) compare to traditional methods in generating accurate and timely insights from dynamic datasets?",
+      "What are the usability challenges faced by end-users when interacting with LLMs for real-time data visualization, and how can these challenges be mitigated through interface design improvements?",
+      "To what extent does the integration of LLMs enhance the interpretability of complex, frequently changing data visualizations compared to traditional static approaches?"
+    ]
+  }
+]

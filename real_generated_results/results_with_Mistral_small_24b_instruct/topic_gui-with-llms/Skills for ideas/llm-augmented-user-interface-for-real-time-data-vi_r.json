@@ -1,0 +1,23 @@
+[
+  {
+    "title": "LLM-Augmented User Interface for Real-Time Data Visualization",
+    "description": "Current data visualization tools often require users to manually adjust parameters and settings, which can be time-consuming and error-prone. This thesis aims to develop an LLM-augmented user interface that can dynamically adapt visualizations in real-time based on user queries and interactions.",
+    "motivation": "Existing visualization tools lack the ability to automatically adjust to changing data and user needs without manual intervention. By leveraging LLMs, this approach can enhance efficiency and accuracy, making it easier for users to gain insights from complex datasets.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "HTML/CSS",
+      "React.js or Vue.js",
+      "D3.js or Plotly",
+      "Natural Language Processing (NLP)",
+      "Transformers library",
+      "LLM fine-tuning",
+      "prompt engineering",
+      "user interface design",
+      "real-time data processing",
+      "web sockets",
+      "API development",
+      "RESTful services"
+    ]
+  }
+]

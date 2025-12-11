@@ -1,0 +1,33 @@
+[
+  {
+    "title": "LLM-Powered Interactive Infographics Generation for Enhanced Data Storytelling",
+    "description": "Generating infographics often requires manual design skills and significant time investment. This process can be cumbersome, especially when dealing with large datasets that require frequent updates.",
+    "motivation": "LIDA (A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models) automates the generation of visualizations but lacks interactive capabilities for real-time adjustments. By developing an LLM-powered system that allows users to interactively generate, refine, and update infographics in real-time, we can enhance data storytelling and make it more accessible to a broader audience.",
+    "milestones": [
+      "Conduct a thorough literature review on existing tools and technologies for infographic generation.",
+      "Define project scope, objectives, and deliverables.",
+      "Design the architecture and components of the LLM-powered system.",
+      "Develop initial prototypes for key features (e.g., text-to-image conversion).",
+      "Integrate machine learning models for automated design suggestions.",
+      "Create a user interface prototype for interactive infographics generation.",
+      "Conduct usability testing with potential users to gather feedback.",
+      "Implement user feedback and refine the system.",
+      "Develop documentation and training materials.",
+      "Prepare for project presentation and final report."
+    ],
+    "timeline": {
+      "Week 1-2": "Literature Review",
+      "Week 3": "Define Project Scope, Objectives, Deliverables",
+      "Week 4-5": "Design System Architecture",
+      "Week 6-8": "Develop Initial Prototypes",
+      "Week 9-10": "Integrate ML Models for Design Suggestions",
+      "Week 11": "User Interface Prototype Creation",
+      "Week 12": "Usability Testing with Users",
+      "Week 13-14": "Implement User Feedback and Refine System",
+      "Week 15-16": "Documentation and Training Materials Development",
+      "Week 17-18": "Final Preparations for Presentation",
+      "Week 19-20": "Project Presentation and Final Report Preparation",
+      "Week 21-24": "Review, Iterate, and Prepare Final Submission"
+    }
+  }
+]

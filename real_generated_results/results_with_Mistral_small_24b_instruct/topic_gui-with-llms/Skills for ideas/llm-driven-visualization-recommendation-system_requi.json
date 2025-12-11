@@ -1,0 +1,20 @@
+[
+  {
+    "title": "LLM-Driven Visualization Recommendation System",
+    "description": "Choosing the right type of visualization for a given dataset and analytical goal is a non-trivial task. This thesis proposes an LLM-driven system that recommends appropriate visualizations based on user queries and data characteristics, enhancing the effectiveness of data analysis.",
+    "motivation": "Selecting the wrong visualization can lead to misinterpretation of data and incorrect insights. An LLM-driven recommendation system can help users choose the most effective visualizations, improving the accuracy and reliability of their analyses.",
+    "skills": [
+      "Python",
+      "Large Language Models (LLMs)",
+      "natural language processing (NLP)",
+      "visualization libraries (e.g., Matplotlib, Seaborn, Plotly)",
+      "data preprocessing",
+      "machine learning algorithms",
+      "recommendation systems",
+      "user interaction design",
+      "user query analysis",
+      "dataset characteristics extraction",
+      "evaluation metrics for recommendations"
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Assessing the Impact of Non-Verbal Cues on LLM-Powered Human-Robot Interaction",
+    "description": "While LLMs enhance conversational capabilities in human-robot interactions, the role of non-verbal cues remains under-explored. This study investigates how non-verbal cues influence user satisfaction and task completion rates when interacting with LLM-powered robots.",
+    "motivation": "Non-verbal cues are crucial for effective communication but are often overlooked in usability evaluations of LLMs. Understanding their impact can lead to more natural and intuitive interactions, enhancing the overall user experience. This research is inspired by findings from 'Understanding Large-Language Model (LLM)-powered Human-Robot Interaction' which highlights the importance of non-verbal cues.",
+    "milestones": [
+      "Define research questions and objectives.",
+      "Conduct a literature review on non-verbal cues and LLM-powered interactions.",
+      "Design the experimental setup, including robot configurations and user interface design.",
+      "Develop survey instruments for measuring user satisfaction and task completion rates.",
+      "Recruit participants for the study.",
+      "Conduct preliminary tests to validate the experimental setup.",
+      "Collect data through a series of controlled experiments.",
+      "Analyze collected data using statistical methods.",
+      "Prepare an initial draft of the research report.",
+      "Review and refine the research report based on feedback from advisors and peers.",
+      "Submit the final research report for publication."
+    ],
+    "timeline": {
+      "Week 1-2": "Define research questions and objectives.",
+      "Week 3-4": "Conduct a literature review on non-verbal cues and LLM-powered interactions.",
+      "Week 5-6": "Design the experimental setup, including robot configurations and user interface design.",
+      "Week 7-8": "Develop survey instruments for measuring user satisfaction and task completion rates.",
+      "Week 9-10": "Recruit participants for the study.",
+      "Week 11": "Conduct preliminary tests to validate the experimental setup.",
+      "Week 12-16": "Collect data through a series of controlled experiments.",
+      "Week 17-18": "Analyze collected data using statistical methods.",
+      "Week 19-20": "Prepare an initial draft of the research report.",
+      "Week 21-22": "Review and refine the research report based on feedback from advisors and peers.",
+      "Week 23": "Submit the final research report for publication."
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in High-Stakes Decision-Making Scenarios",
+    "description": "LLMs are increasingly used in high-stakes decision-making contexts, such as healthcare and finance. This research evaluates the usability and reliability of LLMs in these critical scenarios, focusing on user trust and decision accuracy.",
+    "motivation": "High-stakes decisions require robust and reliable AI systems. Current evaluations often overlook the specific challenges and risks associated with high-stakes contexts. Understanding how LLMs perform in these scenarios can enhance their usability and ensure better outcomes for users.",
+    "questions": [
+      "How does user trust in Large Language Models (LLMs) vary across different high-stakes decision-making scenarios such as healthcare and finance, and what factors influence this trust?",
+      "To what extent do LLMs improve or hinder decision accuracy in high-stakes scenarios compared to traditional decision-making methods, and under what conditions?",
+      "What design principles and guidelines can enhance the usability of LLMs in critical decision-making contexts, focusing on aspects such as transparency, explainability, and user interface?"
+    ]
+  }
+]

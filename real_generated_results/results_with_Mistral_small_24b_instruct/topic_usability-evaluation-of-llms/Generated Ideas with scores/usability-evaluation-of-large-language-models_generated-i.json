@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Multilingual Contexts",
+    "description": "Current usability evaluations of Large Language Models (LLMs) primarily focus on English-speaking users, neglecting the diverse linguistic needs and cultural nuances of non-English speakers. This research aims to develop a comprehensive framework for evaluating the usability of LLMs across multiple languages.",
+    "motivation": "The global reach of AI applications necessitates that LLMs be usable by speakers of various languages. Existing evaluations often overlook the unique challenges faced by non-English users, such as language-specific idioms and cultural references. This gap can lead to suboptimal user experiences and reduced effectiveness in multilingual contexts.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Assessing the Impact of Non-Verbal Cues on LLM-Powered Human-Robot Interaction",
+    "description": "While LLMs enhance conversational capabilities in human-robot interactions, the role of non-verbal cues remains under-explored. This study investigates how non-verbal cues influence user satisfaction and task completion rates when interacting with LLM-powered robots.",
+    "motivation": "Non-verbal cues are crucial for effective communication but are often overlooked in usability evaluations of LLMs. Understanding their impact can lead to more natural and intuitive interactions, enhancing the overall user experience. This research is inspired by findings from 'Understanding Large-Language Model (LLM)-powered Human-Robot Interaction' which highlights the importance of non-verbal cues.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "User-Centric Evaluation Metrics for LLM-Based Natural Language Interfaces",
+    "description": "Existing evaluation metrics for LLMs often rely on automated benchmarks that do not fully capture user experiences. This research proposes new, user-centric metrics to assess the usability and effectiveness of LLM-based natural language interfaces (NLIs).",
+    "motivation": "Automated evaluations may miss critical aspects of user satisfaction and task performance. Developing user-centric metrics can provide a more holistic view of LLM usability, ensuring that these models meet real-world needs. This idea is grounded in the limitations highlighted by 'LLM Comparator: Interactive Analysis of Side-by-Side Evaluation of Large Language Models' which emphasizes the need for scalable and interpretable evaluation methods.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Enhancing LLM Usability through Personalized Prompt Engineering",
+    "description": "Users often struggle with crafting effective prompts when interacting with LLMs, leading to suboptimal outcomes. This study explores personalized prompt engineering techniques to improve user engagement and task completion rates.",
+    "motivation": "Effective prompt engineering is crucial for maximizing the potential of LLMs but remains a significant barrier for many users. Personalized approaches can reduce cognitive load and enhance user satisfaction, making LLM interactions more intuitive and effective. This research builds on insights from 'Task Supportive and Personalized Human-Large Language Model Interaction: A User Study'.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in High-Stakes Decision-Making Scenarios",
+    "description": "LLMs are increasingly used in high-stakes decision-making contexts, such as healthcare and finance. This research evaluates the usability and reliability of LLMs in these critical scenarios, focusing on user trust and decision accuracy.",
+    "motivation": "High-stakes decisions require robust and reliable AI systems. Current evaluations often overlook the specific challenges and risks associated with high-stakes contexts. Understanding how LLMs perform in these scenarios can enhance their usability and ensure better outcomes for users.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Usability Evaluation of LLMs in Collaborative Work Environments",
+    "description": "Current usability evaluations of Large Language Models (LLMs) primarily focus on individual user interactions, neglecting the collaborative aspects where multiple users interact with the LLM simultaneously. This oversight limits our understanding of how LLMs perform in team settings, which are common in professional environments.",
+    "motivation": "Collaborative work is a cornerstone of many industries, and effective communication within teams is crucial for productivity and innovation. Existing evaluations do not account for the complexities introduced by multiple users interacting with an LLM concurrently, such as conflicting prompts, overlapping queries, and the need for synchronized responses. This gap in research hinders the development of LLMs that can effectively support collaborative tasks.",
+    "scores": {
+      "feasibility": 1,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in Real-Time Data Visualization",
+    "description": "LLMs are increasingly being used to generate natural language descriptions and insights from data visualizations. However, current evaluations do not adequately address the real-time performance and usability of these models when dealing with dynamic datasets that change frequently.",
+    "motivation": "Real-time data visualization is essential in fields like finance, healthcare, and emergency management, where timely decision-making is critical. Existing methods for evaluating LLMs in this context are limited to static datasets, failing to capture the challenges posed by real-time data updates. This research aims to fill this gap by developing a framework that evaluates LLM usability in dynamic, real-time scenarios.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Assessing the Impact of Cultural Context on LLM Usability",
+    "description": "LLMs are often trained on datasets that may not fully represent the cultural nuances and linguistic variations across different regions. This can lead to misunderstandings and reduced usability when these models are deployed in culturally diverse environments.",
+    "motivation": "Cultural context plays a significant role in how users interact with technology, influencing their expectations and interpretations of responses. Current evaluations do not account for these cultural differences, leading to potential miscommunications and reduced effectiveness of LLMs in global settings. This research seeks to develop a framework that evaluates LLM usability across different cultural contexts.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "Usability Evaluation of LLMs in Educational Settings",
+    "description": "LLMs have the potential to revolutionize education by providing personalized learning experiences and instant feedback. However, current evaluations do not adequately address the specific challenges and requirements of educational settings, such as the need for accurate and age-appropriate responses.",
+    "motivation": "Education is a critical domain where technology can significantly enhance learning outcomes. Existing usability evaluations of LLMs in education are limited to general-purpose models, failing to capture the unique needs of students and educators. This research aims to develop an evaluation framework tailored to educational settings, focusing on accuracy, appropriateness, and effectiveness of LLM responses.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Evaluating the Usability of LLMs in Mental Health Support Systems",
+    "description": "LLMs are being explored for their potential in providing mental health support through conversational agents. However, current evaluations do not adequately address the specific usability challenges and ethical considerations involved in mental health applications.",
+    "motivation": "Mental health is a sensitive area where the accuracy and appropriateness of responses from LLMs can have significant impacts on users' well-being. Existing evaluations do not account for the unique requirements of mental health support, such as empathy, confidentiality, and ethical considerations. This research aims to develop an evaluation framework that addresses these challenges, ensuring that LLMs are usable and effective in providing mental health support.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "LLM-Augmented User Interface for Real-Time Data Visualization",
+    "description": "Current data visualization tools often require users to manually adjust parameters and settings, which can be time-consuming and error-prone. This thesis aims to develop an LLM-augmented user interface that can dynamically adapt visualizations in real-time based on user queries and interactions.",
+    "motivation": "Existing visualization tools lack the ability to automatically adjust to changing data and user needs without manual intervention. By leveraging LLMs, this approach can enhance efficiency and accuracy, making it easier for users to gain insights from complex datasets.",
+    "questions": [
+      "How can an LLM (Large Language Model) be effectively integrated into a user interface to dynamically adapt real-time data visualizations based on user queries and interactions?",
+      "What are the key performance metrics for evaluating the effectiveness and efficiency of LLM-augmented user interfaces in real-time data visualization tasks compared to traditional manual adjustment methods?",
+      "How do different types of user inputs (e.g., natural language, gestures) influence the accuracy and responsiveness of LLM-augmented dynamic data visualizations?"
+    ]
+  }
+]

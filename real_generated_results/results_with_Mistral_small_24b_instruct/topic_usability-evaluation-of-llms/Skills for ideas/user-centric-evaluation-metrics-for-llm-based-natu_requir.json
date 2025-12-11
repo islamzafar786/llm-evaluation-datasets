@@ -1,0 +1,18 @@
+[
+  {
+    "title": "User-Centric Evaluation Metrics for LLM-Based Natural Language Interfaces",
+    "description": "Existing evaluation metrics for LLMs often rely on automated benchmarks that do not fully capture user experiences. This research proposes new, user-centric metrics to assess the usability and effectiveness of LLM-based natural language interfaces (NLIs).",
+    "motivation": "Automated evaluations may miss critical aspects of user satisfaction and task performance. Developing user-centric metrics can provide a more holistic view of LLM usability, ensuring that these models meet real-world needs. This idea is grounded in the limitations highlighted by 'LLM Comparator: Interactive Analysis of Side-by-Side Evaluation of Large Language Models' which emphasizes the need for scalable and interpretable evaluation methods.",
+    "skills": [
+      "Python",
+      "natural language processing libraries (e.g., NLTK, spaCy)",
+      "LLM frameworks (e.g., Hugging Face Transformers)",
+      "user experience research methods",
+      "usability testing",
+      "statistical analysis",
+      "machine learning evaluation techniques",
+      "user interface design",
+      "survey design and analysis"
+    ]
+  }
+]

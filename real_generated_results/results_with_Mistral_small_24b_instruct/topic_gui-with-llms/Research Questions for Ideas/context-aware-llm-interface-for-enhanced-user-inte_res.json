@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Context-Aware LLM Interface for Enhanced User Interaction",
+    "description": "Current natural language interfaces (NLIs) often struggle with maintaining context across multiple interactions, leading to fragmented and less coherent user experiences. This thesis proposes a context-aware LLM interface that can remember previous interactions and provide more cohesive responses.",
+    "motivation": "The lack of contextual awareness in current NLIs limits their effectiveness in complex tasks where understanding the broader context is crucial. By developing an interface that maintains context, users can have more natural and efficient interactions with data analysis tools.",
+    "questions": [
+      "How effective is a context-aware Large Language Model (LLM) interface in maintaining coherent user interactions compared to traditional NLIs?",
+      "What are the key design principles and algorithms necessary for developing an LLM interface that can remember previous interactions and provide cohesive responses?",
+      "In what ways does integrating contextual awareness into an LLM interface improve user satisfaction and overall interaction quality, especially in complex or multi-turn conversational settings?"
+    ]
+  }
+]

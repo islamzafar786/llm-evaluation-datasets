@@ -1,0 +1,23 @@
+[
+  {
+    "title": "LLM-Driven Visual Analytics Framework for Non-Expert Users",
+    "description": "Visual analytics often requires specialized skills in programming, data processing, and visualization tools. This expertise barrier limits the accessibility of visual analytics to non-expert users who could benefit from these tools.",
+    "motivation": "LightVA (Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution) introduces an agent-based approach but still requires some level of user expertise in task planning. By developing a more intuitive, user-friendly interface that leverages LLMs to automate the entire process from data input to visualization generation, we can democratize visual analytics for non-expert users.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "React.js",
+      "D3.js",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "LLMs (e.g., BERT, T5)",
+      "Natural Language Processing",
+      "Data preprocessing",
+      "API integration",
+      "User interface design",
+      "Usability testing",
+      "Accessibility standards"
+    ]
+  }
+]

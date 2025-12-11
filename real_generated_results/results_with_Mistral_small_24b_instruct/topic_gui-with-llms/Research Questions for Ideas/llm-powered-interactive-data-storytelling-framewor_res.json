@@ -1,0 +1,12 @@
+[
+  {
+    "title": "LLM-Powered Interactive Data Storytelling Framework",
+    "description": "Creating compelling data stories often requires significant effort in curating data, designing visuals, and crafting narratives. This thesis aims to develop an LLM-powered framework that automates the process of generating interactive data stories, making it easier for users to communicate insights effectively.",
+    "motivation": "Current methods for data storytelling are labor-intensive and require specialized skills. An LLM-powered framework can streamline this process, enabling users to create engaging and informative data stories with minimal effort.",
+    "questions": [
+      "How can large language models (LLMs) be utilized to automate the process of curating relevant data for generating interactive data stories?",
+      "What are the most effective methods for integrating LLMs with visualization tools to create visually engaging and insightful data narratives?",
+      "In what ways does an LLM-powered framework enhance user engagement and effectiveness in communicating data insights compared to traditional data storytelling techniques?"
+    ]
+  }
+]

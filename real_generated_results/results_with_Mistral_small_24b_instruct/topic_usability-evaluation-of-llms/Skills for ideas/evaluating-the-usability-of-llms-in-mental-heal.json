@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Mental Health Support Systems",
+    "description": "LLMs are being explored for their potential in providing mental health support through conversational agents. However, current evaluations do not adequately address the specific usability challenges and ethical considerations involved in mental health applications.",
+    "motivation": "Mental health is a sensitive area where the accuracy and appropriateness of responses from LLMs can have significant impacts on users' well-being. Existing evaluations do not account for the unique requirements of mental health support, such as empathy, confidentiality, and ethical considerations. This research aims to develop an evaluation framework that addresses these challenges, ensuring that LLMs are usable and effective in providing mental health support.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "LLM frameworks (e.g., Hugging Face Transformers)",
+      "usability testing methods",
+      "ethical guidelines for AI in mental health",
+      "conversational agent design",
+      "user experience (UX) design",
+      "qualitative and quantitative evaluation techniques",
+      "statistical analysis",
+      "data privacy and security"
+    ]
+  }
+]

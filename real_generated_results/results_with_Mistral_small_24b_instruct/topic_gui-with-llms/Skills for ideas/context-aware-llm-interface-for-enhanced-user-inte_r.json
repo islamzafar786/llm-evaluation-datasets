@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Context-Aware LLM Interface for Enhanced User Interaction",
+    "description": "Current natural language interfaces (NLIs) often struggle with maintaining context across multiple interactions, leading to fragmented and less coherent user experiences. This thesis proposes a context-aware LLM interface that can remember previous interactions and provide more cohesive responses.",
+    "motivation": "The lack of contextual awareness in current NLIs limits their effectiveness in complex tasks where understanding the broader context is crucial. By developing an interface that maintains context, users can have more natural and efficient interactions with data analysis tools.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "TensorFlow/PyTorch",
+      "Large Language Models (LLMs)",
+      "Context Management Algorithms",
+      "Dialogue Systems",
+      "Attention Mechanisms",
+      "Memory Networks",
+      "Reinforcement Learning",
+      "Evaluation Metrics for LLMs"
+    ]
+  }
+]

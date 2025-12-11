@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Explainable Visual Analytics with LLM-Based Natural Language Interfaces",
+    "description": "Natural language interfaces for visual analytics often lack transparency, making it difficult for users to understand how the system generates visualizations and insights. This opacity can lead to mistrust and reduced effectiveness in data analysis.",
+    "motivation": "XNLI (Explaining and Diagnosing NLI-Based Visual Data Analysis) provides explanations but focuses on diagnosing issues rather than enhancing transparency throughout the process. By integrating explainable AI techniques with LLMs, we can create a more transparent visual analytics system that helps users understand the underlying processes and trust the generated insights.",
+    "milestones": [
+      "Conduct a literature review on existing visual analytics systems, natural language interfaces, and explainability techniques.",
+      "Define project scope, objectives, and key performance indicators (KPIs).",
+      "Design the system architecture for explainable visual analytics with LLM-based natural language interfaces.",
+      "Develop the initial prototype of the system.",
+      "Conduct user interviews to gather requirements and feedback on the current state of visual analytics and NLP interfaces.",
+      "Implement explainability features into the prototype.",
+      "Integrate the LLM-based natural language interface with the visual analytics system.",
+      "Evaluate the integrated system through usability testing and expert reviews.",
+      "Iteratively refine the system based on user feedback and evaluation results.",
+      "Document the project, including all code, methodologies, and findings.",
+      "Prepare a final report and presentation for stakeholders."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct literature review",
+      "Week 3": "Define project scope, objectives, and KPIs",
+      "Week 4-5": "Design system architecture",
+      "Week 6-8": "Develop initial prototype",
+      "Week 9": "Conduct user interviews",
+      "Week 10-11": "Implement explainability features",
+      "Week 12-13": "Integrate LLM-based natural language interface",
+      "Week 14-15": "Evaluate the integrated system through usability testing and expert reviews",
+      "Week 16-18": "Refine the system based on feedback",
+      "Week 19-20": "Document the project",
+      "Week 21-23": "Prepare final report and presentation",
+      "Week 24": "Finalize and submit deliverables"
+    }
+  }
+]

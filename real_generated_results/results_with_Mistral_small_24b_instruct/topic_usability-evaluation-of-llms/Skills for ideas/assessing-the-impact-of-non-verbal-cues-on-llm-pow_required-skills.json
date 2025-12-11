@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Assessing the Impact of Non-Verbal Cues on LLM-Powered Human-Robot Interaction",
+    "description": "While LLMs enhance conversational capabilities in human-robot interactions, the role of non-verbal cues remains under-explored. This study investigates how non-verbal cues influence user satisfaction and task completion rates when interacting with LLM-powered robots.",
+    "motivation": "Non-verbal cues are crucial for effective communication but are often overlooked in usability evaluations of LLMs. Understanding their impact can lead to more natural and intuitive interactions, enhancing the overall user experience. This research is inspired by findings from 'Understanding Large-Language Model (LLM)-powered Human-Robot Interaction' which highlights the importance of non-verbal cues.",
+    "skills": [
+      "Python",
+      "TensorFlow or PyTorch",
+      "Natural Language Processing (NLP)",
+      "Computer Vision",
+      "Robot Operating System (ROS)",
+      "Non-verbal cue detection algorithms",
+      "LLM fine-tuning",
+      "Human-Robot Interaction (HRI) protocols",
+      "Experiment design",
+      "Statistical analysis",
+      "User satisfaction metrics",
+      "Task completion rate evaluation",
+      "Machine learning for robotics"
+    ]
+  }
+]

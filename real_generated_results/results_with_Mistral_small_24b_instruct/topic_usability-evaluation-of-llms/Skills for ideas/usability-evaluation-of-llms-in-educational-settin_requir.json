@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Educational Settings",
+    "description": "LLMs have the potential to revolutionize education by providing personalized learning experiences and instant feedback. However, current evaluations do not adequately address the specific challenges and requirements of educational settings, such as the need for accurate and age-appropriate responses.",
+    "motivation": "Education is a critical domain where technology can significantly enhance learning outcomes. Existing usability evaluations of LLMs in education are limited to general-purpose models, failing to capture the unique needs of students and educators. This research aims to develop an evaluation framework tailored to educational settings, focusing on accuracy, appropriateness, and effectiveness of LLM responses.",
+    "skills": [
+      "Python",
+      "machine learning libraries (e.g., TensorFlow, scikit-learn)",
+      "natural language processing (NLP) tools (e.g., NLTK, spaCy)",
+      "user experience (UX) design principles",
+      "usability evaluation methods",
+      "educational technology integration",
+      "survey design and analysis",
+      "statistical analysis",
+      "qualitative research methods",
+      "LLMs (Large Language Models)",
+      "data collection and management."
+    ]
+  }
+]

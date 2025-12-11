@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Explainable Visual Analytics with LLM-Based Natural Language Interfaces",
+    "description": "Natural language interfaces for visual analytics often lack transparency, making it difficult for users to understand how the system generates visualizations and insights. This opacity can lead to mistrust and reduced effectiveness in data analysis.",
+    "motivation": "XNLI (Explaining and Diagnosing NLI-Based Visual Data Analysis) provides explanations but focuses on diagnosing issues rather than enhancing transparency throughout the process. By integrating explainable AI techniques with LLMs, we can create a more transparent visual analytics system that helps users understand the underlying processes and trust the generated insights.",
+    "skills": [
+      "Python",
+      "Natural Language Processing",
+      "Large Language Models (LLMs)",
+      "Transformer models",
+      "Visual Analytics",
+      "Explainable AI",
+      "User Interface Design",
+      "Human-Computer Interaction",
+      "Data Visualization libraries",
+      "Evaluation metrics for explainability"
+    ]
+  }
+]

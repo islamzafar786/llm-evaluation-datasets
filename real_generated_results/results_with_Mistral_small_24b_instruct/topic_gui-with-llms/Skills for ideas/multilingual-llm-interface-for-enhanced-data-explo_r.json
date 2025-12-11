@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Multilingual LLM Interface for Enhanced Data Exploration",
+    "description": "Current LLM interfaces are often limited to a single language, which restricts their usability in multilingual environments. This limitation hinders the ability of users who speak different languages to effectively explore and analyze data.",
+    "motivation": "The Applied Hedge Algebra Approach with Multilingual Large Language Models (Applied Hedge Algebra Approach with Multilingual Large Language Models to Extract Hidden Rules in Datasets for Improvement of Generative AI Applications) demonstrates the potential of multilingual LLMs but focuses on rule extraction rather than data exploration. By developing a multilingual LLM interface that supports natural language queries and visualizations in multiple languages, we can make data exploration more accessible to a global audience.",
+    "skills": [
+      "Python",
+      "NLP libraries (e.g., spaCy, NLTK)",
+      "Multilingual models (e.g., mBERT, XLM-RoBERTa)",
+      "Machine translation APIs (e.g., Google Translate API)",
+      "Data preprocessing",
+      "Text vectorization (e.g., TF-IDF, Word2Vec)",
+      "Multilingual embeddings",
+      "Model evaluation frameworks",
+      "Cross-lingual information retrieval",
+      "Interface design",
+      "Front-end development (e.g., HTML, CSS, JavaScript)",
+      "Back-end development (e.g., Flask, Django)",
+      "API integration",
+      "User experience (UX) testing"
+    ]
+  }
+]

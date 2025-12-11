@@ -1,0 +1,32 @@
+[
+  {
+    "title": "LLM-Based Interactive Data Exploration for Non-Expert Users",
+    "description": "Non-expert users often find it challenging to explore and analyze complex datasets due to a lack of technical skills. This thesis aims to develop an LLM-based interactive system that guides non-expert users through the data exploration process, providing insights and recommendations based on their queries.",
+    "motivation": "Current tools for data exploration are often too complex for non-experts, limiting their ability to derive meaningful insights from data. An LLM-based system can democratize data analysis by making it accessible to a broader audience.",
+    "milestones": [
+      "Conduct a thorough literature review on existing data exploration tools, LLM applications, and user interaction design.",
+      "Define the system requirements and user needs by interviewing non-expert users and experts in data analysis.",
+      "Design the architecture of the LLM-based interactive data exploration system.",
+      "Develop initial prototypes for key components of the system, including query parsing, data retrieval, and recommendation generation.",
+      "Implement user interface (UI) design based on user feedback from prototyping phases.",
+      "Integrate LLM models into the system to handle natural language queries effectively.",
+      "Conduct usability testing with non-expert users to gather feedback on the system’s effectiveness and ease of use.",
+      "Refine the system based on user feedback, incorporating necessary improvements and enhancements.",
+      "Prepare documentation for users, including guides and tutorials.",
+      "Compile comprehensive project report detailing design choices, implementation details, and evaluation results."
+    ],
+    "timeline": {
+      "Week 1-2": "Literature Review",
+      "Week 3-4": "System Requirements and User Needs Analysis",
+      "Week 5-6": "Architecture Design",
+      "Week 7-8": "Prototype Development",
+      "Week 9-10": "User Interface (UI) Design",
+      "Week 11-12": "LLM Integration",
+      "Week 13-14": "Usability Testing and Feedback Collection",
+      "Week 15-16": "System Refinement",
+      "Week 17-18": "Documentation Preparation",
+      "Week 19-20": "Comprehensive Project Report Compilation",
+      "Week 21-24": "Final Review and Submission"
+    }
+  }
+]

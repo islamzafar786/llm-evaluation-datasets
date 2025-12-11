@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Interactive Visualization of LLM-Generated Insights for Enhanced Data Analysis",
+    "description": "Current chat-based interfaces for LLM-powered data analysis often present insights in a linear, text-heavy format that can be overwhelming and difficult to navigate. This makes it challenging for users to efficiently explore and understand complex datasets.",
+    "motivation": "Existing systems like InsightLens (InsightLens: Augmenting LLM-Powered Data Analysis With Interactive Insight Management and Navigation) focus on organizing insights but lack interactive visualization capabilities that can help users quickly grasp the relationships between different data points. By integrating advanced visual analytics with LLMs, we can provide a more intuitive and efficient way for users to interact with their data.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "LLM-Driven Visual Analytics Framework for Non-Expert Users",
+    "description": "Visual analytics often requires specialized skills in programming, data processing, and visualization tools. This expertise barrier limits the accessibility of visual analytics to non-expert users who could benefit from these tools.",
+    "motivation": "LightVA (Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution) introduces an agent-based approach but still requires some level of user expertise in task planning. By developing a more intuitive, user-friendly interface that leverages LLMs to automate the entire process from data input to visualization generation, we can democratize visual analytics for non-expert users.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Multilingual LLM Interface for Enhanced Data Exploration",
+    "description": "Current LLM interfaces are often limited to a single language, which restricts their usability in multilingual environments. This limitation hinders the ability of users who speak different languages to effectively explore and analyze data.",
+    "motivation": "The Applied Hedge Algebra Approach with Multilingual Large Language Models (Applied Hedge Algebra Approach with Multilingual Large Language Models to Extract Hidden Rules in Datasets for Improvement of Generative AI Applications) demonstrates the potential of multilingual LLMs but focuses on rule extraction rather than data exploration. By developing a multilingual LLM interface that supports natural language queries and visualizations in multiple languages, we can make data exploration more accessible to a global audience.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 3
+    }
+  },
+  {
+    "title": "Explainable Visual Analytics with LLM-Based Natural Language Interfaces",
+    "description": "Natural language interfaces for visual analytics often lack transparency, making it difficult for users to understand how the system generates visualizations and insights. This opacity can lead to mistrust and reduced effectiveness in data analysis.",
+    "motivation": "XNLI (Explaining and Diagnosing NLI-Based Visual Data Analysis) provides explanations but focuses on diagnosing issues rather than enhancing transparency throughout the process. By integrating explainable AI techniques with LLMs, we can create a more transparent visual analytics system that helps users understand the underlying processes and trust the generated insights.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "LLM-Powered Interactive Infographics Generation for Enhanced Data Storytelling",
+    "description": "Generating infographics often requires manual design skills and significant time investment. This process can be cumbersome, especially when dealing with large datasets that require frequent updates.",
+    "motivation": "LIDA (A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models) automates the generation of visualizations but lacks interactive capabilities for real-time adjustments. By developing an LLM-powered system that allows users to interactively generate, refine, and update infographics in real-time, we can enhance data storytelling and make it more accessible to a broader audience.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "LLM-Augmented User Interface for Real-Time Data Visualization",
+    "description": "Current data visualization tools often require users to manually adjust parameters and settings, which can be time-consuming and error-prone. This thesis aims to develop an LLM-augmented user interface that can dynamically adapt visualizations in real-time based on user queries and interactions.",
+    "motivation": "Existing visualization tools lack the ability to automatically adjust to changing data and user needs without manual intervention. By leveraging LLMs, this approach can enhance efficiency and accuracy, making it easier for users to gain insights from complex datasets.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 4,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "Context-Aware LLM Interface for Enhanced User Interaction",
+    "description": "Current natural language interfaces (NLIs) often struggle with maintaining context across multiple interactions, leading to fragmented and less coherent user experiences. This thesis proposes a context-aware LLM interface that can remember previous interactions and provide more cohesive responses.",
+    "motivation": "The lack of contextual awareness in current NLIs limits their effectiveness in complex tasks where understanding the broader context is crucial. By developing an interface that maintains context, users can have more natural and efficient interactions with data analysis tools.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "LLM-Based Interactive Data Exploration for Non-Expert Users",
+    "description": "Non-expert users often find it challenging to explore and analyze complex datasets due to a lack of technical skills. This thesis aims to develop an LLM-based interactive system that guides non-expert users through the data exploration process, providing insights and recommendations based on their queries.",
+    "motivation": "Current tools for data exploration are often too complex for non-experts, limiting their ability to derive meaningful insights from data. An LLM-based system can democratize data analysis by making it accessible to a broader audience.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 5
+    }
+  },
+  {
+    "title": "LLM-Driven Visualization Recommendation System",
+    "description": "Choosing the right type of visualization for a given dataset and analytical goal is a non-trivial task. This thesis proposes an LLM-driven system that recommends appropriate visualizations based on user queries and data characteristics, enhancing the effectiveness of data analysis.",
+    "motivation": "Selecting the wrong visualization can lead to misinterpretation of data and incorrect insights. An LLM-driven recommendation system can help users choose the most effective visualizations, improving the accuracy and reliability of their analyses.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 4,
+      "clarity": 4
+    }
+  },
+  {
+    "title": "LLM-Powered Interactive Data Storytelling Framework",
+    "description": "Creating compelling data stories often requires significant effort in curating data, designing visuals, and crafting narratives. This thesis aims to develop an LLM-powered framework that automates the process of generating interactive data stories, making it easier for users to communicate insights effectively.",
+    "motivation": "Current methods for data storytelling are labor-intensive and require specialized skills. An LLM-powered framework can streamline this process, enabling users to create engaging and informative data stories with minimal effort.",
+    "scores": {
+      "feasibility": 3,
+      "novelty": 3,
+      "validness": 3,
+      "clarity": 3
+    }
+  }
+]

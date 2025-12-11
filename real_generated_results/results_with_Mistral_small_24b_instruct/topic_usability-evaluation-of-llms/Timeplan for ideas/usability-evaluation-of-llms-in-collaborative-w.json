@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Collaborative Work Environments",
+    "description": "Current usability evaluations of Large Language Models (LLMs) primarily focus on individual user interactions, neglecting the collaborative aspects where multiple users interact with the LLM simultaneously. This oversight limits our understanding of how LLMs perform in team settings, which are common in professional environments.",
+    "motivation": "Collaborative work is a cornerstone of many industries, and effective communication within teams is crucial for productivity and innovation. Existing evaluations do not account for the complexities introduced by multiple users interacting with an LLM concurrently, such as conflicting prompts, overlapping queries, and the need for synchronized responses. This gap in research hinders the development of LLMs that can effectively support collaborative tasks.",
+    "milestones": [
+      "Define project scope and objectives.",
+      "Conduct literature review on usability evaluation methods for LLMs.",
+      "Design collaborative work scenarios involving multiple users interacting with an LLM.",
+      "Select appropriate user groups and recruit participants.",
+      "Develop a detailed usability testing protocol.",
+      "Collect preliminary data through pilot tests.",
+      "Refine the usability testing protocol based on pilot results.",
+      "Conduct comprehensive usability evaluations in controlled environments.",
+      "Analyze collected data to identify usability issues and patterns.",
+      "Compile findings into a report detailing usability challenges, best practices, and recommendations.",
+      "Prepare for presentation of findings at relevant conferences or workshops."
+    ],
+    "timeline": {
+      "Week 1-2": "Define project scope and objectives.",
+      "Week 3-4": "Conduct literature review on usability evaluation methods for LLMs.",
+      "Week 5-6": "Design collaborative work scenarios involving multiple users interacting with an LLM.",
+      "Week 7-8": "Select appropriate user groups and recruit participants.",
+      "Week 9-10": "Develop a detailed usability testing protocol.",
+      "Week 11": "Collect preliminary data through pilot tests.",
+      "Week 12": "Refine the usability testing protocol based on pilot results.",
+      "Week 13-16": "Conduct comprehensive usability evaluations in controlled environments.",
+      "Week 17-18": "Analyze collected data to identify usability issues and patterns.",
+      "Week 19-20": "Compile findings into a report detailing usability challenges, best practices, and recommendations.",
+      "Week 21-23": "Prepare for presentation of findings at relevant conferences or workshops."
+    }
+  }
+]

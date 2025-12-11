@@ -1,0 +1,21 @@
+[
+  {
+    "title": "LLM-Powered Interactive Infographics Generation for Enhanced Data Storytelling",
+    "description": "Generating infographics often requires manual design skills and significant time investment. This process can be cumbersome, especially when dealing with large datasets that require frequent updates.",
+    "motivation": "LIDA (A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models) automates the generation of visualizations but lacks interactive capabilities for real-time adjustments. By developing an LLM-powered system that allows users to interactively generate, refine, and update infographics in real-time, we can enhance data storytelling and make it more accessible to a broader audience.",
+    "skills": [
+      "Python",
+      "Large Language Models (LLM)",
+      "infographic generation libraries (e.g., Matplotlib, Plotly, D3.js)",
+      "data visualization techniques",
+      "natural language processing (NLP)",
+      "interactive design",
+      "HTML/CSS/JavaScript",
+      "data manipulation libraries (e.g., Pandas)",
+      "user interface/UX design",
+      "API development",
+      "cloud services for deployment",
+      "machine learning workflows"
+    ]
+  }
+]

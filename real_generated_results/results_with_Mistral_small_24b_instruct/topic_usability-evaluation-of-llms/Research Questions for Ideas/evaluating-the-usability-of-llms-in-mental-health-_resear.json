@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Mental Health Support Systems",
+    "description": "LLMs are being explored for their potential in providing mental health support through conversational agents. However, current evaluations do not adequately address the specific usability challenges and ethical considerations involved in mental health applications.",
+    "motivation": "Mental health is a sensitive area where the accuracy and appropriateness of responses from LLMs can have significant impacts on users' well-being. Existing evaluations do not account for the unique requirements of mental health support, such as empathy, confidentiality, and ethical considerations. This research aims to develop an evaluation framework that addresses these challenges, ensuring that LLMs are usable and effective in providing mental health support.",
+    "questions": [
+      "How do different user groups (e.g., patients with varying mental health conditions, healthcare professionals) perceive the usability of Large Language Models (LLMs) in mental health support systems, and what specific challenges do they encounter?",
+      "What are the ethical considerations and potential risks associated with the use of LLMs for mental health support, and how can these be mitigated to ensure safe and effective user interactions?",
+      "How can the design and implementation of LLMs in mental health support systems be optimized to enhance their usability, taking into account factors such as conversational flow, emotional intelligence, and adherence to therapeutic guidelines?"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Usability Evaluation of LLMs in Educational Settings",
+    "description": "LLMs have the potential to revolutionize education by providing personalized learning experiences and instant feedback. However, current evaluations do not adequately address the specific challenges and requirements of educational settings, such as the need for accurate and age-appropriate responses.",
+    "motivation": "Education is a critical domain where technology can significantly enhance learning outcomes. Existing usability evaluations of LLMs in education are limited to general-purpose models, failing to capture the unique needs of students and educators. This research aims to develop an evaluation framework tailored to educational settings, focusing on accuracy, appropriateness, and effectiveness of LLM responses.",
+    "milestones": [
+      "Define research questions and objectives.",
+      "Conduct a literature review on existing evaluations of LLMs in educational settings.",
+      "Develop evaluation criteria specific to educational needs.",
+      "Design the methodology for usability evaluation (e.g., user testing, surveys).",
+      "Recruit participants from various educational levels.",
+      "Develop materials for user testing and surveys.",
+      "Conduct pilot studies to validate methodology.",
+      "Collect data through user testing and surveys.",
+      "Analyze collected data.",
+      "Draft the initial report on findings.",
+      "Revise report based on peer review.",
+      "Prepare final report and presentation."
+    ],
+    "timeline": {
+      "Week 1-2": "Define research questions and objectives.",
+      "Week 3-4": "Conduct a literature review on existing evaluations of LLMs in educational settings.",
+      "Week 5-6": "Develop evaluation criteria specific to educational needs.",
+      "Week 7-8": "Design the methodology for usability evaluation (e.g., user testing, surveys).",
+      "Week 9-10": "Recruit participants from various educational levels.",
+      "Week 11-12": "Develop materials for user testing and surveys.",
+      "Week 13-14": "Conduct pilot studies to validate methodology.",
+      "Week 15-16": "Collect data through user testing and surveys.",
+      "Week 17-18": "Analyze collected data.",
+      "Week 19-20": "Draft the initial report on findings.",
+      "Week 21-22": "Revise report based on peer review.",
+      "Week 23-24": "Prepare final report and presentation."
+    }
+  }
+]

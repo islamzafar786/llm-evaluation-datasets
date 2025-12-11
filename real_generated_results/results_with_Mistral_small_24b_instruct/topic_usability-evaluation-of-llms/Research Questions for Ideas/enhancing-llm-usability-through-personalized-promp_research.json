@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Enhancing LLM Usability through Personalized Prompt Engineering",
+    "description": "Users often struggle with crafting effective prompts when interacting with LLMs, leading to suboptimal outcomes. This study explores personalized prompt engineering techniques to improve user engagement and task completion rates.",
+    "motivation": "Effective prompt engineering is crucial for maximizing the potential of LLMs but remains a significant barrier for many users. Personalized approaches can reduce cognitive load and enhance user satisfaction, making LLM interactions more intuitive and effective. This research builds on insights from 'Task Supportive and Personalized Human-Large Language Model Interaction: A User Study'.",
+    "questions": [
+      "How do personalized prompt engineering techniques impact the usability and effectiveness of interactions with Large Language Models (LLMs) compared to generic prompts?",
+      "What specific user characteristics (e.g., expertise level, task familiarity) can be leveraged to tailor prompt engineering strategies for improved engagement and task completion rates?",
+      "What are the most effective methods for dynamically generating personalized prompts based on real-time user feedback and interaction history in LLM-based systems?"
+    ]
+  }
+]

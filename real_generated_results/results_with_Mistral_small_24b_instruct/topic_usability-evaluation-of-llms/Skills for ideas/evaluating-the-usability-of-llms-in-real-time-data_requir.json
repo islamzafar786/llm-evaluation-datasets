@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Real-Time Data Visualization",
+    "description": "LLMs are increasingly being used to generate natural language descriptions and insights from data visualizations. However, current evaluations do not adequately address the real-time performance and usability of these models when dealing with dynamic datasets that change frequently.",
+    "motivation": "Real-time data visualization is essential in fields like finance, healthcare, and emergency management, where timely decision-making is critical. Existing methods for evaluating LLMs in this context are limited to static datasets, failing to capture the challenges posed by real-time data updates. This research aims to fill this gap by developing a framework that evaluates LLM usability in dynamic, real-time scenarios.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "real-time data processing libraries (e.g., D3.js, Plotly)",
+      "natural language processing (NLP) libraries (e.g., NLTK, spaCy)",
+      "LLM evaluation metrics (e.g., BLEU, ROUGE)",
+      "usability testing methods",
+      "user interface design tools",
+      "dynamic dataset generation",
+      "performance benchmarking"
+    ]
+  }
+]

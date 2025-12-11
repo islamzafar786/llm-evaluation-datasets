@@ -1,0 +1,32 @@
+[
+  {
+    "title": "LLM-Driven Visual Analytics Framework for Non-Expert Users",
+    "description": "Visual analytics often requires specialized skills in programming, data processing, and visualization tools. This expertise barrier limits the accessibility of visual analytics to non-expert users who could benefit from these tools.",
+    "motivation": "LightVA (Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution) introduces an agent-based approach but still requires some level of user expertise in task planning. By developing a more intuitive, user-friendly interface that leverages LLMs to automate the entire process from data input to visualization generation, we can democratize visual analytics for non-expert users.",
+    "milestones": [
+      "Conduct a literature review on existing visual analytics tools and LLM (Large Language Model) applications.",
+      "Define project scope, objectives, and requirements for the framework.",
+      "Design the system architecture incorporating LLMs for user interaction.",
+      "Develop the initial prototype of the framework using selected technologies.",
+      "Test the prototype with non-expert users to gather feedback.",
+      "Iteratively refine the framework based on user feedback.",
+      "Integrate advanced features and functionalities into the framework.",
+      "Conduct comprehensive testing and validation.",
+      "Document all processes, code, and user manuals.",
+      "Prepare for project presentation and final report."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct a literature review on existing visual analytics tools and LLM applications.",
+      "Week 3": "Define project scope, objectives, and requirements for the framework.",
+      "Week 4-5": "Design the system architecture incorporating LLMs for user interaction.",
+      "Week 6-8": "Develop the initial prototype of the framework using selected technologies.",
+      "Week 9": "Test the prototype with non-expert users to gather feedback.",
+      "Week 10-12": "Iteratively refine the framework based on user feedback.",
+      "Week 13-14": "Integrate advanced features and functionalities into the framework.",
+      "Week 15-18": "Conduct comprehensive testing and validation.",
+      "Week 19-20": "Document all processes, code, and user manuals.",
+      "Week 21-22": "Prepare for project presentation and final report.",
+      "Week 23-24": "Finalize all deliverables and wrap up the project."
+    }
+  }
+]

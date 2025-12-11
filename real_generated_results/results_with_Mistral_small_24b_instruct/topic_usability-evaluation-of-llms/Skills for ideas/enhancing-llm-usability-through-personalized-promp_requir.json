@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Enhancing LLM Usability through Personalized Prompt Engineering",
+    "description": "Users often struggle with crafting effective prompts when interacting with LLMs, leading to suboptimal outcomes. This study explores personalized prompt engineering techniques to improve user engagement and task completion rates.",
+    "motivation": "Effective prompt engineering is crucial for maximizing the potential of LLMs but remains a significant barrier for many users. Personalized approaches can reduce cognitive load and enhance user satisfaction, making LLM interactions more intuitive and effective. This research builds on insights from 'Task Supportive and Personalized Human-Large Language Model Interaction: A User Study'.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "machine learning",
+      "user experience research",
+      "prompt engineering",
+      "LLM fine-tuning",
+      "data collection and preprocessing",
+      "statistical analysis",
+      "user interface design"
+    ]
+  }
+]

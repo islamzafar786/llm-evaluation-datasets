@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Context-Aware LLM Interface for Enhanced User Interaction",
+    "description": "Current natural language interfaces (NLIs) often struggle with maintaining context across multiple interactions, leading to fragmented and less coherent user experiences. This thesis proposes a context-aware LLM interface that can remember previous interactions and provide more cohesive responses.",
+    "motivation": "The lack of contextual awareness in current NLIs limits their effectiveness in complex tasks where understanding the broader context is crucial. By developing an interface that maintains context, users can have more natural and efficient interactions with data analysis tools.",
+    "milestones": [
+      "Define project scope and objectives.",
+      "Conduct literature review on existing NLIs and context-aware systems.",
+      "Design the architecture for the context-aware LLM interface.",
+      "Develop the initial prototype of the system.",
+      "Implement context maintenance algorithms.",
+      "Test the prototype with sample interactions.",
+      "Iterate based on test results; refine the prototype.",
+      "Conduct user testing to gather feedback.",
+      "Finalize and document the system design and implementation.",
+      "Prepare a project report and presentation."
+    ],
+    "timeline": {
+      "Week 1-2": "Define project scope and objectives.",
+      "Week 3-4": "Conduct literature review on existing NLIs and context-aware systems.",
+      "Week 5-6": "Design the architecture for the context-aware LLM interface.",
+      "Week 7-8": "Develop the initial prototype of the system.",
+      "Week 9-10": "Implement context maintenance algorithms.",
+      "Week 11-12": "Test the prototype with sample interactions.",
+      "Week 13-14": "Iterate based on test results; refine the prototype.",
+      "Week 15-16": "Conduct user testing to gather feedback.",
+      "Week 17-18": "Finalize and document the system design and implementation.",
+      "Week 19-20": "Prepare a project report and presentation.",
+      "Week 21-24": "Review, final adjustments, and submission."
+    }
+  }
+]

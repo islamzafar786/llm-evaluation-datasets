@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in High-Stakes Decision-Making Scenarios",
+    "description": "LLMs are increasingly used in high-stakes decision-making contexts, such as healthcare and finance. This research evaluates the usability and reliability of LLMs in these critical scenarios, focusing on user trust and decision accuracy.",
+    "motivation": "High-stakes decisions require robust and reliable AI systems. Current evaluations often overlook the specific challenges and risks associated with high-stakes contexts. Understanding how LLMs perform in these scenarios can enhance their usability and ensure better outcomes for users.",
+    "milestones": [
+      "Define research scope, objectives, and methodology.",
+      "Conduct a literature review on LLMs in high-stakes decision-making.",
+      "Design user trust and decision accuracy evaluation frameworks.",
+      "Recruit participants from relevant fields (healthcare, finance).",
+      "Develop survey instruments and usability testing protocols.",
+      "Collect baseline data on current practices without LLM use.",
+      "Administer surveys and conduct usability tests involving LLMs.",
+      "Analyze collected data to evaluate user trust and decision accuracy.",
+      "Compare findings with baseline data and existing literature.",
+      "Draft the research report detailing findings, recommendations, and future work."
+    ],
+    "timeline": {
+      "Week 1-2": "Define research scope, objectives, and methodology.",
+      "Week 3-4": "Conduct a literature review on LLMs in high-stakes decision-making.",
+      "Week 5-6": "Design user trust and decision accuracy evaluation frameworks.",
+      "Week 7-8": "Recruit participants from relevant fields (healthcare, finance).",
+      "Week 9-10": "Develop survey instruments and usability testing protocols.",
+      "Week 11-12": "Collect baseline data on current practices without LLM use.",
+      "Week 13-14": "Administer surveys and conduct usability tests involving LLMs.",
+      "Week 15-16": "Analyze collected data to evaluate user trust and decision accuracy.",
+      "Week 17-18": "Compare findings with baseline data and existing literature.",
+      "Week 19-20": "Draft the research report detailing findings, recommendations, and future work.",
+      "Week 21-24": "Finalize and submit the research report."
+    }
+  }
+]

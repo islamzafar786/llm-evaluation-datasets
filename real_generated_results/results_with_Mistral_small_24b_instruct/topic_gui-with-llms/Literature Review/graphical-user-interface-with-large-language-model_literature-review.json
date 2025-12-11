@@ -1,0 +1,260 @@
+[
+  {
+    "id": "f7aeb89319223b0b31d59d30d091cd7d68859d0f",
+    "title": "Graphologue: Exploring Large Language Model Responses with Interactive Diagrams",
+    "abstract": "Large language models (LLMs) have recently soared in popularity due to their ease of access and the unprecedented ability to synthesize text responses to diverse user questions. However, LLMs like ChatGPT present significant limitations in supporting complex information tasks due to the insufficient affordances of the text-based medium and linear conversational structure. Through a formative study with ten participants, we found that LLM interfaces often present long-winded responses, making it difficult for people to quickly comprehend and interact flexibly with various pieces of information, particularly during more complex tasks. We present Graphologue, an interactive system that converts text-based responses from LLMs into graphical diagrams to facilitate information-seeking and question-answering tasks. Graphologue employs novel prompting strategies and interface designs to extract entities and relationships from LLM responses and constructs node-link diagrams in real-time. Further, users can interact with the diagrams to flexibly adjust the graphical presentation and to submit context-specific prompts to obtain more information. Utilizing diagrams, Graphologue enables graphical, non-linear dialogues between humans and LLMs, facilitating information exploration, organization, and comprehension.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/f7aeb89319223b0b31d59d30d091cd7d68859d0f",
+    "excluded": false
+  },
+  {
+    "id": "7f9b3b68a971becca559925e0411f65d71c9f967",
+    "title": "Visistant: A Conversational Chatbot for Natural Language to Visualizations With Gemini Large Language Models",
+    "abstract": "The goal of the data visualization field has always been to enable the production of visualizations directly from natural language text. This paper introduces Visistant, an innovative system designed to enhance the capabilities of advanced pre-trained language models, notably Google’s Gemini. Visistant facilitates the generation of interactive visualizations from tabular datasets through the use of Plotly and supports conversational interactions in a chatbot-styled manner by employing LangChain to maintain the memory of conversations. Visistant leverages Gemini’s code generation capabilities, demonstrating how prompt engineering can effectively lead to accurate end-to-end solutions. Our focus extended to prompt refinement, aiming to optimize the input token length of prompts. Through meticulous evaluation and comparison with existing models, Visistant exhibits superior performance in terms of both accuracy and efficiency. The results indicate that Visistant’s approach to converting natural language into detailed visualizations represents a significant advancement in the field of data visualization. The significance of this study lies in its potential to revolutionize data visualization by making it more accessible and user-friendly. By enabling users to generate complex visualizations through simple conversational interactions, Visistant democratizes data analysis, making it accessible to non-experts, which not only saves time but also reduces the barrier to entry for data-driven decision-making. This research addresses a critical gap in the literature by exploring the capabilities of Gemini LLMs for visualization generation, providing a novel solution that combines cutting-edge AI with practical usability.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/7f9b3b68a971becca559925e0411f65d71c9f967",
+    "excluded": false
+  },
+  {
+    "id": "b630dafc6e8c9dc8c24e02b97adbcf588d92d4f5",
+    "title": "InsightPilot: An LLM-Empowered Automated Data Exploration System",
+    "abstract": "Exploring data is crucial in data analysis, as it helps users understand and interpret the data more effectively. However, performing effective data exploration requires in-depth knowledge of the dataset, the user intent and expertise in data analysis techniques. Not being familiar with either can create obstacles that make the process time-consuming and overwhelming. To address this issue, we introduce InsightPi-lot , an LLM (Large Language Model)-based, automated data exploration system designed to simplify the data exploration process. Insight-Pilot features a set of carefully designed analysis actions that streamline the data exploration process. Given a natural language question, In-sightPilot collaborates with the LLM to issue a sequence of analysis actions, explore the data and generate insights. We demonstrate the effectiveness of InsightPilot in a user study and a case study, showing how it can help users gain valuable insights from their datasets.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/b630dafc6e8c9dc8c24e02b97adbcf588d92d4f5",
+    "excluded": false,
+    "summary": {
+      "motivation": "The text discusses the development and application of InsightPilot, a system designed for exploratory data analysis that goes beyond traditional text-to-SQL approaches by using large language models (LLMs) to handle complex user intents. The need for an efficient automated data exploration system is highlighted to simplify the manual, time-consuming process of exploratory data analysis (EDA). Exploring data is crucial in data analysis as it helps users understand and interpret the data more effectively.",
+      "idea": "InsightPilot uses 'analysis actions' to produce natural and coherent data exploration sequences that accurately address users’ questions. It focuses on high-level, fuzzy tasks where the user’s intent is not explicitly clear or the analysis objective is often complex. InsightPilot integrates LLMs with state-of-the-art insight engines to allow users to derive insights via natural language inquiries. The tool is implemented based on existing codebases (QuickInsight, MetaInsight, XInsight) with additional C# and JavaScript code, utilizing specific language models from OpenAI.",
+      "methodology": "The system involves a pipeline with three components: a user interface for natural language inquiries, an LLM to drive the exploration process, and an insight engine that executes analysis actions and generates insights. The methodology includes defining data models, analysis entities (AEs), and data insights, as well as specifying analysis actions such as understand, summarize, compare, and explain. InsightPilot uses LLMs to interact with an insight engine through carefully designed analysis actions. The insight engine provides accurate insights and alleviates the context window issue by presenting a concise abstraction of the dataset.",
+      "result": "The result is a coherent report generated by InsightPilot, which condenses the top-K insights into natural language for user-friendly presentation. The system also employs techniques like redundant insight elimination, semantic similarity-based elimination, and diversity-aware reranking to manage and prioritize insights effectively. InsightPilot outperformed competitors in all metrics (Relevance: 4.50±0.76, Completeness: 4.67±0.55, Understandability: 4.46±0.64). It provided more complete and detailed responses compared to competitors. The tool identified specific trends and correlations that were not evident in the competitors' responses.",
+      "discussion": "Existing data exploration systems often fail to incorporate user intent and dataset characteristics, leading to irrelevant insights. LLMs show potential but face challenges like hallucination and overwhelming context windows. InsightPilot addresses these issues by leveraging an insight engine that integrates production-quality tools for reliable insights and concise dataset abstraction. The efficacy of Insight-Pilot hinges on the comprehensive design of each action and its accurate execution. It is essential to evaluate Insight-Pilot across diverse real-life datasets and dimensions, such as keyword preservation. Nonetheless, InsightPilot often produces open-ended responses, making manual evaluation crucial for assessing answer quality."
+    },
+    "entities": {
+      "datasets": [
+        "car sales dataset",
+        "student performance dataset",
+        "real-world datasets"
+      ],
+      "models": [
+        "InsightPilot",
+        "LLM"
+      ],
+      "losses": [],
+      "metrics": [
+        "p-value"
+      ]
+    }
+  },
+  {
+    "id": "1f8efdaa56df0ede1c2b7c6cb55f0640f1ed43df",
+    "title": "LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models",
+    "abstract": "Systems that support users in the automatic creation of visualizations must address several subtasks - understand the semantics of data, enumerate relevant visualization goals and generate visualization specifications. In this work, we pose visualization generation as a multi-stage generation problem and argue that well-orchestrated pipelines based on large language models (LLMs) and image generation models (IGMs) are suitable to addressing these tasks. We present LIDA, a novel tool for generating grammar-agnostic visualizations and infographics. LIDA comprises of 4 modules - A SUMMARIZER that converts data into a rich but compact natural language summary, a GOAL EXPLORER that enumerates visualization goals given the data, a VISGENERATOR that generates, refines, executes and filters visualization code and an INFOGRAPHER module that yields data-faithful stylized graphics using IGMs. LIDA provides a python api, and a hybrid user interface (direct manipulation and multilingual natural language) for interactive chart, infographics and data story generation. Code and demo are available at this url - https://microsoft.github.io/lida/",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/1f8efdaa56df0ede1c2b7c6cb55f0640f1ed43df",
+    "excluded": false,
+    "summary": {
+      "motivation": "Systems that support users in the automatic creation of visualizations must address several subtasks, including understanding the semantics of data, enumerating relevant visualization goals, and generating visualization specifications. Visualizations make data accessible by reducing the cognitive burden associated with extracting insights from large tabular datasets. The motivation is also to address limitations of current automatic visualization systems and leverage the capabilities of large language models (LLMs) for generating visualizations and infographics.",
+      "idea": "Visualization generation as a multi-stage text (and code) generation problem that can be addressed using LLMs. Automating the visualization creation process, given a dataset, leveraging insights from Program-Aided Language models to generate semantically meaningful visualization goals. LIDA is developed as a tool for automatic generation of grammar-agnostic visualizations and infographics.",
+      "methodology": "Well-orchestrated pipelines based on large language models (LLMs) and image generation models (IGMs). A multi-stage, modular approach using LLMs for automatic generation of data visualizations and infographics. The approach includes efficiently representing datasets as natural language summaries, generating visualization goals, creating grammar-agnostic visualization specifications, providing a hybrid interface with direct manipulation controls and multilingual NL interaction, and applying text-conditioned image generation models. LIDA comprises four core modules: SUMMARIZER, GOAL EXPLORER, VISGENERATOR, and INFOGRAPHER. The system uses large foundation models trained on massive amounts of data to perform tasks across multiple modalities such as text, images, audio, and video. LIDA uses a conversational interface for controllable visualization generation and refinement, supports multiple visualization grammars with the same pipeline.",
+      "result": "LIDA generates visualizations (images) that are then used as input to image generation models in generating stylized infographics. LIDA is an open-source library that provides a Python API, web API, and rich web interface for research and practical applications. It is simplified, general, flexible, and scalable. LIDA generates visualizations with a low error rate (VER=3.5%). An ablation study shows that including a summary reduces the error rate compared to using only field names as a summary.",
+      "discussion": "The vast capabilities of large foundation models can be assembled to address the AUTOVIZ task while addressing limitations of existing approaches. The contributions include novel metrics for evaluating LLM-enabled visualization tools and a multi-step generation task pipeline that addresses various subtasks. The creation of infographics that convey data insights can be a tedious process for content creators, often requiring skills across multiple tools and domains. LIDA addresses these limitations by leveraging patterns learned by LLMs from massive language and code datasets, applying this knowledge to subtasks, providing a single grammar-agnostic pipeline, supporting natural language-based control of generated visualizations, and more. The discussion focuses on the limitations of LIDA, including issues with low resource grammars, deployment and latency challenges, interpretability challenges, and the need for more comprehensive benchmarks. It also highlights future research opportunities in these areas. The methodology involves using GPT-4 to assess the quality of generated visualizations across six dimensions. The benchmark settings include 57 datasets from the Vega repository, with LIDA generating multiple goals and visualizations per dataset. The discussion highlights the impact of different summarization strategies on VER and the effectiveness of the SEVQ metric in identifying and addressing visualization quality issues."
+    },
+    "entities": {
+      "datasets": [
+        "vega datasets repository",
+        "Cars.csv",
+        "cars dataset",
+        "cars.json"
+      ],
+      "models": [
+        "OPT",
+        "VISGENERATOR",
+        "NL4DV",
+        "INFOGRAPHER",
+        "LAMBDA",
+        "SUMMARIZER",
+        "GPT3.5",
+        "Program-Aided Language models",
+        "Voyager",
+        "image generation models",
+        "Latent Diffusion",
+        "InCoder",
+        "DALLE",
+        "GPT3 series",
+        "CodeLLMs",
+        "Data2Vis",
+        "LIDA",
+        "foundation models",
+        "PALM",
+        "GOAL EXPLORER",
+        "DeepEye",
+        "LLMs",
+        "Codex",
+        "AlphaCode",
+        "CLIP"
+      ],
+      "losses": [],
+      "metrics": [
+        "self-evaluated visualization quality",
+        "SEVQ",
+        "visualization error rates",
+        "VER"
+      ]
+    }
+  },
+  {
+    "id": "5b93ba9c248946bcb361ff9648ac11c707ab0a22",
+    "title": "Chat with MES: LLM-driven user interface for manipulating garment manufacturing system through natural language",
+    "abstract": "Chat with MES (CWM), an AI agent system, which integrates LLMs into the Manufacturing Execution System (MES), serving as the ‘‘ears, mouth, and the brain’’, promotes a paradigm shift in MES interactions from Graphical User Interface to natural language interface, offering a more natural and efficient way for workers to manipulate the manufacturing system.",
+    "year": "2025",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/5b93ba9c248946bcb361ff9648ac11c707ab0a22",
+    "excluded": false
+  },
+  {
+    "id": "f29d247c84375d28c84aac6e50a9f83435ea9884",
+    "title": "LightVA: Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution",
+    "abstract": "Visual analytics (VA) requires analysts to iteratively propose analysis tasks based on observations and execute tasks by creating visualizations and interactive exploration to gain insights. This process demands skills in programming, data processing, and visualization tools, highlighting the need for a more intelligent, streamlined VA approach. Large language models (LLMs) have recently been developed as agents to handle various tasks with dynamic planning and tool-using capabilities, offering the potential to enhance the efficiency and versatility of VA. We propose LightVA, a lightweight VA framework that supports task decomposition, data analysis, and interactive exploration through human-agent collaboration. Our method is designed to help users progressively translate high-level analytical goals into low-level tasks, producing visualizations and deriving insights. Specifically, we introduce an LLM agent-based task planning and execution strategy, employing a recursive process involving a planner, executor, and controller. The planner is responsible for recommending and decomposing tasks, the executor handles task execution, including data analysis, visualization generation and multi-view composition, and the controller coordinates the interaction between the planner and executor. Building on the framework, we develop a system with a hybrid user interface that includes a task flow diagram for monitoring and managing the task planning process, a visualization panel for interactive data exploration, and a chat view for guiding the model through natural language instructions. We examine the effectiveness of our method through a usage scenario and an expert study.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/f29d247c84375d28c84aac6e50a9f83435ea9884",
+    "excluded": false,
+    "summary": {
+      "motivation": "Visual analytics (VA) requires analysts to iteratively propose analysis tasks based on observations and execute tasks by creating visualizations and interactive exploration to gain insights. This process demands skills in programming, data processing, and visualization tools, highlighting the need for a more intelligent, streamlined VA approach. The development of LightVA aims to reduce complexities and technical demands in carrying out visual analytics. It supports task planning, insight analysis, and linked visualization generation based on human-agent collaboration. Additionally, the motivation includes incorporating a representative blend of data types and corresponding visualizations, encompassing text, spatial, and temporal data, which is typical for VA scenarios.",
+      "idea": "LightVA is a lightweight visual analytics framework designed to support task planning, insight analysis, and linked visualization generation based on human-agent collaboration. It utilizes LLM agents for task planning and execution. The framework transforms goals into actionable tasks through a recursive approach where agents recommend tasks, break down complex tasks into subtasks, and generate visualization and data modeling codes to solve tasks.",
+      "methodology": "LightVA employs a recursive process involving a planner, executor, and controller. The planner is responsible for recommending and decomposing tasks, the executor handles task execution, including data analysis, visualization generation, and multi-view composition, and the controller coordinates the interaction between the planner and executor. The framework includes key primitives such as goal, data, tasks, subtasks, visualization, and insight. It also defines a workflow involving task recommendation, execution, and decomposition. The implementation follows step-by-step guidelines with two stages: initial stage and historical context stage.",
+      "result": "LightVA reduced the manual effort required for visual analytics and provided new opportunities to leverage LLMs to facilitate visual data exploration. Experts found that LightVA facilitated better understanding of data through interactive analysis and reduced manual effort significantly. The system was effective in generating insights and enhancing the accuracy of analysis. In a usage scenario, significant events such as Fire, Hit and Run, and Stand-off were identified without manually coding and designing. With task planning, eight views with auto-summarized findings based on statistical analysis and a linked view were generated to solve the goal rapidly.",
+      "discussion": "The framework is generalizable in unifying the development and usage of VA systems but requires more detailed guidelines for complex domains and improved functionality for authoring and version iteration. The performance of LLMs in VA tasks has limitations such as output stability, response speed, problem-solving ability, domain knowledge, and design knowledge injection. Future research should focus on enhancing these aspects and exploring different levels of user agency and automation to improve task performance and user satisfaction. One potential avenue would be to integrate agent-assisted data annotation and cleaning into LightVA’s workflow. Despite the lack of finesse and aesthetic appeal in interface visualizations and interactions compared to manual designs, the overall cost-effectiveness has been enhanced."
+    },
+    "entities": {
+      "datasets": [
+        "Sales Dataset",
+        "superstore sales dataset",
+        "Auto MPG dataset",
+        "IEEE VAST Challenge 2021 Mini-Challenge 3"
+      ],
+      "models": [
+        "Transformer-based models",
+        "Vega-Lite",
+        "Markov Decision Process",
+        "LLMs"
+      ],
+      "losses": [],
+      "metrics": []
+    }
+  },
+  {
+    "id": "0de03df12aebe55f88e3a63cab32288315945288",
+    "title": "InsightLens: Augmenting LLM-Powered Data Analysis With Interactive Insight Management and Navigation",
+    "abstract": "The proliferation of large language models (LLMs) has revolutionized the capabilities of natural language interfaces (NLIs) for data analysis. LLMs can perform multi-step and complex reasoning to generate data insights based on users’ analytic intents. However, these insights often entangle with an abundance of contexts in analytic conversations such as code, visualizations, and natural language explanations. This hinders efficient recording, organization, and navigation of insights within the current chat-based LLM interfaces. In this paper, we first conduct a formative study with eight data analysts to understand their general workflow and pain points of insight management during LLM-powered data analysis. Accordingly, we introduce InsightLens, an interactive system to overcome such challenges. Built upon an LLM-agent-based framework that automates insight recording and organization along with the analysis process, InsightLens visualizes the complex conversational contexts from multiple aspects to facilitate insight navigation. A user study with twelve data analysts demonstrates the effectiveness of InsightLens, showing that it significantly reduces users’ manual and cognitive effort without disrupting their conversational data analysis workflow, leading to a more efficient analysis experience.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/0de03df12aebe55f88e3a63cab32288315945288",
+    "excluded": false,
+    "summary": {
+      "motivation": "The proliferation of large language models (LLMs) has revolutionized natural language interfaces (NLIs) for data analysis by enabling multi-step and complex reasoning to generate insights based on users' analytic intents. However, these insights often become entangled with an abundance of contexts in analytic conversations such as code, visualizations, and natural language explanations. This complexity hinders efficient recording, organization, and navigation of insights within current chat-based LLM interfaces. The motivation behind this study is to address the challenges in managing and navigating insights generated during LLM-powered data analysis conversations, which are inefficient and tedious, especially when dealing with complex conversational contexts.",
+      "idea": "InsightLens is an interactive system designed to facilitate insight recording, organization, and navigation through a novel LLM-agent-based framework and multi-level, multi-faceted visualizations. It consists of two main components: the Insight Extraction (IE) Agent and the Insight Organization (IO) Agent. The IE Agent monitors conversations, extracts insights from LLMs' responses, associates them with relevant evidence, and evaluates their interestingness. The IO Agent organizes insights based on data attributes and analytic topics, providing a structured overview for easy navigation. InsightLens features a user interface with five coordinated views: Chat Window, Insight Details, Insight Gallery, Insight Minimap, and Topic Canvas. These views support multi-level and multi-faceted insight navigation without disrupting the conversational workflow.",
+      "methodology": "The methodology involves conducting a formative study with eight data analysts to understand their general workflow and pain points of insight management during LLM-powered data analysis. InsightLens is built upon an LLM-agent-based framework that automates insight recording and organization along with the analysis process. The system uses an all-MiniLM-L6-v1 model from Sentence Transformers for embedding calculation, generating new candidate topics, and comparing them with existing topics using a similarity threshold of 0.55. Insights are categorized into subgroups based on data-related and semantic-related dimensions. A within-subjects user study was conducted to evaluate the system's effectiveness.",
+      "result": "A technical evaluation and user studies demonstrate the effectiveness of InsightLens, showing that it significantly reduces users' manual and cognitive effort without disrupting their conversational data analysis workflow. The results show high coverage, accuracy, and quality in automated insight recording and organization. All participants completed four experiment sessions successfully. Participants found InsightLens to be highly effective in facilitating insight management and navigation, leading to a more efficient analysis experience. The system was tested on 10 datasets with diverse analysis domains, resulting in 104 extracted insights and 50 generated analytic topics (with 70 subtopics).",
+      "discussion": "Participants found the current process of organizing insights to be troublesome and time-consuming due to manual annotation and context switching between different tools. They also struggled with browsing and revisiting previous findings, which hindered quick navigation and contextual understanding. InsightLens aims to address these issues by providing automatic insight recording, effective organization, multi-level navigation, and seamless interactions. Most failure cases can be ascribed to LLMs' hallucinations, particularly evident given the intricate nature of our targeted tasks and complex prompting techniques. To mitigate this, more effective instructions could make LLMs' behavior more reliable and robust. The design principle maintains a conversational workflow primarily through natural language but recognizes the potential of other modalities for NLI-based data analysis (e.g., direct manipulations and sticky cells). Future research could further explore how to balance these aspects in designing LLM interaction paradigms for data analysis."
+    },
+    "entities": {
+      "datasets": [
+        "InsightLens",
+        "Jupyter Notebooks",
+        "movies dataset from Vega",
+        "Vega",
+        "Kaggle",
+        "BI platforms",
+        "colleges dataset",
+        "Tableau",
+        "housing dataset"
+      ],
+      "models": [
+        "LLM-agent-based framework",
+        "LLMs",
+        "all-MiniLM-L6-v1",
+        "gpt-4-0125-preview",
+        "LLM-powered data analysis"
+      ],
+      "losses": [],
+      "metrics": [
+        "µ",
+        "p"
+      ]
+    }
+  },
+  {
+    "id": "10af858834ad69f1c30721e6aa732d77fa369161",
+    "title": "Natural Language Dataset Generation Framework for Visualizations Powered by Large Language Models",
+    "abstract": "We introduce VL2NL, a Large Language Model (LLM) framework that generates rich and diverse NL datasets using Vega-Lite specifications as input, thereby streamlining the development of Natural Language Interfaces (NLIs) for data visualization. To synthesize relevant chart semantics accurately and enhance syntactic diversity in each NL dataset, we leverage 1) a guided discovery incorporated into prompting so that LLMs can steer themselves to create faithful NL datasets in a self-directed manner; 2) a score-based paraphrasing to augment NL syntax along with four language axes. We also present a new collection of 1,981 real-world Vega-Lite specifications that have increased diversity and complexity than existing chart collections. When tested on our chart collection, VL2NL extracted chart semantics and generated L1/L2 captions with 89.4% and 76.0% accuracy, respectively. It also demonstrated generating and paraphrasing utterances and questions with greater diversity compared to the benchmarks. Last, we discuss how our NL datasets and framework can be utilized in real-world scenarios. The codes and chart collection are available at https://github.com/hyungkwonko/chart-llm.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/10af858834ad69f1c30721e6aa732d77fa369161",
+    "excluded": false
+  },
+  {
+    "id": "b54f8a3b6fa119964d9d226e953adef495a95e2e",
+    "title": "DataDive: Supporting Readers' Contextualization of Statistical Statements with Data Exploration",
+    "abstract": "Statistical statements that refer to data to support narratives or claims are commonly used to inform readers about the magnitude of social issues. While contextualizing statistical statements with relevant data supports readers in building their own interpretation of statements, the complexity of finding contextual information on the web and linking statistical statements with it impedes readers’ efforts to do so. We present DataDive, an interactive tool for contextualizing statistical statements for the readers of online texts. Based on users’ selections of statistical statements, our tool uses an LLM-powered pipeline to generate candidates of relevant contexts and poses them as guiding questions to the user as potential contexts for exploration. When the user selects a question, DataDive employs visualizations to further help the user compare and explore contextually relevant data. A technical evaluation shows that DataDive generates important and diverse questions that facilitate exploration around statistical statements and retrieves relevant data for comparison. Moreover, a user study with 21 participants suggests that DataDive facilitates users to explore diverse contexts and to be more aware of how statistical data could relate to the text.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/b54f8a3b6fa119964d9d226e953adef495a95e2e",
+    "excluded": false
+  },
+  {
+    "id": "f3f09c93d74d7a6f9cb925fa6abf08058a225729",
+    "title": "Applied Hedge Algebra Approach with Multilingual Large Language Models to Extract Hidden Rules in Datasets for Improvement of Generative AI Applications",
+    "abstract": "Generative AI applications have played an increasingly significant role in real-time tracking applications in many domains including, for example, healthcare, consultancy, dialog boxes (common types of window in a graphical user interface of operating systems), monitoring systems, and emergency response. This paper considers generative AI and presents an approach which combines hedge algebra and a multilingual large language model to find hidden rules in big data for ChatGPT. We present a novel method for extracting natural language knowledge from large datasets by leveraging fuzzy sets and hedge algebra to extract these rules, presented in meta data for ChatGPT and generative AI applications. The proposed model has been developed to minimize the computational and staff costs for medium-sized enterprises which are typically resource and time limited. The proposed model has been designed to automate question–response interactions for rules extracted from large data in a multiplicity of domains. The experimental results show that the proposed model performs well using datasets associated with specific domains in healthcare to validate the effectiveness of the proposed model. The ChatGPT application in case studies of healthcare is tested using datasets for English and Vietnamese languages. In comparative experimental testing, the proposed model outperformed the state of the art, achieving in the range of 96.70–97.50% performance using a heart dataset.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/f3f09c93d74d7a6f9cb925fa6abf08058a225729",
+    "excluded": false
+  },
+  {
+    "id": "f6cef708dd339776d959cdd15fb2172bf24beb84",
+    "title": "XNLI: Explaining and Diagnosing NLI-Based Visual Data Analysis",
+    "abstract": "Natural language interfaces (NLIs) enable users to flexibly specify analytical intentions in data visualization. However, diagnosing the visualization results without understanding the underlying generation process is challenging. Our research explores how to provide explanations for NLIs to help users locate the problems and further revise the queries. We present XNLI, an explainable NLI system for visual data analysis. The system introduces a Provenance Generator to reveal the detailed process of visual transformations, a suite of interactive widgets to support error adjustments, and a Hint Generator to provide query revision hints based on the analysis of user queries and interactions. Two usage scenarios of XNLI and a user study verify the effectiveness and usability of the system. Results suggest that XNLI can significantly enhance task accuracy without interrupting the NLI-based analysis process.",
+    "year": "2023",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/f6cef708dd339776d959cdd15fb2172bf24beb84",
+    "excluded": false,
+    "summary": {
+      "motivation": "The study aims to address the challenges users face in diagnosing unexpected results from Natural Language Interfaces (NLIs) for visual data analysis due to a lack of understanding of the underlying generation process. This includes improving user comprehension of the NLI pipeline, enhancing system discoverability through explanations, and providing query result previews for debugging. The motivation also involves evaluating the effectiveness and usability of the system in explaining and diagnosing NLI-based data analysis.",
+      "idea": "The idea is to develop an explainable NLI system called XNLI that elucidates the visualization generation process, supports interactive adjustments, and provides hints for query revision. This system aims to help users understand the NLI process, identify problems, and correct them during data analysis. It leverages visual cues to emphasize changes in sample data provenance and uses a Hint Generator to assist with query phrasing and revision.",
+      "methodology": "The methodology involves developing a prototype system called XNLI that supports NLI-based data analysis. The system provides process explanations regarding attributes, tasks, and visual encodings; interactive widgets for error correction; and query hints for potential errors in user queries. It integrates well-known rules to detect errors and generates sample data provenance based on the Vega-Lite specification. A pilot study with nine data analysts using an NLI prototype system identified major causes of unexpected results, leading to the formulation and iterative refinement of design requirements.",
+      "result": "The result is a set of design requirements for an explainable NLI system that provides an overview of the visualization process, leverages representative data items to demonstrate the process, highlights inference uncertainties, and offers interactive widgets for adjustments. The study includes two usage scenarios and a controlled user study to evaluate the effectiveness and usability of the system. The explanations helped users achieve higher accuracy in task completion without significantly increasing completion time. Users found the explanations helpful for diagnosing problems, assessing visualization correctness, and improving trust in NLI-based data analysis.",
+      "discussion": "The discussion focuses on the challenges users face in understanding and diagnosing unexpected results from NLIs, particularly due to the lack of knowledge about the NLI's mechanism and capability. It highlights the importance of providing explanations and interactive adjustments to improve analytical efficiency without interrupting the analysis process. The system's effectiveness and usability are demonstrated through two usage scenarios and a user study in improving task accuracy and efficiency of NLI-based data analysis. Future plans include enhancing explainability, supporting higher control and personalization, providing explanations for follow-up queries, improving query examples, and conducting longitudinal studies to investigate the impact on trust and human-machine collaboration in NLI results. The paper is supported by National Natural Science Foundation of China (62132017) and Fundamental Research Funds for the Central Universities (226-2022-00235)."
+    },
+    "entities": {
+      "datasets": [
+        "cardataset",
+        "IMDb movie dataset",
+        "IMDb moviedataset",
+        "housingdataset",
+        "movie dataset"
+      ],
+      "models": [
+        "Hint Generator",
+        "Provenance Generator",
+        "NL4DV",
+        "XNLI"
+      ],
+      "losses": [],
+      "metrics": []
+    }
+  },
+  {
+    "id": "06eebf141d638dbf065907ddf68dd96d73ed8794",
+    "title": "LLM Comparator: Interactive Analysis of Side-by-Side Evaluation of Large Language Models",
+    "abstract": "Evaluating large language models (LLMs) presents unique challenges. While automatic side-by-side evaluation, also known as LLM-as-a-judge, has become a promising solution, model developers and researchers face difficulties with scalability and interpretability when analyzing these evaluation outcomes. To address these challenges, we introduce LLM Comparator, a new visual analytics tool designed for side-by-side evaluations of LLMs. This tool provides analytical workflows that help users understand when and why one LLM outperforms or underperforms another, and how their responses differ. Through close collaboration with practitioners developing LLMs at Google, we have iteratively designed, developed, and refined the tool. Qualitative feedback from these users highlights that the tool facilitates in-depth analysis of individual examples while enabling users to visually overview and flexibly slice data. This empowers users to identify undesirable patterns, formulate hypotheses about model behavior, and gain insights for model improvement. LLM Comparator has been integrated into Google's LLM evaluation platforms and open-sourced.",
+    "year": "2024",
+    "tags": [],
+    "url": "https://www.semanticscholar.org/paper/06eebf141d638dbf065907ddf68dd96d73ed8794",
+    "excluded": false
+  }
+]

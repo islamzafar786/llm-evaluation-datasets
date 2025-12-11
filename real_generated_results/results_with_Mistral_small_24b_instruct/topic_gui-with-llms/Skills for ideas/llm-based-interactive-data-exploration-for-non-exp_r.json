@@ -1,0 +1,23 @@
+[
+  {
+    "title": "LLM-Based Interactive Data Exploration for Non-Expert Users",
+    "description": "Non-expert users often find it challenging to explore and analyze complex datasets due to a lack of technical skills. This thesis aims to develop an LLM-based interactive system that guides non-expert users through the data exploration process, providing insights and recommendations based on their queries.",
+    "motivation": "Current tools for data exploration are often too complex for non-experts, limiting their ability to derive meaningful insights from data. An LLM-based system can democratize data analysis by making it accessible to a broader audience.",
+    "skills": [
+      "Python",
+      "Natural Language Processing (NLP)",
+      "Transformers library",
+      "Large Language Models (LLMs)",
+      "User Interface Design",
+      "Frontend development (HTML, CSS, JavaScript)",
+      "Backend development",
+      "API design",
+      "Database management",
+      "Data visualization libraries (e.g., Matplotlib, D3.js)",
+      "Interactive query processing",
+      "Human-Computer Interaction principles",
+      "Usability testing",
+      "Feedback mechanisms"
+    ]
+  }
+]

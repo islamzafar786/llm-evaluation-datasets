@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Assessing the Impact of Cultural Context on LLM Usability",
+    "description": "LLMs are often trained on datasets that may not fully represent the cultural nuances and linguistic variations across different regions. This can lead to misunderstandings and reduced usability when these models are deployed in culturally diverse environments.",
+    "motivation": "Cultural context plays a significant role in how users interact with technology, influencing their expectations and interpretations of responses. Current evaluations do not account for these cultural differences, leading to potential miscommunications and reduced effectiveness of LLMs in global settings. This research seeks to develop a framework that evaluates LLM usability across different cultural contexts.",
+    "skills": [
+      "Python",
+      "NLP libraries (e.g., NLTK, SpaCy)",
+      "PyTorch/TensorFlow",
+      "LLM fine-tuning",
+      "cultural dataset collection",
+      "linguistic analysis",
+      "cross-cultural communication techniques",
+      "prompt engineering",
+      "evaluation metrics for usability",
+      "statistical analysis",
+      "machine learning pipelines",
+      "data annotation tools"
+    ]
+  }
+]

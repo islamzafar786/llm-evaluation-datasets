@@ -1,0 +1,12 @@
+[
+  {
+    "title": "LLM-Based Interactive Data Exploration for Non-Expert Users",
+    "description": "Non-expert users often find it challenging to explore and analyze complex datasets due to a lack of technical skills. This thesis aims to develop an LLM-based interactive system that guides non-expert users through the data exploration process, providing insights and recommendations based on their queries.",
+    "motivation": "Current tools for data exploration are often too complex for non-experts, limiting their ability to derive meaningful insights from data. An LLM-based system can democratize data analysis by making it accessible to a broader audience.",
+    "questions": [
+      "How effective is an LLM-based interactive system in improving non-expert users' ability to explore and analyze complex datasets compared to traditional data exploration tools?",
+      "What are the most impactful features of an LLM-based system that enhance user engagement and satisfaction during data exploration, as perceived by non-expert users?",
+      "How does the integration of natural language processing (NLP) techniques in an interactive data exploration system affect the accuracy and relevance of insights provided to non-expert users?"
+    ]
+  }
+]

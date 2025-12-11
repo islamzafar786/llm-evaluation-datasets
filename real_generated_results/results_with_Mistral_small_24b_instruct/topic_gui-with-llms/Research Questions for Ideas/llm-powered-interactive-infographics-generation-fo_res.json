@@ -1,0 +1,12 @@
+[
+  {
+    "title": "LLM-Powered Interactive Infographics Generation for Enhanced Data Storytelling",
+    "description": "Generating infographics often requires manual design skills and significant time investment. This process can be cumbersome, especially when dealing with large datasets that require frequent updates.",
+    "motivation": "LIDA (A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models) automates the generation of visualizations but lacks interactive capabilities for real-time adjustments. By developing an LLM-powered system that allows users to interactively generate, refine, and update infographics in real-time, we can enhance data storytelling and make it more accessible to a broader audience.",
+    "questions": [
+      "How can Large Language Models (LLMs) be leveraged to automate the design process of infographics for enhanced data storytelling?",
+      "What are the most effective methods for integrating LLMs with existing data visualization tools to create interactive, user-friendly infographics?",
+      "To what extent does the use of LLM-powered interactive infographics improve user engagement and comprehension compared to traditional static infographics in various data-intensive domains?"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Interactive Visualization of LLM-Generated Insights for Enhanced Data Analysis",
+    "description": "Current chat-based interfaces for LLM-powered data analysis often present insights in a linear, text-heavy format that can be overwhelming and difficult to navigate. This makes it challenging for users to efficiently explore and understand complex datasets.",
+    "motivation": "Existing systems like InsightLens (InsightLens: Augmenting LLM-Powered Data Analysis With Interactive Insight Management and Navigation) focus on organizing insights but lack interactive visualization capabilities that can help users quickly grasp the relationships between different data points. By integrating advanced visual analytics with LLMs, we can provide a more intuitive and efficient way for users to interact with their data.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "D3.js",
+      "Plotly",
+      "React.js",
+      "Node.js",
+      "Flask/Django",
+      "Large Language Models (LLMs)",
+      "Natural Language Processing (NLP)",
+      "data visualization techniques",
+      "machine learning evaluation metrics",
+      "user interface design",
+      "front-end development",
+      "back-end development",
+      "API design"
+    ]
+  }
+]

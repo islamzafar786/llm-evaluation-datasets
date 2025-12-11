@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Evaluating the Usability of LLMs in Multilingual Contexts",
+    "description": "Current usability evaluations of Large Language Models (LLMs) primarily focus on English-speaking users, neglecting the diverse linguistic needs and cultural nuances of non-English speakers. This research aims to develop a comprehensive framework for evaluating the usability of LLMs across multiple languages.",
+    "motivation": "The global reach of AI applications necessitates that LLMs be usable by speakers of various languages. Existing evaluations often overlook the unique challenges faced by non-English users, such as language-specific idioms and cultural references. This gap can lead to suboptimal user experiences and reduced effectiveness in multilingual contexts.",
+    "milestones": [
+      "Conduct literature review on usability evaluations of LLMs.",
+      "Define research methodology and framework for multilingual usability evaluation.",
+      "Select target languages for the study.",
+      "Develop multilingual questionnaires and usability tests.",
+      "Recruit participants from diverse linguistic backgrounds.",
+      "Administer usability tests to participants.",
+      "Analyze collected data from usability tests.",
+      "Draft initial findings and identify key themes.",
+      "Peer review of draft findings.",
+      "Revise the framework based on feedback and additional analysis.",
+      "Prepare final report and recommendations for improved multilingual LLM usability."
+    ],
+    "timeline": {
+      "Week 1-2": "Conduct literature review on usability evaluations of LLMs.",
+      "Week 3-4": "Define research methodology and framework for multilingual usability evaluation.",
+      "Week 5-6": "Select target languages for the study.",
+      "Week 7-8": "Develop multilingual questionnaires and usability tests.",
+      "Week 9-10": "Recruit participants from diverse linguistic backgrounds.",
+      "Week 11-12": "Administer usability tests to participants.",
+      "Week 13-14": "Analyze collected data from usability tests.",
+      "Week 15-16": "Draft initial findings and identify key themes.",
+      "Week 17-18": "Peer review of draft findings.",
+      "Week 19-20": "Revise the framework based on feedback and additional analysis.",
+      "Week 21-24": "Prepare final report and recommendations for improved multilingual LLM usability."
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Interactive Visualization of LLM-Generated Insights for Enhanced Data Analysis",
+    "description": "Current chat-based interfaces for LLM-powered data analysis often present insights in a linear, text-heavy format that can be overwhelming and difficult to navigate. This makes it challenging for users to efficiently explore and understand complex datasets.",
+    "motivation": "Existing systems like InsightLens (InsightLens: Augmenting LLM-Powered Data Analysis With Interactive Insight Management and Navigation) focus on organizing insights but lack interactive visualization capabilities that can help users quickly grasp the relationships between different data points. By integrating advanced visual analytics with LLMs, we can provide a more intuitive and efficient way for users to interact with their data.",
+    "questions": [
+      "How does the integration of interactive visualization tools with LLM-generated insights affect users' ability to comprehend and analyze complex datasets compared to traditional text-based interfaces?",
+      "What are the most effective design principles for creating visual representations of LLM-generated insights that enhance user engagement and data exploration efficiency?",
+      "To what extent can interactive visualizations of LLM-generated insights improve decision-making processes in data-driven tasks, and how do users perceive the reliability and usefulness of these visualizations?"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "LLM-Driven Visualization Recommendation System",
+    "description": "Choosing the right type of visualization for a given dataset and analytical goal is a non-trivial task. This thesis proposes an LLM-driven system that recommends appropriate visualizations based on user queries and data characteristics, enhancing the effectiveness of data analysis.",
+    "motivation": "Selecting the wrong visualization can lead to misinterpretation of data and incorrect insights. An LLM-driven recommendation system can help users choose the most effective visualizations, improving the accuracy and reliability of their analyses.",
+    "questions": [
+      "How effective is an LLM-driven visualization recommendation system in accurately suggesting appropriate visualizations compared to traditional methods?",
+      "What are the key factors influencing the performance of an LLM-driven visualization recommendation system, and how can they be optimized?",
+      "Can an LLM-driven visualization recommendation system adapt to different user expertise levels and data domains, and if so, what strategies improve its adaptability?"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "LLM-Driven Visualization Recommendation System",
+    "description": "Choosing the right type of visualization for a given dataset and analytical goal is a non-trivial task. This thesis proposes an LLM-driven system that recommends appropriate visualizations based on user queries and data characteristics, enhancing the effectiveness of data analysis.",
+    "motivation": "Selecting the wrong visualization can lead to misinterpretation of data and incorrect insights. An LLM-driven recommendation system can help users choose the most effective visualizations, improving the accuracy and reliability of their analyses.",
+    "milestones": [
+      "Define project scope and objectives.",
+      "Conduct literature review on visualization recommendation systems and LLMs.",
+      "Design system architecture for the LLM-driven visualization recommendation system.",
+      "Develop data preprocessing pipeline.",
+      "Integrate pre-trained language models (LLMs) into the system.",
+      "Create a dataset for training and evaluation.",
+      "Train the model using the prepared dataset.",
+      "Implement user interaction components.",
+      "Conduct initial testing and debugging.",
+      "Evaluate system performance and refine the model.",
+      "Develop documentation and prepare user manuals.",
+      "Conduct final testing and validation.",
+      "Prepare for project presentation and defense."
+    ],
+    "timeline": {
+      "Week 1-2": "Define project scope and objectives.",
+      "Week 3-4": "Conduct literature review on visualization recommendation systems and LLMs.",
+      "Week 5-6": "Design system architecture for the LLM-driven visualization recommendation system.",
+      "Week 7-8": "Develop data preprocessing pipeline.",
+      "Week 9-10": "Integrate pre-trained language models (LLMs) into the system.",
+      "Week 11-12": "Create a dataset for training and evaluation.",
+      "Week 13-14": "Train the model using the prepared dataset.",
+      "Week 15-16": "Implement user interaction components.",
+      "Week 17-18": "Conduct initial testing and debugging.",
+      "Week 19-20": "Evaluate system performance and refine the model.",
+      "Week 21-22": "Develop documentation and prepare user manuals.",
+      "Week 23": "Conduct final testing and validation.",
+      "Week 24": "Prepare for project presentation and defense."
+    }
+  }
+]
